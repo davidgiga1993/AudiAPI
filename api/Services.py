@@ -1,6 +1,7 @@
 from abc import abstractmethod, ABCMeta
 
 from api.API import Token, API
+from api.model.ClimaRequest import ClimaRequestFactory
 from api.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
 from api.model.Vehicle import VehiclesResponse, Vehicle
 from api.model.VehicleDataResponse import VehicleDataResponse
@@ -76,8 +77,9 @@ class AuthorizationService(Service):
 
     def request_auth(self, vehicle: Vehicle, service: str, operation: str):
         headers = {'Content-Length': '0', 'Content-Type': 'application/json; charset=UTF-8'}
-        url = self.url('/vehicles/{vin}/services/{service}/operations/{operation}/request'
-                       .format(vin=vehicle.vin, service=service, operation=operation))
+        url = self.url('/vehicles/{vin}/services/{service}/operations/{operation}/request',
+                       vin=vehicle.vin, service=service, operation=operation)
+
         data = {}  # Yes send empty data - no idea why
         return self._api.put(url, data=data, headers=headers)
 
@@ -146,7 +148,7 @@ class DiebstahlwarnanlageService(Service):
 
 class GeofenceService(Service):
     """
-    Requires special permissions - might be for rental car companies
+    USA only - Restrict car area
     """
 
     def _get_path(self):
@@ -226,7 +228,7 @@ class MobileKeyService(Service):
     """
 
     def _get_path(self):
-        return '// Not implemented'
+        return '// Not implemented in MMI app'
 
 
 class OperationListService(VehicleService):
@@ -246,7 +248,11 @@ class OperationListService(VehicleService):
         return 'rolesrights/operationlist/v2'
 
 
-class PictureNavigationService(Service):
+class PictureNavigationService(VehicleService):
+    def get_all(self):
+        # Returns 404 for some reason - might need to wireshark the correct path
+        return self._api.get(self.url('/vehicles/{vin}/all'))
+
     def _get_path(self):
         return 'audi/b2c/picturenav/v1'
 
@@ -256,22 +262,69 @@ class PoiNavigationService(Service):
         return 'audi/b2c/poinav/v1'
 
 
-class PreTripClimaService(Service):
+class OnlineDestinationsService(VehicleService):
+    def get_pois(self):
+        return self._api.get(self.url('/vehicles/{vin}/pois'))
+
+    def _get_path(self):
+        return ''  # TODO
+
+
+class PreTripClimaService(VehicleService):
+    """
+    Access to clima control - (EV only?)
+    """
+
+    def get_status(self):
+        return self._api.get(self.url('/vehicles/{vin}/climater'))
+
+    def get_request_status(self, action_id: str):
+        return self._api.get(self.url('/vehicles/{vin}/climater/actions/{action_id}', action_id=action_id))
+
+    def perform_action(self, request_factory: ClimaRequestFactory):
+        self._api.post(self.url('/vehicles/{vin}/climater/actions'), data=request_factory.build())
+
     def _get_path(self):
         return 'bs/climatisation/v1'
 
 
 class PushNotificationService(Service):
+    """
+    Registers push notifications (of some sort)
+    """
+
+    PLATFORM_GOOGLE = 'google'
+    APP_ID = 'de.audi.mmiapp'
+
+    def register(self, platform: str, app_id: str, token: str):
+        """
+        Registers a push notification service
+        :param platform: Platform
+        :param app_id: App ID
+        :param token: Google messaging service token
+        :return:
+        """
+        self._api.post(self.url('/subscriptions/{platform}/{app_id}/{token}', platform=platform, app_id=app_id,
+                                token=token), data={})
+
     def _get_path(self):
         return 'fns/subscription/v1'
 
 
 class RemoteBatteryChargeService(Service):
+    """
+    For EV only - timer for choosing when the battery should be charged
+    """
+
     def _get_path(self):
         return 'bs/batterycharge/v1'
 
 
 class RemoteDepartureTimeService(Service):
+    """
+    For EV only - timer for choosing when the battery  should be fully charged
+    """
+
     def _get_path(self):
         return 'bs/departuretimer/v1'
 
@@ -321,7 +374,7 @@ class RemoteHonkFlashService(VehicleService):
 
 class RemoteTripStatisticsService(VehicleService):
     """
-    Trip statistics
+    Trip statistics (like range, fuel consumption, ...)
     """
     LONG_TERM = 'longTerm'
     SHORT_TERM = 'shortTerm'
@@ -338,7 +391,7 @@ class RemoteTripStatisticsService(VehicleService):
 
 class SpeedAlertService(VehicleService):
     """
-    This service requires special auth - might be for rental car companies
+    USA only - monitors if the car has been driven too fast
     """
 
     def get_list(self):
@@ -349,6 +402,10 @@ class SpeedAlertService(VehicleService):
 
 
 class UserInfoService(Service):
+    """
+    General user information
+    """
+
     def get_info(self):
         return self._api.get(self.url('/userInfo'))
 
@@ -357,6 +414,10 @@ class UserInfoService(Service):
 
 
 class UserManagementService(VehicleService):
+    """
+    Manages car pairing stuff
+    """
+
     def get_paring_status(self):
         return self._api.get(self.url('/vehicles/{vin}/pairing'))
 
@@ -365,11 +426,32 @@ class UserManagementService(VehicleService):
 
 
 class ValetAlertService(Service):
+    """
+    USA only - Alerting for invalid car usage
+    """
+
+    def get_alerts(self):
+        return self._api.get(self.url('/vehicles/{vin}/valetAlerts'))
+
+    def get_definition(self):
+        return self._api.get(self.url('/vehicles/{vin}/valetAlertDefinition'))
+
+    def get_request_status(self, request_id: str):
+        return self._api.get(self.url('/vehicles/{vin}/valetAlertDefinition/{id}/status', id=request_id))
+
+    def set_definition(self, definition):
+        # TODO: Implement definition
+        return self._api.post(self.url('/vehicles/{vin}/valetAlertDefinition', data={}))
+
     def _get_path(self):
         return 'bs/valetalert/v1'
 
 
 class VehicleManagementService(VehicleService):
+    """
+    Information about the vehicle management system
+    """
+
     def get_information(self):
         """
         Returns information about the connection system of the vehicle
@@ -382,6 +464,10 @@ class VehicleManagementService(VehicleService):
 
 
 class VehicleStatusReportService(VehicleService):
+    """
+    General status of the vehicle
+    """
+
     def get_request_status(self, request_id: str):
         return self._api.get(self.url('/vehicles/{vin}/requests/{request_id}/jobstatus', request_id=request_id))
 
