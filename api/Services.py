@@ -1,4 +1,4 @@
-from abc import abstractmethod
+from abc import abstractmethod, ABCMeta
 
 from api.API import Token, API
 from api.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
@@ -6,7 +6,7 @@ from api.model.Vehicle import VehiclesResponse, Vehicle
 from api.model.VehicleDataResponse import VehicleDataResponse
 
 
-class Service:
+class Service(metaclass=ABCMeta):
     BASE_URL = 'https://msg.audi.de/fs-car'
     COMPANY = 'Audi'
     COUNTRY = 'DE'
@@ -48,7 +48,7 @@ class Service:
         pass
 
 
-class VehicleService(Service):
+class VehicleService(Service, metaclass=ABCMeta):
     def __init__(self, api: API, vehicle: Vehicle):
         super().__init__(api)
         self._vehicle = vehicle
@@ -92,7 +92,17 @@ class AuthorizationService(Service):
         return 'rolesrights/authorization/v1'
 
 
-class CarFinderService(Service):
+class CarFinderService(VehicleService):
+    """
+    Requires special permissions - might be for rental car companies
+    """
+
+    def find(self):
+        """
+        Returns the position of the car
+        """
+        self._api.get(self.url('/vehicles/{vin}/position'))
+
     def _get_path(self):
         return 'bs/cf/v1'
 
@@ -135,16 +145,36 @@ class DiebstahlwarnanlageService(Service):
 
 
 class GeofenceService(Service):
+    """
+    Requires special permissions - might be for rental car companies
+    """
+
     def _get_path(self):
         return 'bs/geofencing/v1'
 
 
-class LockUnlockService(Service):
+class LockUnlockService(VehicleService):
+    """
+    Locks and unlocks the car
+    """
+
+    def get_actions(self):
+        """
+        Returns all available actions
+        """
+        return self._api.get(self.url("/vehicles/{vin}/actions"))
+
+    # TODO: Lock and unlock request
+
     def _get_path(self):
         return 'bs/rlu/v1'
 
 
 class LogonService(Service):
+    """
+    General API logon service
+    """
+
     def login(self, user: str, password: str, persist_token: bool = True):
         """
         Creates a new session using the given credentials
@@ -191,6 +221,10 @@ class LogonService(Service):
 
 
 class MobileKeyService(Service):
+    """
+    Manages keyless access for the car
+    """
+
     def _get_path(self):
         return '// Not implemented'
 
@@ -285,14 +319,26 @@ class RemoteHonkFlashService(VehicleService):
         return 'bs/rhf/v1'
 
 
-class RemoteTripStatisticsService(Service):
+class RemoteTripStatisticsService(VehicleService):
+    """
+    Trip statistics
+    """
+    LONG_TERM = 'longTerm'
+    SHORT_TERM = 'shortTerm'
+
+    def get_latest(self, trip_type: str):
+        """
+        Returns the latest trip statistic
+        """
+        return self._api.get(self.url('/vehicles/{vin}/tripdata/{trip_type}?newest', trip_type=trip_type))
+
     def _get_path(self):
         return 'bs/tripstatistics/v1'
 
 
 class SpeedAlertService(VehicleService):
     """
-    This service requires special auth
+    This service requires special auth - might be for rental car companies
     """
 
     def get_list(self):
