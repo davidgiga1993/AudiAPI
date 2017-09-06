@@ -10,7 +10,7 @@ to be accessible.
 
 Note: Not all services are fully implemented.
 
-# Example
+# Examples
 ## Login
 Login using cached token and use plain credentials as fallback
 ```python
