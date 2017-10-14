@@ -8,7 +8,7 @@ original service names as found in the audi connect app.
 Some services require special permissions or certain origin countries of the car
 to be accessible.
 
-Note: Not all services are fully implemented.
+Note: Not all services are fully implemented due to missing permissions as mentioned above. 
 
 # Examples
 ## Login
