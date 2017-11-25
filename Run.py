@@ -1,7 +1,7 @@
 import json
 
-from api.API import API
-from api.Services import LogonService, CarService
+from audiapi.API import API
+from audiapi.Services import LogonService, CarService
 
 
 def main():
