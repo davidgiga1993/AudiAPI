@@ -1,10 +1,10 @@
 from abc import abstractmethod, ABCMeta
 
-from api.API import Token, API
-from api.model.ClimaRequest import ClimaRequestFactory
-from api.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
-from api.model.Vehicle import VehiclesResponse, Vehicle
-from api.model.VehicleDataResponse import VehicleDataResponse
+from audiapi.API import Token, API
+from audiapi.model.ClimaRequest import ClimaRequestFactory
+from audiapi.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
+from audiapi.model.Vehicle import VehiclesResponse, Vehicle
+from audiapi.model.VehicleDataResponse import VehicleDataResponse
 
 
 class Service(metaclass=ABCMeta):

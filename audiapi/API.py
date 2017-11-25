@@ -2,7 +2,7 @@ import json
 
 import requests
 
-from api.Token import Token
+from audiapi.Token import Token
 
 
 class API:
@@ -24,8 +24,18 @@ class API:
                     'ADRUM_1': 'isModule:true',
                     'ADRUM': 'isAray:true'}
 
-    def __init__(self):
+    def __init__(self, proxy=None):
+        """
+        Creates a new API
+
+        :param proxy: Proxy which should be used in the URL format e.g. http://proxy:8080
+        """
         self.__token = None
+        if proxy is not None:
+            self.__proxy = {'http': proxy,
+                            'https': proxy}
+        else:
+            self.__proxy = None
 
     def use_token(self, token: Token):
         """
@@ -36,19 +46,19 @@ class API:
         self.__token = token
 
     def get(self, url):
-        r = requests.get(url, headers=self.__get_headers())
+        r = requests.get(url, headers=self.__get_headers(), proxies=self.__proxy)
         return self.__handle_error(r.json())
 
     def put(self, url, data=None, headers=None):
         full_headers = self.__get_headers()
         full_headers.update(headers)
-        r = requests.put(url, data, headers=full_headers)
+        r = requests.put(url, data, headers=full_headers, proxies=self.__proxy)
         return self.__handle_error(r.json())
 
     def post(self, url, data=None, use_json: bool = True):
         if use_json and data is not None:
             data = json.dumps(data)
-        r = requests.post(url, data=data, headers=self.__get_headers())
+        r = requests.post(url, data=data, headers=self.__get_headers(), proxies=self.__proxy)
         return self.__handle_error(r.json())
 
     def __handle_error(self, data):
