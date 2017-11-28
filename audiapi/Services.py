@@ -2,7 +2,9 @@ from abc import abstractmethod, ABCMeta
 
 from audiapi.API import Token, API
 from audiapi.model.ClimaRequest import ClimaRequestFactory
+from audiapi.model.CurrentVehicleDataResponse import CurrentVehicleDataResponse
 from audiapi.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
+from audiapi.model.RequestStatus import RequestStatus
 from audiapi.model.Vehicle import VehiclesResponse, Vehicle
 from audiapi.model.VehicleDataResponse import VehicleDataResponse
 
@@ -469,10 +471,36 @@ class VehicleStatusReportService(VehicleService):
     """
 
     def get_request_status(self, request_id: str):
-        return self._api.get(self.url('/vehicles/{vin}/requests/{request_id}/jobstatus', request_id=request_id))
+        """
+        Returns the status of the request with the given ID
+
+        :param request_id: Request ID
+        :return: RequestStatus
+        :rtype: RequestStatus
+        """
+        data = self._api.get(self.url('/vehicles/{vin}/requests/{request_id}/jobstatus', request_id=request_id))
+        return RequestStatus(data)
 
     def get_requested_current_vehicle_data(self, request_id: str):
-        return self._api.get(self.url('/vehicles/{vin}/requests/{request_id}/status', request_id=request_id))
+        """
+        Returns the vehicle report of the request with the given ID
+
+        :param request_id: Request ID
+        :return: VehicleDataResponse
+        :rtype: VehicleDataResponse
+        """
+        data = self._api.get(self.url('/vehicles/{vin}/requests/{request_id}/status', request_id=request_id))
+        return VehicleDataResponse(data)
+
+    def request_current_vehicle_data(self):
+        """
+        Requests the latest report data from the vehicle
+
+        :return: CurrentVehicleDataResponse
+        :rtype: CurrentVehicleDataResponse
+        """
+        data = self._api.post(self.url('/vehicles/{vin}/requests'))
+        return CurrentVehicleDataResponse(data)
 
     def get_stored_vehicle_data(self):
         """
