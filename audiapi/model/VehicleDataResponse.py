@@ -90,9 +90,6 @@ class Field:
             # No direct mapping found - maybe we've at least got a text id
             self.name = data.get('textId')
 
-        if self.name is None:
-            print('Warn: No name for ID found: ' + self.id)
-
     def __str__(self):
         str_rep = str(self.name) + ' ' + str(self.value)
         if self.unit is not None:
