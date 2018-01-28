@@ -105,7 +105,7 @@ class CarFinderService(VehicleService):
         """
         Returns the position of the car
         """
-        self._api.get(self.url('/vehicles/{vin}/position'))
+        return self._api.get(self.url('/vehicles/{vin}/position'))
 
     def _get_path(self):
         return 'bs/cf/v1'
