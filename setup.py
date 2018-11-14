@@ -5,7 +5,7 @@ with open('README.md', 'r') as fh:
 
 setuptools.setup(
     name='audiapi',
-    version='1.0.0',
+    version='1.0.1',
     author='davidgiga1993',
     author_email='david@dev-core.org',
     description='Provides access to the Audi Connect API',
