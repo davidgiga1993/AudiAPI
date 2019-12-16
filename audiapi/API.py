@@ -1,4 +1,5 @@
 import json
+from json import JSONDecodeError
 
 import requests
 
@@ -59,7 +60,13 @@ class API:
         if use_json and data is not None:
             data = json.dumps(data)
         r = requests.post(url, data=data, headers=self.__get_headers(), proxies=self.__proxy)
-        return self.__handle_error(r.json())
+        if r.status_code == 404:
+            raise Exception('Unknown endpoint - 404')
+        try:
+            return self.__handle_error(r.json())
+        except JSONDecodeError:
+            print('Error while decoding response: ' + str(r.text))
+            raise
 
     def __handle_error(self, data):
         error = data.get('error')
