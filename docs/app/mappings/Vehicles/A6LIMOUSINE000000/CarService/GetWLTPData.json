@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/carservice/v3/vehicles/A6LIMOUSINE000000/wltps"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "technicalSpecifications": [],
+      "wltps": []
+    },
+    "status": 200
+  }
+}

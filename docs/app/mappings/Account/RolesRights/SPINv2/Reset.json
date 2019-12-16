@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/rolesrights/securitypin/v2/users/7HDSPdDSh6DTGEVhsjHtv4X8ENaZ/spin/restored"
+  },
+  "response": {
+    "status": 204
+  }
+}

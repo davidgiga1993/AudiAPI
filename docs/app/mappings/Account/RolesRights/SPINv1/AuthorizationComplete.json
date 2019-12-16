@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/rolesrights/authorization/v1/Audi/DE/complete"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "securityToken": "azLchVtZiltDQE6nejtigXXDEXBPpi6j1pkZ0t3rr/N4jKC/tePAPQ3k8ZF7qFF7pktE11XNF0+xpLwV+Z24Rr1LWmoPPgsagx4ur3tbIkubN54OU+r0gaBCxg32jFfHCChkAgd406/P9E3siRfWcY0RGX1xbfjt0V+Zz6iUJZnntn3QpVhngErvRq4HNBcYuzaSsQRKCAJjVv7lQNOGnVxREUfBfDrQN0G7byLNOuH2381kD2UhJECnIebAy04evaI7cRis7votGE3G+2whenEdmTXga6ypfKdTn+9nzECgX4/5zfdaoofiYFGUXRgD3ehCAt7gqdkoQEZ3CrZ8kapL/BVEm0ynoAjEmMUZcRALEmhi93aLaUM/eICzsyuiBZZSvFG73L9G9Ezjk37GBreKZ6lLDZF9Pgejq7bRHd6YwG3q94QVu881SOE2tL8yEkBpFiE03CVWIw1fNLH7QQdS5WAe13cziFo2hv9YQmCU+KRp+pEivNvdDpPxiAOvCy2OrGbTAUErUQ1kNOKmAk85UAvW69Oftbe+WprjJAIuGPNHb6cQvLCdhKx4P8R1z3VrA0Gb5rjmbA4O3bctnxc+qf8ApGZ4HCmh/OBj89j/6UlLdVGfL4WHnPayqncXBa6x0nrINDzBtDjFuy23sH+303/pLE3MxkZyRfC5mcb06Wb/PH91/bJIFF/8vCXiTiQEe8Gql+SyWlyxYAs/y4nqLYAJd26RqTcY1u7wPxQ="
+    },
+    "status": 200
+  }
+}

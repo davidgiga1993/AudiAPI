@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/icf/ilfsta/status/0000584_8"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "departureTime": "2017-11-27T22:00:00Z",
+      "energyDemand": 2,
+      "hemsData": "null",
+      "lastUpdated": "2018-07-25T11:27:32.980Z",
+      "stateConnectionCar": "HLC",
+      "stateConnectionHome": "NONE",
+      "stateFeatureHems": "BLACKOUT_PROTECTION_ACTIVE",
+      "tariffDataSource": "BACKEND"
+    },
+    "status": 200
+  }
+}

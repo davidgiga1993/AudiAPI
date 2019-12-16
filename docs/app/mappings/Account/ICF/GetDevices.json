@@ -1,0 +1,98 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "expand": {
+        "matches": "Pairing"
+      }
+    },
+    "urlPath": "/icf/ilfcpe/device"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": [
+      {
+        "autoUpdate": null,
+        "brand": "AUDI",
+        "currentVersion": "7.2.0",
+        "deviceId": "0000584_8",
+        "generation": "highG2",
+        "lastUpdateCheck": "2018-07-31T07:07:07.209Z",
+        "maxAvailableVersion": "7.6.2",
+        "name": "Intelligentes Kabel",
+        "pairingInfo": [
+          {
+            "paired": "2018-07-10T15:09:03.848Z",
+            "pairingState": "PAIRED",
+            "portalUser": {
+              "mbbUserId": "rIQmRHP4o4f7Vk9gnTzCjLGjY3G"
+            },
+            "unpaired": null
+          }
+        ],
+        "type": "EV_ICCPD"
+      },
+      {
+        "autoUpdate": null,
+        "brand": "AUDI",
+        "currentVersion": "7.1.2",
+        "deviceId": "000008_1",
+        "generation": "Gen2High",
+        "lastUpdateCheck": "2018-05-07T10:07:04.583Z",
+        "maxAvailableVersion": null,
+        "name": null,
+        "pairingInfo": [
+          {
+            "paired": "2018-06-28T12:24:02.524Z",
+            "pairingState": "PAIRED",
+            "portalUser": {
+              "mbbUserId": "rIQmRHP4o4f7Vk9gnTzCjLGjY3G"
+            },
+            "unpaired": null
+          }
+        ],
+        "type": "EV_ICCPD"
+      },
+      {
+        "autoUpdate": null,
+        "brand": "AUDI",
+        "currentVersion": "7.2.0",
+        "deviceId": "0000427_5",
+        "generation": "high",
+        "lastUpdateCheck": "2018-07-12T07:55:01.947Z",
+        "maxAvailableVersion": "7.1.2",
+        "name": "Dummes Kabel",
+        "pairingInfo": [
+          {
+            "paired": "2018-07-11T14:25:39.598Z",
+            "pairingState": "UNPAIRED",
+            "portalUser": {
+              "mbbUserId": "8295I80LeuEOR9FhqvuWmQd1MG61"
+            },
+            "unpaired": "2018-07-11T14:34:15.998Z"
+          },
+          {
+            "paired": "2018-07-11T13:51:03.088Z",
+            "pairingState": "PAIRED",
+            "portalUser": {
+              "mbbUserId": "rIQmRHP4o4f7Vk9gnTzCjLGjY3G"
+            },
+            "unpaired": null
+          },
+          {
+            "paired": "2018-07-11T14:24:47.373Z",
+            "pairingState": "UNPAIRED",
+            "portalUser": {
+              "mbbUserId": "OOPbmSKOOWNjqKHdPAQXBD859fF"
+            },
+            "unpaired": "2018-07-11T14:34:16.280Z"
+          }
+        ],
+        "type": "EV_ICCPD"
+      }
+    ],
+    "status": 200
+  }
+}

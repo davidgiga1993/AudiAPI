@@ -1,0 +1,880 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/vsr/v1/Audi/DE/vehicles/SUPERQ70000000000/status"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "StoredVehicleDataResponse": {
+        "vehicleData": {
+          "data": [
+            {
+              "field": [
+                {
+                  "id": "0x0101010001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": "echo"
+                }
+              ],
+              "id": "0x0101010001"
+            },
+            {
+              "field": [
+                {
+                  "id": "0x0203010001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km",
+                  "value": -28663
+                },
+                {
+                  "id": "0x0203010002",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "d",
+                  "value": -310
+                },
+                {
+                  "id": "0x0203010003",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km",
+                  "value": -28663
+                },
+                {
+                  "id": "0x0203010004",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "d",
+                  "value": -310
+                },
+                {
+                  "id": "0x0203010005",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "interval.inspection.warn",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x0203010006",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "interval.inspection.warn",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x0203010007",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km",
+                  "value": 95
+                }
+              ],
+              "id": "0x0203FFFFFF"
+            },
+            {
+              "field": [
+                {
+                  "id": "0x0204020001",
+                  "milCarCaptured": 33789,
+                  "milCarSent": 12932,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 50
+                },
+                {
+                  "id": "0x0204020002",
+                  "milCarCaptured": 33789,
+                  "milCarSent": 12932,
+                  "text": "n/a",
+                  "textId": "fuel.level.0",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x0204040001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "l",
+                  "value": 12
+                },
+                {
+                  "id": "0x0204040002",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "oil.min.ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x0204040003",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "oil.level",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 90
+                },
+                {
+                  "id": "0x0204040004",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "oilDisplay.1",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x02040B0001",
+                  "milCarCaptured": 33789,
+                  "milCarSent": 12932,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 50
+                },
+                {
+                  "id": "0x02040C0001",
+                  "milCarCaptured": 33789,
+                  "milCarSent": 12932,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km",
+                  "value": 2811
+                },
+                {
+                  "id": "0x02040C0002",
+                  "milCarCaptured": 33789,
+                  "milCarSent": 12932,
+                  "text": "n/a",
+                  "textId": "scr.number_restarts",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                }
+              ],
+              "id": "0x0204FFFFFF"
+            },
+            {
+              "field": [
+                {
+                  "id": "0x0301010001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "status_parking_light_on",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x0301020001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "temperature_outside_valid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "dK",
+                  "value": 3401
+                },
+                {
+                  "id": "0x0301030001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "parking_brake_inactive",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301030002",
+                  "milCarCaptured": 0,
+                  "milCarSent": 0,
+                  "text": "n/a",
+                  "textId": "soc_ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 62
+                },
+                {
+                  "id": "0x0301030003",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "bem_ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301030004",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "speed_ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km/h",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301030005",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "range_ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km",
+                  "value": 830
+                },
+                {
+                  "id": "0x0301030006",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "range_ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km",
+                  "value": 793
+                },
+                {
+                  "id": "0x0301030007",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "engine_type_diesel",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 5
+                },
+                {
+                  "id": "0x0301030008",
+                  "milCarCaptured": 0,
+                  "milCarSent": 0,
+                  "text": "n/a",
+                  "textId": "range_ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "km",
+                  "value": 37
+                },
+                {
+                  "id": "0x0301030009",
+                  "milCarCaptured": 0,
+                  "milCarSent": 0,
+                  "text": "n/a",
+                  "textId": "engine_type_electric",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x030103000A",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "fuel_level_ok",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 95
+                },
+                {
+                  "id": "0x030103000B",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "fuel_level_measured",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301040001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_unlocked",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x0301040002",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_open",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x0301040003",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_safe",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x0301040004",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_locked",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x0301040005",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_open",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301040006",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_safe",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301040007",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_locked",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x0301040008",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301040009",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_safe",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x030104000A",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_locked",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x030104000B",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x030104000C",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_safe",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x030104000D",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_unlocked",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x030104000E",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x030104000F",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_unsafe",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301040010",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_locked",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 2
+                },
+                {
+                  "id": "0x0301040011",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301040012",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "door_safe",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301050001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "window_close",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301050002",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 98
+                },
+                {
+                  "id": "0x0301050003",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "window_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301050004",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301050005",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "window_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301050006",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301050007",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "window_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x0301050008",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "unit": "%",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301050009",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "window_unsupported",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x030105000B",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "window_closed",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 3
+                },
+                {
+                  "id": "0x030105000D",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "window_unsupported",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 0
+                },
+                {
+                  "id": "0x0301060001",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060002",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060003",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060004",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060005",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060006",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060007",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060008",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x0301060009",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                },
+                {
+                  "id": "0x030106000A",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "text": "n/a",
+                  "textId": "tyre_invalid",
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1
+                }
+              ],
+              "id": "0x0301FFFFFF"
+            },
+            {
+              "field": [
+                {
+                  "id": "0x0101010002",
+                  "milCarCaptured": 1337,
+                  "milCarSent": 1337,
+                  "tsCarCaptured": "2018-04-27T11:40:54",
+                  "tsCarSent": "2018-04-27T11:40:54",
+                  "tsCarSentUtc": "2018-04-27T11:40:54Z",
+                  "tsTssReceivedUtc": "2018-04-27T11:40:54Z",
+                  "value": 1337
+                }
+              ],
+              "id": "0x0101010002"
+            }
+          ]
+        },
+        "vin": "WAUZZZ4MZGD000000"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.VSR"
+}

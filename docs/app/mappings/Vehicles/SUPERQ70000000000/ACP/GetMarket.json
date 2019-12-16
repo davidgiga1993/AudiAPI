@@ -1,0 +1,65 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "countries": {
+        "matches": "DE"
+      }
+    },
+    "urlPath": "/acp/market/v2/markets"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": [
+      {
+        "availableLanguages": [
+          "de_DE",
+          "en"
+        ],
+        "billingCountries": [
+          "DE",
+          "AT",
+          "BE",
+          "BG",
+          "CH",
+          "ES",
+          "IC",
+          "FI",
+          "FR",
+          "GB",
+          "GR",
+          "HU",
+          "IE",
+          "IT",
+          "LI",
+          "LT",
+          "LU",
+          "MT",
+          "NL",
+          "NO",
+          "PL",
+          "PT",
+          "RO",
+          "SE"
+        ],
+        "countries": [
+          "DE"
+        ],
+        "currencies": [
+          "EUR"
+        ],
+        "fallbackOfficialLanguage": "de-DE",
+        "marketId": "ACPMDE",
+        "name": "Germany",
+        "officialLanguages": [
+          "de-DE"
+        ],
+        "region": "EMEA"
+      }
+    ],
+    "status": 200
+  }
+}

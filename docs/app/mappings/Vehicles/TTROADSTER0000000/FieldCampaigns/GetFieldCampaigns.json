@@ -1,0 +1,11 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/field-campaign/v1/vehicles/TTROADSTER0000000/field-campaigns"
+  },
+  "response": {
+    "headers": {},
+    "jsonBody": {},
+    "status": 204
+  }
+}

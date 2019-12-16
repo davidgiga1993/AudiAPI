@@ -1,0 +1,72 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/carservice/v3/vehicles/187EJN2362017/wltps"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "technicalSpecifications": [
+        {
+          "groupId": "efficiency",
+          "groupName": "Effizienz",
+          "key": "efficiency-class",
+          "name": "Effizienzklasse",
+          "value": "A"
+        },
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauchs- und Emissionswerte nach NEFZ",
+          "key": "emission-class",
+          "name": "Emissionsklasse",
+          "value": "EU6"
+        }
+      ],
+      "wltps": [
+        {
+          "attributeGroup": "INTERPOLATIONS|CONSUMPTION|SUSTAINING",
+          "attributes": [
+            {
+              "attributeId": "DIESEL|HIGH",
+              "scaleUnit": "l/100km",
+              "value": "6.37710236631981"
+            },
+            {
+              "attributeId": "DIESEL|COMBINED",
+              "scaleUnit": "l/100km",
+              "value": "7.492555663629106"
+            },
+            {
+              "attributeId": "DIESEL|EXTRA_HIGH",
+              "scaleUnit": "l/100km",
+              "value": "7.210937315132879"
+            },
+            {
+              "attributeId": "DIESEL|MEDIUM",
+              "scaleUnit": "l/100km",
+              "value": "7.761236433293491"
+            },
+            {
+              "attributeId": "DIESEL|LOW",
+              "scaleUnit": "l/100km",
+              "value": "10.40990356144909"
+            }
+          ]
+        },
+        {
+          "attributeGroup": "INTERPOLATIONS|CO2|SUSTAINING",
+          "attributes": [
+            {
+              "attributeId": "DIESEL|COMBINED",
+              "scaleUnit": "g/km",
+              "value": "196.04946251397908"
+            }
+          ]
+        }
+      ]
+    },
+    "status": 200
+  }
+}

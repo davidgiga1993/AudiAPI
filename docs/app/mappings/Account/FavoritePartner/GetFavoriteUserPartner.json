@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/partnership/v1/favorite-partner"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "kvpsid": "43940",
+      "tenant": "DEU"
+    },
+    "status": 200
+  }
+}

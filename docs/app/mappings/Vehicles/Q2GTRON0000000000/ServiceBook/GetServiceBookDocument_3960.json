@@ -1,0 +1,45 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/service-book/v1/vehicles/Q2GTRON0000000000/service-book/3960"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "additionalNote": "",
+      "dealer": {
+        "address": {
+          "city": "MOSCOW",
+          "country": "RUS",
+          "houseNumber": "",
+          "street": "LENINGRADSKOE SHOSSE 21",
+          "zipCode": "121210"
+        },
+        "authorizedServicePartner": true,
+        "name": "AC SEVER"
+      },
+      "jobDescription": "Inspektion mit Ölwechsel",
+      "jobNumber": "12488800",
+      "mobilityGuarantee": false,
+      "odometerUnit": "KM",
+      "odometerValue": 89225,
+      "serviceDate": "2014-07-28T20:00:00Z",
+      "serviceDocumentId": "3960",
+      "tasksList": [
+        {
+          "description": "Staub-u.Pollenfilter",
+          "quantity": 0,
+          "quantityUnit": ""
+        },
+        {
+          "description": "Luftfiltereinsatz",
+          "quantity": 0,
+          "quantityUnit": ""
+        }
+      ]
+    },
+    "status": 200
+  }
+}

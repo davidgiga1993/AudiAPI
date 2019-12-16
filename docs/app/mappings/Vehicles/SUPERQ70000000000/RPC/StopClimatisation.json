@@ -1,0 +1,29 @@
+{
+  "request": {
+    "bodyPatterns": [
+      {
+        "contains": "stopClimatisation"
+      }
+    ],
+    "method": "POST",
+    "urlPath": "/msg/bs/climatisation/v1/Audi/DE/vehicles/SUPERQ70000000000/climater/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 2,
+        "actionState": "queued",
+        "settings": {
+          "climatisationWithoutHVpower": true,
+          "heaterSource": "electric"
+        },
+        "type": "stopClimatisation"
+      }
+    },
+    "status": 202
+  },
+  "scenarioName": "Vehicles.SuperQ7.RPC"
+}

@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/recommended-maintenance-tasks/v1/vehicles/A4AVANT0000000000/compatible-motoroils"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "amount": 5.2,
+        "amountUnit": "LITER",
+        "intervalType": "FIX",
+        "name": "VW 502 00"
+      },
+      {
+        "amount": 5.2,
+        "amountUnit": "LITER",
+        "intervalType": "FIX",
+        "name": "VW 504 00"
+      },
+      {
+        "amount": 5.2,
+        "amountUnit": "LITER",
+        "intervalType": "FLEXIBLE",
+        "name": "VW 504 00"
+      }
+    ],
+    "status": 200
+  }
+}

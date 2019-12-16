@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/vehicle-management/v1/vehicles/Q2GTRON0000000000/nickname"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "nickname": "Audi Q2 g-tron"
+    },
+    "status": 200
+  }
+}

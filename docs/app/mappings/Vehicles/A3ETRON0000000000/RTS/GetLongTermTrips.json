@@ -1,0 +1,44 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/tripstatistics/v1/Audi/DE/vehicles/A3ETRON0000000000/tripdata/longTerm"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "tripDataList": {
+        "tripData": [
+          {
+            "averageElectricEngineConsumption": 65,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 30,
+            "mileage": 2191,
+            "overallMileage": 16282,
+            "reportReason": "userReset",
+            "startMileage": 14075,
+            "timestamp": "2015-08-26T12:45:52Z",
+            "traveltime": 4349,
+            "tripID": 4432,
+            "tripType": "longTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 323,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 8,
+            "mileage": 16,
+            "overallMileage": 16282,
+            "reportReason": "clamp15off",
+            "startMileage": 16266,
+            "timestamp": "2015-09-01T16:51:58Z",
+            "traveltime": 118,
+            "tripID": 8830,
+            "tripType": "longTerm"
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

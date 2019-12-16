@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/msg/cs/mobiledevicemgmt/v1/mobilekey/eligible"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "statusRequest": {
+        "id": "152a94f8-9a8f-403f-b2ea-d40c3077ad36",
+        "type": "ELIGIBILITY"
+      }
+    },
+    "status": 202
+  }
+}

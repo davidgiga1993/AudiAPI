@@ -1,0 +1,211 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/etronrp/v1/vehicles/CBEV0000000000000/consumptionData"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "consumptionData": {
+        "entry": [
+          {
+            "key": "RealConsumptionValue1",
+            "value": "2.48"
+          },
+          {
+            "key": "PsdConsumptionValue1",
+            "value": "2.42"
+          },
+          {
+            "key": "SpeedThreshold1",
+            "value": "14"
+          },
+          {
+            "key": "RealConsumptionValue2",
+            "value": "2.03"
+          },
+          {
+            "key": "PsdConsumptionValue2",
+            "value": "2.99"
+          },
+          {
+            "key": "SpeedThreshold2",
+            "value": "36"
+          },
+          {
+            "key": "RealConsumptionValue3",
+            "value": "1.99"
+          },
+          {
+            "key": "PsdConsumptionValue3",
+            "value": "2.13"
+          },
+          {
+            "key": "SpeedThreshold3",
+            "value": "52"
+          },
+          {
+            "key": "RealConsumptionValue4",
+            "value": "1.89"
+          },
+          {
+            "key": "PsdConsumptionValue4",
+            "value": "2.33"
+          },
+          {
+            "key": "SpeedThreshold4",
+            "value": "68"
+          },
+          {
+            "key": "RealConsumptionValue5",
+            "value": "2.13"
+          },
+          {
+            "key": "PsdConsumptionValue5",
+            "value": "1.965"
+          },
+          {
+            "key": "SpeedThreshold5",
+            "value": "83"
+          },
+          {
+            "key": "RealConsumptionValue6",
+            "value": "2.16"
+          },
+          {
+            "key": "PsdConsumptionValue6",
+            "value": "2.32"
+          },
+          {
+            "key": "SpeedThreshold6",
+            "value": "95"
+          },
+          {
+            "key": "RealConsumptionValue7",
+            "value": "2.51"
+          },
+          {
+            "key": "PsdConsumptionValue7",
+            "value": "2.4"
+          },
+          {
+            "key": "SpeedThreshold7",
+            "value": "105"
+          },
+          {
+            "key": "RealConsumptionValue8",
+            "value": "2.52"
+          },
+          {
+            "key": "PsdConsumptionValue8",
+            "value": "2.645"
+          },
+          {
+            "key": "SpeedThreshold8",
+            "value": "115"
+          },
+          {
+            "key": "RealConsumptionValue9",
+            "value": "2.7"
+          },
+          {
+            "key": "PsdConsumptionValue9",
+            "value": "2.95"
+          },
+          {
+            "key": "SpeedThreshold9",
+            "value": "125"
+          },
+          {
+            "key": "RealConsumptionValue10",
+            "value": "2.95"
+          },
+          {
+            "key": "PsdConsumptionValue10",
+            "value": "3.26"
+          },
+          {
+            "key": "SpeedThreshold10",
+            "value": "135"
+          },
+          {
+            "key": "TmeConsumptionInterior",
+            "value": "5.4"
+          },
+          {
+            "key": "TmeConsumptionComponents",
+            "value": "17.9"
+          },
+          {
+            "key": "ComforNetworkConsumption",
+            "value": "3.3"
+          },
+          {
+            "key": "ResidualNetworkConsumption",
+            "value": "4.8"
+          },
+          {
+            "key": "RiseConsumption",
+            "value": "90.25"
+          },
+          {
+            "key": "FallConsumption",
+            "value": "43.25"
+          },
+          {
+            "key": "EnergyRange",
+            "value": "900"
+          },
+          {
+            "key": "EnergyRangeMax",
+            "value": "900"
+          },
+          {
+            "key": "SOCValue",
+            "value": "255"
+          },
+          {
+            "key": "RangeCalculaionMode",
+            "value": "0"
+          },
+          {
+            "key": "X1",
+            "value": "0"
+          },
+          {
+            "key": "Y1",
+            "value": "0"
+          },
+          {
+            "key": "X2",
+            "value": "0.6"
+          },
+          {
+            "key": "Y2",
+            "value": "0.2"
+          },
+          {
+            "key": "X3",
+            "value": "0.9"
+          },
+          {
+            "key": "Y3",
+            "value": "0.95"
+          },
+          {
+            "key": "X4",
+            "value": "1"
+          },
+          {
+            "key": "Y4",
+            "value": "1"
+          }
+        ],
+        "version": "1.0.0"
+      }
+    },
+    "status": 200
+  }
+}

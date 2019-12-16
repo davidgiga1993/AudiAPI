@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/rolesrights/v1/management/verification/v2/A3ETRON0000000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "verificationState": [
+        "ENROLLMENT_COMPLETE",
+        "PAIRING_CODE_COMPLETE"
+      ]
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/valetalert/v1/Audi/DE/vehicles/SECONDARYUSERQ700/valetAlertDefinition"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "valetAlertDefinition": {
+        "area": {
+          "circle": {
+            "latitude": "25747868",
+            "longitude": "-80175566",
+            "radius": "400"
+          }
+        },
+        "id": "6909",
+        "lastUpdated": "2015-11-23T13:18:41Z",
+        "speedLimit": "40",
+        "status": "ACKNOWLEDGED",
+        "type": "ACTIVATE"
+      }
+    },
+    "status": 200
+  }
+}

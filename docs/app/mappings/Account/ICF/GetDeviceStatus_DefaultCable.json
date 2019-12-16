@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/icf/ilfsta/status/0000427_5"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "departureTime": "2018-08-07T09:05:17Z",
+      "energyDemand": 2200,
+      "hemsData": "NONE",
+      "lastUpdated": "2018-08-07T09:09:28.281Z",
+      "stateConnectionCar": "PWM",
+      "stateConnectionHome": "NONE",
+      "stateFeatureHems": "BLACKOUT_PROTECTION_AND_CHARGING_TARIFFS_HEMS_ACTIVE",
+      "tariffDataSource": "HEMS"
+    },
+    "status": 200
+  }
+}

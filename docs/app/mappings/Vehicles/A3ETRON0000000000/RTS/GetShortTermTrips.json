@@ -1,0 +1,122 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/tripstatistics/v1/Audi/DE/vehicles/A3ETRON0000000000/tripdata/shortTerm"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "tripDataList": {
+        "tripData": [
+          {
+            "averageElectricEngineConsumption": 65,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 61,
+            "mileage": 97,
+            "overallMileage": 27607,
+            "reportReason": "clamp15off",
+            "startMileage": 27510,
+            "timestamp": "2017-07-06T11:57:24Z",
+            "traveltime": 95,
+            "tripID": 33801152,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 62,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 54,
+            "mileage": 124,
+            "overallMileage": 27731,
+            "reportReason": "clamp15off",
+            "startMileage": 27607,
+            "timestamp": "2017-07-06T20:15:47Z",
+            "traveltime": 136,
+            "tripID": 33844958,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 84,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 38,
+            "mileage": 40,
+            "overallMileage": 27771,
+            "reportReason": "clamp15off",
+            "startMileage": 27731,
+            "timestamp": "2017-07-07T06:27:15Z",
+            "traveltime": 63,
+            "tripID": 33899762,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 242,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 18,
+            "mileage": 1,
+            "overallMileage": 27773,
+            "reportReason": "clamp15off",
+            "startMileage": 27771,
+            "timestamp": "2017-07-07T11:25:51Z",
+            "traveltime": 6,
+            "tripID": 33961732,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 181,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 28,
+            "mileage": 4,
+            "overallMileage": 27777,
+            "reportReason": "clamp15off",
+            "startMileage": 27773,
+            "timestamp": "2017-07-07T13:52:34Z",
+            "traveltime": 9,
+            "tripID": 33981007,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 113,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 28,
+            "mileage": 12,
+            "overallMileage": 27790,
+            "reportReason": "clamp15off",
+            "startMileage": 27777,
+            "timestamp": "2017-07-10T12:41:17Z",
+            "traveltime": 27,
+            "tripID": 34293392,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 156,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 33,
+            "mileage": 57,
+            "overallMileage": 27848,
+            "reportReason": "clamp15off",
+            "startMileage": 27790,
+            "timestamp": "2017-07-11T13:25:39Z",
+            "traveltime": 105,
+            "tripID": 34401509,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 81,
+            "averageFuelConsumption": 0,
+            "averageSpeed": 29,
+            "mileage": 8,
+            "overallMileage": 27856,
+            "reportReason": "clamp15off",
+            "startMileage": 27848,
+            "timestamp": "2017-07-12T06:24:32Z",
+            "traveltime": 18,
+            "tripID": 34499837,
+            "tripType": "shortTerm"
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

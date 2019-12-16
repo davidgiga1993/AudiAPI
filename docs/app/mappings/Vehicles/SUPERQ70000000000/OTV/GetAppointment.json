@@ -1,0 +1,66 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/otv/v1/Audi/DE/vehicles/SUPERQ70000000000/appointment"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/vnd.vwg.mbb.onlineTerminvereinbarung_v2_0_1+json;charset=utf-8"
+    },
+    "jsonBody": {
+      "AppointmentData": {
+        "Appointment": [
+          {
+            "DateOfAppointment": "2018-03-26T13:15:26+01:00",
+            "ServicePartnerID": {
+              "Brand": "A",
+              "Market": "DEU",
+              "OrgID": "43940"
+            }
+          },
+          {
+            "DateOfAppointment": "2018-03-27T13:15:26+01:00",
+            "ServicePartnerID": {
+              "Brand": "A",
+              "Market": "DEU",
+              "OrgID": "43940"
+            }
+          },
+          {
+            "DateOfAppointment": "2018-03-28T13:15:26+01:00",
+            "ServicePartnerID": {
+              "Brand": "A",
+              "Market": "DEU",
+              "OrgID": "43940"
+            }
+          },
+          {
+            "DateOfAppointment": "2018-03-29T13:15:26+01:00",
+            "ServicePartnerID": {
+              "Brand": "A",
+              "Market": "DEU",
+              "OrgID": "43940"
+            }
+          },
+          {
+            "DateOfAppointment": "2018-03-30T13:15:26+01:00",
+            "ServicePartnerID": {
+              "Brand": "A",
+              "Market": "DEU",
+              "OrgID": "43940"
+            }
+          },
+          {
+            "DateOfAppointment": "2018-03-31T13:15:26+01:00",
+            "ServicePartnerID": {
+              "Brand": "A",
+              "Market": "DEU",
+              "OrgID": "43940"
+            }
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

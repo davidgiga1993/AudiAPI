@@ -1,0 +1,113 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {},
+    "urlPath": "/adm/api/accidents"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "end": 5,
+      "resultList": [
+        {
+          "claimId": "2019101700059",
+          "contractType": "adm",
+          "creationDate": "2019-10-17T14:19:31.391Z",
+          "id": "b8a1ca28-a46b-449d-aadc-6c5571dbf4e6",
+          "lastChangeDate": "2019-10-17T14:37:46.632Z",
+          "leadTransmissionStatus": "SUBMITTED",
+          "locationOfAccident": {
+            "address": "Alexander-Feming-Straße 1",
+            "city": "lübeck",
+            "country": "GERMANY",
+            "latitude": 53.83168,
+            "longitude": 10.6900464
+          },
+          "selectedPartner": {
+            "name": "Audi Zentrum Lübeck Senger Automobile GmbH"
+          },
+          "serviceLeadInboxRequestSubmitted": "2019-10-17T14:26:14.54Z",
+          "sourceOfOperation": "CALL_CENTER"
+        },
+        {
+          "claimId": "2019101700050",
+          "contractType": "adm",
+          "creationDate": "2019-10-17T11:29:21.096Z",
+          "id": "34a68d03-9ad6-44f0-81c8-f2c62d437464",
+          "lastChangeDate": "2019-10-17T11:56:20.358Z",
+          "leadTransmissionStatus": "SUBMITTED",
+          "locationOfAccident": {
+            "address": "Alexander-Fleming-Straße 1",
+            "city": "Lübeck",
+            "country": "GERMANY",
+            "latitude": 53.83168,
+            "longitude": 10.6900464
+          },
+          "selectedPartner": {
+            "name": "Audi Zentrum Lübeck Senger Automobile GmbH"
+          },
+          "serviceLeadInboxRequestSubmitted": "2019-10-17T11:45:11.455Z",
+          "sourceOfOperation": "CALL_CENTER"
+        },
+        {
+          "claimId": "2019092400018",
+          "contractType": "adm",
+          "creationDate": "2019-09-24T11:59:29.838Z",
+          "id": "65ba45ad-2f80-45e9-b684-181e14fc3043",
+          "lastChangeDate": "2019-10-16T07:15:21.423Z",
+          "leadTransmissionStatus": "SUBMITTED",
+          "locationOfAccident": {
+            "address": "St.-Martin-Straße 114",
+            "city": "München",
+            "country": "GERMANY",
+            "latitude": 48.1197675,
+            "longitude": 11.6027143
+          },
+          "selectedPartner": {
+            "name": "Audi Zentrum Lübeck Senger Automobile GmbH"
+          },
+          "serviceLeadInboxRequestSubmitted": "2019-09-24T12:01:37.508Z",
+          "sourceOfOperation": "CALL_CENTER"
+        },
+        {
+          "claimId": "2019092400017",
+          "contractType": "adm",
+          "creationDate": "2019-09-24T11:58:55.159Z",
+          "id": "269d02c7-7cc7-4dbe-a787-549218268a8b",
+          "lastChangeDate": "2019-09-30T07:30:04.996Z",
+          "leadTransmissionStatus": "SUBMITTED",
+          "locationOfAccident": {
+            "address": "Quattro-Ring",
+            "city": "Ingolstadt",
+            "country": "GERMANY",
+            "latitude": 48.7933827,
+            "longitude": 11.4120225
+          },
+          "selectedPartner": {
+            "name": "Audi Zentrum Lübeck Senger Automobile GmbH"
+          },
+          "serviceLeadInboxRequestSubmitted": "2019-09-24T11:59:04.731Z",
+          "sourceOfOperation": "CALL_CENTER"
+        },
+        {
+          "claimId": "2019092400016",
+          "contractType": "adm",
+          "creationDate": "2019-09-24T11:55:16.983Z",
+          "id": "146cb087-b3b0-440f-a688-1769afca1351",
+          "lastChangeDate": "2019-10-07T12:04:12.332Z",
+          "leadTransmissionStatus": "SUBMITTED",
+          "selectedPartner": {
+            "name": "Audi Zentrum Lübeck Senger Automobile GmbH"
+          },
+          "serviceLeadInboxRequestSubmitted": "2019-09-24T11:55:27.202Z",
+          "sourceOfOperation": "CALL_CENTER"
+        }
+      ],
+      "start": 1,
+      "totalResults": 5
+    },
+    "status": 200
+  }
+}

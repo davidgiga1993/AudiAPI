@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/dwap/v1/Audi/DE/vehicles/SUPERQ70000000000/history/last"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "dwaPushHistoryEntry": {
+        "dwaAlarmReasonClustered": "MOVEMENT",
+        "fnsAcknowledged": true,
+        "id": "62533",
+        "localUtcTimestamp": "2016-01-29T15:06:30Z",
+        "vehicleUtcTimestamp": "2015-12-15T12:00:00Z"
+      }
+    },
+    "status": 200
+  }
+}

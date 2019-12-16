@@ -1,0 +1,16 @@
+{
+  "newScenarioState": "Deactivated",
+  "request": {
+    "method": "PUT",
+    "urlPath": "/msg/subscriptionmanagement/servicestatus/v2/vehicles/SUPERQ70000000000/services/dealerappoint_v1/disabledReasons/deactivated"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {},
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.ASR"
+}

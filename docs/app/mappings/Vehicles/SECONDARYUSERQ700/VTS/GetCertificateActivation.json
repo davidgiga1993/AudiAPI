@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/vts/fal/v1/Audi/DE/vehicles/SECONDARYUSERQ700/certificates/activation"
+  },
+  "response": {
+    "bodyFileName": "SECONDARYUSERQ700/vts-contract.pdf",
+    "headers": {
+      "Content-Type": "application/pdf"
+    },
+    "status": 200
+  }
+}

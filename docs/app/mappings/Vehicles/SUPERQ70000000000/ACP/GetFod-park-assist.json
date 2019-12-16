@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "wid": {
+        "matches": ".*"
+      }
+    },
+    "urlPath": "/acp/fod-park-assist"
+  },
+  "response": {
+    "bodyFileName": "ACP/fod-park-assist.jpg",
+    "headers": {
+      "Content-Type": "image/jpeg"
+    },
+    "status": 200
+  }
+}

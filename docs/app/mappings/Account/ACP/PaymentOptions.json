@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/acp/payment/v2/ACPMDE/options"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "paymentOptions": [
+        {
+          "bankCode": null,
+          "carrierNumber": "402400****9550",
+          "code": "VISA",
+          "expiryMonth": 2,
+          "expiryYear": 2028,
+          "iconUrl": "https://prerelease-sandbox.kontocloud.com/imgs/payment-option-logos/visa.png",
+          "isAvailableInRequestedMarket": true,
+          "isDefault": true,
+          "isVerifiable": false,
+          "name": "VISA",
+          "paymentGroup": "Cards",
+          "paymentGroupCode": "CARDS",
+          "paymentSubGroup": "Credit Cards",
+          "paymentSubGroupCode": "CRDTCRD",
+          "reference": "8ac7a4a06958930001695d797ec015e9",
+          "statusCode": "VERIFIED",
+          "validUntilDate": "2028-02-29",
+          "validUntilTime": "225959"
+        }
+      ]
+    },
+    "status": 200
+  }
+}

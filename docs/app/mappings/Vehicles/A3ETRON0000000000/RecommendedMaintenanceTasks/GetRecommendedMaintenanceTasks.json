@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/recommended-maintenance-tasks/v1/vehicles/A3ETRON0000000000/recommended-maintenance-tasks"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {},
+    "status": 204
+  }
+}

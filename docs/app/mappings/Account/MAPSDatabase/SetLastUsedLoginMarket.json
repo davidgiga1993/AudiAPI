@@ -1,0 +1,14 @@
+{
+  "request": {
+    "bodyPatterns": [
+      {
+        "contains": "lastUsedLoginMarket"
+      }
+    ],
+    "method": "POST",
+    "urlPath": "/msg/myaudi/profileservice/v1/profile/attributes"
+  },
+  "response": {
+    "status": 204
+  }
+}

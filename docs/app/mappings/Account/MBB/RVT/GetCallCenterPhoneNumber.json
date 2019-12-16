@@ -1,0 +1,28 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/ccss/callrequest/v2/requested"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "genericInfo": {
+        "callInfo": {
+          "callCenterPhoneNumber": "+18772109423",
+          "idTransferMethods": null,
+          "requestId": 516373,
+          "secretId": "16489577bc7",
+          "ticketId": 1531312569287
+        },
+        "callcenterInfo": {
+          "description": "NOT_DEFINED",
+          "logoURL": "http://www.audi.de",
+          "name": "CC USA_US RVT"
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,1467 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "includeCriticalFunctions": {
+        "matches": "true"
+      }
+    },
+    "urlPath": "/usermanagement/functions/SUPERQ70000000000/users"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "users": [
+        {
+          "criticalFunctions": [
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "FIND_CAR"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "carfinder_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": true,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "P_DTDEACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_QSTOPACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_DTACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_STAT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_QSACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rheating_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": true,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                },
+                {
+                  "granted": true,
+                  "id": "LOCK"
+                },
+                {
+                  "granted": true,
+                  "id": "UNLOCK"
+                },
+                {
+                  "granted": true,
+                  "id": "deprecated_S_NSET"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "deprecated_G_NSET"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rlu_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": true,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_SVDATA"
+                },
+                {
+                  "granted": true,
+                  "id": "G_CVDATA"
+                },
+                {
+                  "granted": true,
+                  "id": "G_CVDATAID"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "statusreport_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": true,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "D_NHIST"
+                },
+                {
+                  "granted": true,
+                  "id": "P_VCONF"
+                },
+                {
+                  "granted": true,
+                  "id": "G_VCONF"
+                },
+                {
+                  "granted": true,
+                  "id": "G_NHIST"
+                },
+                {
+                  "granted": true,
+                  "id": "G_NHISTLAST"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "dwap",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": true,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": true,
+              "cluster": "myInfo",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-07-23T15:48:35Z",
+                "status": "NOTACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "G_VTSCERTIFICATES"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSPECIALMODES"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCONFIGURATION"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSOCINFO"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCOMMANDS"
+                },
+                {
+                  "granted": false,
+                  "id": "D_VTSCONFIGURATION"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCOMMAND"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCERTIFICATE"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSTATUS"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "vts_v1",
+              "statusInfo": {
+                "disableReasons": [
+                  "NO_ACTIVE_LICENSE"
+                ],
+                "status": "DISABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myService",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2027-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "G_CONFDATA"
+                },
+                {
+                  "granted": false,
+                  "id": "S_CONFDATA"
+                },
+                {
+                  "granted": false,
+                  "id": "G_HIST"
+                },
+                {
+                  "granted": false,
+                  "id": "G_SAPP"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "dealerappoint_v1",
+              "statusInfo": {
+                "disableReasons": [
+                  "INITIALLY_DISABLED"
+                ],
+                "status": "DISABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "PRIMARY_USER_EXCLUSIVE"
+              ]
+            }
+          ],
+          "firstName": "Demo",
+          "isInVehicle": false,
+          "lastName": "User",
+          "mbbUserId": "PXtOEHTBlsSppUu6Z6kMOk9pTgI",
+          "nickName": "QM Test",
+          "role": "PRIMARY_USER",
+          "securityLevel": "HG_2_B",
+          "ssoId": "W886827512",
+          "status": "ACTIVE"
+        },
+        {
+          "criticalFunctions": [
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_SVDATA"
+                },
+                {
+                  "granted": true,
+                  "id": "G_CVDATAID"
+                },
+                {
+                  "granted": true,
+                  "id": "G_CVDATA"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "statusreport_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_NHIST"
+                },
+                {
+                  "granted": true,
+                  "id": "G_NHISTLAST"
+                },
+                {
+                  "granted": true,
+                  "id": "G_VCONF"
+                },
+                {
+                  "granted": true,
+                  "id": "D_NHIST"
+                },
+                {
+                  "granted": true,
+                  "id": "P_VCONF"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "dwap",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "P_QSTOPACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_DTDEACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_DTACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_QSACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_STAT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rheating_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": true,
+              "cluster": "myInfo",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-07-23T15:48:36Z",
+                "status": "NOTACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "G_VTSCOMMAND"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSOCINFO"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCOMMANDS"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSPECIALMODES"
+                },
+                {
+                  "granted": false,
+                  "id": "D_VTSCONFIGURATION"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCONFIGURATION"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCERTIFICATE"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSTATUS"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCERTIFICATES"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "vts_v1",
+              "statusInfo": {
+                "disableReasons": [
+                  "NO_ACTIVE_LICENSE"
+                ],
+                "status": "DISABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "deprecated_S_NSET"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "LOCK"
+                },
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                },
+                {
+                  "granted": false,
+                  "id": "deprecated_G_NSET"
+                },
+                {
+                  "granted": true,
+                  "id": "UNLOCK"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rlu_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "FIND_CAR"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "carfinder_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            }
+          ],
+          "firstName": "Active",
+          "isInVehicle": false,
+          "lastName": "Secondary",
+          "mbbUserId": "ActiveSecondaryUserxxxxxxxx",
+          "nickName": "Active Secondary",
+          "role": "SECONDARY_USER",
+          "securityLevel": "HG_2_B",
+          "ssoId": "W861132762",
+          "status": "ACTIVE"
+        },
+        {
+          "criticalFunctions": [
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_CVDATAID"
+                },
+                {
+                  "granted": true,
+                  "id": "G_SVDATA"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_CVDATA"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "statusreport_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": true,
+              "cluster": "myInfo",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-07-23T15:48:36Z",
+                "status": "NOTACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "G_VTSSOCINFO"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCOMMANDS"
+                },
+                {
+                  "granted": false,
+                  "id": "D_VTSCONFIGURATION"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSPECIALMODES"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCERTIFICATES"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCOMMAND"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSSTATUS"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCONFIGURATION"
+                },
+                {
+                  "granted": false,
+                  "id": "G_VTSCERTIFICATE"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "vts_v1",
+              "statusInfo": {
+                "disableReasons": [
+                  "NO_ACTIVE_LICENSE"
+                ],
+                "status": "DISABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "FIND_CAR"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "carfinder_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                },
+                {
+                  "granted": true,
+                  "id": "UNLOCK"
+                },
+                {
+                  "granted": false,
+                  "id": "deprecated_S_NSET"
+                },
+                {
+                  "granted": false,
+                  "id": "deprecated_G_NSET"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "LOCK"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rlu_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_QSTOPACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_STAT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_DTACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_QSACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_DTDEACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rheating_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_NHISTLAST"
+                },
+                {
+                  "granted": true,
+                  "id": "G_VCONF"
+                },
+                {
+                  "granted": true,
+                  "id": "G_NHIST"
+                },
+                {
+                  "granted": true,
+                  "id": "D_NHIST"
+                },
+                {
+                  "granted": true,
+                  "id": "P_VCONF"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "dwap",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            }
+          ],
+          "firstName": "Disabled PIN",
+          "isInVehicle": false,
+          "lastName": "Secondary",
+          "mbbUserId": "SecondaryUserDisabledPINxxx",
+          "nickName": "Secondary Can Be Enabled",
+          "role": "SECONDARY_USER",
+          "securityLevel": "HG_2_B",
+          "ssoId": "W201163791",
+          "status": "DISABLED_SPIN"
+        },
+        {
+          "criticalFunctions": [
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-05-23T07:10:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "FIND_CAR"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "carfinder_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-05-23T07:10:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "G_CVDATAID"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_CVDATA"
+                },
+                {
+                  "granted": true,
+                  "id": "G_SVDATA"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "statusreport_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myService",
+              "criticalFunction": true,
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "G_ACTIVEEVENTS"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "sto_v1",
+              "statusInfo": {
+                "disableReasons": [
+                  "NO_ACTIVE_LICENSE"
+                ],
+                "status": "DISABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myService",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-05-23T07:10:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "G_SAPP"
+                },
+                {
+                  "granted": false,
+                  "id": "S_CONFDATA"
+                },
+                {
+                  "granted": false,
+                  "id": "S_RCALL"
+                },
+                {
+                  "granted": false,
+                  "id": "G_CONFDATA"
+                },
+                {
+                  "granted": false,
+                  "id": "G_HIST"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "dealerappoint_v1",
+              "statusInfo": {
+                "disableReasons": [
+                  "INITIALLY_DISABLED"
+                ],
+                "status": "DISABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": true,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-05-23T07:10:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "PU_MKCONFIRM"
+                },
+                {
+                  "granted": true,
+                  "id": "D_MOBILEKEYS"
+                },
+                {
+                  "granted": false,
+                  "id": "P_MKCREATE_FLEET"
+                },
+                {
+                  "granted": false,
+                  "id": "P_VTAN"
+                },
+                {
+                  "granted": true,
+                  "id": "G_MOBILEKEYS"
+                },
+                {
+                  "granted": false,
+                  "id": "G_ACTIVITIES"
+                },
+                {
+                  "granted": false,
+                  "id": "D_PERMISSION_VIN"
+                },
+                {
+                  "granted": false,
+                  "id": "D_SMARTCARD"
+                },
+                {
+                  "granted": true,
+                  "id": "G_PERMISSIONS"
+                },
+                {
+                  "granted": true,
+                  "id": "G_PERMISSION"
+                },
+                {
+                  "granted": false,
+                  "id": "PU_PERMISSION"
+                },
+                {
+                  "granted": false,
+                  "id": "P_VTAN_ACCEPTANCE"
+                },
+                {
+                  "granted": true,
+                  "id": "D_MOBILEKEY"
+                },
+                {
+                  "granted": true,
+                  "id": "G_SERVICESTATUSVIEW"
+                },
+                {
+                  "granted": true,
+                  "id": "G_PERMISSION_ENTRIES"
+                },
+                {
+                  "granted": true,
+                  "id": "G_KEYSYSTEMUSERVIEW"
+                },
+                {
+                  "granted": false,
+                  "id": "P_PERMISSION"
+                },
+                {
+                  "granted": true,
+                  "id": "G_MOBILEKEY"
+                },
+                {
+                  "granted": true,
+                  "id": "G_ACTIVITY_ENTRIES"
+                },
+                {
+                  "granted": true,
+                  "id": "D_PERMISSION"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "mobilekey_sales_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-05-23T07:10:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "P_QSACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_DTACT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_STAT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_STNG"
+                },
+                {
+                  "granted": true,
+                  "id": "P_DTDEACT"
+                },
+                {
+                  "granted": true,
+                  "id": "P_QSTOPACT"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rheating_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-05-23T07:10:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "P_VCONF"
+                },
+                {
+                  "granted": true,
+                  "id": "G_VCONF"
+                },
+                {
+                  "granted": true,
+                  "id": "G_NHIST"
+                },
+                {
+                  "granted": true,
+                  "id": "G_NHISTLAST"
+                },
+                {
+                  "granted": true,
+                  "id": "D_NHIST"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "dwap",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            },
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-05-23T07:10:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "deprecated_S_NSET"
+                },
+                {
+                  "granted": true,
+                  "id": "LOCK"
+                },
+                {
+                  "granted": true,
+                  "id": "G_RQSTAT"
+                },
+                {
+                  "granted": true,
+                  "id": "G_LACT"
+                },
+                {
+                  "granted": true,
+                  "id": "UNLOCK"
+                },
+                {
+                  "granted": false,
+                  "id": "deprecated_G_NSET"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "rlu_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            }
+          ],
+          "firstName": "HMI Disabled",
+          "isInVehicle": false,
+          "lastName": "Secondary",
+          "mbbUserId": "SecondaryUserDisabledHMIxxxx",
+          "nickName": "HMI Disabled Secondary",
+          "role": "SECONDARY_USER",
+          "securityLevel": "HG_2_B",
+          "ssoId": "W931094136",
+          "status": "DISABLED_HMI"
+        },
+        {
+          "firstName": "Can Be Revoked",
+          "isInVehicle": true,
+          "lastName": "When Secondary",
+          "mbbUserId": "ActiveGuestUserxxxxxxxxxxxx",
+          "nickName": "Can Be Promoted When Guest",
+          "role": "GUEST_USER",
+          "securityLevel": "HG_0",
+          "ssoId": "W338786790",
+          "status": "ACTIVE"
+        },
+        {
+          "isInVehicle": true,
+          "mbbUserId": "GuestUserDisabledSPINxxxxxxx",
+          "role": "GUEST_USER",
+          "securityLevel": "HG_0",
+          "ssoId": "W227350950",
+          "status": "DISABLED_SPIN"
+        },
+        {
+          "isInVehicle": true,
+          "mbbUserId": "GuestUserDisabledHMIxxxxxxx",
+          "nickName": "Guest Without Name",
+          "role": "GUEST_USER",
+          "securityLevel": "HG_0",
+          "ssoId": "W922027665",
+          "status": "DISABLED_HMI"
+        }
+      ],
+      "vin": "SUPERQ70000000000"
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.UserManagement"
+}

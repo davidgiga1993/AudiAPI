@@ -1,0 +1,147 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/service-appointment/v1/appointments"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "alternativeDate": "2018-03-31T13:37:00.000+02:00",
+        "alternativeDaytime": "ALLDAY",
+        "confirmationNotes": [],
+        "createDate": "2018-03-21T11:35:26.712+01:00",
+        "endDate": "2018-03-25T02:00:00.000+02:00",
+        "externalLink": null,
+        "modifiedDate": null,
+        "numberPlate": "w213213213",
+        "odometerUnit": "KM",
+        "odometerValue": 59990,
+        "partnerKvpsid": "43940",
+        "partnerTenant": "DEU",
+        "preferredDate": "2018-03-30T13:37:00.000+02:00",
+        "preferredDaytime": "MORNING",
+        "repairCostEstimations": [],
+        "repairDescriptions": [],
+        "replacementMobility": "NOTNECESSARY",
+        "serviceTypes": [
+          "REPAIRMECHANICAL"
+        ],
+        "serviceWish": null,
+        "startDate": "2018-03-25T01:00:00.000+02:00",
+        "status": "PENDING",
+        "vin": "SUPERQ70000000000"
+      },
+      {
+        "alternativeDate": "2018-03-30T18:15:00.000+02:00",
+        "alternativeDaytime": "ALLDAY",
+        "confirmationNotes": [],
+        "createDate": "2018-03-21T11:35:26.712+01:00",
+        "endDate": "2018-03-29T13:00:00.000+02:00",
+        "externalLink": null,
+        "modifiedDate": null,
+        "numberPlate": "w213213213",
+        "odometerUnit": "KM",
+        "odometerValue": 59990,
+        "partnerKvpsid": "43940",
+        "partnerTenant": "DEU",
+        "preferredDate": "2018-03-29T12:00:00.000+02:00",
+        "preferredDaytime": "MORNING",
+        "repairCostEstimations": [],
+        "repairDescriptions": [],
+        "replacementMobility": "NOTNECESSARY",
+        "serviceTypes": [
+          "AUDIINSPECTION",
+          "HUAUSERVICE"
+        ],
+        "serviceWish": null,
+        "startDate": "2018-03-29T12:00:00.000+02:00",
+        "status": "SCHEDULED",
+        "vin": "SUPERQ70000000000"
+      },
+      {
+        "alternativeDate": "2018-03-27T13:37:00.000+02:00",
+        "alternativeDaytime": "ALLDAY",
+        "confirmationNotes": [],
+        "createDate": "2018-03-21T11:35:26.712+01:00",
+        "endDate": "2018-03-26T14:00:00.000+02:00",
+        "externalLink": null,
+        "modifiedDate": null,
+        "numberPlate": "w213213213",
+        "odometerUnit": "KM",
+        "odometerValue": 59990,
+        "partnerKvpsid": "43940",
+        "partnerTenant": "DEU",
+        "preferredDate": "2018-03-27T13:37:00.000+02:00",
+        "preferredDaytime": "MORNING",
+        "repairCostEstimations": [],
+        "repairDescriptions": [],
+        "replacementMobility": "NOTNECESSARY",
+        "serviceTypes": [
+          "TIRECHANGE"
+        ],
+        "serviceWish": null,
+        "startDate": "2018-03-26T13:00:00.000+02:00",
+        "status": "COMPLETED",
+        "vin": "SUPERQ70000000000"
+      },
+      {
+        "alternativeDate": "2018-04-1T15:37:00.000+02:00",
+        "alternativeDaytime": "ALLDAY",
+        "confirmationNotes": [],
+        "createDate": "2018-03-21T11:35:26.712+01:00",
+        "endDate": "2018-03-28T02:00:00.000+02:00",
+        "externalLink": null,
+        "modifiedDate": null,
+        "numberPlate": "w213213213",
+        "odometerUnit": "KM",
+        "odometerValue": 59990,
+        "partnerKvpsid": "43940",
+        "partnerTenant": "DEU",
+        "preferredDate": "2018-04-1T13:37:00.000+02:00",
+        "preferredDaytime": "MORNING",
+        "repairCostEstimations": [],
+        "repairDescriptions": [],
+        "replacementMobility": "NOTNECESSARY",
+        "serviceTypes": [
+          "AUDIINSPECTION",
+          "HUAUSERVICE"
+        ],
+        "serviceWish": null,
+        "startDate": "2018-03-28T01:00:00.000+02:00",
+        "status": "CANCELLED",
+        "vin": "SUPERQ70000000000"
+      },
+      {
+        "alternativeDate": "2018-03-29T13:37:00.000+02:00",
+        "alternativeDaytime": "ALLDAY",
+        "confirmationNotes": [],
+        "createDate": "2018-03-21T11:35:26.712+01:00",
+        "endDate": "2018-04-29T02:00:00.000+02:00",
+        "externalLink": null,
+        "modifiedDate": null,
+        "numberPlate": "w213213213",
+        "odometerUnit": "KM",
+        "odometerValue": 59990,
+        "partnerKvpsid": "43940",
+        "partnerTenant": "DEU",
+        "preferredDate": "2018-03-29T13:37:00.000+02:00",
+        "preferredDaytime": "MORNING",
+        "repairCostEstimations": [],
+        "repairDescriptions": [],
+        "replacementMobility": "NOTNECESSARY",
+        "serviceTypes": [
+          "AUDIINSPECTION",
+          "HUAUSERVICE"
+        ],
+        "serviceWish": null,
+        "startDate": "2018-04-29T01:05:00.000+02:00",
+        "status": "IN_PROGRESS",
+        "vin": "SUPERQ70000000000"
+      }
+    ],
+    "status": 200
+  }
+}

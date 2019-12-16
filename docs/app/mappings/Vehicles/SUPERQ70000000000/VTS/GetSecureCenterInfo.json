@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/vts/fal/v1/Audi/DE/vehicles/SUPERQ70000000000/SOCInfo"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "vtsSOCInfo": {
+        "name": "AUDI AG",
+        "phonenumber": [
+          "+498418992222",
+          "+498418992223",
+          "+498418992223"
+        ]
+      }
+    },
+    "status": 200
+  }
+}

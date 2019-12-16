@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/destinationfeedservice/mydestinations/v1/Audi/DE/vehicles/SECONDARYUSERQ700/destinations"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "destinations": {
+        "destination": [
+          {
+            "POIContact": {
+              "lastName": "Schloss Neuschwanstein",
+              "messageData": {
+                "URL": "http://www.neuschwanstein.de/"
+              },
+              "phoneData": [
+                {
+                  "phoneNumber": "+49 8362 930830",
+                  "phoneType": "0"
+                }
+              ]
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "47.557603",
+              "longitude": "10.749790"
+            },
+            "href": null,
+            "id": "3403007",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

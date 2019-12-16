@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/rolesrights/v1/management/SUPERQ70000000000/capabilities"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "hasHighscaleNav": false,
+      "hasOcu1": false,
+      "installedHeaters": [],
+      "modelCode": "4MB0E1",
+      "pairingCodeSupported": true,
+      "privacyModeActive": false,
+      "privacyModeSupported": false
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/climatisation/v1/Audi/DE/vehicles/SECONDARYUSERQ700/climater/actions/4444444"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 4444444,
+        "actionState": "succeeded",
+        "type": "startClimatisation"
+      }
+    },
+    "status": 200
+  }
+}

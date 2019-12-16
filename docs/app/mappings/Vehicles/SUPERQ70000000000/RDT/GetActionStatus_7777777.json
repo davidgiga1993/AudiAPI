@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/departuretimer/v1/Audi/DE/vehicles/SUPERQ70000000000/timer/actions/7777777"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 7777777,
+        "actionState": "succeeded",
+        "type": "setTimersAndProfiles"
+      }
+    },
+    "status": 200
+  }
+}

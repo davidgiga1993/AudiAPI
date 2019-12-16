@@ -1,0 +1,1235 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/rolesrights/operationlist/v3/vehicles/A8000000000000000"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "c1e1cc01e2dd72628f107dee08ca1e5b3b6de0881421b211c8fee54f8e58edb4"
+    },
+    "jsonBody": {
+      "operationList": {
+        "channelClient": "APP",
+        "role": "PRIMARY_USER",
+        "securityLevel": "HG_2c",
+        "serviceInfo": [
+          {
+            "licenseRequired": false,
+            "operation": [
+              {
+                "id": "G_REQSTATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_RHIST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "P_VREQ",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": false,
+            "serviceId": "rhonk_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "LPBundle00000302",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "D_NHIST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_VCONF",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_NHIST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "dwap",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "deviceType": "OTHER",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "operation": [
+              {
+                "id": "P_VTAN",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/keysystem/permissions/{permissionId}/vtanconfirmation",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2118-09-12T06:31:05Z",
+            "serviceId": "mobilekey_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2018-04-10T06:00:00Z",
+              "expirationDate": "2021-04-10T06:00:00Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002209",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002209",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "OTHER",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_SERVICESTATUSVIEW",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/view/servicestatus",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_MOBILEKEY",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/keysystem/mobilekeys/{SecureElementID}",
+                  "method": "DELETE"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              },
+              {
+                "extAuth": "SPIN",
+                "id": "P_PERMISSION",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/keysystem/permissions",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2c",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_ACTIVITIES",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/activities",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2c",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "PU_MKCONFIRM",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_PERMISSIONS",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/keysystem/permissions/{permissionId}",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_VTAN",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2c",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "PU_PERMISSION",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2c",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_PERMISSION",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/keysystem/permissions",
+                  "method": "DELETE"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2c",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_MKCREATE",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_MOBILEKEYS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_PERMISSION_NUTZER",
+                "invocationUrl": {
+                  "content": "/mobilekey/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/keysystem/permissions/{permissionId}",
+                  "method": "DELETE"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_PERMISSION_ALL",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "GUEST_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2118-09-12T06:31:05Z",
+            "serviceId": "mobilekey_sales_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "vehicles_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "test_aktivierung2_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "users_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "gracenote_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "streetview_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "jobs_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "statusreport3Years4M",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": false,
+            "operation": [
+              {
+                "id": "G_CVDATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_CVDATAID",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_RQSTAT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_SVDATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "statusreport_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "RLU3Years4M",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": false,
+            "operation": [
+              {
+                "id": "G_LACT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_RQSTAT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "LOCK",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "UNLOCK",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "rlu_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "primaryuser_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "fpi_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "hotspotwlan_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "countryinfo_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "test_aktivierung1_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "license_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "otacuppoi_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "satellitemaps_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "parkinfo_3g_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "menu_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "news_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "twitterv3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "twitter_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "cityEventsv3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "cityevents_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "applist_v2",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "ccpoi_detail_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "vehicletelemetry_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "device_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "P_SETTINGS_AU",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "timerprogrammingaux_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "P_START_CLIMA_AU",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "rclimaaux_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "facebookv3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "facebook_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "newsv3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "news_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "fpiv3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "fpi_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "poivoice_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "otacupromotion_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "weatherv3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "weather_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "devicereset_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "Dealerappoint3Years4M",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": false,
+            "rolesAndRightsRequired": true,
+            "serviceId": "dealerappoint_v1",
+            "serviceStatus": {
+              "reason": [
+                "deactivated"
+              ],
+              "status": "Disabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "cityevents_rev3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "applist_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "parkinfov3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "parkinfo_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "weather_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "vehicleusers_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "weathergrid",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "travelinfo_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "appmedia_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "travelguide_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "operation": [
+              {
+                "id": "G_LACT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_RQSTAT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_STAT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "P_DTACT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "P_DTDEACT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "P_QSACT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "P_QSTOPACT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "rheating_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "applist_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "carfinder3Years4M",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": false,
+            "operation": [
+              {
+                "id": "FIND_CAR",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "carfinder_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "services_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "poi_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "poi_v2",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "otacusession_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "travelinfov3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "travelinfo_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "otacunav_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "vehicles_v1_cai",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "rvtv1Q7NAR3Years",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "rvt_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "licenseRequired": false,
+            "rolesAndRightsRequired": false,
+            "serviceId": "communicationConf_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "EXPIRED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "flightinfov3Q7NFNAR6Months",
+              "licenseProfileType": "implicit",
+              "licenseType": "trial",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "flightinfo_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "CCBreakDown3Years4M",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": false,
+            "rolesAndRightsRequired": true,
+            "serviceId": "cc_breakdown_v2",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfile": "ecallV1Q7NFNAR10Years",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "rolesAndRightsRequired": false,
+            "serviceId": "ecall_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "blockDisabling": true,
+            "configurable": true,
+            "cumulatedLicenseV2": {
+              "activationBy": "vehicle",
+              "activationDate": {
+                "content": "2018-03-13T09:06:03.754Z",
+                "predicted": true
+              },
+              "expirationDate": {
+                "content": "2019-03-13T09:06:03Z",
+                "predicted": true
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002150",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002150",
+                    "duration": "P1Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "NOTACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_VTSCOMMANDS",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/commands",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_VTSCOMMAND",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/commands/{cmdId}",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_VTSCERTIFICATE",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/certificates/{certificateType}",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_VTSSOCINFO",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/SOCInfo",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_VTSCERTIFICATES",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/certificates",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_VTSCONFIGURATION",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/configuration",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_VTSCONFIGURATION",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/configuration",
+                  "method": "PUT"
+                },
+                "permission": "granted",
+                "remoteCommand": "vtsControlJob",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1",
+                "xsd": "vtsControlJob_v1_0_1"
+              },
+              {
+                "id": "G_VTSSPECIALMODES",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/specialModes",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_VTSSTATUS",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "extAuth": "SPIN",
+                "id": "P_VTSSPECIALMODES",
+                "invocationUrl": {
+                  "content": "https://pre-msg.audi.de/fs-car-demo/vts/fal/v1/{brand}/{country}/vehicles/{vin}/specialModes",
+                  "method": "PUT"
+                },
+                "permission": "granted",
+                "remoteCommand": "vtsControlJob",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "vtsControlJob_v1_0_1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:59Z",
+            "serviceId": "vts_v1",
+            "serviceStatus": {
+              "reason": [
+                "noActiveLicense"
+              ],
+              "status": "Disabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "authenticationScope": [
+              {
+                "authLevel": "T2",
+                "content": "sc2:here_a_t21-s"
+              }
+            ],
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:59Z",
+              "expirationDate": "2020-05-01T11:40:59Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000821",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000821",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit",
+                    "salesPartNo": "AU65xD5MIB2PLUSECE"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "parameters": null,
+            "personalized": true,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:59Z",
+            "serviceId": "nc_destsync_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "extern",
+            "termsAndConditionsRequired": false
+          }
+        ],
+        "userId": "PXtOEHTBlsSppUu6Z6kMOk9pTgI",
+        "vin": "A8000000000000000"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Mixed.A8.MobileKey"
+}

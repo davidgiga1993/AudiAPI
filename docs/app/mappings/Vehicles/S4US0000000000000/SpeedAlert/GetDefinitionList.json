@@ -1,0 +1,36 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/speedalert/v1/Audi/DE/vehicles/S4US0000000000000/speedAlertDefinitionList"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "speedAlertDefinitionList": {
+        "id": 533,
+        "lastUpdated": "2015-05-22T11:34:46Z",
+        "speedAlertDefinitions": {
+          "speedAlertDefinition": [
+            {
+              "definitionName": "My Speed Alert",
+              "id": 9999,
+              "isActive": true,
+              "speedLimit": 67
+            },
+            {
+              "definitionName": "My Speed Alert 2",
+              "id": 10000,
+              "isActive": false,
+              "speedLimit": 110
+            }
+          ]
+        },
+        "status": "ACKNOWLEDGED",
+        "type": "ACTIVATE"
+      }
+    },
+    "status": 200
+  }
+}

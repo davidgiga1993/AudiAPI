@@ -1,0 +1,50 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/icf/ilfsta/powerplan/000008_1/39"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "sessionId": 39,
+      "slots": [
+        {
+          "offset": 0,
+          "plannedPowerW": 7000
+        },
+        {
+          "offset": 900,
+          "plannedPowerW": 8500
+        },
+        {
+          "offset": 1800,
+          "plannedPowerW": 8500
+        },
+        {
+          "offset": 2700,
+          "plannedPowerW": 7000
+        },
+        {
+          "offset": 3600,
+          "plannedPowerW": 5000
+        },
+        {
+          "offset": 4500,
+          "plannedPowerW": 4000
+        },
+        {
+          "offset": 5400,
+          "plannedPowerW": 4000
+        },
+        {
+          "offset": 7000,
+          "plannedPowerW": 0
+        }
+      ],
+      "timestamp": "2017-11-24T11:54:55.195Z"
+    },
+    "status": 200
+  }
+}

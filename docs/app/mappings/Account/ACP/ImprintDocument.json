@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/acp/document/v2/ACPMDE/legal-documents/1784711860"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "documentId": "1784711860",
+      "documentType": "imprint",
+      "name": "Impressum",
+      "text": "<p>\n            Audi AG <br>\n            Auto-Union-Strasse 1<br>\n            85045 Ingolstadt<br>\n            +49 (0)841 89-0<br> \n            +49 (0)841 89-32524<br>\n            Vorsitzender des Aufsichtsrats: Dr. Herbert Diess<br>\n            HR B 1  Ingolstadt <br> \n            DE811115368 <br>\n            </p>",
+      "version": "1"
+    },
+    "status": 200
+  }
+}

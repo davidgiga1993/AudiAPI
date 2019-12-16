@@ -1,0 +1,67 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/bs/departuretimer/v1/Audi/DE/vehicles/SUPERQ70000000000/timer/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 2222222,
+        "actionState": "queued",
+        "timersAndProfiles": {
+          "timerList": {
+            "timer": [
+              {
+                "departureDateTime": "2017-03-18T11:00",
+                "departureTimeOfDay": "09:00",
+                "departureWeekdayMask": "yyyyyyy",
+                "profileID": 1,
+                "timerFrequency": "single",
+                "timerID": 1,
+                "timerProgrammedStatus": "programmed"
+              },
+              {
+                "departureDateTime": "2017-03-18T07:00",
+                "departureTimeOfDay": "12:00",
+                "departureWeekdayMask": "yyyyyyy",
+                "profileID": 2,
+                "timerFrequency": "single",
+                "timerID": 2,
+                "timerProgrammedStatus": "notProgrammed"
+              }
+            ]
+          },
+          "timerProfileList": {
+            "timerProfile": [
+              {
+                "heaterSource": "electric",
+                "nightRateActive": true,
+                "nightRateTimeEnd": "10:00",
+                "nightRateTimeStart": "03:00",
+                "operationCharging": true,
+                "operationClimatisation": true,
+                "profileID": 1,
+                "profileName": "Timerladen1"
+              },
+              {
+                "heaterSource": "electric",
+                "nightRateActive": true,
+                "nightRateTimeEnd": "10:00",
+                "nightRateTimeStart": "02:00",
+                "operationCharging": true,
+                "operationClimatisation": true,
+                "profileID": 2,
+                "profileName": "Timerladen2"
+              }
+            ]
+          }
+        },
+        "type": "setTimersAndProfiles"
+      }
+    },
+    "status": 202
+  }
+}

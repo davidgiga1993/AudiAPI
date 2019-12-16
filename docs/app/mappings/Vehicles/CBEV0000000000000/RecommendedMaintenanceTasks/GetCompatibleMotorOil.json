@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/recommended-maintenance-tasks/v1/vehicles/CBEV0000000000000/compatible-motoroils"
+  },
+  "response": {
+    "status": 204
+  }
+}

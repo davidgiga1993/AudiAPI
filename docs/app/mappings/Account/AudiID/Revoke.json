@@ -1,0 +1,9 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/audiid/v1/revoke"
+  },
+  "response": {
+    "status": 200
+  }
+}

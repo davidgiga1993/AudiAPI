@@ -1,0 +1,159 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msp/private/customer-data/v3/oems/AUDI/customers/W829911437/contracts"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": [
+      {
+        "allowedActions": [],
+        "emaid": "DE-DC2-C000000Y4",
+        "id": "DE*DC2*0000Y4*8",
+        "name": "Emily - Contract 4",
+        "services": [
+          {
+            "cardNumber": "DE-000000001",
+            "cardState": "BLOCKED_PAYMT",
+            "code": "CARD",
+            "id": "a923eacc-0619-45e2-8442-07d94693695b",
+            "validFrom": 1542326400000
+          }
+        ],
+        "state": "INACTIVE",
+        "tariffChange": {
+          "tariffId": "AUDI_TRANSIT",
+          "validFrom": 1542326400000
+        },
+        "tariffId": "AUDI_TRANSIT",
+        "vin": "CBEV0000000000000"
+      },
+      {
+        "allowedActions": [],
+        "emaid": "DE-DC2-C000000Y5",
+        "id": "DE*DC2*0000Y4*9",
+        "name": "Emily - Contract 5",
+        "services": [
+          {
+            "cardNumber": "DE-000000001",
+            "cardState": "ORDER_PROCESS",
+            "code": "CARD",
+            "id": "a923eacc-0619-45e2-8442-07d94693695b",
+            "validFrom": "{{now offset='14 days' format='epoch'}}"
+          }
+        ],
+        "state": "INACTIVE",
+        "tariffChange": {
+          "tariffId": "AUDI_TRANSIT",
+          "validFrom": "{{now offset='14 days' format='epoch'}}"
+        },
+        "tariffId": "AUDI_TRANSIT",
+        "vin": "CBEV0000000000000"
+      },
+      {
+        "activationDate": 1542326400000,
+        "allowedActions": [
+          "RENAME_CONTRACT",
+          "PAIR_CARD",
+          "CARD_LOST",
+          "CHANGE_TARIFF",
+          "MODIFY_ACTIVATIONDATE",
+          "CANCEL_CONTRACT",
+          "APPLY_PROMOCODE"
+        ],
+        "cardNumber": "GB-2725517-6",
+        "emaid": "DE-DC2-C000000X4",
+        "id": "DE*DC2*0000X4*3",
+        "name": "Emily - Contract 3",
+        "services": [
+          {
+            "cardNumber": "DE-000000001",
+            "cardState": "ACTIVE",
+            "code": "CARD",
+            "id": "a923eacc-0619-45e2-8442-07d94693695b",
+            "validFrom": 1542067200000
+          }
+        ],
+        "state": "ACTIVE",
+        "tariffChange": {
+          "tariffId": "AUDI_TRANSIT",
+          "validFrom": 1542067200000
+        },
+        "tariffId": "AUDI_TRANSIT",
+        "vin": "SUPERQ70000000000"
+      },
+      {
+        "activationDate": 1542326400000,
+        "allowedActions": [
+          "RENAME_CONTRACT",
+          "PAIR_CARD",
+          "CARD_LOST",
+          "CHANGE_TARIFF",
+          "MODIFY_ACTIVATIONDATE",
+          "CANCEL_CONTRACT",
+          "APPLY_PROMOCODE"
+        ],
+        "cardNumber": "GB-2725518-7",
+        "emaid": "DE-DC2-C000000GK",
+        "id": "DE*DC2*0000GK*4",
+        "name": "Emily - Contract 2",
+        "services": [
+          {
+            "cardNumber": "DE-000000001",
+            "cardState": "ACTIVE",
+            "code": "CARD",
+            "id": "a923eacc-0619-45e2-8442-07d94693695b",
+            "validFrom": 1541376000000
+          }
+        ],
+        "state": "ACTIVE",
+        "tariffChange": {
+          "tariffId": "AUDI_CITY",
+          "validFrom": 1541376000000
+        },
+        "tariffId": "AUDI_CITY",
+        "vin": "CBEV0000000000000"
+      },
+      {
+        "activationDate": 1540339200000,
+        "allowedActions": [
+          "RENAME_CONTRACT",
+          "PAIR_CARD",
+          "CARD_LOST",
+          "CHANGE_TARIFF",
+          "MODIFY_ACTIVATIONDATE",
+          "CANCEL_CONTRACT",
+          "APPLY_PROMOCODE"
+        ],
+        "cardNumber": "UK-400000001",
+        "emaid": "DE-DC2-C0000006J",
+        "id": "DE*DC2*00006J*1",
+        "name": "PC_001_01_renamed",
+        "services": [
+          {
+            "cardNumber": "DE-000000001",
+            "cardState": "ACTIVE",
+            "code": "CARD",
+            "id": "a923eacc-0619-45e2-8442-07d94693695b",
+            "validFrom": 1540335600000
+          }
+        ],
+        "state": "ACTIVE",
+        "tariffChange": {
+          "tariffId": "AUDI_TRANSIT",
+          "validFrom": 1540335600000
+        },
+        "tariffId": "AUDI_TRANSIT",
+        "vin": "UNKNOWN0000000000"
+      }
+    ],
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  },
+  "scenarioName": "Account.MSP.Contracts"
+}

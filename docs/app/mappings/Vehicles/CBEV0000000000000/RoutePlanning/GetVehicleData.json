@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/etronrp/v1/vehicles/CBEV0000000000000/coreData"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "vehicleCoreData": {
+        "compatiblePlugTypes": {
+          "plugType": [
+            "J1772_COMBO",
+            "COMBINED_CS",
+            "TYP2"
+          ]
+        },
+        "installedBattery": {
+          "capacityInAh": 65,
+          "capacityInKWh": 95
+        }
+      }
+    },
+    "status": 200
+  }
+}

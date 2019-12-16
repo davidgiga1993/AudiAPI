@@ -1,0 +1,24 @@
+{
+  "priority": 1,
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "synchronize": {
+        "matches": "true"
+      },
+      "type": {
+        "matches": "DriversLogItem"
+      }
+    },
+    "urlPath": "/msg/myaudi/profileservice/v1/entries"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "entry": []
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/acp/order/v2/ACPMDE/orders/PRE-ACPMDE-190404-0000E/documents"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": [],
+    "status": 404
+  }
+}

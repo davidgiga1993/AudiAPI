@@ -1,0 +1,21 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/batterycharge/v1/vehicles/CBEV0000000000000/notification-settings"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "notificationSettings": {
+        "plugReminderNotificationSettings": {
+          "clamp15Timeout": 10,
+          "notificationsEnabled": true,
+          "thresholdSoc": 65
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/cms/licenseScreen/v1/vehicles/A6LIMOUSINE000000/bundles"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "licenseBundle": [
+        {
+          "activationBy": "automatic",
+          "activationDate": "Feb 28, 2019 12:00:00 AM",
+          "connectFunction": [
+            {
+              "serviceId": "Audi service request",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Online roadside assistance",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Emergency call",
+              "serviceType": "mbb"
+            }
+          ],
+          "expirationDate": "Feb 28, 2029 12:00:00 AM",
+          "licenseBundleProfile": "Audi connect safety & service",
+          "status": "ACTIVATED",
+          "warn": false
+        },
+        {
+          "activationBy": "automatic",
+          "activationDate": "Feb 28, 2019 12:00:00 AM",
+          "connectFunction": [
+            {
+              "serviceId": "Car finder",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Speed alert",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Remote locking/unlocking",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Geofencing alert",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Valet alert",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Remote car signal",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Vehicle status report",
+              "serviceType": "mbb"
+            }
+          ],
+          "expirationDate": "Feb 28, 2022 12:00:00 AM",
+          "licenseBundleProfile": "Audi connect remote",
+          "status": "ACTIVATED",
+          "warn": false
+        },
+        {
+          "activationBy": "automatic",
+          "activationDate": "Feb 28, 2019 12:00:00 AM",
+          "connectFunction": [
+            {
+              "serviceId": "Dynamic Online POI Information",
+              "serviceType": "webApp"
+            },
+            {
+              "serviceId": "Satellite map",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Online map update",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Online route calculation",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Online traffic information",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "myAudi navigation",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Point of interest search (POI) with voice control",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Weather",
+              "serviceType": "webApp"
+            },
+            {
+              "serviceId": "Online Google special destination search",
+              "serviceType": "webApp"
+            }
+          ],
+          "expirationDate": "Feb 28, 2022 12:00:00 AM",
+          "licenseBundleProfile": "Audi connect navigation & infotainment",
+          "status": "ACTIVATED",
+          "warn": false
+        }
+      ],
+      "vin": "A6LIMOUSINE000000"
+    },
+    "status": 200
+  }
+}

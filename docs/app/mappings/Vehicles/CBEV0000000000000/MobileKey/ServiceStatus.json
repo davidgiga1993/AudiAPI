@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/msg/bs/mobilekey/v1/Audi/DE/vehicles/CBEV0000000000000/view/servicestatus"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "serviceStatusMobileKey": {
+        "fleetMode": false,
+        "mkLicensesCount": 5,
+        "mkLicensesFreeCount": 2,
+        "smartCardActivated": true,
+        "userActivationStatus": "Activated",
+        "userRole": "PRIMARY_USER",
+        "userRoleSecurityLevel": "HG_2c"
+      }
+    },
+    "status": 200
+  }
+}

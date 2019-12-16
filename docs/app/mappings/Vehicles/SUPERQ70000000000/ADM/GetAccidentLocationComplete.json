@@ -1,0 +1,195 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {},
+    "urlPath": "/adm/api/accidents/269d02c7-7cc7-4dbe-a787-549218268a8b"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "15708079959150290"
+    },
+    "jsonBody": {
+      "attachments": [
+        {
+          "classification": "INVOICE",
+          "id": "15875efe-6127-4776-b19e-dda9b7fce24a",
+          "originalFileName": "Bildschirmfoto 2019-09-30 um 09.22.15.png"
+        }
+      ],
+      "caller": {
+        "contactMethodComment": "Test",
+        "id": "de_10721975164026935009",
+        "owner": true,
+        "preferredContactChannel": "PHONE",
+        "preferredContactTimes": [
+          {
+            "dayOfWeek": "THURSDAY",
+            "time": "06:00:00"
+          },
+          {
+            "dayOfWeek": "MONDAY",
+            "time": "07:00:00"
+          },
+          {
+            "dayOfWeek": "SATURDAY",
+            "time": "17:00:00"
+          },
+          {
+            "dayOfWeek": "TUESDAY",
+            "time": "16:00:00"
+          },
+          {
+            "dayOfWeek": "WEDNESDAY",
+            "time": "18:00:00"
+          },
+          {
+            "dayOfWeek": "FRIDAY",
+            "time": "16:00:00"
+          }
+        ],
+        "registeredVehicleUserRole": "UNKNOWN",
+        "webSsoId": "W984790657"
+      },
+      "caseRelatedConsents": {
+        "repairShop": {
+          "consented": true,
+          "displayedLanguage": "de-DE"
+        }
+      },
+      "claimId": "2019092400017",
+      "contractType": "adm",
+      "creationDate": "2019-09-24T11:58:55.159Z",
+      "damageCalculation": {
+        "damageRefinementQuestions": [
+          {
+            "answer": "NO",
+            "partGroup": "RADIATOR_GRILL",
+            "questionId": "1029"
+          },
+          {
+            "answer": "YES",
+            "partGroup": "FRONT_BUMPER",
+            "questionId": "1004"
+          },
+          {
+            "answer": "NO",
+            "partGroup": "RADIATOR_GRILL",
+            "questionId": "1234"
+          }
+        ]
+      },
+      "id": "269d02c7-7cc7-4dbe-a787-549218268a8b",
+      "incidentReport": {
+        "additionalDamageDescription": "Test",
+        "additionalInformationWhereaboutsVehicle": "Test",
+        "automobileClubMembership": true,
+        "damageClassification": "SELF_INDUCED",
+        "damageReport": "Test",
+        "dateOfNotice": "2019-09-24",
+        "locationOfAccident": {
+          "address": "Quattro-Ring",
+          "city": "Ingolstadt",
+          "country": "GERMANY",
+          "latitude": 48.7933827,
+          "longitude": 11.4120225,
+          "viewport": {
+            "northEast": {
+              "latitude": 48.7942838,
+              "longitude": 11.4143645
+            },
+            "southWest": {
+              "latitude": 48.7914358,
+              "longitude": 11.4082362
+            }
+          }
+        },
+        "reportedDateOfAccident": "2019-09-24",
+        "roadworthy": true
+      },
+      "lastChangeDate": "2019-09-30T07:30:04.996Z",
+      "leadTransmissionStatus": "SUBMITTED",
+      "selectedPartner": {
+        "brand": "AUDI",
+        "city": "Lübeck",
+        "distanceToVehicle": {
+          "distance": 566,
+          "mileageUnit": "KM"
+        },
+        "email": "info.audi-luebeck@auto-senger.de",
+        "fax": "+49 451 890976859",
+        "isPreferredDealer": false,
+        "kvpsId": "22281",
+        "latitude": 53.85702,
+        "longitude": 10.63528,
+        "name": "Audi Zentrum Lübeck Senger Automobile GmbH",
+        "openingHoursHTML": "<p><strong>Showroom</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: 11:00 - 16:00 Uhr<br /><br /><strong>Werkstatt</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet<br /><br /><strong>Verkauf</strong><br />Montag - Freitag: 08:00 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet</p><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>",
+        "primaryCode": "DEU22281A",
+        "street": "Padelügger Weg 41",
+        "telephone": "+49 451 890976800",
+        "tenant": "GERMANY",
+        "website": "https://www.audi-zentrum-luebeck.audi",
+        "zipCode": "23556"
+      },
+      "serviceLeadInboxRequestSubmitted": "2019-09-24T11:59:04.731Z",
+      "sourceOfCreation": "CALL_CENTER",
+      "sourceOfOperation": "CALL_CENTER",
+      "vehicle": {
+        "additionalRemarks": "Test",
+        "brand": "AUDI",
+        "country": "GERMANY",
+        "exteriorColourCode": "L041",
+        "impactZones": {
+          "frontBumper": "SCRATCH",
+          "frontLeftDoor": "SCRATCH",
+          "frontLeftFender": "DENT",
+          "frontLeftLight": "SCRATCH",
+          "frontLeftTire": "SCRATCH",
+          "frontRightDoor": "SCRATCH",
+          "frontRightFender": "DENT",
+          "frontRightLight": "SCRATCH",
+          "frontRightTire": "SCRATCH",
+          "hood": "DENT",
+          "leftAbcPillar": "DEFORMATION",
+          "leftMirror": "SCRATCH",
+          "leftSideSills": "DENT",
+          "leftWindow": "SCRATCH",
+          "radiatorGrill": "SCRATCH",
+          "rearBumper": "RUPTURE",
+          "rearLeftDoor": "SCRATCH",
+          "rearLeftFender": "DENT",
+          "rearLeftLight": "SCRATCH",
+          "rearLeftTire": "SCRATCH",
+          "rearRightDoor": "SCRATCH",
+          "rearRightFender": "DENT",
+          "rearRightLight": "SCRATCH",
+          "rearRightTire": "SCRATCH",
+          "rightAbcPillar": "SCRATCH",
+          "rightMirror": "SCRATCH",
+          "rightSideSills": "DENT",
+          "rightWindow": "SCRATCH",
+          "roof": "DENT",
+          "trunk": "DENT",
+          "windscreen": "SCRATCH"
+        },
+        "mileage": 12345,
+        "mileageUnit": "KM",
+        "modelCode": "4MB0E1",
+        "modelName": "Q7 quat. TDI3.0 V6200 A8",
+        "modelYear": 2011,
+        "remainingRange": 12345,
+        "remainingRangeUnit": "KM",
+        "seatBelts": {
+          "seatBeltFirstRowDriver": "FASTENED",
+          "seatBeltFirstRowPassenger": "FASTENED",
+          "seatBeltSecondRowDriver": "NOT_FASTENED",
+          "seatBeltSecondRowMiddle": "NOT_FASTENED",
+          "seatBeltSecondRowPassenger": "FASTENED"
+        },
+        "transmissionCode": "QTM",
+        "typeOfDrive": "GASOLINE"
+      }
+    },
+    "status": 200
+  }
+}

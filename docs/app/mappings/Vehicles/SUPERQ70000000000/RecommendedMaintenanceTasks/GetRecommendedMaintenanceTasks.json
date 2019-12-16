@@ -1,0 +1,74 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/recommended-maintenance-tasks/v1/vehicles/SUPERQ70000000000/recommended-maintenance-tasks"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "odometerUnit": "KM",
+      "recommendedMaintenanceTasks": [
+        {
+          "description": "Staub- und Pollenfilter: ersetzen",
+          "odometerInitial": null,
+          "odometerRepeated": 30000,
+          "timeInitial": null,
+          "timeRepeated": 2
+        },
+        {
+          "description": "Automatikgetriebe multitronic: ATF-Öl ersetzen",
+          "odometerInitial": null,
+          "odometerRepeated": 60000,
+          "timeInitial": null,
+          "timeRepeated": null
+        },
+        {
+          "description": "Zündkerzen: ersetzen",
+          "odometerInitial": null,
+          "odometerRepeated": 60000,
+          "timeInitial": null,
+          "timeRepeated": 6
+        },
+        {
+          "description": "Luftfilter: Filtereinsatz ersetzen, Gehäuse reinigen",
+          "odometerInitial": null,
+          "odometerRepeated": 90000,
+          "timeInitial": null,
+          "timeRepeated": null
+        },
+        {
+          "description": "Bremsflüssigkeit: ersetzen",
+          "odometerInitial": null,
+          "odometerRepeated": null,
+          "timeInitial": 3,
+          "timeRepeated": 2
+        },
+        {
+          "description": "Kraftstofffilter: ersetzen",
+          "odometerInitial": null,
+          "odometerRepeated": 60000,
+          "timeInitial": null,
+          "timeRepeated": null
+        },
+        {
+          "description": "Dieselpartikelfilter: Aschebeladung auslesen",
+          "odometerInitial": 210000,
+          "odometerRepeated": 30000,
+          "timeInitial": null,
+          "timeRepeated": null
+        },
+        {
+          "description": "Connected Gateway: Batterie für Notstrombetrieb ersetzen",
+          "odometerInitial": null,
+          "odometerRepeated": null,
+          "timeInitial": null,
+          "timeRepeated": 7
+        }
+      ],
+      "timeUnit": "YEAR"
+    },
+    "status": 200
+  }
+}

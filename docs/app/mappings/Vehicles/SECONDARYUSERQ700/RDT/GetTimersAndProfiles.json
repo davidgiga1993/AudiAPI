@@ -1,0 +1,150 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/departuretimer/v1/Audi/DE/vehicles/SECONDARYUSERQ700/timer/timersandprofiles"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "timersAndProfiles": {
+        "timerBasicSetting": {
+          "chargeMinLimit": 1,
+          "heaterSource": "electric",
+          "timestamp": "2015-10-14T09:33:25Z"
+        },
+        "timerList": {
+          "timer": [
+            {
+              "departureDateTime": "{{now offset='2 days' format='yyyy-MM-dd'}}T08:00",
+              "departureTimeOfDay": "8:00",
+              "departureWeekdayMask": "yyyyynn",
+              "profileID": 1,
+              "timerFrequency": "cyclic",
+              "timerID": 1,
+              "timerProgrammedStatus": "programmed",
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "departureDateTime": "{{now offset='3 days' format='yyyy-MM-dd'}}T08:00",
+              "departureTimeOfDay": "8:00",
+              "departureWeekdayMask": "yyyyyyn",
+              "profileID": 2,
+              "timerFrequency": "single",
+              "timerID": 2,
+              "timerProgrammedStatus": "notProgrammed",
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "departureDateTime": "{{now offset='1 days' format='yyyy-MM-dd'}}T08:00",
+              "departureTimeOfDay": "8:00",
+              "departureWeekdayMask": "yyyyyyn",
+              "profileID": 3,
+              "timerFrequency": "single",
+              "timerID": 3,
+              "timerProgrammedStatus": "programmed",
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "departureDateTime": "{{now offset='10 days' format='yyyy-MM-dd'}}T08:00",
+              "departureTimeOfDay": "8:00",
+              "departureWeekdayMask": "yyyyyyn",
+              "profileID": 4,
+              "timerFrequency": "single",
+              "timerID": 4,
+              "timerProgrammedStatus": "notProgrammed",
+              "timestamp": "2015-10-14T14:57:51Z"
+            }
+          ]
+        },
+        "timerProfileList": {
+          "timerProfile": [
+            {
+              "chargeMaxCurrent": 32,
+              "heaterSource": "electric",
+              "nightRateActive": true,
+              "nightRateTimeEnd": "23:55",
+              "nightRateTimeStart": "21:00",
+              "operationCharging": true,
+              "operationClimatisation": false,
+              "profileID": 1,
+              "profileName": "Timerladen1",
+              "targetChargeLevel": 100,
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "heaterSource": "electric",
+              "nightRateActive": true,
+              "nightRateTimeEnd": "21:00",
+              "nightRateTimeStart": "21:00",
+              "operationCharging": false,
+              "operationClimatisation": false,
+              "profileID": 2,
+              "profileName": "Timerladen2",
+              "targetChargeLevel": 100,
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "heaterSource": "automatic",
+              "nightRateActive": true,
+              "nightRateTimeEnd": "21:00",
+              "nightRateTimeStart": "21:00",
+              "operationCharging": false,
+              "operationClimatisation": true,
+              "profileID": 3,
+              "profileName": "Timerklimatisieren1",
+              "targetChargeLevel": 100,
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "heaterSource": "automatic",
+              "nightRateActive": true,
+              "nightRateTimeEnd": "21:00",
+              "nightRateTimeStart": "21:00",
+              "operationCharging": false,
+              "operationClimatisation": true,
+              "profileID": 4,
+              "profileName": "Timerklimatisieren2",
+              "targetChargeLevel": 100,
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "heaterSource": "electric",
+              "nightRateActive": true,
+              "nightRateTimeEnd": "21:00",
+              "nightRateTimeStart": "21:00",
+              "operationCharging": true,
+              "operationClimatisation": false,
+              "profileID": 5,
+              "profileName": "Sofortladen",
+              "targetChargeLevel": 100,
+              "timestamp": "2015-10-14T14:57:51Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "heaterSource": "automatic",
+              "nightRateActive": true,
+              "nightRateTimeEnd": "21:00",
+              "nightRateTimeStart": "21:00",
+              "operationCharging": false,
+              "operationClimatisation": true,
+              "profileID": 6,
+              "profileName": "Sofortklimatisieren",
+              "targetChargeLevel": 100,
+              "timestamp": "2015-10-14T14:57:51Z"
+            }
+          ]
+        }
+      }
+    },
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

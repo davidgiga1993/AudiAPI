@@ -1,0 +1,178 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/departuretimer/v1/Audi/DE/vehicles/A3ETRON0000000000/timer/timersandprofiles"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "timersAndProfiles": {
+        "timerBasicSetting": {
+          "chargeMinLimit": 30,
+          "targetTemperature": 2950,
+          "timestamp": "2017-06-21T12:02:59Z"
+        },
+        "timerList": {
+          "timer": [
+            {
+              "departureDateTime": "{{now offset='1 days' format='yyyy-MM-dd'}}T11:59",
+              "departureTimeOfDay": "10:38",
+              "departureWeekdayMask": "nnnynnn",
+              "profileID": 1,
+              "timerFrequency": "single",
+              "timerID": 1,
+              "timerProgrammedStatus": "notProgrammed",
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "departureDateTime": "{{now offset='3 days' format='yyyy-MM-dd'}}T06:00",
+              "departureTimeOfDay": "06:00",
+              "departureWeekdayMask": "yyyyyyy",
+              "profileID": 2,
+              "timerFrequency": "cyclic",
+              "timerID": 2,
+              "timerProgrammedStatus": "programmed",
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "departureDateTime": "{{now offset='5 days' format='yyyy-MM-dd'}}T12:45",
+              "departureTimeOfDay": "22:00",
+              "departureWeekdayMask": "nnnnnnn",
+              "profileID": 3,
+              "timerFrequency": "single",
+              "timerID": 3,
+              "timerProgrammedStatus": "notProgrammed",
+              "timestamp": "2017-07-12T07:28:41Z"
+            }
+          ]
+        },
+        "timerProfileList": {
+          "timerProfile": [
+            {
+              "chargeMaxCurrent": 32,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": true,
+              "operationClimatisation": false,
+              "profileID": 1,
+              "profileName": "Timerladen1",
+              "targetChargeLevel": 100,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "nightRateActive": true,
+              "nightRateTimeEnd": "03:00",
+              "nightRateTimeStart": "23:00",
+              "operationCharging": true,
+              "operationClimatisation": true,
+              "profileID": 2,
+              "profileName": "Timerladen2",
+              "targetChargeLevel": 100,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 16,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": false,
+              "operationClimatisation": true,
+              "profileID": 3,
+              "profileName": "Timerklimatisieren1",
+              "targetChargeLevel": 100,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": false,
+              "operationClimatisation": true,
+              "profileID": 4,
+              "profileName": "Timerklimatisieren2",
+              "targetChargeLevel": 100,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": true,
+              "operationClimatisation": false,
+              "profileID": 5,
+              "profileName": "Sofortladen",
+              "targetChargeLevel": 100,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 32,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": false,
+              "operationClimatisation": true,
+              "profileID": 6,
+              "profileName": "Sofortklimatisieren",
+              "targetChargeLevel": 100,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 0,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": false,
+              "operationClimatisation": false,
+              "profileID": 7,
+              "targetChargeLevel": 0,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 0,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": false,
+              "operationClimatisation": false,
+              "profileID": 8,
+              "targetChargeLevel": 0,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 0,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": false,
+              "operationClimatisation": false,
+              "profileID": 10,
+              "targetChargeLevel": 0,
+              "timestamp": "2017-07-12T07:28:41Z"
+            },
+            {
+              "chargeMaxCurrent": 0,
+              "nightRateActive": false,
+              "nightRateTimeEnd": "00:00",
+              "nightRateTimeStart": "00:00",
+              "operationCharging": false,
+              "operationClimatisation": false,
+              "profileID": 9,
+              "targetChargeLevel": 0,
+              "timestamp": "2017-07-12T07:28:41Z"
+            }
+          ]
+        }
+      }
+    },
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

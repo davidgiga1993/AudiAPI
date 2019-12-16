@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/rolesrights/securitypin/v1/Audi/DE/restored"
+  },
+  "requiredScenarioState": "V2",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "error": {
+        "description": "The target resource is no longer available at the origin server.",
+        "errorCode": "gw.error.gone"
+      }
+    },
+    "status": 410
+  },
+  "scenarioName": "Account.SPINVersion"
+}

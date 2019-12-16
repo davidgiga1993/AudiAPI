@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "size": {
+        "matches": "50"
+      },
+      "sort": {
+        "matches": "startTime,desc"
+      }
+    },
+    "urlPath": "/icf/ilfsta/history/000008_1"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "content": [],
+      "first": true,
+      "last": true,
+      "number": 0,
+      "numberOfElements": 0,
+      "size": 50,
+      "sort": [
+        {
+          "ascending": false,
+          "descending": true,
+          "direction": "DESC",
+          "ignoreCase": false,
+          "nullHandling": "NATIVE",
+          "property": "startTime"
+        }
+      ],
+      "totalElements": 0,
+      "totalPages": 0
+    },
+    "status": 200
+  }
+}

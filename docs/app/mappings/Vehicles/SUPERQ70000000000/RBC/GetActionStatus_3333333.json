@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/batterycharge/v1/Audi/DE/vehicles/SUPERQ70000000000/charger/actions/3333333"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 3333333,
+        "actionState": "succeeded",
+        "type": "stop"
+      }
+    },
+    "status": 200
+  }
+}

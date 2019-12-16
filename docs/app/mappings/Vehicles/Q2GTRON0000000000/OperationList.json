@@ -1,0 +1,163 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/rolesrights/operationlist/v3/vehicles/Q2GTRON0000000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "c1e1cc01e2dd72628f107dee08ca1e5b3b6de0881421b211c8fee54f8e58edb4"
+    },
+    "jsonBody": {
+      "operationList": {
+        "channelClient": "APP",
+        "role": "PRIMARY_USER",
+        "securityLevel": "HG_2b",
+        "serviceInfo": [
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-12-14T08:59:00Z",
+              "expirationDate": "2019-06-14T08:59:00Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00001549",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00001549",
+                    "duration": "P18M",
+                    "ltype": "dealer",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "FIND_CAR",
+                "invocationUrl": {
+                  "content": "/cf/v1/{brand}/{country}/vehicles/{vin}/position",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2118-09-05T11:00:51Z",
+            "serviceId": "carfinder_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-12-14T08:59:00Z",
+              "expirationDate": "2019-06-14T08:59:00Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00001549",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00001549",
+                    "duration": "P18M",
+                    "ltype": "dealer",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_RQSTAT",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/requests/{requestId}/jobstatus",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_CVDATAID",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/requests/{requestId}/status",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_CVDATA",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/requests",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "remoteCommand": "sendVehicleStatus",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "rvsRdk_v1_0_1"
+              },
+              {
+                "id": "G_SVDATA",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/status",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2118-09-05T11:00:51Z",
+            "serviceId": "statusreport_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          }
+        ],
+        "userId": "1gT5ButUQl13o1yy0fJaw1zE5Ka1",
+        "vehicleLifeCycleStatus": {
+          "content": "DEALERDEMO",
+          "garage": false
+        },
+        "vin": "Q2GTRON0000000000"
+      }
+    },
+    "status": 200
+  }
+}

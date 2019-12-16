@@ -1,0 +1,38 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/acp/document/v2/ACPMDE/legal-documents"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": [
+      {
+        "documentId": "1784711860",
+        "documentType": "imprint",
+        "name": "Impressum",
+        "version": "1"
+      },
+      {
+        "documentId": "176559045",
+        "documentType": "privacy-policy",
+        "name": "Datenschutz",
+        "version": "126"
+      },
+      {
+        "documentId": "1753926702",
+        "documentType": "tos",
+        "name": "Allgemeine Geschäftsbedingungen (AGBs)",
+        "version": "136"
+      },
+      {
+        "documentId": "1679957786",
+        "documentType": "ct",
+        "name": "Widerrufsbelehrung",
+        "version": "121"
+      }
+    ],
+    "status": 200
+  }
+}

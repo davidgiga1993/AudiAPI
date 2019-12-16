@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/field-campaign/v1/vehicles/SUPERQ70000000000/field-campaigns"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "campaignType": "FIELD_CAMPAIGN_WITH_ACTIVE_CUSTOMER_ADDRESS",
+        "description": "S-Instandsetzung Aeroblenden",
+        "id": "66I9"
+      },
+      {
+        "campaignType": "FIELD_CAMPAIGN_WITH_ACTIVE_CUSTOMER_ADDRESS",
+        "description": "S-Test-Servicemaßnahme",
+        "id": "VK11"
+      }
+    ],
+    "status": 200
+  }
+}

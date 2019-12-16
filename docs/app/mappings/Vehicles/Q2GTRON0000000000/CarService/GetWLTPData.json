@@ -1,0 +1,31 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/carservice/v3/vehicles/Q2GTRON0000000000/wltps"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "technicalSpecifications": [
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauch",
+          "key": "emission-class",
+          "name": "Emissionsklasse (94/12/EG)",
+          "value": "EU6"
+        },
+        {
+          "groupId": "efficiency",
+          "groupName": "Effizienz",
+          "key": "efficiency-class",
+          "name": "Effizienzklasse",
+          "value": "A+"
+        }
+      ],
+      "wltps": []
+    },
+    "status": 200
+  }
+}

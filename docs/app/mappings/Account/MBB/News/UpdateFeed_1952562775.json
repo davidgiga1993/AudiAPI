@@ -1,0 +1,104 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/msg/news/myfeeds/v1/Audi/DE/newsFeeds/1952562775"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "newsFeeds": {
+        "personalFeeds": {
+          "newsFeed": [
+            {
+              "active": true,
+              "description": "Digital Trends | Feed",
+              "feedId": "1952562772",
+              "feedUrl": "https://www.digitaltrends.com/feed/",
+              "language": "en_US",
+              "logoUrl": "afp_logo",
+              "pos": "2",
+              "title": "Digital Trends | Feed"
+            },
+            {
+              "active": true,
+              "description": "SPIEGEL ONLINE RSS Nachrichten",
+              "feedId": "919695202",
+              "feedUrl": "http://www.spiegel.de/index.rss",
+              "language": "en_US",
+              "logoUrl": "afp_logo",
+              "pos": "3",
+              "title": "SPIEGEL ONLINE RSS Nachrichten"
+            },
+            {
+              "active": true,
+              "description": "SPIEGEL ONLINE RSS Schlagzeilen",
+              "feedId": "1837870992",
+              "feedUrl": "http://www.spiegel.de/schlagzeilen/index.rss",
+              "language": "en_US",
+              "logoUrl": "noimg_black.png",
+              "pos": "4",
+              "title": "SPIEGEL ONLINE RSS Schlagzeilen"
+            },
+            {
+              "active": true,
+              "description": "Digital Trends | Feed",
+              "feedId": "1952562775",
+              "feedUrl": "https://www.digitaltrends.com/feed/",
+              "language": "en_US",
+              "logoUrl": "afp_logo",
+              "pos": "2",
+              "title": "Digital Trends | Feed"
+            },
+            {
+              "active": true,
+              "description": "SPIEGEL ONLINE RSS Nachrichten",
+              "feedId": "919695206",
+              "feedUrl": "http://www.spiegel.de/index.rss",
+              "language": "en_US",
+              "logoUrl": "afp_logo",
+              "pos": "3",
+              "title": "SPIEGEL ONLINE RSS Nachrichten"
+            },
+            {
+              "active": true,
+              "description": "SPIEGEL ONLINE RSS Schlagzeilen",
+              "feedId": "1837870998",
+              "feedUrl": "http://www.spiegel.de/schlagzeilen/index.rss",
+              "language": "en_US",
+              "logoUrl": "noimg_black.png",
+              "pos": "4",
+              "title": "SPIEGEL ONLINE RSS Schlagzeilen"
+            }
+          ]
+        },
+        "standardFeeds": {
+          "newsFeed": [
+            {
+              "active": true,
+              "description": "AFP Top News",
+              "feedId": "1372863290",
+              "feedUrl": null,
+              "language": "en_US",
+              "logoUrl": "afp_logo",
+              "pos": "0",
+              "title": "AFP Top News"
+            },
+            {
+              "active": true,
+              "description": "AFP International Politics",
+              "feedId": "1331562359",
+              "feedUrl": null,
+              "language": "en_US",
+              "logoUrl": "afp_logo",
+              "pos": "1",
+              "title": "AFP International Politics"
+            }
+          ]
+        }
+      }
+    },
+    "status": 200
+  }
+}

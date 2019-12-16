@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/otv/v1/Audi/DE/vehicles/SUPERQ70000000000/configuration"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/vnd.vwg.mbb.onlineTerminvereinbarung_v2_0_1+json;charset=utf-8"
+    },
+    "jsonBody": {
+      "OTVConfigurationData": {
+        "CustomerContactData": {
+          "ContactChannel": "email",
+          "Email": "gmail@chuck-norris.com",
+          "FirstName": "Chuck",
+          "LastName": "Norris",
+          "NotifyFlag": true,
+          "PreferredLanguage": "de-DE",
+          "Salutation": "mr"
+        },
+        "ServicePartnerID": {
+          "Brand": "A",
+          "Market": "DEU",
+          "OrgID": "77777"
+        }
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.ASR"
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/contract/v1/vehicles/A6LIMOUSINE000000/follow-up-warranty"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    },
+    "jsonBody": {},
+    "status": 204
+  }
+}

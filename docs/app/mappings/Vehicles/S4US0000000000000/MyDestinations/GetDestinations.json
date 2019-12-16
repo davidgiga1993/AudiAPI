@@ -1,0 +1,37 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/destinationfeedservice/mydestinations/v1/Audi/DE/vehicles/S4US0000000000000/destinations"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "destinations": {
+        "destination": [
+          {
+            "POIContact": {
+              "lastName": "Legoland Deutschland",
+              "messageData": {
+                "URL": "https://www.legoland.de/"
+              }
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "48.427420",
+              "longitude": "10.298441"
+            },
+            "href": null,
+            "id": "4803885",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

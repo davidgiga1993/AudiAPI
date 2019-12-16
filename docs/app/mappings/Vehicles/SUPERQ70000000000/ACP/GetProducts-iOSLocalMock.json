@@ -1,0 +1,558 @@
+{
+  "request": {
+    "headers": {
+      "QM-Mock-Agent": {
+        "contains": "HTTPClientMock"
+      }
+    },
+    "method": "GET",
+    "queryParameters": {
+      "vin": {
+        "matches": "SUPERQ70000000000"
+      }
+    },
+    "urlPath": "/acp/product/v2/ACPMDE/products"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "collection": [
+        {
+          "active": false,
+          "category": {
+            "categoryId": "fod_infotainment",
+            "imageUrl": "https://audimediacenter-a.akamaihd.net/system/production/media/19324/images/b53d57dae2557b99f0c431704bf84a712c4c6908/A153100_full.jpg",
+            "name": "Infotainment"
+          },
+          "descriptionExtended": "Das Audi smartphone interface verbindet das Smartphone mit Ihrem Audi und bringt die Smartphone-Inhalte über USB direkt ins MMI-Display. Die Verbindung mit Apple Geräten kann darüber hinaus auch kabellos erfolgen. Navigation, Telefonie, Musik und ausgewählte Third-Party Apps lassen sich komfortabel über den MMI-Controller sowie per Sprachbedienung des Smartphones steuern.",
+          "descriptionShort": "Übertragung ausgewählter Third-Party Apps vom Smartphone über USB in das MMI-Display\r\n",
+          "earliestLicenseExtensionDate": null,
+          "expirationDate": "2019-04-30T10:56:27Z",
+          "extensionPossibleIn": null,
+          "image": {
+            "iconUrl": "http://localhost/acp/fod-smartphone-interface",
+            "imageUrl": "http://localhost/acp/fod-smartphone-interface"
+          },
+          "isTeaser": true,
+          "licenseRenewable": false,
+          "licenseType": "regular",
+          "name": "Audi Smartphone interface",
+          "nameExtended": "Audi Smartphone interface",
+          "notes": [
+            {
+              "code": "IGNITIONCYCLEAFTERPURCHASE",
+              "iconUrl": "path://ignition.png",
+              "text": "Benötigt einen Klemmenwechsel nach dem Kauf."
+            },
+            {
+              "code": "ACTWARN",
+              "iconUrl": "path://actwarn.png",
+              "text": "sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+            }
+          ],
+          "productClass": "FunctionOnDemand",
+          "productId": "826ce1ba-262b-4d0c-bd40-2b197f0c8760",
+          "productType": "product",
+          "provider": "Audi",
+          "requiredVehicleRoleForPurchase": "GU",
+          "serviceId": "smartphoneinterface_v1",
+          "status": "client_vehicle_license_buyable",
+          "variants": [
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3.57,
+              "isTeaser": false,
+              "licenseRuntime": "P2D",
+              "listPrice": 2,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "826ce1ba-262b-4d0c-bd40-2b197f0c8760:1"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 23.8,
+              "isTeaser": false,
+              "licenseRuntime": "P1M",
+              "listPrice": 10,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "826ce1ba-262b-4d0c-bd40-2b197f0c8760:2"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 595,
+              "isTeaser": false,
+              "licenseRuntime": "P12M",
+              "listPrice": 300,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "826ce1ba-262b-4d0c-bd40-2b197f0c8760:3"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3570,
+              "isTeaser": false,
+              "licenseRuntime": "lifetime",
+              "listPrice": 2000,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "826ce1ba-262b-4d0c-bd40-2b197f0c8760:4"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 1.18,
+              "isTeaser": false,
+              "licenseRuntime": "P1D",
+              "listPrice": 0.99,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "826ce1ba-262b-4d0c-bd40-2b197f0c8760:5"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 23.8,
+              "isTeaser": true,
+              "licenseRuntime": "P1M",
+              "listPrice": 10,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "826ce1ba-262b-4d0c-bd40-2b197f0c8760:6"
+            }
+          ]
+        },
+        {
+          "active": false,
+          "category": {
+            "categoryId": "fod_infotainment",
+            "imageUrl": "https://audimediacenter-a.akamaihd.net/system/production/media/19324/images/b53d57dae2557b99f0c431704bf84a712c4c6908/A153100_full.jpg",
+            "name": "Infotainment"
+          },
+          "descriptionExtended": "Zusätzlich zum analogen Senderangebot Empfang von digital ausgestrahlten Radiosendern nach DAB-Standard inklusive DAB+ und DMB Audio. Anzeige von programmbegleitenden Informationen (z. B. Interpret, Titel) sowie Zusatzinformationen in Form einer Slideshow (z.B. Cover, Wetter). Ein zweiter DAB-Tuner mit zweiter DAB-Antenne sucht durchgehend nach alternativen Empfangsfrequenzen des eingestellten Senders; gleichzeitig wird die Senderliste aktualisiert.",
+          "descriptionShort": "- Empfang von digital ausgestrahlten Radiosendern nach DAB-Standard inkl. DAB+ und DMB Audio\r\n\r\n- Anzeige von verfügbaren Zusatzinformationen wie z.B. Interpret, Titel, Cover in Form einer Slideshow\r\n",
+          "earliestLicenseExtensionDate": null,
+          "expirationDate": null,
+          "extensionPossibleIn": null,
+          "image": {
+            "iconUrl": "http://localhost/acp/fod-digital-audio-broadcasting",
+            "imageUrl": "http://localhost/acp/fod-digital-audio-broadcasting"
+          },
+          "isTeaser": true,
+          "licenseRenewable": false,
+          "licenseType": "regular",
+          "name": "Digital Radio",
+          "nameExtended": "Digital Radio",
+          "notes": [
+            {
+              "code": "IGNITIONCYCLEAFTERPURCHASE",
+              "iconUrl": "path://ignition.png",
+              "text": "Benötigt einen Klemmenwechsel nach dem Kauf."
+            },
+            {
+              "code": "ACTWARN",
+              "iconUrl": "path://actwarn.png",
+              "text": "sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+            }
+          ],
+          "productClass": "FunctionOnDemand",
+          "productId": "e06e2945-cce2-461a-93ab-9625bb88dbd6",
+          "productType": "product",
+          "provider": "Audi",
+          "requiredVehicleRoleForPurchase": "GU",
+          "serviceId": "dabradio_v1",
+          "status": "client_vehicle_license_buyable",
+          "variants": [
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3.57,
+              "isTeaser": false,
+              "licenseRuntime": "P1D",
+              "listPrice": 2,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "e06e2945-cce2-461a-93ab-9625bb88dbd6:1"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 23.8,
+              "isTeaser": true,
+              "licenseRuntime": "P1M",
+              "listPrice": 10,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "e06e2945-cce2-461a-93ab-9625bb88dbd6:2"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 23.8,
+              "isTeaser": false,
+              "licenseRuntime": "P1M",
+              "listPrice": 10,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "e06e2945-cce2-461a-93ab-9625bb88dbd6:3"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 595,
+              "isTeaser": false,
+              "licenseRuntime": "P12M",
+              "listPrice": 300,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "e06e2945-cce2-461a-93ab-9625bb88dbd6:4"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3570,
+              "isTeaser": false,
+              "licenseRuntime": "lifetime",
+              "listPrice": 2000,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "e06e2945-cce2-461a-93ab-9625bb88dbd6:5"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3.57,
+              "isTeaser": false,
+              "licenseRuntime": "P2D",
+              "listPrice": 3,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "e06e2945-cce2-461a-93ab-9625bb88dbd6:6"
+            }
+          ]
+        },
+        {
+          "active": false,
+          "category": {
+            "categoryId": "fod_driver-assistance-systems",
+            "imageUrl": "https://mediaservice.audi.com/media/cdb/data/1b1379c2-f8af-46de-a29d-ac39fcc20e3c.png",
+            "name": "Fahrerassistenzsysteme"
+          },
+          "descriptionExtended": "Der Parkassistent unterstützt beim Ein- und Ausparken durch geeignete Lenkmanöver. Mittels Ultraschallsensoren wird nach geeigneten Quer- bzw. Längsparklücken gesucht. Für Querparklücken (vorwärts und rückwärts) wird der ideale Einparkweg, für Längsparklücken der ideale Ein- und Ausparkweg berechnet. Der Lenkvorgang wird vom System übernommen. Der Fahrer muss lediglich nach Anweisungen im Display Gangwechsel vornehmen, Gas geben, Bremsen und den Parkvorgang überwachen. Die optische Anzeige kann, abhängig vom Lenkwinkel, durch Darstellung der Fahrspur vor seitlichen Hindernissen warnen. Parkvorgänge in mehreren Zügen werden unterstützt. Aktivierung der Parkplatzsuche im unteren Display und bei eingeschalteter Einparkhilfe im oberen Display. ",
+          "descriptionShort": "- Unterstützung beim Einparken in Querparklücken, sowie beim Ein- und Ausparken in Längsparklücken durch geeignete Lenkmanöver\r\n\r\n- Lenkvorgang durch das System, Überwachung des Parkvorgangs, sowie Gangwechsel, Gas geben und Bremsen durch den Fahrer \r\n\r\n- Bitte beachten Sie: Die Systeme arbeiten nur innerhalb von Systemgrenzen und können den Fahrer unterstützen. Die Verantwortlichkeit und notwendige Aufmerksamkeit im Straßenverkehr verbleiben beim Fahrer.\r\n",
+          "earliestLicenseExtensionDate": null,
+          "expirationDate": null,
+          "extensionPossibleIn": null,
+          "image": {
+            "iconUrl": "http://localhost/acp/fod-park-assist",
+            "imageUrl": "http://localhost/acp/fod-park-assist"
+          },
+          "isTeaser": true,
+          "licenseRenewable": false,
+          "licenseType": "regular",
+          "name": "Parkassistent",
+          "nameExtended": "Parkassistent",
+          "notes": [
+            {
+              "code": "IGNITIONCYCLEAFTERPURCHASE",
+              "iconUrl": "path://ignition.png",
+              "text": "Benötigt einen Klemmenwechsel nach dem Kauf."
+            },
+            {
+              "code": "ACTWARN",
+              "iconUrl": "path://actwarn.png",
+              "text": "sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+            }
+          ],
+          "productClass": "FunctionOnDemand",
+          "productId": "8b667584-33a3-4e69-94b9-e35d97b9bea5",
+          "productType": "product",
+          "provider": "Audi",
+          "requiredVehicleRoleForPurchase": "PU",
+          "serviceId": "parksteerassist_v1",
+          "status": "client_vehicle_license_buyable",
+          "variants": [
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3.57,
+              "isTeaser": false,
+              "licenseRuntime": "P1M",
+              "listPrice": 2,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "8b667584-33a3-4e69-94b9-e35d97b9bea5:1"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3570,
+              "isTeaser": false,
+              "licenseRuntime": "lifetime",
+              "listPrice": 2000,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "8b667584-33a3-4e69-94b9-e35d97b9bea5:2"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 1.18,
+              "isTeaser": false,
+              "licenseRuntime": "P2D",
+              "listPrice": 0.99,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "8b667584-33a3-4e69-94b9-e35d97b9bea5:3"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 1.18,
+              "isTeaser": false,
+              "licenseRuntime": "P1D",
+              "listPrice": 0.99,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "8b667584-33a3-4e69-94b9-e35d97b9bea5:4"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 357,
+              "isTeaser": false,
+              "licenseRuntime": "P12M",
+              "listPrice": 300,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "8b667584-33a3-4e69-94b9-e35d97b9bea5:5"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3.57,
+              "isTeaser": true,
+              "licenseRuntime": "P1M",
+              "listPrice": 2,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "8b667584-33a3-4e69-94b9-e35d97b9bea5:6"
+            }
+          ]
+        },
+        {
+          "category": {
+            "categoryId": "fod_light-technology",
+            "imageUrl": "https://www.audi-mediacenter.com/en/photos/detail/audi-e-tron-quattro-concept-headlight-with-e-tron-light-signature-with-new-oled-technology-23591",
+            "name": "Light technology"
+          },
+          "contents": [
+            {
+              "active": false,
+              "category": {
+                "categoryId": "fod_light-technology",
+                "imageUrl": "https://www.audi-mediacenter.com/en/photos/detail/audi-e-tron-quattro-concept-headlight-with-e-tron-light-signature-with-new-oled-technology-23591",
+                "name": "Light technology"
+              },
+              "descriptionExtended": "Wiping indicator",
+              "descriptionShort": "Wiping indicator",
+              "earliestLicenseExtensionDate": null,
+              "expirationDate": null,
+              "extensionPossibleIn": null,
+              "image": {
+                "iconUrl": "asd",
+                "imageUrl": "asd"
+              },
+              "isTeaser": false,
+              "licenseRenewable": true,
+              "licenseType": "regular",
+              "name": "Wischende Blinker",
+              "nameExtended": null,
+              "productClass": "FunctionOnDemand",
+              "productId": "01faa8e6-ee05-4b16-b124-ccc440e399de",
+              "productType": "product",
+              "provider": "Audi",
+              "requiredVehicleRoleForPurchase": "PU",
+              "serviceId": "wipingindicator_v1",
+              "status": "client_vehicle_without_license"
+            },
+            {
+              "active": false,
+              "category": {
+                "categoryId": "fod_light-technology",
+                "imageUrl": "https://www.audi-mediacenter.com/en/photos/detail/audi-e-tron-quattro-concept-headlight-with-e-tron-light-signature-with-new-oled-technology-23591",
+                "name": "Light technology"
+              },
+              "descriptionExtended": "LED Matrixbeam",
+              "descriptionShort": null,
+              "earliestLicenseExtensionDate": null,
+              "expirationDate": null,
+              "extensionPossibleIn": null,
+              "image": {
+                "iconUrl": "test",
+                "imageUrl": "test"
+              },
+              "isTeaser": false,
+              "licenseRenewable": true,
+              "licenseType": "regular",
+              "name": "LED Matrixbeam",
+              "nameExtended": null,
+              "productClass": "FunctionOnDemand",
+              "productId": "df7e01a3-e819-4bde-93af-5cbe4b41492a",
+              "productType": "product",
+              "provider": "Audi",
+              "requiredVehicleRoleForPurchase": "PU",
+              "serviceId": "matrixbeam_v1",
+              "status": "client_vehicle_without_license"
+            }
+          ],
+          "descriptionExtended": "[DE] HD Matrix LED berechnet automatisch die beste Beleuchtung und schaltet einzelne Leuchtdioden ein oder aus und erzeugt Lichtkorridore auf beiden Seiten des Fahrzeugs oder des Objekts davor. Beinhaltet dynamische vordere und hintere Blinker, die von innen nach außen streichen. Dies hilft, nicht nur klar zu erkennen, dass sich das Fahrzeug dreht, sondern auch in welche Richtung.\r\n",
+          "descriptionShort": "- Matrix LED-Technologie: selektives Ausblenden des erkannten Fahrzeugbereichs, weiterhin aktives Fernlicht in restlichen Segmenten\r\n\r\n- Dynamisches Blinklicht Front und Heck\r\n\r\n- Markierungslicht in Verbindung mit dem optionalen Nachtsichtassistenten zur Fußgängermarkierung\r\n",
+          "image": {
+            "iconUrl": "http://localhost/acp/fod-matrix-package",
+            "imageUrl": "http://localhost/acp/fod-matrix-package"
+          },
+          "isTeaser": true,
+          "licenseType": "regular",
+          "name": "Matrix LED-Paket",
+          "nameExtended": "[EN] Matrix Package",
+          "notes": [
+            {
+              "code": "IGNITIONCYCLEAFTERPURCHASE",
+              "iconUrl": "path://ignition.png",
+              "text": "Benötigt einen Klemmenwechsel nach dem Kauf."
+            },
+            {
+              "code": "ACTWARN",
+              "iconUrl": "path://actwarn.png",
+              "text": "sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua"
+            }
+          ],
+          "productId": "61c1fccb-0d94-40b9-8172-d306163c64f4",
+          "productType": "package",
+          "requiredVehicleRoleForPurchase": "GU",
+          "variants": [
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3.57,
+              "isTeaser": false,
+              "licenseRuntime": "P2D",
+              "listPrice": 2,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "61c1fccb-0d94-40b9-8172-d306163c64f4:1"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3570,
+              "isTeaser": false,
+              "licenseRuntime": "lifetime",
+              "listPrice": 2000,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "61c1fccb-0d94-40b9-8172-d306163c64f4:2"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 107.1,
+              "isTeaser": false,
+              "licenseRuntime": "P12M",
+              "listPrice": 180,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "61c1fccb-0d94-40b9-8172-d306163c64f4:3"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 3.57,
+              "isTeaser": false,
+              "licenseRuntime": "P1D",
+              "listPrice": 2,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "61c1fccb-0d94-40b9-8172-d306163c64f4:4"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 10.71,
+              "isTeaser": false,
+              "licenseRuntime": "P1M",
+              "listPrice": 18,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "61c1fccb-0d94-40b9-8172-d306163c64f4:5"
+            },
+            {
+              "canBeOrdered": true,
+              "currency": "EUR",
+              "effectivePrice": 23.8,
+              "isTeaser": true,
+              "licenseRuntime": "P1M",
+              "listPrice": 10,
+              "orderDeclinedReason": null,
+              "taxIncluded": true,
+              "variantId": "61c1fccb-0d94-40b9-8172-d306163c64f4:6"
+            }
+          ]
+        }
+      ],
+      "metadata": {
+        "textFragments": [
+          {
+            "name": "mmilegalinfo",
+            "value": "The general terms and conditions including the revocation policy and data protection explanation can be found under<i>."
+          },
+          {
+            "name": "withdrawalexception",
+            "value": ""
+          },
+          {
+            "name": "from",
+            "value": "from"
+          },
+          {
+            "name": "from",
+            "value": "ab"
+          },
+          {
+            "name": "agree",
+            "value": "By clicking on „Purchase Now“ I order this product under validity of the terms and conditions"
+          },
+          {
+            "name": "terms_b",
+            "value": ""
+          },
+          {
+            "name": "priceInformation",
+            "value": "incl. VAT / Sales Tax"
+          },
+          {
+            "name": "legalgenericincarshop",
+            "value": "All prices incl. VAT / Sales Tax. Legal texts available under <i>"
+          },
+          {
+            "name": "terms_a",
+            "value": ""
+          }
+        ]
+      }
+    },
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  },
+  "scenarioName": "Vehicle.ACP.Products"
+}

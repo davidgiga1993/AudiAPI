@@ -1,0 +1,57 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/icf/ilftrf/tariff/0000427_5"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "currency": "ct",
+      "slots": [
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            7
+          ],
+          "months": [
+            2,
+            3,
+            4,
+            6,
+            7,
+            10,
+            11,
+            12
+          ],
+          "price": 24.0,
+          "start": "00:00:00"
+        },
+        {
+          "days": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ],
+          "months": [
+            1,
+            5,
+            8,
+            9
+          ],
+          "price": 30.0,
+          "start": "22:00:00"
+        }
+      ]
+    },
+    "status": 200
+  }
+}

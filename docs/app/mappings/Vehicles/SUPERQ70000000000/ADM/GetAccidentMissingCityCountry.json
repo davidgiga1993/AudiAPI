@@ -1,0 +1,201 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {},
+    "urlPath": "/adm/api/accidents/34a68d03-9ad6-44f0-81c8-f2c62d437464"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "15713133803921880"
+    },
+    "jsonBody": {
+      "attachments": [
+        {
+          "classification": "REPORT",
+          "id": "1fa8fcc8-e181-46de-ad9c-d816a6426723",
+          "originalFileName": "Testpdf ADM.pdf"
+        }
+      ],
+      "caller": {
+        "contactMethodComment": "Please call me within the time-window.",
+        "id": "de_10721975164026935009",
+        "owner": false,
+        "preferredContactChannel": "PHONE",
+        "preferredContactTimes": [
+          {
+            "dayOfWeek": "WEDNESDAY",
+            "time": "12:00:00"
+          },
+          {
+            "dayOfWeek": "TUESDAY",
+            "time": "10:00:00"
+          }
+        ],
+        "registeredVehicleUserRole": "UNKNOWN",
+        "webSsoId": "W984790657"
+      },
+      "caseRelatedConsents": {
+        "repairShop": {
+          "consented": true,
+          "displayedLanguage": "en-GB"
+        }
+      },
+      "claimId": "2019101700050",
+      "contractType": "adm",
+      "creationDate": "2019-10-17T11:29:21.096Z",
+      "damageCalculation": {
+        "damageRefinementQuestions": []
+      },
+      "id": "34a68d03-9ad6-44f0-81c8-f2c62d437464",
+      "incidentReport": {
+        "automobileClubMembership": true,
+        "damageClassification": "OTHER",
+        "damageReport": "Customer was hit in the parking lot by another driver.",
+        "dateOfNotice": "2019-10-17",
+        "locationOfAccident": {
+          "address": "Alexander-Fleming-Straße 1",
+          "latitude": 53.83168,
+          "longitude": 10.6900464,
+          "viewport": {
+            "northEast": {
+              "latitude": 53.8330834302915,
+              "longitude": 10.6917985302915
+            },
+            "southWest": {
+              "latitude": 53.8303854697085,
+              "longitude": 10.6891005697084
+            }
+          }
+        },
+        "reportedDateOfAccident": "2019-10-17"
+      },
+      "lastChangeDate": "2019-10-17T11:56:20.358Z",
+      "leadTransmissionStatus": "SUBMITTED",
+      "selectedPartner": {
+        "brand": "AUDI",
+        "city": "Lübeck",
+        "distanceToVehicle": {
+          "distance": 5,
+          "mileageUnit": "KM"
+        },
+        "email": "info.audi-luebeck@auto-senger.de",
+        "fax": "+49 451 890976859",
+        "isPreferredDealer": false,
+        "kvpsId": "22281",
+        "latitude": 53.85702,
+        "longitude": 10.63528,
+        "name": "Audi Zentrum Lübeck Senger Automobile GmbH",
+        "openingHoursHTML": "<p><strong>Showroom</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: 11:00 - 16:00 Uhr<br /><br /><strong>Werkstatt</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet<br /><br /><strong>Verkauf</strong><br />Montag - Freitag: 08:00 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet</p><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>",
+        "primaryCode": "DEU22281A",
+        "street": "Padelügger Weg 41",
+        "telephone": "+49 451 890976800",
+        "tenant": "GERMANY",
+        "website": "https://www.audi-zentrum-luebeck.audi",
+        "zipCode": "23556"
+      },
+      "serviceLeadInboxRequestSubmitted": "2019-10-17T11:45:11.455Z",
+      "sourceOfCreation": "CALL_CENTER",
+      "sourceOfOperation": "CALL_CENTER",
+      "vehicle": {
+        "additionalRemarks": "Car has a special paintjob on the roof",
+        "brand": "AUDI",
+        "country": "GERMANY",
+        "exteriorColourCode": "L041",
+        "impactZones": {
+          "frontBumper": "SCRATCH",
+          "frontLeftDoor": "SCRATCH",
+          "frontLeftFender": "NOT_AFFECTED",
+          "frontLeftLight": "NOT_AFFECTED",
+          "frontLeftTire": "NOT_AFFECTED",
+          "frontRightDoor": "NOT_AFFECTED",
+          "frontRightFender": "DENT",
+          "frontRightLight": "SCRATCH",
+          "frontRightTire": "NOT_AFFECTED",
+          "hood": "DEFORMATION",
+          "leftAbcPillar": "NOT_AFFECTED",
+          "leftMirror": "RUPTURE",
+          "leftSideSills": "NOT_AFFECTED",
+          "leftWindow": "NOT_AFFECTED",
+          "radiatorGrill": "BROKEN_HOOK",
+          "rearBumper": "NOT_AFFECTED",
+          "rearLeftDoor": "NOT_AFFECTED",
+          "rearLeftFender": "NOT_AFFECTED",
+          "rearLeftLight": "NOT_AFFECTED",
+          "rearLeftTire": "NOT_AFFECTED",
+          "rearRightDoor": "NOT_AFFECTED",
+          "rearRightFender": "NOT_AFFECTED",
+          "rearRightLight": "NOT_AFFECTED",
+          "rearRightTire": "NOT_AFFECTED",
+          "rightAbcPillar": "NOT_AFFECTED",
+          "rightMirror": "NOT_AFFECTED",
+          "rightSideSills": "NOT_AFFECTED",
+          "rightWindow": "NOT_AFFECTED",
+          "roof": "DENT",
+          "trunk": "NOT_AFFECTED",
+          "windscreen": "SCRATCH"
+        },
+        "mileage": 5242,
+        "mileageUnit": "KM",
+        "modelCode": "F5AB3Y",
+        "modelName": "Audi A5 Sportback Sport 45 TFSI quattro 180(245) kW(PS) S tronic",
+        "modelYear": 2019,
+        "remainingRange": 205,
+        "remainingRangeUnit": "KM",
+        "reportedVehicle": {
+          "impactZones": {
+            "frontBumper": "NOT_AFFECTED",
+            "frontLeftDoor": "NOT_AFFECTED",
+            "frontLeftFender": "NOT_AFFECTED",
+            "frontLeftLight": "NOT_AFFECTED",
+            "frontLeftTire": "NOT_AFFECTED",
+            "frontRightDoor": "NOT_AFFECTED",
+            "frontRightFender": "NOT_AFFECTED",
+            "frontRightLight": "NOT_AFFECTED",
+            "frontRightTire": "NOT_AFFECTED",
+            "hood": "NOT_AFFECTED",
+            "leftAbcPillar": "NOT_AFFECTED",
+            "leftMirror": "NOT_AFFECTED",
+            "leftSideSills": "NOT_AFFECTED",
+            "leftWindow": "NOT_AFFECTED",
+            "radiatorGrill": "NOT_AFFECTED",
+            "rearBumper": "NOT_AFFECTED",
+            "rearLeftDoor": "NOT_AFFECTED",
+            "rearLeftFender": "NOT_AFFECTED",
+            "rearLeftLight": "NOT_AFFECTED",
+            "rearLeftTire": "NOT_AFFECTED",
+            "rearRightDoor": "NOT_AFFECTED",
+            "rearRightFender": "NOT_AFFECTED",
+            "rearRightLight": "NOT_AFFECTED",
+            "rearRightTire": "NOT_AFFECTED",
+            "rightAbcPillar": "NOT_AFFECTED",
+            "rightMirror": "NOT_AFFECTED",
+            "rightSideSills": "NOT_AFFECTED",
+            "rightWindow": "NOT_AFFECTED",
+            "roof": "NOT_AFFECTED",
+            "trunk": "NOT_AFFECTED",
+            "windscreen": "NOT_AFFECTED"
+          },
+          "seatBelts": {},
+          "vehicle": {
+            "brand": "AUDI",
+            "modelCode": "F5AB3Y",
+            "modelName": "Audi A5 Sportback Sport 45 TFSI quattro 180(245) kW(PS) S tronic",
+            "modelYear": 2019,
+            "vehicleImageUrl": "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIhBPNonK7EsUS8zXy84tSgzMSezKjEpJ9V63QXONcHX33oyMTBUFDAwMATUFTFYJufn6iXn5-Wk5hfrFaXmpaQWFacWlWUmpwK15yQCBYEKcvPzoCZ5pOYUpBaphFQWpDJAgRDQtCIGPrCNOYl56XqueaW5yJIFJQwcXgGu7vE-nk4lDMwFeel1hQx1DEwlDDxg4cBQRx_PkMjiIgZBhCGeeSWp6alFQo8WLPne2G7BxMDoycBalphTmgq0TAChzq80Nym1qG3NVFnuKQ-6YT5LgdnA6evp6xofEhngCmRn5iamp-oj2c8b4OkcEhrkGu8YFOQYWQwS5QQ5GibPDpUHOs2YiHDKy0tNLskv0vNILM5wzk-BhRAjEwOrJwNTuSGIMAIRxiDCBESYVhQkbWl-JNetZXlCcJfoR7MXr58eP_a1hIE70VQ3taJENy81Nx_kGiGw60Qe5pYe76x6k8Ji9SdgBkOuyIEOlliQhBiSmpwt_pPK5VI9lGLNp6nf_KbG1yTsj65mhsMP3sw28fANp3dK2XjlXa-9eHYnupqPbev_XNWe-u6RnSdP5JMOl5Tpb8rR1Zh0bbq67U5UYPraks99f32kTqxVOYyuxiZ1itemo_6_rnFVvHa78OqN-C-ZYHQ1xWJbOHUurLgTGWLQd2fxrI1HcmdVo6sR-fvPMu3mjmNJTGcm_V7i2P1GPy4EXU2kvyxnxNSFnn5bVgSenuF_8KPEBy10NWm6b1pUXj_9q39SY5PljSouQ2N1ZnQ1Zsx3ZQ4EsDjZXaxLEAjj7o5oueuAruboq4ctC48cm20T0Fn0-NOs0z_4vd6gq9kT-HmruBkHz09rW1er_YL_DZb-zEJXc0tr6tlk3nsvwxb8CHlbdrTRWj9cHV2N8PGZE99ueJNQkvRF5cmDZR2V7294oauZtufr1HzmswHlc924p7HmL3o1xTwXXc2KMzPVgqMvy_dyHE1rnZhpx3z22SKwGniGCQly9At28w_yhWUHpjIYi0UdxuI5BGNxFBTAmZ7wHCQCZxnCpRlOwexgCfaMcoUJMy6BK3iHWgQ45efnpCbmnVUoarg659c7YBEQBSsCChjgmhjgLg8N8okPcAxy9C1h4CstyilILEoEZtmi_II8AF9txlYYBQAA"
+          }
+        },
+        "seatBelts": {
+          "seatBeltFirstRowDriver": "NOT_DEFINED",
+          "seatBeltFirstRowPassenger": "NOT_DEFINED",
+          "seatBeltSecondRowDriver": "NOT_DEFINED",
+          "seatBeltSecondRowMiddle": "NOT_DEFINED",
+          "seatBeltSecondRowPassenger": "NOT_DEFINED"
+        },
+        "transmissionCode": "QTM",
+        "typeOfDrive": "GASOLINE"
+      }
+    },
+    "status": 200
+  }
+}

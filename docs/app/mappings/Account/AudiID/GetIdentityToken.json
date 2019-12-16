@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/audiid/v1/token"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "access_token": "demoToken",
+      "expires_in": 3599,
+      "id_token": "eyJraWQiOiIwMDAwMSIsImFsZyI6IlJTMjU2In0.eyJzdWIiOiJXNTY4OTk5OTkiLCJhdWQiOlsiWFlaWFlaWFlaIiwidmVoaWNsZSJdLCJzY3AiOlsicHJvZmlsZSIsIm1iYiJdLCJ2ZXIiOiIxIiwiYW1yIjoicHdkIiwiY29yIjoiREUiLCJpc3MiOiJYWVpYWVpYWVoiLCJ0eXBlIjoiaWRlbnRpdHkiLCJsb2NhbGUiOiJkZS1ERSIsImV4cCI6MTQ2NjY3MTAxMSwiaWF0IjoxNDY2NjcwNDExLCJqdGkiOiIwMGEwYTAwMC0wMGIwLTAwMDAtMGFhMC0wYTAwMGEwYTBhMDAifQ.ch2uFVpX3kdEyEPTnvQbABEzHRWid9iLo6ou8NZbWnbmfpt8Y0jkinciym3KkWUt0Nj55qfc5_YH75MnPNlz-wh2h8WSzvRyqDwzzJ3dqYc7uVyzYLJlxt5m2qaALjEx-7at4YYG96MQ4hvYbbCseeWXPMGketIWBi7d_DTfRbM",
+      "refresh_token": "eyJhbGciOiJub25lIn0.eyJqdGkiOiI0Y2IxZjJiOS1mMzk0LTRkYjQtOGVkZS04OWU1NDY5ODM5NGUifQ.",
+      "scope": "myaudi openid mbbuserid offline_access profile mbb email",
+      "token_type": "Bearer"
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/mediaservice/TTROADSTER0000000/MYAAN1NB"
+  },
+  "response": {
+    "bodyFileName": "TTROADSTER0000000/MYAAN1NB.png",
+    "headers": {
+      "Content-Type": "image/png"
+    },
+    "status": 200
+  }
+}

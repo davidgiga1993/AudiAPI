@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/mbbauth/mobile/oauth2/v1/revoke"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "text/plain; charset=utf-8"
+    },
+    "jsonBody": {},
+    "status": 200
+  }
+}

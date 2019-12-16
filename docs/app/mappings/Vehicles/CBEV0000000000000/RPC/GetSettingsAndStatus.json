@@ -1,0 +1,152 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/climatisation/v1/Audi/DE/vehicles/CBEV0000000000000/climater"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "climater": {
+        "settings": {
+          "climaterElementSettings": {
+            "isClimatisationAtUnlock": {
+              "content": false,
+              "timestamp": "2018-07-26T09:26:37Z"
+            },
+            "isMirrorHeatingEnabled": {
+              "content": true,
+              "timestamp": "2018-07-26T09:26:37Z"
+            },
+            "zoneSettings": {
+              "zoneSetting": [
+                {
+                  "timestamp": "2018-07-26T09:26:37Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "frontLeft"
+                  }
+                },
+                {
+                  "timestamp": "2018-07-26T09:26:37Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "frontRight"
+                  }
+                },
+                {
+                  "timestamp": "2018-07-26T09:26:37Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "rearLeft"
+                  }
+                },
+                {
+                  "timestamp": "2018-07-26T09:26:37Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "rearRight"
+                  }
+                }
+              ]
+            }
+          },
+          "climatisationWithoutHVpower": {
+            "content": false,
+            "timestamp": "2018-07-26T09:26:36Z"
+          },
+          "heaterSource": {
+            "content": "electric",
+            "timestamp": "2018-07-26T09:26:36Z"
+          },
+          "targetTemperature": {
+            "content": 2950,
+            "timestamp": "2018-07-26T09:26:36Z"
+          }
+        },
+        "status": {
+          "climatisationStatusData": {
+            "climatisationElementStates": {
+              "extCondAvailableFL": {
+                "content": true,
+                "timestamp": "2018-07-26T09:26:37Z"
+              },
+              "extCondAvailableFR": {
+                "content": true,
+                "timestamp": "2018-07-26T09:26:37Z"
+              },
+              "extCondAvailableRL": {
+                "content": true,
+                "timestamp": "2018-07-26T09:26:37Z"
+              },
+              "extCondAvailableRR": {
+                "content": true,
+                "timestamp": "2018-07-26T09:26:37Z"
+              },
+              "isMirrorHeatingActive": {
+                "content": false,
+                "timestamp": "2018-07-26T09:26:37Z"
+              },
+              "zoneStates": {
+                "zoneState": [
+                  {
+                    "timestamp": "2018-07-26T09:26:37Z",
+                    "value": {
+                      "isActive": false,
+                      "position": "frontLeft"
+                    }
+                  },
+                  {
+                    "timestamp": "2018-07-26T09:26:37Z",
+                    "value": {
+                      "isActive": false,
+                      "position": "frontRight"
+                    }
+                  },
+                  {
+                    "timestamp": "2018-07-26T09:26:37Z",
+                    "value": {
+                      "isActive": false,
+                      "position": "rearLeft"
+                    }
+                  },
+                  {
+                    "timestamp": "2018-07-26T09:26:37Z",
+                    "value": {
+                      "isActive": false,
+                      "position": "rearRight"
+                    }
+                  }
+                ]
+              }
+            },
+            "climatisationReason": {
+              "content": "immediate",
+              "timestamp": "2018-07-26T09:26:37Z"
+            },
+            "climatisationState": {
+              "content": "error",
+              "timestamp": "2018-07-26T09:26:37Z"
+            },
+            "climatisationStateErrorCode": {
+              "content": 9,
+              "timestamp": "2018-07-26T09:26:37Z"
+            },
+            "remainingClimatisationTime": {
+              "content": -256,
+              "timestamp": "2018-07-26T09:26:37Z"
+            }
+          },
+          "temperatureStatusData": {
+            "outdoorTemperature": {
+              "content": 3010,
+              "timestamp": "2018-07-26T09:26:37Z"
+            }
+          }
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/msg/myaudi/service-book/v1/vehicles/TTROADSTER0000000/service-book"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {},
+    "status": 204
+  }
+}

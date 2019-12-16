@@ -1,0 +1,10 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/msg/fns/subscription/v1/Audi/([A-Z]{2})/subscriptions/.*"
+  },
+  "response": {
+    "headers": {},
+    "status": 204
+  }
+}

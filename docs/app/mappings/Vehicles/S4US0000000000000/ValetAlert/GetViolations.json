@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/valetalert/v1/Audi/DE/vehicles/S4US0000000000000/valetAlerts"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "valetAlerts": {
+        "valetAlert": [
+          {
+            "alertType": "ENTER_GREENZONE",
+            "definitionId": 4179,
+            "id": 15557,
+            "locationOfAlert": {
+              "altitude": 528,
+              "direction": 0,
+              "latitude": 48179286,
+              "longitude": 11595487,
+              "precision": 0,
+              "trueness": "GOOD"
+            },
+            "occurenceDateTime": "2015-11-17T09:01:30Z"
+          },
+          {
+            "alertType": "EXIT_GREENZONE",
+            "definitionId": 4179,
+            "id": 15532,
+            "locationOfAlert": {
+              "altitude": 540,
+              "direction": 0,
+              "latitude": 48179031,
+              "longitude": 11596330,
+              "precision": 0,
+              "trueness": "GOOD"
+            },
+            "occurenceDateTime": "2015-11-16T13:43:07Z"
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

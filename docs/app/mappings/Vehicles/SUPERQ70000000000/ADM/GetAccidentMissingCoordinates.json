@@ -1,0 +1,217 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {},
+    "urlPath": "/adm/api/accidents/b8a1ca28-a46b-449d-aadc-6c5571dbf4e6"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "15713230666538750"
+    },
+    "jsonBody": {
+      "attachments": [
+        {
+          "classification": "REPORT",
+          "id": "6a169597-5dd9-4fc7-9550-c022b9fd7805",
+          "originalFileName": "Testpdf ADM.pdf"
+        }
+      ],
+      "caller": {
+        "contactMethodComment": "Please call me within the time-window.",
+        "id": "de_10721975164026935009",
+        "owner": false,
+        "preferredContactChannel": "PHONE",
+        "preferredContactTimes": [
+          {
+            "dayOfWeek": "WEDNESDAY",
+            "time": "12:00:00"
+          },
+          {
+            "dayOfWeek": "TUESDAY",
+            "time": "10:00:00"
+          }
+        ],
+        "registeredVehicleUserRole": "UNKNOWN",
+        "webSsoId": "W984790657"
+      },
+      "caseRelatedConsents": {
+        "repairShop": {
+          "consented": true,
+          "displayedLanguage": "en-GB"
+        }
+      },
+      "claimId": "2019101700059",
+      "contractType": "adm",
+      "creationDate": "2019-10-17T14:19:31.391Z",
+      "damageCalculation": {
+        "damageRefinementQuestions": [
+          {
+            "answer": "YES",
+            "partGroup": "FRONT_BUMPER",
+            "questionId": "1000103"
+          },
+          {
+            "answer": "NO",
+            "partGroup": "RADIATOR_GRILL",
+            "questionId": "1000202"
+          },
+          {
+            "answer": "YES",
+            "partGroup": "HOOD",
+            "questionId": "1000306"
+          }
+        ]
+      },
+      "id": "b8a1ca28-a46b-449d-aadc-6c5571dbf4e6",
+      "incidentReport": {
+        "automobileClubMembership": true,
+        "damageClassification": "OTHER",
+        "damageReport": "Customer was hit in the parking lot by another driver.",
+        "dateOfNotice": "2019-10-17",
+        "locationOfAccident": {
+          "address": "Alexander-Feming-Straße 1",
+          "city": "lübeck",
+          "country": "GERMANY",
+          "viewport": {
+            "northEast": {
+              "latitude": 53.8330834302915,
+              "longitude": 10.6917985302915
+            },
+            "southWest": {
+              "latitude": 53.8303854697085,
+              "longitude": 10.6891005697084
+            }
+          }
+        },
+        "reportedDateOfAccident": "2019-10-17"
+      },
+      "lastChangeDate": "2019-10-17T14:37:46.632Z",
+      "leadTransmissionStatus": "SUBMITTED",
+      "selectedPartner": {
+        "brand": "AUDI",
+        "city": "Lübeck",
+        "distanceToVehicle": {
+          "distance": 5,
+          "mileageUnit": "KM"
+        },
+        "email": "info.audi-luebeck@auto-senger.de",
+        "fax": "+49 451 890976859",
+        "isPreferredDealer": false,
+        "kvpsId": "22281",
+        "latitude": 53.85702,
+        "longitude": 10.63528,
+        "name": "Audi Zentrum Lübeck Senger Automobile GmbH",
+        "openingHoursHTML": "<p><strong>Showroom</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: 11:00 - 16:00 Uhr<br /><br /><strong>Werkstatt</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet<br /><br /><strong>Verkauf</strong><br />Montag - Freitag: 08:00 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet</p><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>",
+        "primaryCode": "DEU22281A",
+        "street": "Padelügger Weg 41",
+        "telephone": "+49 451 890976800",
+        "tenant": "GERMANY",
+        "website": "https://www.audi-zentrum-luebeck.audi",
+        "zipCode": "23556"
+      },
+      "serviceLeadInboxRequestSubmitted": "2019-10-17T14:26:14.54Z",
+      "sourceOfCreation": "CALL_CENTER",
+      "sourceOfOperation": "CALL_CENTER",
+      "vehicle": {
+        "additionalRemarks": "Car has a special paintjob on the roof.",
+        "brand": "AUDI",
+        "country": "GERMANY",
+        "exteriorColourCode": "L041",
+        "impactZones": {
+          "frontBumper": "SCRATCH",
+          "frontLeftDoor": "NOT_AFFECTED",
+          "frontLeftFender": "NOT_AFFECTED",
+          "frontLeftLight": "NOT_AFFECTED",
+          "frontLeftTire": "NOT_AFFECTED",
+          "frontRightDoor": "NOT_AFFECTED",
+          "frontRightFender": "NOT_AFFECTED",
+          "frontRightLight": "SCRATCH",
+          "frontRightTire": "NOT_AFFECTED",
+          "hood": "DEFORMATION",
+          "leftAbcPillar": "NOT_AFFECTED",
+          "leftMirror": "NOT_AFFECTED",
+          "leftSideSills": "NOT_AFFECTED",
+          "leftWindow": "NOT_AFFECTED",
+          "radiatorGrill": "BROKEN_HOOK",
+          "rearBumper": "NOT_AFFECTED",
+          "rearLeftDoor": "NOT_AFFECTED",
+          "rearLeftFender": "NOT_AFFECTED",
+          "rearLeftLight": "NOT_AFFECTED",
+          "rearLeftTire": "NOT_AFFECTED",
+          "rearRightDoor": "NOT_AFFECTED",
+          "rearRightFender": "NOT_AFFECTED",
+          "rearRightLight": "NOT_AFFECTED",
+          "rearRightTire": "NOT_AFFECTED",
+          "rightAbcPillar": "NOT_AFFECTED",
+          "rightMirror": "NOT_AFFECTED",
+          "rightSideSills": "NOT_AFFECTED",
+          "rightWindow": "NOT_AFFECTED",
+          "roof": "NOT_AFFECTED",
+          "trunk": "NOT_AFFECTED",
+          "windscreen": "NOT_AFFECTED"
+        },
+        "mileage": 5242,
+        "mileageUnit": "KM",
+        "modelCode": "8VFAPX",
+        "modelName": "Audi A3 Sportback e-tron 1.4 TFSI 150(204) kW(PS) S tronic",
+        "modelYear": 2018,
+        "remainingRange": 205,
+        "remainingRangeUnit": "KM",
+        "reportedVehicle": {
+          "impactZones": {
+            "frontBumper": "NOT_AFFECTED",
+            "frontLeftDoor": "NOT_AFFECTED",
+            "frontLeftFender": "NOT_AFFECTED",
+            "frontLeftLight": "NOT_AFFECTED",
+            "frontLeftTire": "NOT_AFFECTED",
+            "frontRightDoor": "NOT_AFFECTED",
+            "frontRightFender": "NOT_AFFECTED",
+            "frontRightLight": "NOT_AFFECTED",
+            "frontRightTire": "NOT_AFFECTED",
+            "hood": "NOT_AFFECTED",
+            "leftAbcPillar": "NOT_AFFECTED",
+            "leftMirror": "NOT_AFFECTED",
+            "leftSideSills": "NOT_AFFECTED",
+            "leftWindow": "NOT_AFFECTED",
+            "radiatorGrill": "NOT_AFFECTED",
+            "rearBumper": "NOT_AFFECTED",
+            "rearLeftDoor": "NOT_AFFECTED",
+            "rearLeftFender": "NOT_AFFECTED",
+            "rearLeftLight": "NOT_AFFECTED",
+            "rearLeftTire": "NOT_AFFECTED",
+            "rearRightDoor": "NOT_AFFECTED",
+            "rearRightFender": "NOT_AFFECTED",
+            "rearRightLight": "NOT_AFFECTED",
+            "rearRightTire": "NOT_AFFECTED",
+            "rightAbcPillar": "NOT_AFFECTED",
+            "rightMirror": "NOT_AFFECTED",
+            "rightSideSills": "NOT_AFFECTED",
+            "rightWindow": "NOT_AFFECTED",
+            "roof": "NOT_AFFECTED",
+            "trunk": "NOT_AFFECTED",
+            "windscreen": "NOT_AFFECTED"
+          },
+          "seatBelts": {},
+          "vehicle": {
+            "brand": "AUDI",
+            "modelCode": "8VFAPX",
+            "modelName": "Audi A3 Sportback e-tron 1.4 TFSI 150(204) kW(PS) S tronic",
+            "modelYear": 2018,
+            "vehicleImageUrl": "https://mediaservice.audi.com/media/fast/H4sIAAAAAAAAAFvzloG1tIhBPNonK7EsUS8zXy84tSgzMSezKjEpJ9V63QXONcHX33oyMTBUFDAwMDjWFTFYJufn6iXn5-Wk5hfrFaXmpaQWFacWlWUmpwK15yQCBYEKcvPzoCZ5pOYUpBaphFQWpDJAgRDQtCIGPrCNOYl56XqueaW5yJIFJQwcXgGu7vE-nk4lDMwFeel1hQx1DEwlDDxg4cBQRx_PkMjiIgZBhCGeeSWp6alFQo8WLPne2G7BxMDoycBalphTmgq0TAChzq80Nym1qG3NVFnuKQ-6YT5LgdnA6evp6xofEhngCmRn5iamp-oj2c8b4OkcEhrkGu8YFOQYWQwS5QTq5oXJs0PlgU4zJiKc8vJSk0vyi_Q8EosznPNTYCHEyMTA6snAVG4IIoxAhDGIMAERphUFN1ma-lXrN-zwaWi9lczW2cGsUd1bwsCdaKybWlGim5eamw9yjRDYdSKivPOLO_-9betg2vLi1yvdtPuv256BJMSQ1LR7s3e-_3vzwpvdqjvsn6ud_an4-he6mlPMTpdUeFcopX96s_HTpONb9DfJ66GrmfLh8-R6q0M3zReqOHy8dztDvft9Bbqab3lsZbN_NztxFt-zSDeyXvpOrO4PupqjcxPUM75KFTM4HWWrYftkXHiX1Q5dTfXmaD7tY61fwl9wzEmYXv_Df17aE3Q1Ussk_Vk-MyS5S2zOvXKtfOLCl4-OoatZJVSb7F3ueUIzeX3grIa1mW_j10xCV8MYnxO7zmlL7J1fDw0__Zu0jeHbpSx0NbfS1v6d3JYacK7N0_1s5j2LH9uEPqOreXHz2E-ntZNkp_4Tvr6qfd3-q83Gm8Fq4IkvJMjRL9jNP8gXlrSYJsFYLGIwFk8mjMVRVwBn-sFTowycpQuXZjgFs4Ml2DPKFSbMuASu4B1qdnLKz89JTcw7q1DUcHXOr3fA7BQFy04FDHBNDHCXhwb5xAc4Bjn6ljDwlRblFCQWJQKTf1F-QR4AL9lGFWQEAAA"
+          }
+        },
+        "seatBelts": {
+          "seatBeltFirstRowDriver": "NOT_DEFINED",
+          "seatBeltFirstRowPassenger": "NOT_DEFINED",
+          "seatBeltSecondRowDriver": "NOT_DEFINED",
+          "seatBeltSecondRowMiddle": "NOT_DEFINED",
+          "seatBeltSecondRowPassenger": "NOT_DEFINED"
+        },
+        "transmissionCode": "QTM",
+        "typeOfDrive": "GASOLINE"
+      }
+    },
+    "status": 200
+  }
+}

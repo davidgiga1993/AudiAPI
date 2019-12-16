@@ -1,0 +1,81 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "includeCriticalFunctions": {
+        "matches": "true"
+      }
+    },
+    "urlPath": "/usermanagement/functions/A3ETRON0000000000/users"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "users": [
+        {
+          "criticalFunctions": [
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myService",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2027-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": false,
+                  "id": "G_CONFDATA"
+                },
+                {
+                  "granted": false,
+                  "id": "S_CONFDATA"
+                },
+                {
+                  "granted": false,
+                  "id": "G_HIST"
+                },
+                {
+                  "granted": false,
+                  "id": "G_SAPP"
+                }
+              ],
+              "privacyGroups": [
+                "personalUser"
+              ],
+              "serviceId": "dealerappoint_v1",
+              "statusInfo": {
+                "disableReasons": [
+                  "INITIALLY_DISABLED"
+                ],
+                "status": "DISABLED"
+              },
+              "switchOff": false,
+              "switchOn": false,
+              "tags": [
+                "PRIMARY_USER_EXCLUSIVE"
+              ]
+            }
+          ],
+          "firstName": "Gustavo",
+          "isInVehicle": false,
+          "lastName": "Fring",
+          "mbbUserId": "PXtOEHTBlsSppUu6Z6kMOk9pTgI",
+          "nickName": "Gus",
+          "role": "PRIMARY_USER",
+          "securityLevel": "HG_2_B",
+          "ssoId": "W886827512",
+          "status": "ACTIVE"
+        }
+      ],
+      "vin": "A3ETRON0000000000"
+    },
+    "status": 200
+  }
+}

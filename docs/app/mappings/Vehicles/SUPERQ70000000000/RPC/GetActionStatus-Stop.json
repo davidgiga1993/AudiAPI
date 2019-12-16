@@ -1,0 +1,21 @@
+{
+  "newScenarioState": "Started",
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/climatisation/v1/Audi/DE/vehicles/SUPERQ70000000000/climater/actions/2"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 2,
+        "actionState": "succeeded",
+        "type": "stopClimatisation"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.RPC"
+}

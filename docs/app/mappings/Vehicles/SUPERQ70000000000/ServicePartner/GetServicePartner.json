@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/partnership/v1/vehicles/SUPERQ70000000000/service-partner"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "kvpsid": "27944",
+      "tenant": "DEU"
+    },
+    "status": 200
+  }
+}

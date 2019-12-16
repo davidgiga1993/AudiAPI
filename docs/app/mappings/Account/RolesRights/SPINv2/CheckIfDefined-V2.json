@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/rolesrights/securitypin/v2/users/7HDSPdDSh6DTGEVhsjHtv4X8ENaZ/check-if-defined"
+  },
+  "requiredScenarioState": "V2",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "securityPinDefined": true
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.SPINVersion"
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/mediaservice/A6LIMOUSINE000000/MYAAI2NB"
+  },
+  "response": {
+    "bodyFileName": "A6LIMOUSINE000000/MYAAI2NB.png",
+    "headers": {
+      "Content-Type": "image/png"
+    },
+    "status": 200
+  }
+}

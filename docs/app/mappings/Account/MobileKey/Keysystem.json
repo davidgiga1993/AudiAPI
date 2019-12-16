@@ -1,0 +1,98 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/msg/bs/mobilekey/v1/Audi/DE/view/keysystem.*"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "userViewKeySystem": {
+        "mobileKeyElement": [
+          {
+            "expirationTimestamp": "2116-02-07T12:33:00Z",
+            "mkNutzerPortalId": "W829911437",
+            "mkNutzerUserName": "Demo User",
+            "mkVerwalterPortalId": "W829911437",
+            "mkVerwalterUserName": "service@audi.de",
+            "permissionId": "1",
+            "state": "Confirmed",
+            "timestampCreated": "2018-08-17T15:38:47Z",
+            "timestampStateChanged": "2018-08-20T15:42:37Z",
+            "vTanExpirationTimestamp": "2116-08-17T17:38:46Z",
+            "vin": "CBEV0000000000000"
+          },
+          {
+            "endingReason": "ServiceDeactivated",
+            "expirationTimestamp": "2004-04-29T12:33:00Z",
+            "mkNutzerPortalId": "W123456789",
+            "mkNutzerUserName": "Larry Page",
+            "mkVerwalterPortalId": "W829911437",
+            "mkVerwalterUserName": "Demo User",
+            "permissionId": "2",
+            "removalState": "InRemoval",
+            "state": "Used",
+            "timestampCreated": "2018-08-17T15:38:47Z",
+            "timestampStateChanged": "2018-08-20T15:42:37Z",
+            "vTanExpirationTimestamp": "2116-08-17T17:38:46Z",
+            "vin": "CBEV0000000000000"
+          },
+          {
+            "endingReason": "IdentityChanged",
+            "expirationTimestamp": "2004-04-29T12:33:00Z",
+            "mkNutzerPortalId": "W123456788",
+            "mkNutzerUserName": "Sergey Brin",
+            "mkVerwalterPortalId": "W829911437",
+            "mkVerwalterUserName": "Demo User",
+            "permissionId": "3",
+            "removalState": "RemovalFailed",
+            "state": "Ended",
+            "timestampCreated": "2018-08-17T15:38:47Z",
+            "timestampStateChanged": "2018-08-20T15:42:37Z",
+            "vTanExpirationTimestamp": "2116-08-17T17:38:46Z",
+            "vin": "CBEV0000000000000"
+          },
+          {
+            "expirationTimestamp": "2021-04-10T06:00:00Z",
+            "installationState": "Succeeded",
+            "mkNutzerPortalId": "W829911437",
+            "mkNutzerUserName": "service@audi.de",
+            "mkVerwalterPortalId": "W829911437",
+            "mkVerwalterUserName": "service@audi.de",
+            "permissionId": 4,
+            "secureElementId": "475000D200776246011D70630F41275802D71942706319437063194470630047544F1945706301000005",
+            "state": "Used",
+            "timestampAccepted": "2018-09-12T06:34:38Z",
+            "timestampConfirmed": "2018-09-12T06:34:37Z",
+            "timestampCreated": "2018-09-12T06:34:21Z",
+            "timestampInstalled": "2018-09-12T06:34:45Z",
+            "timestampStateChanged": "2018-09-12T06:34:45Z",
+            "vTanExpirationTimestamp": "2018-09-12T08:34:21Z",
+            "vin": "A8000000000000000"
+          },
+          {
+            "expirationTimestamp": "2021-04-10T06:00:00Z",
+            "mkNutzerPortalId": "W829911437",
+            "mkNutzerUserName": "service@audi.de",
+            "mkVerwalterPortalId": "W829911437",
+            "mkVerwalterUserName": "service@audi.de",
+            "permissionId": 5,
+            "secureElementId": "475000D200776246011D70630F41275802D71942706319437063194470630047544F1945706301000005",
+            "state": "Accepted",
+            "timestampAccepted": "2018-09-12T06:34:38Z",
+            "timestampConfirmed": "2018-09-12T06:34:37Z",
+            "timestampCreated": "2018-09-12T06:34:21Z",
+            "timestampInstalled": "2018-09-12T06:34:45Z",
+            "timestampStateChanged": "2018-09-12T06:34:45Z",
+            "vTanExpirationTimestamp": "2018-09-12T08:34:21Z",
+            "vin": "CBEV0000000000000"
+          }
+        ]
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Mixed.A8.MobileKey"
+}

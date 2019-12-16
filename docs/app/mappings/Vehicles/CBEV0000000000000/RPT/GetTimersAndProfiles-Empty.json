@@ -1,0 +1,169 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/profiletimer/v1/vehicles/CBEV0000000000000/timerandprofile"
+  },
+  "requiredScenarioState": "Empty",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "timerAndProfileList": {
+        "profileList": {
+          "profile": [
+            {
+              "chargingOptions": {
+                "minSOC": 2,
+                "preferredChargingEnabled": false,
+                "preferredChargingTimeEnd": "00:00",
+                "preferredChargingTimeStart": "00:00",
+                "smartChargingEnabled": true,
+                "targetSOC": 90
+              },
+              "position": {
+                "latitude": 0,
+                "longitude": 0,
+                "radius": 100,
+                "radiusUnit": "noUnit"
+              },
+              "powerLimitation": {
+                "power": 25100,
+                "powerLimitationEnd": "00:00",
+                "powerLimitationStart": "00:00"
+              },
+              "profileActivation": false,
+              "profileId": 1,
+              "profileName": "Default",
+              "profileOptions": {
+                "autoPlugUnlockEnabled": false,
+                "energyCostOptimisationEnabled": false,
+                "energyMixOptimisationEnabled": false,
+                "powerLimitationEnabled": false,
+                "timeBasedEnabled": false,
+                "usePrivateCurrentEnabled": false
+              },
+              "timerActionList": {
+                "timerAction": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7
+                ]
+              }
+            }
+          ]
+        },
+        "timerList": {
+          "timer": [
+            {
+              "activationState": "activated",
+              "chargerSettings": {
+                "chargeOption": "enabled",
+                "targetSOC": 100
+              },
+              "climatisationOption": "disabled",
+              "timerID": 1,
+              "timerSettings": {
+                "timerFrequency": "cyclic",
+                "timerTime": "10:20",
+                "weekdayMask": "nnnnnyy"
+              }
+            },
+            {
+              "activationState": "deactivated",
+              "chargerSettings": {
+                "chargeOption": "enabled",
+                "targetSOC": 100
+              },
+              "climatisationOption": "disabled",
+              "timerID": 2,
+              "timerSettings": {
+                "timerFrequency": "cyclic",
+                "timerTime": "10:20",
+                "weekdayMask": "nnnnnyy"
+              }
+            },
+            {
+              "activationState": "deactivated",
+              "chargerSettings": {
+                "chargeOption": "enabled",
+                "targetSOC": 100
+              },
+              "climatisationOption": "disabled",
+              "timerID": 3,
+              "timerSettings": {
+                "timerFrequency": "cyclic",
+                "timerTime": "10:20",
+                "weekdayMask": "nnnnnyy"
+              }
+            },
+            {
+              "activationState": "deactivated",
+              "chargerSettings": {
+                "chargeOption": "enabled",
+                "targetSOC": 100
+              },
+              "climatisationOption": "disabled",
+              "timerID": 4,
+              "timerSettings": {
+                "timerFrequency": "cyclic",
+                "timerTime": "10:20",
+                "weekdayMask": "nnnnnyy"
+              }
+            },
+            {
+              "activationState": "deactivated",
+              "chargerSettings": {
+                "chargeOption": "enabled",
+                "targetSOC": 100
+              },
+              "climatisationOption": "disabled",
+              "timerID": 5,
+              "timerSettings": {
+                "timerFrequency": "cyclic",
+                "timerTime": "10:20",
+                "weekdayMask": "nnnnnyy"
+              }
+            },
+            {
+              "activationState": "deactivated",
+              "chargerSettings": {
+                "chargeOption": "disabled",
+                "targetSOC": 100
+              },
+              "climatisationOption": "enabled",
+              "instrumentClusterTime": "2018-02-26T11:37:13.377+01:00",
+              "timerID": 6,
+              "timerSettings": {
+                "timerDate": "2018-02-14",
+                "timerFrequency": "single",
+                "timerTime": "10:20",
+                "weekdayMask": "nnnnnyy"
+              }
+            },
+            {
+              "activationState": "deactivated",
+              "chargerSettings": {
+                "chargeOption": "disabled",
+                "targetSOC": 100
+              },
+              "climatisationOption": "enabled",
+              "timerID": 7,
+              "timerSettings": {
+                "timerFrequency": "cyclic",
+                "timerTime": "11:12",
+                "weekdayMask": "nnnnnyy"
+              }
+            }
+          ]
+        }
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.CBEV.RPT"
+}

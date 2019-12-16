@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/rolesrights/authorization/v2/security-pin-auth-completed"
+  },
+  "requiredScenarioState": "InvalidSPIN",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "error": {
+        "description": "The Security PIN is invalid.",
+        "details": {
+          "challenge": "",
+          "delay": "0",
+          "reason": "SECURITY_PIN_INVALID",
+          "user": "7HDSPdDSh6DTGEVhsjHtv4X8ENaZ"
+        },
+        "errorCode": "mbbc.rolesandrights.invalidSecurityPin"
+      }
+    },
+    "status": 403
+  },
+  "scenarioName": "Account.SPINv2.Authorization"
+}

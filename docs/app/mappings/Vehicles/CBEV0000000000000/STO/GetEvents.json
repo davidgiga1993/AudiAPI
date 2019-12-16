@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/sto/v1/serviceevents/vehicles/CBEV0000000000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "events": [
+        {
+          "picID": "ICON020_yellow.png",
+          "timeOfOccurence": "2018-11-02T08:00:00Z",
+          "txtID": "warning.msgA220"
+        },
+        {
+          "picID": "ICON025.png",
+          "timeOfOccurence": "2018-03-27T14:13:20Z",
+          "txtID": "warning.msgA227"
+        },
+        {
+          "picID": "ICON027_red.png",
+          "timeOfOccurence": "2017-04-14T08:53:20Z",
+          "txtID": "warning.msgA317"
+        }
+      ],
+      "vin": "CBEV0000000000000"
+    },
+    "status": 200
+  }
+}

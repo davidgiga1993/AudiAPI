@@ -1,0 +1,34 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/service-book/v1/vehicles/A4AVANT0000000000/service-book/3965"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "additionalNote": "",
+      "dealer": {
+        "address": {
+          "city": "MOSCOW",
+          "country": "RUS",
+          "houseNumber": "00",
+          "street": "LENINGRADSKOE SH.63B",
+          "zipCode": "125445"
+        },
+        "authorizedServicePartner": true,
+        "name": "AC SEVER"
+      },
+      "jobDescription": "Übergabe-Inspektion",
+      "jobNumber": "10309209",
+      "mobilityGuarantee": false,
+      "odometerUnit": "KM",
+      "odometerValue": 0,
+      "serviceDate": "2013-01-11T20:00:00Z",
+      "serviceDocumentId": "3965",
+      "tasksList": []
+    },
+    "status": 200
+  }
+}

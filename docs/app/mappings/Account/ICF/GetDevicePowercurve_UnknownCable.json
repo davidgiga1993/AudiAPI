@@ -1,0 +1,18 @@
+{
+  "newScenarioState": "Started",
+  "request": {
+    "method": "GET",
+    "urlPath": "/icf/ilfsta/powercurve/000008_1"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "error": "noPowercurveFound",
+      "message": "powerCurve for deviceId 000008_1 not found",
+      "timestamp": 1543312148537
+    },
+    "status": 404
+  }
+}

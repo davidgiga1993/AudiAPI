@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/audiid/v1/userinfo"
+  },
+  "requiredScenarioState": "NoNickname",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "birthdate": "1981-08-20",
+      "cor": "DE",
+      "email": "service@audi.de",
+      "family_name": "User",
+      "given_name": "Demo",
+      "locale": "de-DE",
+      "mbb_user_id": "7HDSPdDSh6DTGEVhsjHtv4X8ENaZ",
+      "name": "Demo User",
+      "sub": "W829911437",
+      "updated_at": 1470153752
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.UserInfo"
+}

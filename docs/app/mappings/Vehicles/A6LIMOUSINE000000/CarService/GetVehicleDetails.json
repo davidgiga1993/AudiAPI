@@ -1,0 +1,980 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/carservice/v3/vehicles/A6LIMOUSINE000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "driveTrain": "MHEV",
+      "incomplete": [
+        "MEDIA"
+      ],
+      "modelCoding": "4A2B2Y",
+      "specialEquipments": [
+        {
+          "categoryId": "2",
+          "code": "PSWR8X1",
+          "name": "Headlamp washer system"
+        },
+        {
+          "categoryId": "1",
+          "code": "ELUM7HD",
+          "name": "Upper and lower interior elements in leatherette"
+        },
+        {
+          "code": "G   WQV",
+          "name": "\"S line\" Sports package (for export)"
+        },
+        {
+          "code": "G   PXC",
+          "name": "HD Matrix LED headl. + LED rear comb. lamps w/ dyn.light des. +dyn.turn sign. in front + rear, w/ headl. washer system"
+        },
+        {
+          "categoryId": "3",
+          "code": "ERAD42V",
+          "name": "Forged alloy wheels, 10-spoke Y-style , 8.5J x 21 with 255/35 R21 tires"
+        },
+        {
+          "categoryId": "1",
+          "code": "PLCPQQ2",
+          "name": "Contour/ambient lighting package, multi-color"
+        },
+        {
+          "categoryId": "2",
+          "code": "PTKV4F2",
+          "name": "Comfort key with sensor-controlled luggage compartment release (with SAFELOCK)"
+        },
+        {
+          "categoryId": "1",
+          "code": "PHIM6NQ",
+          "name": "Headliner in Black fabric"
+        },
+        {
+          "categoryId": "1",
+          "code": "EEIH5TG",
+          "name": "Decorative inserts in Matte Brushed Aluminum, dark"
+        },
+        {
+          "code": "G   PGB",
+          "name": "Comfort key incl. sensor-controlled luggage compartment release and anti-theft alarm system"
+        },
+        {
+          "categoryId": "7",
+          "code": "PLIA8G5",
+          "name": "HD Matrix LED headlamps with dynamic turn signal in front and rear"
+        },
+        {
+          "categoryId": "4",
+          "code": "PLSS2C7",
+          "name": "Electric steering wheel adjustment"
+        },
+        {
+          "categoryId": "6",
+          "code": "PLSE9VS",
+          "name": "Bang & Olufsen Premium Sound System with 3D sound"
+        },
+        {
+          "categoryId": "2",
+          "code": "PSDH4E7",
+          "name": "Luggage compartment lid, electrically opening and closing"
+        },
+        {
+          "categoryId": "2",
+          "code": "PSBR8SQ",
+          "name": "LED rear combination lamps with dynamic light design and dynamic turn signal"
+        },
+        {
+          "code": "G   WA2",
+          "name": "Equipment package for Australia"
+        },
+        {
+          "categoryId": "5",
+          "code": "ESIBN2R",
+          "name": "Valcona leather with embossed \"S\""
+        },
+        {
+          "categoryId": "2",
+          "code": "PDEI3FB",
+          "name": "Panoramic glass sunroof"
+        },
+        {
+          "code": "G   WA7",
+          "name": "Equipment package for Australia"
+        },
+        {
+          "code": "G   PQD",
+          "name": "\"S line\" exterior package"
+        },
+        {
+          "categoryId": "5",
+          "code": "PHIS3NT",
+          "name": "Folding rear seat backrest (4+1-seater)"
+        },
+        {
+          "categoryId": "5",
+          "code": "PSIH4A4",
+          "name": "Seat heaters in front and rear"
+        },
+        {
+          "categoryId": "1",
+          "code": "PSCTQL5",
+          "name": "Privacy glass (dark-tinted windows)"
+        },
+        {
+          "categoryId": "2",
+          "code": "PSFS2K7",
+          "name": "S line bumpers"
+        },
+        {
+          "categoryId": "9",
+          "code": "PSZU0NB",
+          "name": "Nameplate set in basic style"
+        },
+        {
+          "categoryId": "7",
+          "code": "EDAE1BK",
+          "name": "adaptive air suspension"
+        },
+        {
+          "categoryId": "1",
+          "code": "PEILVT5",
+          "name": "Aluminum scuff plates in front and rear, illuminated, with \"S\" logo in front"
+        },
+        {
+          "categoryId": "1",
+          "code": "PHKA9AQ",
+          "name": "Comfort automatic air conditioning system, four-zone"
+        },
+        {
+          "code": "G   X8C",
+          "name": "Equipment options subset for Australia"
+        },
+        {
+          "categoryId": "5",
+          "code": "ESIBN2R",
+          "name": "Valcona leather with embossed \"S\""
+        },
+        {
+          "code": "G   PGB",
+          "name": "Comfort key incl. sensor-controlled luggage compartment release and anti-theft alarm system"
+        },
+        {
+          "code": "G   PQD",
+          "name": "\"S line\" exterior package"
+        },
+        {
+          "code": "G   PXC",
+          "name": "HD Matrix LED headl. and LED rear comb. lamps w/ dyn.light des. +dyn.turn sign. in front + rear, w/ headl. washer system"
+        },
+        {
+          "categoryId": "1",
+          "code": "PSCTQL5",
+          "name": "Privacy glass (dark-tinted windows)"
+        },
+        {
+          "categoryId": "1",
+          "code": "PLCPQQ2",
+          "name": "Contour/ambient lighting package, multi-color"
+        },
+        {
+          "categoryId": "1",
+          "code": "PEILVT5",
+          "name": "Aluminum scuff plates in front and rear, illuminated, with \"S\" logo in front"
+        },
+        {
+          "code": "G   WA2",
+          "name": "Equipment package for Australia"
+        },
+        {
+          "code": "G   WA7",
+          "name": "Equipment package for Australia"
+        },
+        {
+          "code": "G   WQV",
+          "name": "\"S line\" Sports package (for export)"
+        },
+        {
+          "categoryId": "9",
+          "code": "PSZU0NB",
+          "name": "Nameplate set in basic style"
+        },
+        {
+          "categoryId": "7",
+          "code": "EDAE1BK",
+          "name": "adaptive air suspension"
+        },
+        {
+          "categoryId": "4",
+          "code": "PLSS2C7",
+          "name": "Electric steering wheel adjustment"
+        },
+        {
+          "categoryId": "2",
+          "code": "PSFS2K7",
+          "name": "S line bumpers"
+        },
+        {
+          "categoryId": "2",
+          "code": "PDEI3FB",
+          "name": "Panoramic glass sunroof"
+        },
+        {
+          "categoryId": "5",
+          "code": "PHIS3NT",
+          "name": "Folding rear seat backrest (4+1-seater)"
+        },
+        {
+          "categoryId": "5",
+          "code": "PSIH4A4",
+          "name": "Seat heaters in front and rear"
+        },
+        {
+          "categoryId": "2",
+          "code": "PSDH4E7",
+          "name": "Luggage compartment lid, electrically opening and closing"
+        },
+        {
+          "categoryId": "2",
+          "code": "PTKV4F2",
+          "name": "Comfort key with sensor-controlled luggage compartment release (with SAFELOCK)"
+        },
+        {
+          "categoryId": "3",
+          "code": "ERAD42V",
+          "name": "Forged alloy wheels, 10-spoke Y-style , 8.5J x 21 with 255/35 R21 tires"
+        },
+        {
+          "categoryId": "1",
+          "code": "EEIH5TG",
+          "name": "Decorative inserts in Matte Brushed Aluminum, dark"
+        },
+        {
+          "categoryId": "1",
+          "code": "PHIM6NQ",
+          "name": "Headliner in Black fabric"
+        },
+        {
+          "categoryId": "1",
+          "code": "ELUM7HD",
+          "name": "Upper and lower interior elements in leatherette"
+        },
+        {
+          "categoryId": "7",
+          "code": "PLIA8G5",
+          "name": "HD Matrix LED headlamps with dynamic turn signal in front and rear"
+        },
+        {
+          "categoryId": "2",
+          "code": "PSBR8SQ",
+          "name": "LED rear combination lamps with dynamic light design and dynamic turn signal"
+        },
+        {
+          "categoryId": "2",
+          "code": "PSWR8X1",
+          "name": "Headlamp washer system"
+        },
+        {
+          "categoryId": "1",
+          "code": "PHKA9AQ",
+          "name": "Comfort automatic air conditioning system, four-zone"
+        },
+        {
+          "categoryId": "6",
+          "code": "PLSE9VS",
+          "name": "Bang & Olufsen Premium Sound System with 3D sound"
+        },
+        {
+          "code": "G   X8C",
+          "name": "Equipment options subset for Australia"
+        }
+      ],
+      "standardEquipments": [
+        {
+          "categoryId": "3",
+          "code": "LRDK7K9",
+          "name": "Tire pressure monitoring system"
+        },
+        {
+          "categoryId": "1",
+          "code": "LRAU9JA",
+          "name": "Non-smoker package"
+        },
+        {
+          "categoryId": "2",
+          "code": "LASL5SJ",
+          "name": "Left exterior mirror, convex"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPAIT3",
+          "name": "Audi connect Navigation & Infotainment"
+        },
+        {
+          "categoryId": "5",
+          "code": "LSIE3L4",
+          "name": "Power-adjustable front seats including memory feature for the driver seat"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPBIU1",
+          "name": "Audi smartphone interface"
+        },
+        {
+          "categoryId": "1",
+          "code": "LMAS6E3",
+          "name": "Comfort center armrest in front"
+        },
+        {
+          "categoryId": "1",
+          "code": "LALGQE1",
+          "name": "Storage package"
+        },
+        {
+          "categoryId": "7",
+          "code": "LGWA6Y2",
+          "name": "Speed limiter"
+        },
+        {
+          "categoryId": "8",
+          "code": "LMOTDU6",
+          "name": "6-cylinder SI engine 3.0 l/250 kW TFSI, homogeneous base engine is T9I"
+        },
+        {
+          "categoryId": "8",
+          "code": "LHAGGH4",
+          "name": "quattro (with ultra technology)"
+        },
+        {
+          "categoryId": "1",
+          "code": "LWSS4GF",
+          "name": "Windshield with heat-insulating glass"
+        },
+        {
+          "categoryId": "7",
+          "code": "LGRA8T5",
+          "name": "Adaptive cruise control"
+        },
+        {
+          "categoryId": "6",
+          "code": "LESSUF8",
+          "name": "Audi music interface in the rear seat area"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSPU7Y1",
+          "name": "Lane change assist incl. exit warning system and rear cross traffic alert"
+        },
+        {
+          "categoryId": "6",
+          "code": "LONLEL3",
+          "name": "Audi connect Navigation & Infotainment"
+        },
+        {
+          "categoryId": "2",
+          "code": "IKARK8B",
+          "name": "Notchback"
+        },
+        {
+          "categoryId": "8",
+          "code": "IGMOT9I",
+          "name": "6-cylinder SI engine 3.0 l unit 06M.C"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSKAJX1",
+          "name": "With front cross traffic assist"
+        },
+        {
+          "categoryId": "7",
+          "code": "LESI7W3",
+          "name": "Audi pre sense rear"
+        },
+        {
+          "categoryId": "4",
+          "code": "LLRA1XW",
+          "name": "Leather-wrapped multi-function sports steering wheel with shift paddles"
+        },
+        {
+          "categoryId": "7",
+          "code": "LBAV1LP",
+          "name": "Disc brakes in front (18-inch NAO)"
+        },
+        {
+          "categoryId": "1",
+          "code": "LFRI2V5",
+          "name": "Without Air Quality package"
+        },
+        {
+          "categoryId": "1",
+          "code": "LSSH4KC",
+          "name": "Heat-insulating glass at sides and rear"
+        },
+        {
+          "categoryId": "2",
+          "code": "LDAR3S0",
+          "name": "Without roof rails/roof load rack"
+        },
+        {
+          "categoryId": "5",
+          "code": "LVOSQ1D",
+          "name": "Sports seats in front"
+        },
+        {
+          "categoryId": "8",
+          "code": "IGSPG1D",
+          "name": "S tronic (for four-wheel drive)"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSRH6I6",
+          "name": "Adaptive drive assist including emergency assist"
+        },
+        {
+          "categoryId": "7",
+          "code": "LZKV3B7",
+          "name": "Child seat anchors as per Canadian requirements a. ISOFIX child seat system"
+        },
+        {
+          "categoryId": "8",
+          "code": "LSNA7L8",
+          "name": "Start/stop system"
+        },
+        {
+          "categoryId": "1",
+          "code": "LMFA9S8",
+          "name": "Audi virtual cockpit"
+        },
+        {
+          "categoryId": "9",
+          "code": "LASMGM0",
+          "name": "Without electronic engine sound measures"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPDIW3",
+          "name": "Audi connect Emergency & Service"
+        },
+        {
+          "categoryId": "7",
+          "code": "LKSUKA6",
+          "name": "Surround view cameras"
+        },
+        {
+          "categoryId": "2",
+          "code": "LBBO6FA",
+          "name": "Body-colored exterior mirror housings"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPCIV7",
+          "name": "Connect package Plus 7"
+        },
+        {
+          "categoryId": "2",
+          "code": "LASE6XL",
+          "name": "Ext. mirrors, power-adjustable, heated, el.fold.,both sides auto-dim.,mem. ft., front pass. ext. mirror lowering funct."
+        },
+        {
+          "categoryId": "9",
+          "code": "LSCRFK0",
+          "name": "Without additional tank for SCR"
+        },
+        {
+          "categoryId": "2",
+          "code": "LTYZ2Z8",
+          "name": "Model designation as per new engine power designation"
+        },
+        {
+          "categoryId": "7",
+          "code": "LAIB4UE",
+          "name": "Airbags"
+        },
+        {
+          "categoryId": "8",
+          "code": "LKBV0M5",
+          "name": "Fuel tank (73 liters)"
+        },
+        {
+          "categoryId": "7",
+          "code": "LHUDKS1",
+          "name": "Head-up display"
+        },
+        {
+          "categoryId": "1",
+          "code": "LIRS4L6",
+          "name": "Auto-dimming interior rearview mirror, frameless"
+        },
+        {
+          "categoryId": "1",
+          "code": "LTRW3CA",
+          "name": "Without partition"
+        },
+        {
+          "categoryId": "6",
+          "code": "LZABQW0",
+          "name": "Without central control unit"
+        },
+        {
+          "categoryId": "6",
+          "code": "LRAOI8T",
+          "name": "MMI Navigation plus with MMI touch response"
+        },
+        {
+          "categoryId": "8",
+          "code": "LASY0K4",
+          "name": "Mild hybrid"
+        },
+        {
+          "categoryId": "8",
+          "code": "LKRS1A2",
+          "name": "Fuel system for SI engine with direct injection (FSI)"
+        },
+        {
+          "categoryId": "8",
+          "code": "LATA1X1",
+          "name": "quattro"
+        },
+        {
+          "categoryId": "9",
+          "code": "IAUSA9D",
+          "name": "Sports"
+        },
+        {
+          "categoryId": "2",
+          "code": "LEPH9X0",
+          "name": "Parking aid Plus with 360° display"
+        },
+        {
+          "categoryId": "7",
+          "code": "LCHA2H9",
+          "name": "Audi drive select"
+        },
+        {
+          "categoryId": "9",
+          "code": "LAWV6K8",
+          "name": "Audi pre sense front"
+        },
+        {
+          "categoryId": "7",
+          "code": "LLENQZ7",
+          "name": "Power steering"
+        },
+        {
+          "categoryId": "2",
+          "code": "LHSW8IT",
+          "name": "LED headlamps"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSAB4X4",
+          "name": "Side airbags in front and rear incl. curtain airbag system and illuminated seat belt buckles"
+        },
+        {
+          "categoryId": "1",
+          "code": "LNAV7UG",
+          "name": "Navigation module"
+        },
+        {
+          "categoryId": "2",
+          "code": "LZIE4ZB",
+          "name": "High-Gloss styling package"
+        },
+        {
+          "categoryId": "5",
+          "code": "LLOR7P1",
+          "name": "4-way lumbar support for the front seats"
+        },
+        {
+          "categoryId": "9",
+          "code": "LLEAL0R",
+          "name": "Right-hand drive"
+        },
+        {
+          "categoryId": "7",
+          "code": "LGEF9R0",
+          "name": "Without night vision"
+        },
+        {
+          "categoryId": "2",
+          "code": "LASR6TS",
+          "name": "Right exterior mirror, aspherical, large viewing field"
+        },
+        {
+          "categoryId": "6",
+          "code": "LVTV9ZV",
+          "name": "Audi phone box Light"
+        },
+        {
+          "categoryId": "3",
+          "code": "LREII56",
+          "name": "Tires 255/35 R21 98Y xl"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSNH8Y1",
+          "name": "Two-tone horn"
+        },
+        {
+          "categoryId": "6",
+          "code": "LTVEQV3",
+          "name": "Digital radio reception"
+        },
+        {
+          "categoryId": "7",
+          "code": "LFLS8K4",
+          "name": "Separate daytime running light -- NAR --"
+        },
+        {
+          "categoryId": "8",
+          "code": "LAGM7MM",
+          "name": "Emission standard EU6 plus"
+        },
+        {
+          "categoryId": "9",
+          "code": "IAUSA9D",
+          "name": "Sports"
+        },
+        {
+          "categoryId": "8",
+          "code": "LMOTDU6",
+          "name": "6-cylinder SI engine 3.0 l/250 kW TFSI, homogeneous base engine is T9I"
+        },
+        {
+          "categoryId": "6",
+          "code": "LONLEL3",
+          "name": "Audi connect Navigation & Infotainment"
+        },
+        {
+          "categoryId": "9",
+          "code": "LSCRFK0",
+          "name": "Without additional tank for SCR"
+        },
+        {
+          "categoryId": "8",
+          "code": "LHAGGH4",
+          "name": "quattro (with ultra technology)"
+        },
+        {
+          "categoryId": "9",
+          "code": "LASMGM0",
+          "name": "Without electronic engine sound measures"
+        },
+        {
+          "categoryId": "8",
+          "code": "IGSPG1D",
+          "name": "S tronic (for four-wheel drive)"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPAIT3",
+          "name": "Audi connect Navigation & Infotainment"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPBIU1",
+          "name": "Audi smartphone interface"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPCIV7",
+          "name": "Connect package Plus 7"
+        },
+        {
+          "categoryId": "6",
+          "code": "LCPDIW3",
+          "name": "Audi connect Emergency & Service"
+        },
+        {
+          "categoryId": "3",
+          "code": "LREII56",
+          "name": "Tires 255/35 R21 98Y xl"
+        },
+        {
+          "categoryId": "6",
+          "code": "LRAOI8T",
+          "name": "MMI Navigation plus with MMI touch response"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSKAJX1",
+          "name": "With front cross traffic assist"
+        },
+        {
+          "categoryId": "7",
+          "code": "LKSUKA6",
+          "name": "360-degree cameras"
+        },
+        {
+          "categoryId": "7",
+          "code": "LHUDKS1",
+          "name": "Head-up display"
+        },
+        {
+          "categoryId": "2",
+          "code": "IKARK8B",
+          "name": "Notchback"
+        },
+        {
+          "categoryId": "9",
+          "code": "LLEAL0R",
+          "name": "Right-hand drive"
+        },
+        {
+          "categoryId": "1",
+          "code": "LALGQE1",
+          "name": "Storage package"
+        },
+        {
+          "categoryId": "6",
+          "code": "LTVEQV3",
+          "name": "Digital audio broadcasting"
+        },
+        {
+          "categoryId": "6",
+          "code": "LZABQW0",
+          "name": "Without central control unit"
+        },
+        {
+          "categoryId": "7",
+          "code": "LLENQZ7",
+          "name": "Power steering"
+        },
+        {
+          "categoryId": "5",
+          "code": "LVOSQ1D",
+          "name": "Sports seats in front"
+        },
+        {
+          "categoryId": "8",
+          "code": "IGMOT9I",
+          "name": "6-cylinder SI engine 3.0 l unit 06M.C"
+        },
+        {
+          "categoryId": "6",
+          "code": "LESSUF8",
+          "name": "Audi music interface in the rear seat area"
+        },
+        {
+          "categoryId": "8",
+          "code": "LASY0K4",
+          "name": "Mild hybrid"
+        },
+        {
+          "categoryId": "8",
+          "code": "LKBV0M5",
+          "name": "Fuel tank (73 liters)"
+        },
+        {
+          "categoryId": "8",
+          "code": "LKRS1A2",
+          "name": "Fuel system for SI engine with direct injection (FSI)"
+        },
+        {
+          "categoryId": "7",
+          "code": "LBAV1LP",
+          "name": "Disc brakes in front (18-inch NAO)"
+        },
+        {
+          "categoryId": "4",
+          "code": "LLRA1XW",
+          "name": "Leather-wrapped multi-function sports steering wheel with shift paddles"
+        },
+        {
+          "categoryId": "8",
+          "code": "LATA1X1",
+          "name": "quattro"
+        },
+        {
+          "categoryId": "7",
+          "code": "LCHA2H9",
+          "name": "Audi drive select"
+        },
+        {
+          "categoryId": "1",
+          "code": "LFRI2V5",
+          "name": "Without Air Quality package"
+        },
+        {
+          "categoryId": "2",
+          "code": "LTYZ2Z8",
+          "name": "Model designation as per new engine power designation"
+        },
+        {
+          "categoryId": "7",
+          "code": "LZKV3B7",
+          "name": "Child seat anchors as per Canadian requirements a. ISOFIX child seat system"
+        },
+        {
+          "categoryId": "1",
+          "code": "LTRW3CA",
+          "name": "Without partition"
+        },
+        {
+          "categoryId": "5",
+          "code": "LSIE3L4",
+          "name": "Power-adjustable front seats including memory feature for the driver seat"
+        },
+        {
+          "categoryId": "2",
+          "code": "LDAR3S0",
+          "name": "Without roof rails/roof load rack"
+        },
+        {
+          "categoryId": "1",
+          "code": "LWSS4GF",
+          "name": "Windshield with heat-insulating glass"
+        },
+        {
+          "categoryId": "1",
+          "code": "LSSH4KC",
+          "name": "Heat-insulating glass"
+        },
+        {
+          "categoryId": "1",
+          "code": "LIRS4L6",
+          "name": "Auto-dimming interior rearview mirror, frameless"
+        },
+        {
+          "categoryId": "7",
+          "code": "LAIB4UE",
+          "name": "Airbags"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSAB4X4",
+          "name": "Side airbags in front and rear incl. curtain airbag system and illuminated seat belt buckles"
+        },
+        {
+          "categoryId": "2",
+          "code": "LZIE4ZB",
+          "name": "High-Gloss styling package"
+        },
+        {
+          "categoryId": "2",
+          "code": "LASL5SJ",
+          "name": "Left exterior mirror, convex"
+        },
+        {
+          "categoryId": "1",
+          "code": "LMAS6E3",
+          "name": "Comfort center armrest in front"
+        },
+        {
+          "categoryId": "2",
+          "code": "LBBO6FA",
+          "name": "Body-colored exterior mirror housings"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSRH6I6",
+          "name": "Adaptive cruise assist including emergency assist"
+        },
+        {
+          "categoryId": "9",
+          "code": "LAWV6K8",
+          "name": "Audi pre sense front"
+        },
+        {
+          "categoryId": "2",
+          "code": "LASR6TS",
+          "name": "Right exterior mirror, aspherical, large viewing field"
+        },
+        {
+          "categoryId": "2",
+          "code": "LASE6XL",
+          "name": "Ext. mirrors, po.-adjust., heated, po.- folding, both sides auto-dim.,mem. ft., front pass. ext. mirror lowering funct."
+        },
+        {
+          "categoryId": "7",
+          "code": "LGWA6Y2",
+          "name": "Speed limiter"
+        },
+        {
+          "categoryId": "3",
+          "code": "LRDK7K9",
+          "name": "Tire pressure monitoring system"
+        },
+        {
+          "categoryId": "8",
+          "code": "LSNA7L8",
+          "name": "Start/stop system"
+        },
+        {
+          "categoryId": "8",
+          "code": "LAGM7MM",
+          "name": "Emission standard EU6 plus"
+        },
+        {
+          "categoryId": "5",
+          "code": "LLOR7P1",
+          "name": "4-way lumbar support for the front seats"
+        },
+        {
+          "categoryId": "1",
+          "code": "LNAV7UG",
+          "name": "Navigation module"
+        },
+        {
+          "categoryId": "7",
+          "code": "LESI7W3",
+          "name": "Audi pre sense rear"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSPU7Y1",
+          "name": "Lane change assistant incl. exit warning system and rear cross traffic alert"
+        },
+        {
+          "categoryId": "2",
+          "code": "LHSW8IT",
+          "name": "LED headlamps"
+        },
+        {
+          "categoryId": "7",
+          "code": "LFLS8K4",
+          "name": "Separate daytime running light -- NAR --"
+        },
+        {
+          "categoryId": "7",
+          "code": "LGRA8T5",
+          "name": "Adaptive cruise control"
+        },
+        {
+          "categoryId": "7",
+          "code": "LSNH8Y1",
+          "name": "Two-tone horn"
+        },
+        {
+          "categoryId": "1",
+          "code": "LRAU9JA",
+          "name": "Non-smoker package"
+        },
+        {
+          "categoryId": "7",
+          "code": "LGEF9R0",
+          "name": "Without night vision"
+        },
+        {
+          "categoryId": "1",
+          "code": "LMFA9S8",
+          "name": "Audi virtual cockpit"
+        },
+        {
+          "categoryId": "2",
+          "code": "LEPH9X0",
+          "name": "Parking aid Plus with 360° display"
+        },
+        {
+          "categoryId": "6",
+          "code": "LVTV9ZV",
+          "name": "Audi phone box Light"
+        }
+      ],
+      "technicalSpecifications": []
+    },
+    "status": 200
+  }
+}

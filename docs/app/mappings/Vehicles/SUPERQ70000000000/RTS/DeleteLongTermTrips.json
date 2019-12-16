@@ -1,0 +1,11 @@
+{
+  "newScenarioState": "TripsEmpty",
+  "request": {
+    "method": "DELETE",
+    "urlPath": "/msg/bs/tripstatistics/v1/Audi/DE/vehicles/SUPERQ70000000000/tripdata/longTerm"
+  },
+  "response": {
+    "status": 204
+  },
+  "scenarioName": "Vehicles.SuperQ7.RTS.LongTermTrips"
+}

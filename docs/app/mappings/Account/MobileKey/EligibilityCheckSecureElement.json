@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/msg/cs/mobiledevicemgmt/v1/mobilekey/secureelement.+/status/information"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "statusInformation": {
+        "statusInfoItem": [
+          {
+            "cardletInstalled": true
+          },
+          {
+            "cardletPersonalized": true
+          },
+          {
+            "eligibilityStatus": "ELIGIBLE"
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,1402 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/rolesrights/operationlist/v3/vehicles/A6LIMOUSINE000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "83df61b1caf867acbe0e3695487d4328d8b189686349e2c47c238ce424c5af23"
+    },
+    "jsonBody": {
+      "operationList": {
+        "channelClient": "APP",
+        "role": "SECONDARY_USER",
+        "securityLevel": "HG_2c",
+        "serviceInfo": [
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "{{now offset='1 days' format='yyyy-MM-dd'}}T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "{{now offset='5 days' format='yyyy-MM-dd'}}T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002051",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002051",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "INFOTAINMENT",
+            "licenseRequired": true,
+            "parameters": null,
+            "personalized": true,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T08:26:46Z",
+            "serviceId": "nc_destsync_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "extern",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T08:26:46Z",
+            "serviceId": "vehicleusers_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": true,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_NHIST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_NHIST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_NHISTLAST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_VCONF",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2099-12-20T23:00:00Z",
+            "serviceId": "dwap",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T08:26:46Z",
+            "serviceId": "lsd_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbbInternal",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "primaryuser_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T08:26:46Z",
+            "serviceId": "idp_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "extern",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_RQSTAT",
+                "invocationUrl": {
+                  "content": "/rlu/v1/{brand}/{country}/vehicles/{vin}/requests/{requestId}/status",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "extAuth": "SPIN",
+                "id": "LOCK",
+                "invocationUrl": {
+                  "content": "/rlu/v1/{brand}/{country}/vehicles/{vin}/lock",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_LACT",
+                "invocationUrl": {
+                  "content": "/rlu/v1/{brand}/{country}/vehicles/{vin}/actions",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "extAuth": "SPIN",
+                "id": "UNLOCK",
+                "invocationUrl": {
+                  "content": "/rlu/v1/{brand}/{country}/vehicles/{vin}/unlock",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "rlu_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2029-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002694",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002694",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalGps"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2030-11-03T23:00:00Z",
+            "serviceId": "ecall_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "vehicleusers_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2029-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002694",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002694",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "S_RCALL",
+                "invocationUrl": {
+                  "content": "/opr/v1/{brand}/{country}/vehicles/{vin}/remotecall",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "remoteCommand": "triggerBreakdownCallJob",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "triggerBreakdownCallJob_v1_0_0"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalGps",
+                "personalUser",
+                "dormantService"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "cc_breakdown_v2",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "FIND_CAR",
+                "invocationUrl": {
+                  "content": "/cf/v1/{brand}/{country}/vehicles/{vin}/position",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalGps"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "carfinder_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "lsd_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbbInternal",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_RHIST",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingRequesthistoryEntries",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_ALERTS",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingAlerts",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_ALERT",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingAlerts/{id}",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_DLIST",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingDefinitionList",
+                  "method": "POST"
+                },
+                "permission": "denied",
+                "remoteCommand": "activateGeoFencing",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1",
+                "xsd": "geoFencing_v1_0_0"
+              },
+              {
+                "id": "G_DLIST",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingDefinitionList",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_RHENTRY",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingRequesthistoryEntries/{id}",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_ALERTS",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingAlerts",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_DLSTATUS",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingDefinitionList/{id}/status",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_RHIST",
+                "invocationUrl": {
+                  "content": "/geofencing/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/geofencingRequesthistoryEntries",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": {
+              "parameter": [
+                {
+                  "content": "10",
+                  "name": "profileCount"
+                },
+                {
+                  "content": "4",
+                  "name": "activeProfileCount"
+                }
+              ]
+            },
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalGps"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "geofence_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": true,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2029-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002694",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002694",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_HIST",
+                "invocationUrl": {
+                  "content": "/otv/v1/{brand}/{country}/vehicles/{vin}/history",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_SAPP",
+                "invocationUrl": {
+                  "content": "/otv/v1/{brand}/{country}/vehicles/{vin}/appointment",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_CONFDATA",
+                "invocationUrl": {
+                  "content": "/otv/v1/{brand}/{country}/vehicles/{vin}/configuration",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "S_CONFDATA",
+                "invocationUrl": {
+                  "content": "/otv/v1/{brand}/{country}/vehicles/{vin}/configuration",
+                  "method": "PUT"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "dealerappoint_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_CONF",
+                "invocationUrl": {
+                  "content": "/rhf/v1/frontend/rs/{brand}/{country}/configuration",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_RHIST",
+                "invocationUrl": {
+                  "content": "/rhf/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/requestHistoryEntries",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_REQSTATUS",
+                "invocationUrl": {
+                  "content": "/rhf/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/honkAndFlash/{id}/status",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_VREQ",
+                "invocationUrl": {
+                  "content": "/rhf/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/honkAndFlash",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "remoteCommand": "activateHonkAndFlash",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "honkAndFlash_v1_0_0"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "rhonk_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T08:26:46Z",
+            "serviceId": "userinfo_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "extern",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_CVDATA",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/requests",
+                  "method": "POST"
+                },
+                "permission": "granted",
+                "remoteCommand": "sendVehicleStatus",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "rvsRdk_v1_0_1"
+              },
+              {
+                "id": "G_CVDATAID",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/requests/{requestId}/status",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_RQSTAT",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/requests/{requestId}/jobstatus",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_SVDATA",
+                "invocationUrl": {
+                  "content": "/vsr/v1/{brand}/{country}/vehicles/{vin}/status",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "statusreport_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T08:26:46Z",
+            "serviceId": "primaryuser_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "D_ALERT",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlerts/{id}",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_DLIST",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlertDefinitionList",
+                  "method": "POST"
+                },
+                "permission": "denied",
+                "remoteCommand": "activateSpeedAlert",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1",
+                "xsd": "speedAlert_v1_0_0"
+              },
+              {
+                "id": "D_RHENTRY",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlertRequesthistoryEntries/{id}",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_RHIST",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlertRequesthistoryEntries",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_ALERTS",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlerts",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_RHIST",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlertRequesthistoryEntries",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_DLIST",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlertDefinitionList",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_DLSTATUS",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlertDefinitionList/{id}/status",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_ALERTS",
+                "invocationUrl": {
+                  "content": "/speedalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/speedAlerts",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": {
+              "parameter": [
+                {
+                  "content": "2",
+                  "name": "activeProfileCount"
+                },
+                {
+                  "content": "5",
+                  "name": "profileCount"
+                }
+              ]
+            },
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalGps"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "speedalert_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "licenseRequired": false,
+            "operation": [
+              {
+                "id": "getLicenses",
+                "invocationUrl": {
+                  "content": "/apps/licenseScreen/bundles",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "ANONYMOUS_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "dormantService"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "app_license_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "app",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "rsd_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "app",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalUser"
+              ]
+            },
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2119-04-29T08:26:46Z",
+            "serviceId": "rsd_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "app",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicense": {
+              "activationBy": "automatic",
+              "activationDate": {
+                "content": "2019-02-27T23:00:00Z"
+              },
+              "expirationDate": {
+                "content": "2022-02-27T23:00:00Z"
+              },
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00002695",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00002695",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_DEF",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlertDefinition",
+                  "method": "GET"
+                },
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_DSTATUS",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlertDefinition/{id}/status",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_ALERTS",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlerts",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_DEF",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlertDefinition",
+                  "method": "POST"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_RHIST",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlertRequesthistoryEntries",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_DEF",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlertDefinition",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_ALERT",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlerts/{id}",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_RHIST",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlertRequesthistoryEntries",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_ALERTS",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlerts",
+                  "method": "GET"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_RHENTRY",
+                "invocationUrl": {
+                  "content": "/valetalert/v1/frontend/rs/{brand}/{country}/vehicles/{vin}/valetAlertRequesthistoryEntries/{id}",
+                  "method": "DELETE"
+                },
+                "permission": "denied",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "PRIMARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "privacyGroups": {
+              "privacyGroup": [
+                "personalGps"
+              ]
+            },
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2119-04-29T04:08:01Z",
+            "serviceId": "valetalert_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          }
+        ],
+        "status": "ENABLED",
+        "userId": "trycdN7v0jOhi88v7FJfMivQ5b61",
+        "vehicleLifeCycleStatus": {
+          "content": "DELIVERED",
+          "garage": false
+        },
+        "vin": "A6LIMOUSINE000000"
+      }
+    },
+    "status": 200
+  }
+}

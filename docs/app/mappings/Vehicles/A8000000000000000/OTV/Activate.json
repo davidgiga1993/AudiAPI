@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPath": "/msg/subscriptionmanagement/servicestatus/v2/vehicles/A8000000000000000/services/dealerappoint/v1/disabledReasons/deactivated"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {},
+    "status": 200
+  }
+}

@@ -1,0 +1,342 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/myaudi/rolesrights/v1/vehicles/SECONDARYUSERQ700/secondary/users/addWithSpinHash"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "result": "ok",
+      "secondary_user": {
+        "email": "manuel.burghard@quartett-mobile.de",
+        "first_name": "Manuel",
+        "last_name": "Burghard",
+        "privileges": [
+          {
+            "expiry_date": "2026-04-24T11:40:54Z",
+            "licenseRequired": true,
+            "license_status": "active",
+            "operations": [
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "FIND_CAR",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              }
+            ],
+            "service_id": "carfinder_v1",
+            "status": "enabled"
+          },
+          {
+            "expiry_date": "2026-04-24T11:40:54Z",
+            "licenseRequired": true,
+            "license_status": "active",
+            "operations": [
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_RHIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_ALERT",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_RHENTRY",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_RHIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_DLIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "P_DLIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_ALERTS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_DLSTATUS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_ALERTS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              }
+            ],
+            "service_id": "geofence_v1",
+            "status": "enabled"
+          },
+          {
+            "expiry_date": "2026-04-24T11:40:54Z",
+            "licenseRequired": true,
+            "license_status": "active",
+            "operations": [
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_ALERTS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_DEF",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_ALERT",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_DSTATUS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_RHIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_RHENTRY",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_ALERTS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_RHIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              }
+            ],
+            "service_id": "valetalert_v1",
+            "status": "enabled"
+          },
+          {
+            "expiry_date": "2026-04-24T11:40:54Z",
+            "licenseRequired": true,
+            "license_status": "active",
+            "operations": [
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_RQSTAT",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_SVDATA",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_CVDATA",
+                "permission_status": "granted",
+                "remote_command": "sendVehicleStatus",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_CVDATAID",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              }
+            ],
+            "service_id": "statusreport_v1",
+            "status": "enabled"
+          },
+          {
+            "expiry_date": "2026-04-24T11:40:54Z",
+            "licenseRequired": true,
+            "license_status": "active",
+            "operations": [
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_DLSTATUS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_RHIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_DLIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_RHIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "P_DLIST",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_ALERTS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_ALERTS",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_ALERT",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "D_RHENTRY",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              }
+            ],
+            "service_id": "speedalert_v1",
+            "status": "enabled"
+          },
+          {
+            "expiry_date": "2026-04-24T11:40:54Z",
+            "licenseRequired": true,
+            "license_status": "active",
+            "operations": [
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "SWITCH_ON",
+                "permission_status": "granted",
+                "security_level": "HG_2b"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "UNLOCK",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "deprecated_G_NSET",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "SWITCH_OFF",
+                "permission_status": "granted",
+                "security_level": "HG_2b"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "deprecated_S_NSET",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_LACT",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "LOCK",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "secondary_user",
+                "operation_id": "G_RQSTAT",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              }
+            ],
+            "service_id": "rlu_v1",
+            "status": "enabled"
+          },
+          {
+            "expiry_date": "2026-04-24T11:40:54Z",
+            "licenseRequired": true,
+            "license_status": "active",
+            "operations": [
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_CONFDATA",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "S_CONFDATA",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              },
+              {
+                "minimum_role": "primary_user",
+                "operation_id": "G_SAPP",
+                "permission_status": "granted",
+                "security_level": "HG_0"
+              }
+            ],
+            "service_id": "dealerappoint_v1",
+            "status": "disabled"
+          }
+        ],
+        "security_level": "HG_2b",
+        "sso_id": "W283581417",
+        "xuser_id": "X0Iqu4MilTGcb7VK2OXnWHl0oqB"
+      },
+      "vehicle_added": false
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "newScenarioState": "Without Ordered Vehicle",
+  "priority": 1,
+  "request": {
+    "method": "DELETE",
+    "urlPath": "/msg/myaudi/vehicle-management/v1/vehicles/orders/bcdbe10d9f9a489bafdb5cfea8951864"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {},
+    "status": 200
+  },
+  "scenarioName": "Account.VehicleList"
+}

@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPattern": "/msg/bs/mobilekey/v1/Audi/DE/vehicles/A8000000000000000/view/servicestatus"
+  },
+  "requiredScenarioState": "Guestuser",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "serviceStatusMobileKey": {
+        "mobileKeyActivated": true,
+        "userActivationStatus": "Activated",
+        "userRole": "GUEST_USER",
+        "userRoleSecurityLevel": "HG_0"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Mixed.A8.MobileKey"
+}

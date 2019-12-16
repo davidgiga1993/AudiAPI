@@ -1,0 +1,92 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "clientId": {
+        "matches": "52a9759e82"
+      },
+      "q": {
+        "matches": "43940"
+      }
+    },
+    "urlPath": "/dealersearch/api/json/v2/audi-cbs/id"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "meta": {
+        "countResults": 1,
+        "duration": 25,
+        "importTimestamp": "2018-02-06 06:47:37.0",
+        "returnCode": "OK",
+        "status": 200,
+        "timestamp": "2018-02-06 15:48:29.652",
+        "version": "V2"
+      },
+      "partners": [
+        {
+          "address": {
+            "areaNumber": "101",
+            "city": "Rellingen",
+            "display": [
+              "Stawedder 17-21",
+              "25462 Rellingen"
+            ],
+            "distance": {
+              "kilometers": 0,
+              "miles": 0
+            },
+            "distributionCenter": "123",
+            "latitude": 53.6443846,
+            "longitude": 9.8342369,
+            "marketingAreaNumber": "111",
+            "region": "Schleswig-Holstein",
+            "regionNumber": "181",
+            "street": "Stawedder 17-21",
+            "zipCode": "25462"
+          },
+          "brand": "A",
+          "chainName": "DEU-0156 reimers",
+          "contactDetails": {
+            "email": "info@autohof-reimers.de",
+            "fax": {
+              "display": "04101 490895",
+              "international": "+49 4101 490895",
+              "national": "04101 490895",
+              "raw": "+49 4101 490895",
+              "url": "tel:+49-4101-490895"
+            },
+            "phone": {
+              "display": "04101 49080",
+              "international": "+49 4101 49080",
+              "national": "04101 49080",
+              "raw": "+49 4101 49080",
+              "url": "tel:+49-4101-49080"
+            }
+          },
+          "contractStatusGvo": "HS",
+          "countryCode": "DEU",
+          "kvpsSyncId": "",
+          "kvpsid": "43940",
+          "name": "Autohof Reimers GmbH",
+          "notes": {
+            "openingHoursHTML": "<p><strong>Öffnungszeiten:</strong><br /><br /><strong>Verkauf</strong><br />Montag-Freitag: 08:00 - 19:00 Uhr<br />Samstag: 09:00 - 14:00 Uhr<br />Sonntag Schautag: 11:00 - 16:00 Uhr<br /><br /><strong>Service</strong><br />Montag-Freitag: 07:00 - 20:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag geschlossen</p><p><strong>Werkstatt</strong><br />Montag-Freitag: 07:30 - 20:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag geschlossen</p><p /><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>"
+          },
+          "serviceAppointment": "SLI",
+          "services": [
+            "after-sales",
+            "otv",
+            "sales",
+            "service",
+            "usedcars"
+          ],
+          "url": "http://www.audi-partner.de/autohof-reimers",
+          "vcardURL": "/vcard/download?app=audi-deu&kvpsid=43940"
+        }
+      ]
+    },
+    "status": 200
+  }
+}

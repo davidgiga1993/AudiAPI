@@ -1,0 +1,151 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {},
+    "urlPath": "/adm/api/accidents/146cb087-b3b0-440f-a688-1769afca1351"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "15704498523541110"
+    },
+    "jsonBody": {
+      "attachments": [
+        {
+          "classification": "PICTURE",
+          "id": "879ad5fb-4128-4ec6-b2ad-eb6b079aa1db",
+          "originalFileName": "Katze.jpg"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "fa590bc7-b394-441e-b909-fec3e61c6cf0",
+          "originalFileName": "Katze.jpg"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "62fafdf3-0c0d-4fa5-9721-10f71fca730c",
+          "originalFileName": "4ktest.jpg"
+        },
+        {
+          "classification": "INVOICE",
+          "id": "7a3e3541-82fb-41e0-bec5-872fa6c88704",
+          "originalFileName": "vlack-coper.jpg"
+        },
+        {
+          "classification": "INVOICE",
+          "id": "1a2faf57-d8d0-4c4b-ab95-2fab67e98959",
+          "originalFileName": "4ktest.jpg"
+        },
+        {
+          "classification": "INVOICE",
+          "id": "0838e1cb-7bb7-4618-90eb-cb6156a53f48",
+          "originalFileName": "4ktest.jpg"
+        },
+        {
+          "classification": "INVOICE",
+          "id": "ebd757de-0e13-4ed0-a66c-2526e1344d6a",
+          "originalFileName": "validInvoice.pdf"
+        },
+        {
+          "classification": "INVOICE",
+          "id": "8182df60-c462-4bac-9f19-99c645de0d57",
+          "originalFileName": "validInvoice.pdf"
+        }
+      ],
+      "caller": {
+        "id": "de_10721975164026935009",
+        "owner": false,
+        "registeredVehicleUserRole": "UNKNOWN",
+        "webSsoId": "W984790657"
+      },
+      "caseRelatedConsents": {
+        "repairShop": {
+          "consented": true,
+          "displayedLanguage": "de-DE"
+        }
+      },
+      "claimId": "2019092400016",
+      "contractType": "adm",
+      "creationDate": "2019-09-24T11:55:16.983Z",
+      "damageCalculation": {
+        "damageRefinementQuestions": []
+      },
+      "id": "146cb087-b3b0-440f-a688-1769afca1351",
+      "incidentReport": {
+        "damageClassification": "SELF_INDUCED",
+        "dateOfNotice": "2019-09-24",
+        "reportedDateOfAccident": "2019-09-24"
+      },
+      "lastChangeDate": "2019-10-07T12:04:12.332Z",
+      "leadTransmissionStatus": "SUBMITTED",
+      "selectedPartner": {
+        "brand": "AUDI",
+        "city": "Lübeck",
+        "email": "info.audi-luebeck@auto-senger.de",
+        "fax": "+49 451 890976859",
+        "isPreferredDealer": false,
+        "kvpsId": "22281",
+        "latitude": 53.85702,
+        "longitude": 10.63528,
+        "name": "Audi Zentrum Lübeck Senger Automobile GmbH",
+        "openingHoursHTML": "<p><strong>Showroom</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: 11:00 - 16:00 Uhr<br /><br /><strong>Werkstatt</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet<br /><br /><strong>Verkauf</strong><br />Montag - Freitag: 08:00 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet</p><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>",
+        "primaryCode": "DEU22281A",
+        "street": "Padelügger Weg 41",
+        "telephone": "+49 451 890976800",
+        "tenant": "GERMANY",
+        "website": "https://www.audi-zentrum-luebeck.audi",
+        "zipCode": "23556"
+      },
+      "serviceLeadInboxRequestSubmitted": "2019-09-24T11:55:27.202Z",
+      "sourceOfCreation": "CALL_CENTER",
+      "sourceOfOperation": "CALL_CENTER",
+      "vehicle": {
+        "brand": "AUDI",
+        "country": "GERMANY",
+        "impactZones": {
+          "frontBumper": "NOT_AFFECTED",
+          "frontLeftDoor": "NOT_AFFECTED",
+          "frontLeftFender": "NOT_AFFECTED",
+          "frontLeftLight": "NOT_AFFECTED",
+          "frontLeftTire": "NOT_AFFECTED",
+          "frontRightDoor": "NOT_AFFECTED",
+          "frontRightFender": "NOT_AFFECTED",
+          "frontRightLight": "NOT_AFFECTED",
+          "frontRightTire": "NOT_AFFECTED",
+          "hood": "NOT_AFFECTED",
+          "leftAbcPillar": "NOT_AFFECTED",
+          "leftMirror": "NOT_AFFECTED",
+          "leftSideSills": "NOT_AFFECTED",
+          "leftWindow": "NOT_AFFECTED",
+          "radiatorGrill": "NOT_AFFECTED",
+          "rearBumper": "NOT_AFFECTED",
+          "rearLeftDoor": "NOT_AFFECTED",
+          "rearLeftFender": "NOT_AFFECTED",
+          "rearLeftLight": "NOT_AFFECTED",
+          "rearLeftTire": "NOT_AFFECTED",
+          "rearRightDoor": "NOT_AFFECTED",
+          "rearRightFender": "NOT_AFFECTED",
+          "rearRightLight": "NOT_AFFECTED",
+          "rearRightTire": "NOT_AFFECTED",
+          "rightAbcPillar": "NOT_AFFECTED",
+          "rightMirror": "NOT_AFFECTED",
+          "rightSideSills": "NOT_AFFECTED",
+          "rightWindow": "NOT_AFFECTED",
+          "roof": "NOT_AFFECTED",
+          "trunk": "NOT_AFFECTED",
+          "windscreen": "NOT_AFFECTED"
+        },
+        "mileageUnit": "KM",
+        "remainingRangeUnit": "KM",
+        "seatBelts": {
+          "seatBeltFirstRowDriver": "NOT_DEFINED",
+          "seatBeltFirstRowPassenger": "NOT_DEFINED",
+          "seatBeltSecondRowDriver": "NOT_DEFINED",
+          "seatBeltSecondRowMiddle": "NOT_DEFINED",
+          "seatBeltSecondRowPassenger": "NOT_DEFINED"
+        }
+      }
+    },
+    "status": 200
+  }
+}

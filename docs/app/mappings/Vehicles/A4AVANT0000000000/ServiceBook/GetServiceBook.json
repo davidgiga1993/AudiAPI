@@ -1,0 +1,62 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/msg/myaudi/service-book/v1/vehicles/A4AVANT0000000000/service-book"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "jobDescription": "Inspektion mit Ölwechsel",
+        "jobNumber": "12488800",
+        "odometerUnit": "KM",
+        "odometerValue": 89225,
+        "serviceDate": "2014-07-28T20:00:00Z",
+        "serviceDocumentId": "3960"
+      },
+      {
+        "jobDescription": "Ölwechsel-Service",
+        "jobNumber": "12096209",
+        "odometerUnit": "KM",
+        "odometerValue": 74961,
+        "serviceDate": "2014-04-24T20:00:00Z",
+        "serviceDocumentId": "3961"
+      },
+      {
+        "jobDescription": "Inspektion mit Ölwechsel",
+        "jobNumber": "59303",
+        "odometerUnit": "KM",
+        "odometerValue": 59303,
+        "serviceDate": "2014-01-31T20:00:00Z",
+        "serviceDocumentId": "3962"
+      },
+      {
+        "jobDescription": "Ölwechsel-Service",
+        "jobNumber": "11412600",
+        "odometerUnit": "KM",
+        "odometerValue": 43744,
+        "serviceDate": "2013-10-25T20:00:00Z",
+        "serviceDocumentId": "3963"
+      },
+      {
+        "jobDescription": "Ölwechsel-Service",
+        "jobNumber": "10814388",
+        "odometerUnit": "KM",
+        "odometerValue": 15690,
+        "serviceDate": "2013-05-08T20:00:00Z",
+        "serviceDocumentId": "3964"
+      },
+      {
+        "jobDescription": "Übergabe-Inspektion",
+        "jobNumber": "10309209",
+        "odometerUnit": "KM",
+        "odometerValue": 0,
+        "serviceDate": "2013-01-11T20:00:00Z",
+        "serviceDocumentId": "3965"
+      }
+    ],
+    "status": 200
+  }
+}

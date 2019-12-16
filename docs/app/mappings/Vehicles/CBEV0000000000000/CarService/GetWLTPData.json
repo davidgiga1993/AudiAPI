@@ -1,0 +1,75 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/carservice/v3/vehicles/CBEV0000000000000/wltps"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "technicalSpecifications": [
+        {
+          "groupId": "efficiency",
+          "groupName": "Effizienz",
+          "key": "efficiency-class",
+          "name": "Effizienzklasse",
+          "value": "A+"
+        }
+      ],
+      "wltps": [
+        {
+          "attributeGroup": "INTERPOLATIONS|CO2|PURE",
+          "attributes": [
+            {
+              "attributeId": "ELECTRICAL|COMBINED",
+              "scaleUnit": "g/km",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "attributeGroup": "INTERPOLATIONS|RANGE|PURE",
+          "attributes": [
+            {
+              "attributeId": "ELECTRICAL|COMBINED",
+              "scaleUnit": "km",
+              "value": "362.1171704825317"
+            }
+          ]
+        },
+        {
+          "attributeGroup": "INTERPOLATIONS|CONSUMPTION|PURE",
+          "attributes": [
+            {
+              "attributeId": "ELECTRICAL|COMBINED",
+              "scaleUnit": "Wh/km",
+              "value": "258.98457841564675"
+            }
+          ]
+        },
+        {
+          "attributeGroup": "NEDC|CO2|PURE",
+          "attributes": [
+            {
+              "attributeId": "ELECTRICAL|COMBINED",
+              "scaleUnit": "g/km",
+              "value": "0.0"
+            }
+          ]
+        },
+        {
+          "attributeGroup": "NEDC|CONSUMPTION|PURE",
+          "attributes": [
+            {
+              "attributeId": "ELECTRICAL|COMBINED",
+              "scaleUnit": "Wh/km",
+              "value": "245.7"
+            }
+          ]
+        }
+      ]
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "account": {
+        "matches": "PRIVATE"
+      },
+      "size": {
+        "matches": "50"
+      },
+      "sort": {
+        "matches": "startTime,desc"
+      }
+    },
+    "urlPath": "/icf/ilfsta/history/0000427_5"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "content": [
+        {
+          "account": "PRIVATE",
+          "chargingType": "AC",
+          "clockSrc": "NTP",
+          "costs": 0.17400000000000002,
+          "duration": 20,
+          "endSoc": 0,
+          "endTime": "2018-08-14T15:15:52Z",
+          "energySumKwh": 0.17400000000000002,
+          "pcid": "",
+          "selfEnergy": 0,
+          "sessionId": 32,
+          "startSoc": 0,
+          "startTime": "2018-08-14T15:15:32Z",
+          "vehicleBrand": "",
+          "vehicleModel": ""
+        },
+        {
+          "account": "PRIVATE",
+          "chargingType": "AC",
+          "clockSrc": "NTP",
+          "costs": 31.862000000000002,
+          "duration": 6252,
+          "endSoc": 0,
+          "endTime": "2018-08-14T19:12:52Z",
+          "energySumKwh": 0,
+          "pcid": "",
+          "selfEnergy": 0,
+          "sessionId": 33,
+          "startSoc": 0,
+          "startTime": "2018-08-14T17:28:40Z",
+          "vehicleBrand": "",
+          "vehicleModel": ""
+        },
+        {
+          "account": "PRIVATE",
+          "chargingType": "AC",
+          "clockSrc": "INVALID",
+          "costs": 0.36,
+          "duration": 46,
+          "endSoc": 0,
+          "endTime": "2018-08-06T12:18:39Z",
+          "energySumKwh": 0.12,
+          "pcid": "",
+          "selfEnergy": 0,
+          "sessionId": 7,
+          "startSoc": 0,
+          "startTime": "2018-08-06T12:17:53Z",
+          "vehicleBrand": "",
+          "vehicleModel": ""
+        },
+        {
+          "account": "PRIVATE",
+          "chargingType": "AC",
+          "clockSrc": "INVALID",
+          "costs": 0.12,
+          "duration": 108,
+          "endSoc": 0,
+          "endTime": "2018-08-06T12:24:28Z",
+          "energySumKwh": 0.12,
+          "pcid": "",
+          "selfEnergy": 0,
+          "sessionId": 8,
+          "startSoc": 0,
+          "startTime": "2018-08-06T12:22:40Z",
+          "vehicleBrand": "",
+          "vehicleModel": ""
+        },
+        {
+          "account": "PRIVATE",
+          "chargingType": "AC",
+          "clockSrc": "INVALID",
+          "costs": 29.700000000000006,
+          "duration": 359,
+          "endSoc": 0,
+          "endTime": "2018-08-07T13:12:53Z",
+          "energySumKwh": 0.506,
+          "pcid": "",
+          "selfEnergy": 0,
+          "sessionId": 16,
+          "startSoc": 0,
+          "startTime": "2018-08-07T13:06:54Z",
+          "vehicleBrand": "",
+          "vehicleModel": ""
+        }
+      ],
+      "first": true,
+      "last": false,
+      "number": 0,
+      "numberOfElements": 5,
+      "size": 50,
+      "sort": [
+        {
+          "ascending": false,
+          "descending": true,
+          "direction": "DESC",
+          "ignoreCase": false,
+          "nullHandling": "NATIVE",
+          "property": "startTime"
+        }
+      ],
+      "totalElements": 5,
+      "totalPages": 1
+    },
+    "status": 200
+  }
+}

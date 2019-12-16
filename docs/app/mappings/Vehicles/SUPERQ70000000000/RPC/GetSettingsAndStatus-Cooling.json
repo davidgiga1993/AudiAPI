@@ -1,0 +1,160 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/climatisation/v1/Audi/DE/vehicles/SUPERQ70000000000/climater"
+  },
+  "requiredScenarioState": "Cooling",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "climater": {
+        "settings": {
+          "climaterElementSettings": {
+            "isClimatisationAtUnlock": {
+              "content": true,
+              "timestamp": "2017-05-22T14:24:00Z"
+            },
+            "isMirrorHeatingEnabled": {
+              "content": true,
+              "timestamp": "2017-05-22T14:24:00Z"
+            },
+            "zoneSettings": {
+              "zoneSetting": [
+                {
+                  "timestamp": "2017-05-22T14:24:00Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "frontLeft"
+                  }
+                },
+                {
+                  "timestamp": "2017-05-22T14:24:00Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "frontRight"
+                  }
+                },
+                {
+                  "timestamp": "2017-05-22T14:24:00Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "rearLeft"
+                  }
+                },
+                {
+                  "timestamp": "2017-05-22T14:24:00Z",
+                  "value": {
+                    "isEnabled": true,
+                    "position": "rearRight"
+                  }
+                }
+              ]
+            }
+          },
+          "climatisationWithoutHVpower": {
+            "content": true,
+            "timestamp": "2017-05-22T14:24:00Z"
+          },
+          "heaterSource": {
+            "content": "electric",
+            "timestamp": "2017-05-22T14:24:00Z"
+          },
+          "targetTemperature": {
+            "content": 2950,
+            "timestamp": "2017-05-22T14:24:00Z"
+          }
+        },
+        "status": {
+          "climatisationStatusData": {
+            "climatisationElementStates": {
+              "extCondAvailableFL": {
+                "content": true,
+                "timestamp": "2017-05-22T12:28:59Z"
+              },
+              "extCondAvailableFR": {
+                "content": true,
+                "timestamp": "2017-05-22T12:28:59Z"
+              },
+              "extCondAvailableRL": {
+                "content": true,
+                "timestamp": "2017-05-22T12:28:59Z"
+              },
+              "extCondAvailableRR": {
+                "content": true,
+                "timestamp": "2017-05-22T12:28:59Z"
+              },
+              "isMirrorHeatingActive": {
+                "content": true,
+                "timestamp": "2017-05-22T12:28:59Z"
+              },
+              "zoneStates": {
+                "zoneState": [
+                  {
+                    "timestamp": "2017-05-22T12:28:59Z",
+                    "value": {
+                      "isActive": true,
+                      "position": "frontLeft"
+                    }
+                  },
+                  {
+                    "timestamp": "2017-05-22T12:28:59Z",
+                    "value": {
+                      "isActive": true,
+                      "position": "frontRight"
+                    }
+                  },
+                  {
+                    "timestamp": "2017-05-22T12:28:59Z",
+                    "value": {
+                      "isActive": true,
+                      "position": "rearLeft"
+                    }
+                  },
+                  {
+                    "timestamp": "2017-05-22T12:28:59Z",
+                    "value": {
+                      "isActive": true,
+                      "position": "rearRight"
+                    }
+                  }
+                ]
+              }
+            },
+            "climatisationReason": {
+              "content": "immediate",
+              "timestamp": "2017-05-22T12:28:59Z"
+            },
+            "climatisationState": {
+              "content": "cooling",
+              "timestamp": "2017-05-22T12:28:59Z"
+            },
+            "climatisationStateErrorCode": {
+              "content": 0,
+              "timestamp": "2017-05-22T12:28:59Z"
+            },
+            "remainingClimatisationTime": {
+              "content": 10,
+              "timestamp": "2017-05-22T12:28:59Z"
+            }
+          },
+          "temperatureStatusData": {
+            "outdoorTemperature": {
+              "content": 0,
+              "timestamp": "2017-05-16T14:05:26Z"
+            }
+          },
+          "vehicleParkingClockStatusData": {
+            "vehicleParkingClock": {
+              "content": "2017-05-16T14:40:45Z",
+              "timestamp": "2017-05-16T14:05:26Z"
+            }
+          }
+        }
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.RPC"
+}

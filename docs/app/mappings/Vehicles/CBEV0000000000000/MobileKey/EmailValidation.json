@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/msg/bs/mobilekey/v1/Audi/DE/users.*"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "email": "any@any.de",
+      "portalUserId": "W731187457"
+    },
+    "status": 200
+  }
+}

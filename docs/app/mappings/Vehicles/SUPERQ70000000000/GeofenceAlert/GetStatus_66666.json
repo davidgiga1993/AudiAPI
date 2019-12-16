@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/geofencing/v1/Audi/DE/vehicles/SUPERQ70000000000/geofencingDefinitionList/66666/status"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "status": {
+        "statusCode": "REQUEST_SUCCESSFUL"
+      }
+    },
+    "status": 200
+  }
+}

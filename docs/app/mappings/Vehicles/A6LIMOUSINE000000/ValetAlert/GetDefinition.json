@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/valetalert/v1/Audi/DE/vehicles/A6LIMOUSINE000000/valetAlertDefinition"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "error": {
+        "description": "entity 'definition list' not found.",
+        "errorCode": "valetalert.bs.entitynotfound"
+      }
+    },
+    "status": 404
+  }
+}

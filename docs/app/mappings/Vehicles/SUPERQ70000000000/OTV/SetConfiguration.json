@@ -1,0 +1,16 @@
+{
+  "newScenarioState": "Started",
+  "request": {
+    "method": "PUT",
+    "urlPath": "/msg/bs/otv/v1/Audi/DE/vehicles/SUPERQ70000000000/configuration"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {},
+    "status": 204
+  },
+  "scenarioName": "Vehicles.SuperQ7.ASR"
+}

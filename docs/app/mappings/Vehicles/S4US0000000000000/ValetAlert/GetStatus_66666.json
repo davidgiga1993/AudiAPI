@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/valetalert/v1/Audi/DE/vehicles/S4US0000000000000/valetAlertDefinition/66666/status"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "status": {
+        "statusCode": "REQUEST_SUCCESSFUL"
+      }
+    },
+    "status": 200
+  }
+}

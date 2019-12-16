@@ -1,0 +1,1021 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/rolesrights/operationlist/v3/vehicles/A3ETRON0000000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "c1e1cc01e2dd72628f107dee08ca1e5b3b6de0881421b211c8fee54f8e58edb4"
+    },
+    "jsonBody": {
+      "operationList": {
+        "channelClient": "APP",
+        "role": "PRIMARY_USER",
+        "securityLevel": "HG_1",
+        "serviceInfo": [
+          {
+            "VehicleProductsProduct": {
+              "activationStatus": "ACTIVATED",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfile": "LPBundle00000302",
+              "licenseProfileType": "implicit",
+              "licenseType": "regular",
+              "warn": false
+            },
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "D_NHIST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_VCONF",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              },
+              {
+                "id": "G_NHIST",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": 1
+              }
+            ],
+            "rolesAndRightsRequired": true,
+            "serviceId": "dwap",
+            "serviceStatus": {
+              "status": "Enabled"
+            }
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "jobs_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2015-06-07T12:33:00Z",
+              "expirationDate": "2025-06-06T12:33:00Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000007",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000007",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_CVDATA",
+                "permission": "granted",
+                "remoteCommand": "sendVehicleStatus",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "rvs_v1_0_0"
+              },
+              {
+                "id": "G_RQSTAT",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_CVDATAID",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_SVDATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": {
+              "parameter": [
+                {
+                  "content": "0",
+                  "name": "warningMessagesSupported"
+                },
+                {
+                  "content": "0",
+                  "name": "oilInfoSupported"
+                },
+                {
+                  "content": "0",
+                  "name": "fuelLevelSupported"
+                },
+                {
+                  "content": "0",
+                  "name": "parkingBrakeSupported"
+                },
+                {
+                  "content": "0",
+                  "name": "combustionRangeSupported"
+                }
+              ]
+            },
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2118-06-25T20:13:26Z",
+            "serviceId": "statusreport_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "travelguide_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "app",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000007",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000007",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "FIND_CAR",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_0",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "carfinder_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "operation": [
+              {
+                "extAuth": "SPIN",
+                "id": "P_START_CLIMA_AU",
+                "permission": "granted",
+                "remoteCommand": "startClimatisation",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "startClimatisationJob_v1_0_0"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "rclimaaux_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000007",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000007",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_SETTINGS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_SETTINGS_AU",
+                "parameters": {
+                  "parameter": [
+                    {
+                      "content": "1",
+                      "name": "auxDisclaimerRequired"
+                    }
+                  ]
+                },
+                "permission": "denied",
+                "remoteCommand": "setDepartureTimersAndProfiles",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "setDepartureTimersAndProfiles_V1_0_0"
+              },
+              {
+                "id": "G_JOBSTATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_SETTING_CML",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_SETTINGS_EL",
+                "parameters": {
+                  "parameter": [
+                    {
+                      "content": "1",
+                      "name": "auxDisclaimerRequired"
+                    }
+                  ]
+                },
+                "permission": "granted",
+                "remoteCommand": "setDepartureTimersAndProfiles",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "setDepartureTimersAndProfiles_V1_0_0"
+              },
+              {
+                "id": "G_STATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_DATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": {
+              "parameter": [
+                {
+                  "content": "2",
+                  "name": "chargeTimerCount"
+                },
+                {
+                  "content": "0",
+                  "name": "heaterSourceSelectionAllowed"
+                },
+                {
+                  "content": "1",
+                  "name": "climateTimerCount"
+                }
+              ]
+            },
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "timerprogramming_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000007",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000007",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_SETTINGS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_JOBSTATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_START_NOSET",
+                "permission": "granted",
+                "remoteCommand": "startBatteryCharging",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "startBatteryChargingJob_v1_0_0"
+              },
+              {
+                "id": "P_SETTINGS",
+                "permission": "granted",
+                "remoteCommand": "setBatteryChargingSettings",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "setBatteryChargingSettingsJob_v1_0_0"
+              },
+              {
+                "id": "P_STOP",
+                "permission": "granted",
+                "remoteCommand": "stopBatteryCharging",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "stopBatteryChargingJob_v1_0_0"
+              },
+              {
+                "id": "G_DATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_STATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_START",
+                "permission": "granted",
+                "remoteCommand": "startBatteryCharging",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "startBatteryChargingJob_v1_0_0"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "rbatterycharge_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": true,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000201",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000201",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "twitter_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "operation": [
+              {
+                "extAuth": "SPIN",
+                "id": "P_SETTINGS_AU",
+                "permission": "denied",
+                "remoteCommand": "setDepartureTimersAndProfiles",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "setDepartureTimersAndProfiles_V1_0_0"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "timerprogrammingaux_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "owner_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000201",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000201",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "zieleinspeisung_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": true,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000201",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000201",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "news_v3",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000201",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000201",
+                    "duration": "P3Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "traffic-online_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": true,
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "appmedia_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "app",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "vehicles_v1_cai",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "vehicletelemetry_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "services_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000007",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000007",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_AGGR_TRIPDATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_JOBSTATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "D_TRIPDATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_TRIPDATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              }
+            ],
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "trip_statistic_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": {
+              "parameter": [
+                {
+                  "content": "1",
+                  "name": "ttsSupported"
+                }
+              ]
+            },
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "app_calendar_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "app",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": false,
+            "configurable": false,
+            "cumulatedLicenseV2": {
+              "activationBy": "automatic",
+              "activationDate": "2017-05-05T11:40:57Z",
+              "expirationDate": "2020-05-01T11:40:57Z",
+              "licenseProfiles": {
+                "lastUsedProfile": "LPBundle00000007",
+                "licenseProfile": [
+                  {
+                    "content": "LPBundle00000007",
+                    "duration": "P10Y",
+                    "ltype": "regular",
+                    "profileType": "implicit"
+                  }
+                ]
+              },
+              "status": "ACTIVATED",
+              "warn": false
+            },
+            "deviceType": "TELEMATICS",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": true,
+            "operation": [
+              {
+                "id": "G_JOBSTATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_START_CLIMA_NOSET",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_SETTINGS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_DATA",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "G_STATUS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_START_CLIMA_AU",
+                "parameters": {
+                  "parameter": [
+                    {
+                      "content": "1",
+                      "name": "auxDisclaimerRequired"
+                    }
+                  ]
+                },
+                "permission": "denied",
+                "remoteCommand": "startClimatisation",
+                "requiredSecurityLevel": "HG_2b",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "startClimatisationJob_v1_0_0"
+              },
+              {
+                "id": "G_SETTINGS",
+                "permission": "granted",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1"
+              },
+              {
+                "id": "P_STOP",
+                "permission": "granted",
+                "remoteCommand": "stopClimatisation",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "stopClimatisationJob_v1_0_0"
+              },
+              {
+                "id": "P_START_CLIMA_EL",
+                "parameters": {
+                  "parameter": [
+                    {
+                      "content": "1",
+                      "name": "auxDisclaimerRequired"
+                    }
+                  ]
+                },
+                "permission": "granted",
+                "remoteCommand": "startClimatisation",
+                "requiredSecurityLevel": "HG_1",
+                "requiredUserRole": "SECONDARY_USER",
+                "version": "1",
+                "xsd": "startClimatisationJob_v1_0_0"
+              }
+            ],
+            "parameters": {
+              "parameter": [
+                {
+                  "content": "0",
+                  "name": "heaterSourceSelectionAllowed"
+                },
+                {
+                  "content": "0",
+                  "name": "remainingClimateTimeSupported"
+                }
+              ]
+            },
+            "personalized": false,
+            "primaryUserRequired": true,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": true,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "rclima_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbb",
+            "termsAndConditionsRequired": false
+          },
+          {
+            "blockDisabling": true,
+            "configurable": false,
+            "deviceType": "INFOTAINMENT",
+            "eSIMUsageAllowed": false,
+            "licenseRequired": false,
+            "parameters": null,
+            "personalized": false,
+            "primaryUserRequired": false,
+            "roamingAllowed": false,
+            "rolesAndRightsRequired": false,
+            "serviceEol": "2117-12-31T11:40:57Z",
+            "serviceId": "lsd_v1",
+            "serviceStatus": {
+              "status": "Enabled"
+            },
+            "serviceType": "mbbInternal",
+            "termsAndConditionsRequired": false
+          }
+        ],
+        "userId": "rsZdzkmH4Tv0YiycpFM6iDXbnEL",
+        "vehicleLifeCycleStatus": {
+          "content": "DELIVERED",
+          "garage": false
+        },
+        "vin": "A3ETRON0000000000"
+      }
+    },
+    "status": 200
+  }
+}

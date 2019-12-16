@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/msg/rolesrights/securitypin/v1/Audi/DE/challenged"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "securityPinTransmission": {
+        "challenge": "43e9e8f6eedbacadf3b5bcbfda06f5fb38dabbea4a5abc41f15cf810f7b078e5",
+        "hashProcedureVersion": "1",
+        "userChallenge": "d3ecc4169d1c3366ca8f5f10e03c146cde5959eec79b163891d710f27b6287cb"
+      }
+    },
+    "status": 200
+  }
+}

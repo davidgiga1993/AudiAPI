@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPathPattern": "/msp/private/poi-remote-control/v3/contracts/.+/charging-authentications$"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "data": {
+        "dcsSessionId": "SESSION-ca00d3ba-1fd0-434d-8c52-478d6f537bd0"
+      },
+      "status": {
+        "code": "OK"
+      }
+    },
+    "status": 202
+  },
+  "scenarioName": "Account.MSP.UnlockStation"
+}

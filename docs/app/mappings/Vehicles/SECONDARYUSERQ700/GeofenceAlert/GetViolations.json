@@ -1,0 +1,33 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/geofencing/v1/Audi/DE/vehicles/SECONDARYUSERQ700/geofencingAlerts"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "geofencingAlerts": {
+        "geofencingAlert": [
+          {
+            "alertType": "EXIT_GREENZONE",
+            "definitionId": 13678,
+            "definitionName": "Audi of America",
+            "id": 8157,
+            "locationOfAlert": {
+              "altitude": 542,
+              "direction": 0,
+              "latitude": 48179424,
+              "longitude": 11594942,
+              "precision": 0,
+              "trueness": "GOOD"
+            },
+            "occurenceDateTime": "2015-11-23T13:16:03Z"
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

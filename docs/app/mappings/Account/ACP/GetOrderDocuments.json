@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/acp/order/v2/[^\\/]+/orders/(?!PRE-ACPMDE-190404-0000F)(?!PRE-ACPMDE-190404-0000E)[^\\/]+/documents"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": [
+      {
+        "orderDocumentId": "DE03291900000223",
+        "orderDocumentType": "invoice"
+      },
+      {
+        "orderDocumentId": "DE03291980000019",
+        "orderDocumentType": "creditmemo"
+      }
+    ],
+    "status": 200
+  }
+}

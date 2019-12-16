@@ -1,0 +1,21 @@
+{
+  "newScenarioState": "All doors open",
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/rlu/v1/Audi/DE/vehicles/SUPERQ70000000000/requests/414333/status"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "requestStatusResponse": {
+        "error": 2,
+        "status": "request_successful",
+        "vin": "SUPERQ70000000000"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.VSR"
+}

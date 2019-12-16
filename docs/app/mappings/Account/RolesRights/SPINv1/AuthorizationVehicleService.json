@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPathPattern": "/msg/rolesrights/authorization/v1/Audi/DE/vehicles/[^/]+/services/[^/]+/operations/[^/]+/request"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "smartphoneSecurityPinAuthenticationInfo": {
+        "securityPinTransmission": {
+          "challenge": "d61e84744e64f1cec6f32eca848c86c51cc397dbe97cf3337beff5c216bc0fb5",
+          "hashProcedureVersion": 1,
+          "userChallenge": "9eca5331d2d900073827960113de61bb77133613b4beb8bf8e47396940abf619"
+        },
+        "securityToken": "OiN8PQVgpNzKBv8/b1TOpR2USDTvpW3QtZOJqKimvCH9SIDw/mcJvDmm4dbEETG+we6/cMz9EI5rRA3h531SBHmGell9SDEygdOKOfqZkqBpsanZBBZchlyyvMXT7rPKNV6xSOzPGnRvS+HPZHshe/N96AvV1HOtKICQW5E5uthYFvvnPzFhQlJkUkI+MFj/mO6gnHXE9JKugdb4Eyi6n9cfTzI7ABu4wJUCFB8I7CGLg7WGTi0niR1YL9k7ZXWPv7fESb6n0rRamrblwW6ZZLAOAExzFWckZt/1ew1E9vHyblmCTyU2E0zQf+qz3zPDC/ibvN2Ses9Dy6FI3zIOaUbuvoBhSFCm1aleTuwrt2Ch1cr+o5GIhtebxYunqsxEAJXCYycYEke5mYZFU+xZWKLKSBBW8+mxewWTRx0+3veyFEJVVjvzlc9iqxGF6hf9lVrbWVnH0/4Wd94qooDcBymyEUZujM3nVffdWw89VaDvqSRxRWXzXjImPB6EVuvIEv1KJ1jrITBWn0xN8KEoQVawdmRjhUdRkKEgDQhP44up49vMM5b2q8LEX+UoJr6gQt1kgJoqWJIZbvDUCHsNKn2dJ5FUZgw3d8tbjn3H//zpmxj0J25svM0/A004INrhSgrp4VQh8VnULCYSJXrPv0d9QYDO6ZGCx0sdZWgvj6oU6iapc6QcxZuA+Eca0Iv5fut098fg58i8ukSAFgxV90925wfxGlbp/nM2JdZadsE="
+      }
+    },
+    "status": 200
+  }
+}

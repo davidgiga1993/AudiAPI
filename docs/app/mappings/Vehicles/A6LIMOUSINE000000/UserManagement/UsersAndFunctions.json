@@ -1,0 +1,67 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "includeCriticalFunctions": {
+        "matches": "true"
+      }
+    },
+    "urlPath": "/usermanagement/functions/A6LIMOUSINE000000/users"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "users": [
+        {
+          "criticalFunctions": [
+            {
+              "activeWhilePrivacyMode": false,
+              "cluster": "myCarmanager",
+              "criticalFunction": true,
+              "licenseInfo": {
+                "expirationDate": "2020-12-23T12:33:00Z",
+                "status": "ACTIVATED",
+                "warn": false
+              },
+              "mobileAppInfo": {
+                "mobileAppAvailable": false
+              },
+              "operations": [
+                {
+                  "granted": true,
+                  "id": "FIND_CAR"
+                }
+              ],
+              "privacyGroups": [
+                "personalGps"
+              ],
+              "serviceId": "carfinder_v1",
+              "statusInfo": {
+                "disableReasons": [],
+                "status": "ENABLED"
+              },
+              "switchOff": true,
+              "switchOn": false,
+              "tags": [
+                "CRITICAL"
+              ]
+            }
+          ],
+          "firstName": "Walter",
+          "isInVehicle": false,
+          "lastName": "White",
+          "mbbUserId": "PXtOEHTBlsSppUu6Z6kMOk9pTgI",
+          "nickName": "Heisenberg",
+          "role": "PRIMARY_USER",
+          "securityLevel": "HG_2_B",
+          "ssoId": "W886827512",
+          "status": "ACTIVE"
+        }
+      ],
+      "vin": "A6LIMOUSINE000000"
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/service-book/v1/vehicles/S4US0000000000000/service-book/3963"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "additionalNote": "",
+      "dealer": {
+        "address": {
+          "city": "MOSCOW",
+          "country": "RUS",
+          "houseNumber": "",
+          "street": "LENINGRADSKOE SHOSSE 21",
+          "zipCode": "121210"
+        },
+        "authorizedServicePartner": true,
+        "name": "AC SEVER"
+      },
+      "jobDescription": "Ölwechsel-Service",
+      "jobNumber": "11412600",
+      "mobilityGuarantee": false,
+      "odometerUnit": "KM",
+      "odometerValue": 43744,
+      "serviceDate": "2014-01-31T20:00:00Z",
+      "serviceDocumentId": "3963",
+      "tasksList": [
+        {
+          "description": "Staub-u.Pollenfilter",
+          "quantity": 0,
+          "quantityUnit": ""
+        }
+      ]
+    },
+    "status": 200
+  }
+}

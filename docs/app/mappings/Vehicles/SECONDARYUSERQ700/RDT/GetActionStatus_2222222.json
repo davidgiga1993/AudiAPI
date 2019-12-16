@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/departuretimer/v1/Audi/DE/vehicles/SECONDARYUSERQ700/timer/actions/2222222"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 2222222,
+        "actionState": "succeeded",
+        "type": "setTimersAndProfiles"
+      }
+    },
+    "status": 200
+  }
+}

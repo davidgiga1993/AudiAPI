@@ -1,0 +1,35 @@
+{
+  "request": {
+    "bodyPatterns": [
+      {
+        "contains": "startClimatisation"
+      },
+      {
+        "contains": "2885"
+      },
+      {
+        "contains": "electric"
+      }
+    ],
+    "method": "POST",
+    "urlPath": "/msg/bs/climatisation/v1/Audi/DE/vehicles/SUPERQ70000000000/climater/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 3,
+        "actionState": "queued",
+        "settings": {
+          "climatisationWithoutHVpower": true,
+          "heaterSource": "electric"
+        },
+        "type": "startClimatisation"
+      }
+    },
+    "status": 202
+  },
+  "scenarioName": "Vehicles.SuperQ7.RPC"
+}

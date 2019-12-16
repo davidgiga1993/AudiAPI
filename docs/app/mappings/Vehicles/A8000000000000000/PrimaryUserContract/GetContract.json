@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/contract/v1/vehicles/A8000000000000000/follow-up-warranty"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "expirationDate": "2020-05-01T11:41:00Z",
+      "odometerLimit": 1500,
+      "odometerUnit": "KM",
+      "startDate": "2017-11-04T00:00:00Z"
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,237 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/batterycharge/v1/Audi/DE/vehicles/CBEV0000000000000/charger"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "charger": {
+        "settings": {
+          "automaticPlugUnlockSettings": {
+            "allowACOnce": false,
+            "allowACPermanent": false,
+            "allowDCOnce": false,
+            "allowDCPermanent": false,
+            "timestamp": "2018-04-27T12:55:38Z"
+          },
+          "chargeModeSelection": {
+            "modificationReason": {
+              "content": "noReason",
+              "timestamp": "2018-05-04T10:29:16Z"
+            },
+            "modificationState": {
+              "content": "canBeModified",
+              "timestamp": "2018-05-04T10:29:16Z"
+            },
+            "value": {
+              "content": "immediateCharging",
+              "timestamp": "2018-05-04T10:29:16Z"
+            }
+          },
+          "maxChargeCurrent": {
+            "content": 32,
+            "timestamp": "2018-04-23T15:43:41Z"
+          },
+          "wirelessChargingSettings": {
+            "wirelessChargingSystemActive": {
+              "modificationReason": {
+                "content": "noReason",
+                "timestamp": "2018-05-04T08:46:12Z"
+              },
+              "modificationState": {
+                "content": "canNotBeModified",
+                "timestamp": "2018-05-04T08:46:12Z"
+              },
+              "value": {
+                "content": "deactivated",
+                "timestamp": "2018-05-04T08:46:12Z"
+              }
+            },
+            "wirelessChargingTemporaryDeactivation": {
+              "modificationReason": {
+                "content": "noReason",
+                "timestamp": "2018-05-04T08:46:12Z"
+              },
+              "modificationState": {
+                "content": "canNotBeModified",
+                "timestamp": "2018-05-04T08:46:12Z"
+              },
+              "value": {
+                "content": "wirelessChargingActivated",
+                "timestamp": "2018-05-04T08:46:12Z"
+              }
+            }
+          }
+        },
+        "status": {
+          "batteryStatusData": {
+            "remainingChargingTime": {
+              "content": 244,
+              "timestamp": "2018-05-04T10:29:21Z"
+            },
+            "remainingChargingTimeTargetSOC": {
+              "content": "maxSOC",
+              "timestamp": "2018-05-04T10:29:21Z"
+            },
+            "stateOfCharge": {
+              "content": 50,
+              "timestamp": "2018-05-04T10:29:51Z"
+            }
+          },
+          "chargingStatusData": {
+            "actualChargeRate": {
+              "content": 70,
+              "timestamp": "2018-05-04T08:46:24Z"
+            },
+            "chargeRateUnit": {
+              "content": "km_per_h",
+              "timestamp": "2018-05-04T08:46:24Z"
+            },
+            "chargeTargetTime": {
+              "day": "{{now offset='244 minutes' format='d'}}",
+              "hour": "{{now offset='244 minutes' format='HH'}}",
+              "minute": "{{now offset='244 minutes' format='m'}}",
+              "month": "{{now offset='244 minutes' format='M'}}",
+              "offset": 0,
+              "timestamp": "2018-05-04T08:46:24Z",
+              "year": "{{now offset='244 minutes' format='yyyy'}}"
+            },
+            "chargingMode": {
+              "content": "AC",
+              "timestamp": "2018-05-04T10:29:21Z"
+            },
+            "chargingPower": {
+              "content": 11000,
+              "timestamp": "2018-05-04T08:46:24Z"
+            },
+            "chargingReason": {
+              "content": "immediate",
+              "timestamp": "2018-05-04T10:29:21Z"
+            },
+            "chargingState": {
+              "content": "charging",
+              "timestamp": "2018-04-23T15:43:41Z"
+            },
+            "chargingStateErrorCode": {
+              "content": 0,
+              "timestamp": "2018-05-04T10:29:21Z"
+            },
+            "energyFlow": {
+              "content": "on",
+              "timestamp": "2018-04-23T15:43:41Z"
+            },
+            "externalPowerSupplyState": {
+              "content": "unavailable",
+              "timestamp": "2018-05-04T10:29:21Z"
+            }
+          },
+          "cruisingRangeStatusData": {
+            "engineTypeFirstEngine": {
+              "content": "typeIsElectric",
+              "timestamp": "2018-05-04T10:29:51Z"
+            },
+            "engineTypeSecondEngine": {
+              "content": "unsupported",
+              "timestamp": "2018-05-04T10:29:51Z"
+            },
+            "hybridRange": {
+              "content": 186,
+              "timestamp": "2018-05-04T10:29:51Z"
+            },
+            "primaryEngineRange": {
+              "content": 186,
+              "timestamp": "2018-05-04T10:29:51Z"
+            }
+          },
+          "flapStatusData": {
+            "flapErrorState": {
+              "content": "noError",
+              "timestamp": "2018-03-27T07:58:15Z"
+            },
+            "flapLockState": {
+              "content": "flapBLocked",
+              "timestamp": "2018-03-27T07:58:15Z"
+            },
+            "flapState": {
+              "content": "flapAOpen",
+              "timestamp": "2018-03-27T07:58:15Z"
+            }
+          },
+          "ledStatusData": {
+            "ledColor": {
+              "content": "green",
+              "timestamp": "2018-04-23T15:43:41Z"
+            },
+            "ledState": {
+              "content": "pulse",
+              "timestamp": "2018-04-23T15:43:41Z"
+            }
+          },
+          "plugStatusData": {
+            "lockState": {
+              "content": "locked",
+              "timestamp": "2018-04-23T15:43:41Z"
+            },
+            "plugConnectionState": {
+              "content": "plugAConnected",
+              "timestamp": "2018-03-27T07:58:15Z"
+            },
+            "plugLockState": {
+              "content": "plugALocked",
+              "timestamp": "2018-03-27T07:58:15Z"
+            },
+            "plugState": {
+              "content": "connected",
+              "timestamp": "2018-04-23T15:43:41Z"
+            }
+          },
+          "wirelessChargingStatusData": {
+            "wirelessChargingMode": {
+              "content": "conditioning",
+              "timestamp": "2018-02-13T14:42:58Z"
+            },
+            "wirelessChargingState": {
+              "content": "off",
+              "timestamp": "2018-02-13T14:42:58Z"
+            },
+            "wirelessChargingStateErrorCode": {
+              "content": 0,
+              "timestamp": "2018-02-13T14:42:58Z"
+            },
+            "wirelessConnectionState": {
+              "content": "active",
+              "timestamp": "2018-02-13T14:42:58Z"
+            },
+            "wirelessErrorStateZMover": {
+              "content": "invalid",
+              "timestamp": "2018-02-13T14:42:58Z"
+            },
+            "wirelessLedStatusData": {
+              "ledColor": {
+                "content": "none",
+                "timestamp": "2018-02-13T14:42:58Z"
+              },
+              "ledState": {
+                "content": "unsupported",
+                "timestamp": "2018-02-13T14:42:58Z"
+              }
+            },
+            "wirelessPanelState": {
+              "content": "invalid",
+              "timestamp": "2018-02-13T14:42:58Z"
+            }
+          }
+        }
+      }
+    },
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  },
+  "scenarioName": "Vehicles.CBEV.RBC"
+}

@@ -1,0 +1,70 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/tripstatistics/v1/Audi/DE/vehicles/SECONDARYUSERQ700/tripdata/longTerm"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "tripDataList": {
+        "tripData": [
+          {
+            "averageElectricEngineConsumption": 76,
+            "averageFuelConsumption": 85,
+            "averageSpeed": 128,
+            "mileage": 1792,
+            "overallMileage": 20202,
+            "reportReason": "clamp15off",
+            "startMileage": 0,
+            "timestamp": "2015-11-28T11:44:06Z",
+            "traveltime": 841,
+            "tripID": 9477,
+            "tripType": "longTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 77,
+            "averageFuelConsumption": 85,
+            "averageSpeed": 103,
+            "mileage": 1473,
+            "overallMileage": 20202,
+            "reportReason": "clamp15off",
+            "startMileage": 19801,
+            "timestamp": "2015-11-28T12:28:45Z",
+            "traveltime": 861,
+            "tripID": 9526,
+            "tripType": "longTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 55,
+            "averageFuelConsumption": 83,
+            "averageSpeed": 101,
+            "mileage": 4848,
+            "overallMileage": 25494,
+            "reportReason": "userReset",
+            "startMileage": 23456,
+            "timestamp": "2015-12-24T06:04:43Z",
+            "traveltime": 2881,
+            "tripID": 10425,
+            "tripType": "longTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 272,
+            "averageFuelConsumption": 80,
+            "averageSpeed": 88,
+            "mileage": 290,
+            "overallMileage": 25509,
+            "reportReason": "clamp15off",
+            "startMileage": 25494,
+            "timestamp": "2015-12-24T12:15:25Z",
+            "traveltime": 200,
+            "tripID": 10552,
+            "tripType": "longTerm"
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

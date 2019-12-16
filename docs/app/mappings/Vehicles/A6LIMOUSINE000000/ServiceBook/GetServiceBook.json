@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/msg/myaudi/service-book/v1/vehicles/A6LIMOUSINE000000/service-book"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "jobDescription": "Delivery inspection",
+        "jobNumber": "a173147",
+        "odometerUnit": "KM",
+        "odometerValue": 12,
+        "serviceDate": "2019-02-05T00:00:00Z",
+        "serviceDocumentId": "30903008"
+      }
+    ],
+    "status": 200
+  }
+}

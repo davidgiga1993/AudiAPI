@@ -1,0 +1,64 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/rlu/v1/Audi/DE/vehicles/S4US0000000000000/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "actionsResponse": {
+        "actions": {
+          "action": [
+            {
+              "channel": "app",
+              "operation": "lock",
+              "rluResult": 1,
+              "timestamp": "2016-08-17T09:30:47Z"
+            },
+            {
+              "channel": "app",
+              "operation": "unlock",
+              "rluResult": 1,
+              "timestamp": "2016-08-17T08:40:47Z"
+            },
+            {
+              "channel": "app",
+              "operation": "lock",
+              "rluResult": 1,
+              "timestamp": "2016-08-13T13:37:47Z"
+            },
+            {
+              "channel": "app",
+              "operation": "unlock",
+              "rluResult": 1,
+              "timestamp": "2016-08-13T10:41:34Z"
+            },
+            {
+              "bsError": 100,
+              "channel": "app",
+              "operation": "unlock",
+              "rluResult": 2,
+              "timestamp": "2016-08-13T10:40:47Z"
+            },
+            {
+              "channel": "app",
+              "operation": "lock",
+              "rluResult": 1,
+              "timestamp": "2016-08-11T06:32:47Z"
+            },
+            {
+              "channel": "app",
+              "operation": "unlock",
+              "rluResult": 1,
+              "timestamp": "2016-08-11T04:22:34Z"
+            }
+          ]
+        },
+        "vin": "S4US0000000000000"
+      }
+    },
+    "status": 200
+  }
+}

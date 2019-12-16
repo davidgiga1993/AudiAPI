@@ -1,0 +1,16 @@
+{
+  "newScenarioState": "Started",
+  "request": {
+    "method": "DELETE",
+    "urlPath": "/usermanagement/vehicles/SUPERQ70000000000/secondaryusers/ActiveGuestUserxxxxxxxxxxxx"
+  },
+  "requiredScenarioState": "GuestUserPromoted",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {},
+    "status": 204
+  },
+  "scenarioName": "Vehicles.SuperQ7.UserManagement"
+}

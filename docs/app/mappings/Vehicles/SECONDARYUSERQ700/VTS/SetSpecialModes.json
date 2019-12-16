@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "PUT",
+    "urlPath": "/msg/vts/fal/v1/Audi/DE/vehicles/SECONDARYUSERQ700/specialModes"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "vtsCommand": {
+        "id": "111111"
+      }
+    },
+    "status": 202
+  }
+}

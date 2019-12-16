@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/cf/v1/Audi/DE/vehicles/A6LIMOUSINE000000/position"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/vnd.vwg.mbb.CarFinderService_v2_0_1+json; charset=utf-8"
+    },
+    "jsonBody": {
+      "storedPositionResponse": {
+        "parkingTimeUTC": "2019-04-29T13:01:14Z",
+        "position": {
+          "carCoordinate": {
+            "latitude": -33827126,
+            "longitude": 151109031
+          },
+          "heading": {
+            "direction": 313
+          }
+        }
+      }
+    },
+    "status": 200
+  }
+}

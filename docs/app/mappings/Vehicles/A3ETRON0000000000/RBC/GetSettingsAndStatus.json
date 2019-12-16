@@ -1,0 +1,102 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/batterycharge/v1/Audi/DE/vehicles/A3ETRON0000000000/charger"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "charger": {
+        "settings": {
+          "maxChargeCurrent": {
+            "content": 5,
+            "timestamp": "2015-10-14T14:57:57Z"
+          }
+        },
+        "status": {
+          "batteryStatusData": {
+            "remainingChargingTime": {
+              "content": 120,
+              "timestamp": "2015-08-21T13:54:18Z"
+            },
+            "remainingChargingTimeTargetSOC": {
+              "content": "unsupported",
+              "timestamp": "2015-08-21T13:54:18Z"
+            },
+            "stateOfCharge": {
+              "content": 50,
+              "timestamp": "2015-08-21T13:54:18Z"
+            }
+          },
+          "chargingStatusData": {
+            "chargingMode": {
+              "content": "AC",
+              "timestamp": "2015-08-21T13:31:40Z"
+            },
+            "chargingReason": {
+              "content": "immediate",
+              "timestamp": "2015-08-21T13:31:40Z"
+            },
+            "chargingState": {
+              "content": "charging",
+              "timestamp": "2015-08-21T13:31:40Z"
+            },
+            "energyFlow": {
+              "content": "on",
+              "timestamp": "2015-08-21T13:31:40Z"
+            },
+            "externalPowerSupplyState": {
+              "content": "available",
+              "timestamp": "2015-08-21T13:31:40Z"
+            }
+          },
+          "cruisingRangeStatusData": {
+            "engineTypeFirstEngine": {
+              "content": "typeIsElectric",
+              "timestamp": "2015-08-21T13:54:18Z"
+            },
+            "engineTypeSecondEngine": {
+              "content": "unsupported",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "hybridRange": {
+              "content": 0,
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "primaryEngineRange": {
+              "content": 40,
+              "timestamp": "2015-08-21T13:54:18Z"
+            },
+            "secondaryEngineRange": {
+              "content": 0,
+              "timestamp": "2015-10-14T14:57:57Z"
+            }
+          },
+          "ledStatusData": {
+            "ledColor": {
+              "content": "none",
+              "timestamp": "2015-08-21T13:31:40Z"
+            },
+            "ledState": {
+              "content": "off",
+              "timestamp": "2015-08-21T13:31:40Z"
+            }
+          },
+          "plugStatusData": {
+            "lockState": {
+              "content": "locked",
+              "timestamp": "2015-08-21T13:31:40Z"
+            },
+            "plugState": {
+              "content": "connected",
+              "timestamp": "2015-08-21T13:31:40Z"
+            }
+          }
+        }
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/mediaservice/S4US0000000000000/MYAAN6NB"
+  },
+  "response": {
+    "bodyFileName": "S4US0000000000000/MYAAN6NB.png",
+    "headers": {
+      "Content-Type": "image/png"
+    },
+    "status": 200
+  }
+}

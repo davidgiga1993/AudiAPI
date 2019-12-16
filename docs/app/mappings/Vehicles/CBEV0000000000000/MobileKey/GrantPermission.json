@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/bs/mobilekey/v1/Audi/DE/vehicles/CBEV0000000000000/keysystem/permissions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "permission": {
+        "expirationTimestamp": "2021-10-30T23:00:00Z",
+        "id": 5,
+        "mkNutzerMbbId": "rgOJlyHZVyKTRSSwBvYZQEDJPgT",
+        "mkNutzerPortalId": "W731187457",
+        "mkNutzerUserName": "MYA2149-Hauptnutzer@quartett-mobile.de",
+        "mkVerwalterMbbId": "rgOJlyHZVyKTRSSwBvYZQEDJPgT",
+        "mkVerwalterPortalId": "W731187457",
+        "mkVerwalterUserName": "MYA2149-Hauptnutzer@quartett-mobile.de",
+        "state": "Accepted",
+        "timestampCreated": "2019-05-04T11:09:55Z",
+        "timestampStateChanged": "2019-05-04T11:09:55Z",
+        "vTanExpirationTimestamp": "{{now offset='2 hours'}}",
+        "vin": "CBEV0000000000000"
+      }
+    },
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

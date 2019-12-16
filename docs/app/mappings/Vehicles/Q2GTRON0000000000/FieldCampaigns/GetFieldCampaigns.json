@@ -1,0 +1,29 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/field-campaign/v1/vehicles/Q2GTRON0000000000/field-campaigns"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "campaignType": "FIELD_CAMPAIGN_WITH_ACTIVE_CUSTOMER_ADDRESS",
+        "description": "S-Instandsetzung Aeroblenden",
+        "id": "66I9"
+      },
+      {
+        "campaignType": "RECALL",
+        "description": "A-Abgasüberprüfung",
+        "id": "23Q4"
+      },
+      {
+        "campaignType": "RECALL",
+        "description": "A-Abgasüberprüfung",
+        "id": "23Q7"
+      }
+    ],
+    "status": 200
+  }
+}

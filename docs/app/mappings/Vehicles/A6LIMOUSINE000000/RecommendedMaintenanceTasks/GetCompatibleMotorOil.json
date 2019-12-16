@@ -1,0 +1,32 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/recommended-maintenance-tasks/v1/vehicles/A6LIMOUSINE000000/compatible-motoroils"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "amount": 7.6,
+        "amountUnit": "LITER",
+        "intervalType": "FLEXIBLE",
+        "name": "VW 508 00"
+      },
+      {
+        "amount": 7.6,
+        "amountUnit": "LITER",
+        "intervalType": "FIX",
+        "name": "VW 508 00"
+      },
+      {
+        "amount": 7.6,
+        "amountUnit": "LITER",
+        "intervalType": "FIX",
+        "name": "VW 502 00"
+      }
+    ],
+    "status": 200
+  }
+}

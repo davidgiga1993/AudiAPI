@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "url": "/msg/myaudi/service-book/v1/vehicles/Q2GTRON0000000000/service-book"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "jobDescription": "Inspektion mit Ölwechsel",
+        "jobNumber": "12488800",
+        "odometerUnit": "KM",
+        "odometerValue": 89225,
+        "serviceDate": "2014-07-28T20:00:00Z",
+        "serviceDocumentId": "3960"
+      }
+    ],
+    "status": 200
+  }
+}

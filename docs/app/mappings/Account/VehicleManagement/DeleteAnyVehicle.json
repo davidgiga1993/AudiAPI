@@ -1,0 +1,20 @@
+{
+  "newScenarioState": "Empty",
+  "priority": 2,
+  "request": {
+    "method": "DELETE",
+    "urlPathPattern": "/msg/myaudi/vehicle-management/v1/vehicles/.*"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "favorite_vin": "WAUZZZ8V6EA000231",
+      "redefined_favorite": false,
+      "result": "ok"
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.VehicleList"
+}

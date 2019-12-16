@@ -1,0 +1,21 @@
+{
+  "newScenarioState": "Started",
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/profiletimer/v1/vehicles/CBEV0000000000000/actions/3"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 3,
+        "actionState": "succeeded",
+        "type": "setTimers"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.CBEV.RPT"
+}

@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/rolesrights/authorization/v2/security-pin-auth-completed"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "securityToken": "hQwO+JwnEU4uZw1pjHPaqKM3NkSRw72YHwbWb3AFsDu9PGz2pFh5thLPf8wYDKA54JLkc9p5PxVuWhz7ECtx0ce4vUW3rwWLasU8GiU3udz+v3eHKMjzju4mwZI+uBL6hsy0GuTb43G8AhI5Caoh7nbYyqZdkjb4noKo4RwD6+OYhxXlNS1om5GPTVhLhcwr4rqcUDc18LI4YmLJjZqjcuibgPR4jKzwzID5yZ5vtpw9a2Qh7f51CTGk2Y/Q8oAOWFCnFF8N8aqP58m8fkAAe4qbPTMTwZGBA0aLUiQo7mjjcBMzk2fbkJv/0r/O5VxgKCZ0HemWLtKgA0mA7Q3Bz9zh6Lk+yAair94bvfhuqCOzTD0IydG/czjv68taiwNBMOFXAhiI347y8Bizu7BtDkpa01qLjJxbn78VbsiQhrcdEacNg+EuB72G0tYsKtc5tlSZ5PyZfh9JoBtHZHJXCqtiHT4vepZ2/1TcQXt220j0oYdQ4oRfuc+VaAnkxVTW7U0jDLCPi/0lUYMRjC7AmbI8O60CaqjC3C/L2MDiIp2NJk37ZaXisPIQGz00m4yuGM2kFnvTfxcMGHYdg/drApZAaAWHiTLvN/UmNASaz5mucuJGNV8gEsLyJWZY8YB4NodXNjH84vjxzpDOJCRUMFnfszQDEi8y/bhmPZf/kEk/KDuLlFq3VG4MynZi+CtyLtKO+BAEpS3UoBycNzk+RFWhKoB9KIdLulP0eZRr+00="
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.SPINv2.Authorization"
+}

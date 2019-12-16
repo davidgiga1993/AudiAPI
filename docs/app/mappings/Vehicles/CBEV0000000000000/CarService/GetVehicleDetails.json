@@ -1,0 +1,945 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/carservice/v3/vehicles/CBEV0000000000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "driveTrain": "BEV",
+      "exteriorColor": "Brillantschwarz",
+      "interiorColor": "schwarz-schwarz/schwarz-schwarz/schwarz/mondsilber",
+      "modelCoding": "GENAAE",
+      "specialEquipments": [
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ECPBIU1",
+          "name": "Audi smartphone interface",
+          "subCategoryId": "Infotainment.Kommunikation",
+          "subCategoryName": "Kommunikation"
+        },
+        {
+          "categoryId": "Dachsysteme_Verglasung",
+          "categoryName": "Dachsysteme & Verglasung",
+          "code": "ESCTQL5",
+          "name": "Privacy-Verglasung (Scheiben abgedunkelt)",
+          "subCategoryId": "Dachsysteme_Verglasung.Verglasung",
+          "subCategoryName": "Verglasung"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "EAIB4UF",
+          "name": "Deaktivierungsschalter für Beifahrerairbag",
+          "subCategoryId": "Technik_Sicherheit.Technik_Sicherheit",
+          "subCategoryName": "Technik & Sicherheit"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "ELKA70T",
+          "name": "Haushaltsstecker Typ E/F (DT/FR)",
+          "subCategoryId": "Technik_Sicherheit.Technik_Sicherheit",
+          "subCategoryName": "Technik & Sicherheit"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "EKOMGB1",
+          "name": "LTE-Kompensor, Ländervariante 1",
+          "subCategoryId": "Infotainment.Kommunikation",
+          "subCategoryName": "Kommunikation"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EAWV6K8",
+          "name": "Audi pre sense front",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EHUDKS1",
+          "name": "Head-Up Display",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EEPH7X5",
+          "name": "Parkassistent",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "EASE6XL",
+          "name": "Außensp. el. einst.-,beheiz-u.anklappb., beids. autom. abblend.,m. Memoryfunkt.,i nkl. Bordsteinautom. f. Beifahreraußens.",
+          "subCategoryId": "Komfort.Spiegel",
+          "subCategoryName": "Spiegel"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "EFODFP1",
+          "name": "Functions on Demand",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Scheinwerfer",
+          "categoryName": "Scheinwerfer",
+          "code": "EFLS8K4",
+          "name": "Tagfahrlicht",
+          "subCategoryId": "Scheinwerfer.Licht_Aussen",
+          "subCategoryName": "Außenlicht"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "EFZSF0Y",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Sitze",
+          "categoryName": "Sitze",
+          "code": "EKSI3G4",
+          "name": "Kindersitzbefestigung ISOFIX für den Beifahrersitz",
+          "subCategoryId": "Sitze.Sitzkomfort",
+          "subCategoryName": "Sitzkomfort"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ECPCJE3",
+          "name": "connect Paket Plus 13",
+          "subCategoryId": "Infotainment.Kommunikation",
+          "subCategoryName": "Kommunikation"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "EVTV9ZE",
+          "name": "Audi phone box",
+          "subCategoryId": "Infotainment.Kommunikation",
+          "subCategoryName": "Kommunikation"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ECPAIT3",
+          "name": "Audi connect Navigation & Infotainment",
+          "subCategoryId": "Infotainment.Kommunikation",
+          "subCategoryName": "Kommunikation"
+        },
+        {
+          "categoryId": "Licht",
+          "categoryName": "Licht",
+          "code": "ELCPQQ2",
+          "name": "Kontur/Ambiente Lichtpaket, mehrfarbig",
+          "subCategoryId": "Licht.Licht",
+          "subCategoryName": "Licht"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EESI7W3",
+          "name": "Audi pre sense rear",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EKMPQR9",
+          "name": "Kamerabasierte Tempolimitanzeige / Verkehrszeichenerkennung",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "EMFA9S9",
+          "name": "Audi virtual cockpit plus",
+          "subCategoryId": "Infotainment.MMI_Navigation",
+          "subCategoryName": "Navigation"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "ESKAJX1",
+          "name": "Kreuzungsassistent",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "ETKV4I3",
+          "name": "Komfortschlüssel inkl. sensorgesteuerter Gepäckraumentriegelung (ohne Safelock)",
+          "subCategoryId": "Komfort.Schliesssysteme",
+          "subCategoryName": "Schließsysteme"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ETVEQ0B",
+          "name": "Digitaler TV-Empfang mit CI+ Pay-TV-System und digitaler Radioempfang",
+          "subCategoryId": "Infotainment.Entertainment",
+          "subCategoryName": "Entertainment"
+        },
+        {
+          "categoryId": "Sitze",
+          "categoryName": "Sitze",
+          "code": "ESIH4A3",
+          "name": "Sitzheizung vorn",
+          "subCategoryId": "Sitze.Sitzkomfort",
+          "subCategoryName": "Sitzkomfort"
+        },
+        {
+          "categoryId": "Lenkraeder_Bedienelemente",
+          "categoryName": "Lenkräder & Bedienelemente",
+          "code": "ELRA2ZQ",
+          "name": "Doppelspeichen-Lederlenkrad mit Multifunktion und Schaltwippen",
+          "subCategoryId": "Lenkraeder_Bedienelemente.Lenkraeder",
+          "subCategoryName": "Lenkräder"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "ELKB73P",
+          "name": "Industriestecker CEE 16A / 400V / 6h / lang + gerade",
+          "subCategoryId": "Technik_Sicherheit.Technik_Sicherheit",
+          "subCategoryName": "Technik & Sicherheit"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ENAV7UG",
+          "name": "MMI Navigation plus mit MMI touch response",
+          "subCategoryId": "Infotainment.MMI_Navigation",
+          "subCategoryName": "Navigation"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "EESSUF8",
+          "name": "Audi music interface im Fond",
+          "subCategoryId": "Infotainment.Entertainment",
+          "subCategoryName": "Entertainment"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "ESRH6I5",
+          "name": "Spurverlassenswarnung inkl. Notfallassistent",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "EIRS4L6",
+          "name": "Innenspiegel automatisch abblendend, rahmenlos",
+          "subCategoryId": "Komfort.Spiegel",
+          "subCategoryName": "Spiegel"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ECDW7D5",
+          "name": "DVD-Player",
+          "subCategoryId": "Infotainment.Entertainment",
+          "subCategoryName": "Entertainment"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "ESPU7Y1",
+          "name": "Spurwechselwarnung inkl. Ausstiegswarnung und Querverkehrsassistent hinten",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Raeder_Reifen",
+          "categoryName": "Räder & Reifen",
+          "code": "ERAD42G",
+          "name": "Aluminium-Gussräder im 5-Arm-Design 9 J x 20",
+          "subCategoryId": "Raeder_Reifen.Felgen",
+          "subCategoryName": "Felgen"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "EKLAEK1",
+          "name": "12V Verkabelung an Vorderachshilfsrahmen",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "ESDH4E7",
+          "name": "Gepäckraumklappe elektrisch öffnend und schließend",
+          "subCategoryId": "Komfort.Schliesssysteme",
+          "subCategoryName": "Schließsysteme"
+        },
+        {
+          "categoryId": "Scheinwerfer",
+          "categoryName": "Scheinwerfer",
+          "code": "ELIA8G4",
+          "name": "Matrix LED-Scheinwerfer mit dynamischer Lichtinszenierung und dynamischem Blinklicht Front und Heck",
+          "subCategoryId": "Scheinwerfer.Scheinwerfer",
+          "subCategoryName": "Scheinwerfer"
+        },
+        {
+          "categoryId": "Raeder_Reifen",
+          "categoryName": "Räder & Reifen",
+          "code": "EREIH6W",
+          "name": "Reifen 255/50 R20 109H xl",
+          "subCategoryId": "Raeder_Reifen.Reifen",
+          "subCategoryName": "Reifen"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ELSE9VS",
+          "name": "Bang & Olufsen Premium Sound System mit 3D-Klang",
+          "subCategoryId": "Infotainment.Entertainment",
+          "subCategoryName": "Entertainment"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "EHKA9AQ",
+          "name": "Komfortklimaautomatik 4-Zonen",
+          "subCategoryId": "Komfort.Klimatisierung",
+          "subCategoryName": "Klimatisierung"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "ECPDIW3",
+          "name": "Audi connect Notruf & Service inkl. e-tron Fahrzeugsteuerung",
+          "subCategoryId": "Infotainment.Kommunikation",
+          "subCategoryName": "Kommunikation"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EKSUKA6",
+          "name": "Umgebungskameras",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EGEF9R1",
+          "name": "Nachtsichtassistent",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Sitze",
+          "categoryName": "Sitze",
+          "code": "ELOR7P1",
+          "name": "4-Wege-Lendenwirbelstütze für die Vordersitze",
+          "subCategoryId": "Sitze.Sitzkomfort",
+          "subCategoryName": "Sitzkomfort"
+        },
+        {
+          "categoryId": "Assistenzsysteme",
+          "categoryName": "Assistenzsysteme",
+          "code": "EGRA8T8",
+          "name": "Adaptiver Fahrassistent inkl. Geschwindi gkeitsbegrenzer, Effizienzassistent, Ausweichassistent und Abbiegeassistent",
+          "subCategoryId": "Assistenzsysteme.Assistenzsysteme",
+          "subCategoryName": "Assistenzsysteme"
+        },
+        {
+          "categoryId": "Sitze",
+          "categoryName": "Sitze",
+          "code": "ESIE3L4",
+          "name": "Vordersitze elektrisch einstellbar inklusive Memory-Funktion für den Fahrersitz",
+          "subCategoryId": "Sitze.Sitzkomfort",
+          "subCategoryName": "Sitzkomfort"
+        }
+      ],
+      "standardEquipments": [
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LRAU9JA",
+          "name": "Nichtraucherpaket",
+          "subCategoryId": "Komfort.Ablage_Transport",
+          "subCategoryName": "Ablage & Transport"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "IGSPG1Z",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LFRI2V5",
+          "name": "Ohne Air Quality Paket",
+          "subCategoryId": "Komfort.Klimatisierung",
+          "subCategoryName": "Klimatisierung"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LLDOES7",
+          "name": "Ladedose Combo 2 (EU)",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LASY0K9",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "LRAOI8T",
+          "name": "MMI Radio plus mit MMI touch response",
+          "subCategoryId": "Infotainment.MMI_Navigation",
+          "subCategoryName": "Navigation"
+        },
+        {
+          "categoryId": "Dachsysteme_Verglasung",
+          "categoryName": "Dachsysteme & Verglasung",
+          "code": "LWSS4GF",
+          "name": "Frontscheibe in Akustikverglasung",
+          "subCategoryId": "Dachsysteme_Verglasung.Verglasung",
+          "subCategoryName": "Verglasung"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LSNH8Y1",
+          "name": "Doppelton-Signalhorn",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LBLGKB3",
+          "name": "Batterieladegerät (Ausf.3)",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "LLKLEH1",
+          "name": "Ladekabellänge Standard",
+          "subCategoryId": "Technik_Sicherheit.Technik_Sicherheit",
+          "subCategoryName": "Technik & Sicherheit"
+        },
+        {
+          "categoryId": "Scheinwerfer",
+          "categoryName": "Scheinwerfer",
+          "code": "LHSW8IY",
+          "name": "LED- Hauptscheinwerfer mit Linse",
+          "subCategoryId": "Scheinwerfer.Scheinwerfer",
+          "subCategoryName": "Scheinwerfer"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LKZT31F",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Exterieur_Design",
+          "categoryName": "Exterieur Design",
+          "code": "LZIE4ZB",
+          "name": "Glanzpaket",
+          "subCategoryId": "Exterieur_Design.Exterieur_Design",
+          "subCategoryName": "Exterieur Design"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "LDAE1BK",
+          "name": "adaptive air suspension",
+          "subCategoryId": "Technik_Sicherheit.Fahrdynamik_Bremsen",
+          "subCategoryName": "Fahrdynamik & Bremsen"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "IKARK4H",
+          "name": "Geschlossener Aufbau",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Dachsysteme_Verglasung",
+          "categoryName": "Dachsysteme & Verglasung",
+          "code": "LSSH4KC",
+          "name": "Wärmeschutzverglasung",
+          "subCategoryId": "Dachsysteme_Verglasung.Verglasung",
+          "subCategoryName": "Verglasung"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LASL5SL",
+          "name": "Außenspiegel links, asphärisch",
+          "subCategoryId": "Komfort.Spiegel",
+          "subCategoryName": "Spiegel"
+        },
+        {
+          "categoryId": "Infotainment",
+          "categoryName": "Infotainment",
+          "code": "LONLEL3",
+          "name": "Audi connect Navigation & Infotainment",
+          "subCategoryId": "Infotainment.Kommunikation",
+          "subCategoryName": "Kommunikation"
+        },
+        {
+          "categoryId": "Exterieur_Design",
+          "categoryName": "Exterieur Design",
+          "code": "LTYZ2Z8",
+          "name": "Modellbezeichnung gemäß neuer Leistungskennzeichnung",
+          "subCategoryId": "Exterieur_Design.Exterieur_Design",
+          "subCategoryName": "Exterieur Design"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "LSAB4X3",
+          "name": "Seitenairbags vorn und Kopfairbagsystem",
+          "subCategoryId": "Technik_Sicherheit.Technik_Sicherheit",
+          "subCategoryName": "Technik & Sicherheit"
+        },
+        {
+          "categoryId": "Material",
+          "categoryName": "Material",
+          "code": "LSIBN2M",
+          "name": "Stoff Effekt",
+          "subCategoryId": "Material.Material",
+          "subCategoryName": "Material"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LGPR3U4",
+          "name": "Gepäckraumabdeckung",
+          "subCategoryId": "Komfort.Ablage_Transport",
+          "subCategoryName": "Ablage & Transport"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LASMGM0",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Exterieur_Design",
+          "categoryName": "Exterieur Design",
+          "code": "LSFS2K0",
+          "name": "Stoßfänger Serie",
+          "subCategoryId": "Exterieur_Design.Exterieur_Design",
+          "subCategoryName": "Exterieur Design"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LAED1TX",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Interieur_Design",
+          "categoryName": "Interieur Design",
+          "code": "LHIM6NJ",
+          "name": "Dachhimmel in Stoff mondsilber",
+          "subCategoryId": "Interieur_Design.Dach_Verdeckhimmel",
+          "subCategoryName": "Dachhimmel"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LLDBNW1",
+          "name": "e-tron Ladesystem kompakt",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Interieur_Design",
+          "categoryName": "Interieur Design",
+          "code": "LEIL7M1",
+          "name": "Einstiegsleisten mit Aluminiumeinlage vorn/hinten, unbeleuchtet, ohne Schriftzug",
+          "subCategoryId": "Interieur_Design.Einstiegsleisten",
+          "subCategoryName": "Einstiegsleisten"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "LBAV1LN",
+          "name": "Scheibenbremsen vorn (18\")",
+          "subCategoryId": "Technik_Sicherheit.Fahrdynamik_Bremsen",
+          "subCategoryName": "Fahrdynamik & Bremsen"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "IAUSA9F",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LMOTM1J",
+          "name": "Elektro-Motor Systemleistung 300KW ( 125KW und 140KW ) Grundmotor ist: T4K",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LLEAL0L",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LTRW3CA",
+          "subCategoryId": "Komfort.Ablage_Transport",
+          "subCategoryName": "Ablage & Transport"
+        },
+        {
+          "categoryId": "Raeder_Reifen",
+          "categoryName": "Räder & Reifen",
+          "code": "LRER1G8",
+          "name": "Reifenreparaturset",
+          "subCategoryId": "Raeder_Reifen.Zubehoer",
+          "subCategoryName": "Zubehör"
+        },
+        {
+          "categoryId": "Exterieur_Design",
+          "categoryName": "Exterieur Design",
+          "code": "LBBO6FA",
+          "name": "Außenspiegelgehäuse in Wagenfarbe lackiert",
+          "subCategoryId": "Exterieur_Design.Exterieur_Design",
+          "subCategoryName": "Exterieur Design"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LWSA7E1",
+          "name": "Heizleistung Standard",
+          "subCategoryId": "Komfort.Klimatisierung",
+          "subCategoryName": "Klimatisierung"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LATA1X1",
+          "name": "quattro",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LEDW7AA",
+          "name": "Wegfahrsperre elektronisch",
+          "subCategoryId": "Komfort.Schliesssysteme",
+          "subCategoryName": "Schließsysteme"
+        },
+        {
+          "categoryId": "Weitere",
+          "categoryName": "Weitere",
+          "code": "LZLDJS0",
+          "subCategoryId": "Weitere.Weitere",
+          "subCategoryName": "Weitere"
+        },
+        {
+          "categoryId": "Sitze",
+          "categoryName": "Sitze",
+          "code": "LMAS6E1",
+          "name": "Mittelarmlehne vorn",
+          "subCategoryId": "Sitze.Sitzkomfort",
+          "subCategoryName": "Sitzkomfort"
+        },
+        {
+          "categoryId": "Technik_Sicherheit",
+          "categoryName": "Technik & Sicherheit",
+          "code": "LLENQZ7",
+          "name": "Progressivlenkung",
+          "subCategoryId": "Technik_Sicherheit.Fahrdynamik_Bremsen",
+          "subCategoryName": "Fahrdynamik & Bremsen"
+        },
+        {
+          "categoryId": "Sitze",
+          "categoryName": "Sitze",
+          "code": "LZKV3B3",
+          "name": "Kindersitzbefestigung ISOFIX und Top Tether für die Rücksitzbank",
+          "subCategoryId": "Sitze.Sitzkomfort",
+          "subCategoryName": "Sitzkomfort"
+        },
+        {
+          "categoryId": "Raeder_Reifen",
+          "categoryName": "Räder & Reifen",
+          "code": "LRDK7K1",
+          "name": "Reifendruck-Kontrollanzeige",
+          "subCategoryId": "Raeder_Reifen.Zubehoer",
+          "subCategoryName": "Zubehör"
+        },
+        {
+          "categoryId": "Lenkraeder_Bedienelemente",
+          "categoryName": "Lenkräder & Bedienelemente",
+          "code": "LLSS2C5",
+          "name": "Sicherheitslenksäule",
+          "subCategoryId": "Lenkraeder_Bedienelemente.Bedienelemente",
+          "subCategoryName": "Bedienelemente"
+        },
+        {
+          "categoryId": "Dachsysteme_Verglasung",
+          "categoryName": "Dachsysteme & Verglasung",
+          "code": "LDAR3S0",
+          "subCategoryId": "Dachsysteme_Verglasung.Dachsysteme",
+          "subCategoryName": "Dachsysteme"
+        },
+        {
+          "categoryId": "Komfort",
+          "categoryName": "Komfort",
+          "code": "LASR5RU",
+          "name": "Außenspiegel rechts (großes Sichtfeld), konvex",
+          "subCategoryId": "Komfort.Spiegel",
+          "subCategoryName": "Spiegel"
+        }
+      ],
+      "technicalSpecifications": [
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauchs- und Emissionswerte nach WLTP/NEFZ",
+          "key": "consumption-extra-urban",
+          "name": "außerorts",
+          "unit": "l/100 km",
+          "value": "23,6"
+        },
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauchs- und Emissionswerte nach WLTP/NEFZ",
+          "key": "consumption-urban",
+          "name": "innerorts",
+          "unit": "l/100 km",
+          "value": "23,6"
+        },
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauchs- und Emissionswerte nach WLTP/NEFZ",
+          "key": "consumption-combined",
+          "name": "kombiniert",
+          "unit": "l/100 km",
+          "value": "23,6"
+        },
+        {
+          "groupId": "volumes",
+          "groupName": "Volumen",
+          "key": "luggage-compartment-capacity",
+          "name": "Gepäckraumvolumen",
+          "unit": "l",
+          "value": "660"
+        },
+        {
+          "groupId": "engine",
+          "groupName": "Motor",
+          "key": "max-output-kw",
+          "name": "Max. Leistung (kW)",
+          "unit": "kW",
+          "value": "265"
+        },
+        {
+          "groupId": "trailer-weight-limit",
+          "groupName": "Zul. Anhängerlast",
+          "key": "trailer-weight-limit-gradient12",
+          "name": "bei 12% Steigung",
+          "unit": "kg",
+          "value": "1800"
+        },
+        {
+          "groupId": "performance-data",
+          "groupName": "Fahrleistung",
+          "key": "top-speed",
+          "name": "Höchstgeschwindigkeit",
+          "unit": "km/h",
+          "value": "200"
+        },
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauchs- und Emissionswerte nach WLTP/NEFZ",
+          "key": "electric-consumption",
+          "name": "Stromverbrauch",
+          "unit": "kWh/100 km",
+          "value": "23,66"
+        },
+        {
+          "groupId": "insurance-classes",
+          "groupName": "Versicherungsklassen",
+          "key": "comprehensive-insurance-class",
+          "name": "Vollkasko",
+          "value": "28"
+        },
+        {
+          "groupId": "insurance-classes",
+          "groupName": "Versicherungsklassen",
+          "key": "liability-insurance-class",
+          "name": "Haftpflicht",
+          "value": "20"
+        },
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauchs- und Emissionswerte nach WLTP/NEFZ",
+          "key": "fuel-type",
+          "name": "Kraftstoffart",
+          "value": "Strom"
+        },
+        {
+          "groupId": "performance-data",
+          "groupName": "Fahrleistung",
+          "key": "acceleration",
+          "name": "Beschleunigung 0-100 km/h",
+          "unit": "s",
+          "value": "6,6"
+        },
+        {
+          "groupId": "efficiency",
+          "groupName": "Effizienz",
+          "key": "efficiency-class",
+          "name": "Effizienzklasse",
+          "value": "A+"
+        },
+        {
+          "groupId": "weights",
+          "groupName": "Gewicht",
+          "key": "unladen-weight",
+          "name": "Leergewicht",
+          "unit": "kg",
+          "value": "2565"
+        },
+        {
+          "groupId": "insurance-classes",
+          "groupName": "Versicherungsklassen",
+          "key": "partial-coverage-insurance-class",
+          "name": "Teilkasko",
+          "value": "27"
+        },
+        {
+          "groupId": "consumption",
+          "groupName": "Verbrauchs- und Emissionswerte nach WLTP/NEFZ",
+          "key": "carbon-dioxide-emissions",
+          "name": "CO₂-Emissionen",
+          "unit": "g/km",
+          "value": "0"
+        },
+        {
+          "groupId": "trailer-weight-limit",
+          "groupName": "Zul. Anhängerlast",
+          "key": "trailer-weight-limit-unbraked",
+          "name": "ungebremst",
+          "unit": "kg",
+          "value": "750"
+        },
+        {
+          "groupId": "weights",
+          "groupName": "Gewicht",
+          "key": "roof-load-limit",
+          "name": "Zul. Dachlast/Stützlast",
+          "unit": "kg",
+          "value": "75/80"
+        },
+        {
+          "groupId": "suspension",
+          "groupName": "Fahrwerk",
+          "key": "front-axle",
+          "name": "Vorderachse",
+          "value": "Fünflenker-Vorderachse; Rohrstabilisator; Luftfederung"
+        },
+        {
+          "groupId": "steering",
+          "groupName": "Lenkung",
+          "key": "steering",
+          "name": "Lenkung",
+          "value": "Elektromechanische Progressivlenkung mit geschwindigkeitsabhängiger Servounterstützung; Wendekreis ca. 12,2 m"
+        },
+        {
+          "groupId": "brake-system",
+          "groupName": "Bremssystem",
+          "key": "brakes",
+          "name": "Bremssystem",
+          "value": "Diagonal-2-Kreis Bremssystem mit ESC/ABS/EBV, Bremskraftverstärker, hydraulischer Bremsassistent; vorn: Aluminium-Festsattel, Bremsscheibe innenbelüftet; hinten: Faustsattel mit integrierter elektr. Parkbremse, Bremsscheibe innenbelüftet"
+        },
+        {
+          "groupId": "suspension",
+          "groupName": "Fahrwerk",
+          "key": "rear-axle",
+          "name": "Hinterachse",
+          "value": "Fünflenker-Hinterachse; Rohrstabilisator; Luftfederung"
+        },
+        {
+          "groupId": "driveline",
+          "groupName": "Kraftübertragung",
+          "key": "transmission-type",
+          "name": "Antriebsart",
+          "value": "Allradantrieb quattro"
+        },
+        {
+          "groupId": "weights",
+          "groupName": "Gewicht",
+          "key": "gross-weight-limit",
+          "name": "Zul. Gesamtgewicht",
+          "unit": "kg",
+          "value": "3130"
+        },
+        {
+          "groupId": "trailer-weight-limit",
+          "groupName": "Zul. Anhängerlast",
+          "key": "trailer-weight-limit-gradient8",
+          "name": "bei 8% Steigung",
+          "unit": "kg",
+          "value": "1800"
+        },
+        {
+          "groupId": "driveline",
+          "groupName": "Kraftübertragung",
+          "key": "gearbox",
+          "name": "Getriebeart",
+          "value": "1 stufige"
+        },
+        {
+          "groupId": "engine",
+          "groupName": "Motor",
+          "key": "engine-type",
+          "name": "Motorbauart",
+          "value": "Elektro"
+        }
+      ]
+    },
+    "status": 200
+  }
+}

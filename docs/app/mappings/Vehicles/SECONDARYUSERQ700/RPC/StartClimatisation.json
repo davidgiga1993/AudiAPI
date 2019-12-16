@@ -1,0 +1,23 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/bs/climatisation/v1/Audi/DE/vehicles/SECONDARYUSERQ700/climater/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 4444444,
+        "actionState": "queued",
+        "settings": {
+          "climatisationWithoutHVpower": true,
+          "heaterSource": "electric"
+        },
+        "type": "startClimatisation"
+      }
+    },
+    "status": 202
+  }
+}

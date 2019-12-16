@@ -1,0 +1,66 @@
+{
+  "request": {
+    "headers": {
+      "QM-Mock-Agent": {
+        "absent": true
+      }
+    },
+    "method": "GET",
+    "queryParameters": {
+      "vin": {
+        "matches": "SUPERQ70000000000"
+      }
+    },
+    "urlPath": "/acp/product/v2/ACPMDE/products"
+  },
+  "requiredScenarioState": "Empty",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "collection": [],
+      "metadata": {
+        "textFragments": [
+          {
+            "name": "priceInformation",
+            "value": "inkl. MwSt."
+          },
+          {
+            "name": "mmilegalinfo",
+            "value": "Die Allgemeinen Geschäftsbedingungen inklusive Widerrufsbelehrung und die Datenschutzerklärung finden Sie unter <i>"
+          },
+          {
+            "name": "withdrawalexception",
+            "value": ""
+          },
+          {
+            "name": "agree",
+            "value": "Mit Klicken auf \"Zahlungspflichtig kaufen\" bestelle ich dieses Produkt unter Geltung der Allgemeinen Geschäftsbedingungen"
+          },
+          {
+            "name": "terms_a",
+            "value": ""
+          },
+          {
+            "name": "legalgenericincarshop",
+            "value": "Alle Preise inkl. Steuern. Rechtstexte können hier eingesehen werden <i>."
+          },
+          {
+            "name": "terms_b",
+            "value": "123"
+          },
+          {
+            "name": "from",
+            "value": "from"
+          }
+        ]
+      }
+    },
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  },
+  "scenarioName": "Vehicle.ACP.Products"
+}

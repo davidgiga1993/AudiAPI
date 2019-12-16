@@ -1,0 +1,124 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/tripstatistics/v1/Audi/DE/vehicles/SUPERQ70000000000/tripdata/shortTerm"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "tripDataList": {
+        "tripData": [
+          {
+            "averageElectricEngineConsumption": 499,
+            "averageFuelConsumption": 4,
+            "averageSpeed": 88,
+            "mileage": 175,
+            "overallMileage": 1337,
+            "reportReason": "clamp15off",
+            "startMileage": 20158,
+            "timestamp": "2015-11-28T11:44:06Z",
+            "traveltime": 116,
+            "tripID": 9572,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 529,
+            "averageFuelConsumption": 4,
+            "averageSpeed": 117,
+            "mileage": 263,
+            "overallMileage": 1337,
+            "reportReason": "clamp15off",
+            "startMileage": 20196,
+            "timestamp": "2015-11-28T20:28:45Z",
+            "traveltime": 136,
+            "tripID": 9657,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 261,
+            "averageFuelConsumption": 10,
+            "averageSpeed": 127,
+            "mileage": 508,
+            "overallMileage": 1337,
+            "reportReason": "userReset",
+            "startMileage": 24836,
+            "timestamp": "2015-12-09T07:38:22Z",
+            "traveltime": 241,
+            "tripID": 10424,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 96,
+            "averageFuelConsumption": 85,
+            "averageSpeed": 99,
+            "mileage": 199,
+            "overallMileage": 1337,
+            "reportReason": "userReset",
+            "startMileage": 24886,
+            "timestamp": "2015-12-12T05:40:25Z",
+            "traveltime": 180,
+            "tripID": 10460,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 94,
+            "averageFuelConsumption": 73,
+            "averageSpeed": 144,
+            "mileage": 187,
+            "overallMileage": 1337,
+            "reportReason": "userReset",
+            "startMileage": 25085,
+            "timestamp": "2015-12-12T09:48:55Z",
+            "traveltime": 82,
+            "tripID": 10501,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 50,
+            "averageFuelConsumption": 72,
+            "averageSpeed": 77,
+            "mileage": 116,
+            "overallMileage": 1337,
+            "reportReason": "userReset",
+            "startMileage": 25167,
+            "timestamp": "2015-12-13T12:31:52Z",
+            "traveltime": 92,
+            "tripID": 10508,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 25,
+            "averageFuelConsumption": 80,
+            "averageSpeed": 142,
+            "mileage": 284,
+            "overallMileage": 1337,
+            "reportReason": "userReset",
+            "startMileage": 25302,
+            "timestamp": "2015-12-14T06:04:43Z",
+            "traveltime": 123,
+            "tripID": 10534,
+            "tripType": "shortTerm"
+          },
+          {
+            "averageElectricEngineConsumption": 272,
+            "averageFuelConsumption": 80,
+            "averageSpeed": 50,
+            "mileage": 165,
+            "overallMileage": 1337,
+            "reportReason": "clamp15off",
+            "startMileage": 25494,
+            "timestamp": "2015-12-14T12:15:25Z",
+            "traveltime": 200,
+            "tripID": 10551,
+            "tripType": "shortTerm"
+          }
+        ]
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.SuperQ7.RTS.ShortTermTrips"
+}

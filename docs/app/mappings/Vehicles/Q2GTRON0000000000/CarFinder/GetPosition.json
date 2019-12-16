@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/cf/v1/Audi/DE/vehicles/Q2GTRON0000000000/position"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/vnd.vwg.mbb.CarFinderService_v2_0_1+json; charset=utf-8"
+    },
+    "jsonBody": {
+      "storedPositionResponse": {
+        "parkingTimeUTC": "2018-09-10T10:55:03Z",
+        "position": {
+          "carCoordinate": {
+            "latitude": 44798180,
+            "longitude": 20469515
+          },
+          "heading": {
+            "direction": 210
+          }
+        }
+      }
+    },
+    "status": 200
+  }
+}

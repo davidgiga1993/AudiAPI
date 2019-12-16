@@ -1,0 +1,159 @@
+{
+  "newScenarioState": "Started",
+  "request": {
+    "bodyPatterns": [
+      {
+        "contains": "commission_no_full"
+      }
+    ],
+    "method": "POST",
+    "urlPath": "/msg/myaudi/vehicle-management/v1/vehicles/orders/add"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "order": {
+        "delivery": {
+          "fp_date": "2019-06-29+02:00",
+          "fp_from_time": "10:00:00.000+02:00",
+          "fp_location": "DEU760   B",
+          "fp_till_time": "12:00:00.000+02:00",
+          "type": "factory_pickup"
+        },
+        "order_date": "2019-03-01T00:00:00Z",
+        "order_dealer": {
+          "city": "Osnabrück",
+          "dealer_site_url": "https://www.audi-zentrum-osnabrueck.audi",
+          "email": "info@audizentrum-osnabrueck.de",
+          "fax_numbers": [
+            "+49 541 3803319"
+          ],
+          "id": "32557",
+          "map_url": "http://maps.googleapis.com/maps/api/staticmap?size=319x319&sensor=false&markers=52.248299,8.0361931",
+          "name": "Audi Zentrum Osnabrück GmbH & Co. KG",
+          "phone_numbers": [
+            "+49 541 380330"
+          ],
+          "street": "Sutthauser Straße 290",
+          "zip_code": "49080"
+        },
+        "order_id": {
+          "commission_no": "HCC668",
+          "commission_no_full": "187EJN2362017",
+          "commission_year": "2019",
+          "order_id_type": "commission_structured",
+          "sales_region": "181"
+        },
+        "order_market": "DE",
+        "order_type": "customer_order",
+        "production": {
+          "checkpoints": {
+            "history": [
+              {
+                "number": 2,
+                "seq": 35,
+                "text": "HDEIN",
+                "ts": "2019-05-06T04:50:00.000+02:00",
+                "type": "D"
+              },
+              {
+                "number": 38,
+                "seq": 32,
+                "text": "DEP-EIN",
+                "ts": "2019-05-06T04:50:00.000+02:00",
+                "type": "D"
+              },
+              {
+                "number": 39,
+                "seq": 34,
+                "text": "DEP-AUS",
+                "ts": "2019-05-06T04:50:00.000+02:00",
+                "type": "D"
+              },
+              {
+                "number": 35,
+                "seq": 21,
+                "text": "WERK-AUS",
+                "ts": "2019-05-06T04:50:00.000+02:00",
+                "type": "D"
+              },
+              {
+                "number": 1,
+                "seq": 18,
+                "text": "ZP8",
+                "ts": "2019-05-06T04:05:09.000+02:00",
+                "type": "F"
+              },
+              {
+                "number": 9,
+                "seq": 16,
+                "text": "ZP7",
+                "ts": "2019-05-06T01:49:02.000+02:00",
+                "type": "F"
+              },
+              {
+                "number": 3,
+                "seq": 15,
+                "text": "MONT-EIN",
+                "ts": "2019-05-03T14:26:58.000+02:00",
+                "type": "F"
+              },
+              {
+                "number": 26,
+                "seq": 13,
+                "text": "LACK-EIN",
+                "ts": "2019-05-03T05:46:28.000+02:00",
+                "type": "F"
+              },
+              {
+                "number": 24,
+                "seq": 11,
+                "text": "KAR-EIN",
+                "ts": "2019-04-30T17:47:07.000+02:00",
+                "type": "F"
+              },
+              {
+                "number": 21,
+                "seq": 10,
+                "text": "FIX-AUF",
+                "ts": "2019-04-16T10:14:39.000+02:00",
+                "type": "A"
+              },
+              {
+                "number": 22,
+                "seq": 0,
+                "text": "FIX-PKN",
+                "ts": "2019-04-10T16:08:59.000+02:00",
+                "type": "A"
+              },
+              {
+                "number": 19,
+                "seq": 9,
+                "text": "FIX-WOWE",
+                "ts": "2019-04-10T13:42:21.000+02:00",
+                "type": "A"
+              },
+              {
+                "number": 11,
+                "seq": 1,
+                "text": "KDEIN",
+                "ts": "2019-02-21T12:00:00.000+01:00",
+                "type": "A"
+              }
+            ],
+            "last": {
+              "number": 2,
+              "seq": 35,
+              "ts": "2019-05-06T04:50:00.000+02:00"
+            }
+          }
+        },
+        "registered_ts": "2019-06-05T09:38:57.622+02:00"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.VehicleList"
+}

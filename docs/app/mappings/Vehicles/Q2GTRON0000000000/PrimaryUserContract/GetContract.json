@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/contract/v1/vehicles/Q2GTRON0000000000/follow-up-warranty"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "expirationDate": "2020-05-01T11:40:54Z",
+      "odometerLimit": 1000,
+      "odometerUnit": "KM",
+      "startDate": "2017-11-04T00:00:00Z"
+    },
+    "status": 200
+  }
+}

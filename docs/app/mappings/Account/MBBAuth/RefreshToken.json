@@ -1,0 +1,25 @@
+{
+  "request": {
+    "bodyPatterns": [
+      {
+        "contains": "grant_type=refresh_token"
+      },
+      {
+        "doesNotMatch": ".*?vin=.*?"
+      }
+    ],
+    "method": "POST",
+    "urlPath": "/mbbauth/mobile/oauth2/v1/token"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "access_token": ".eyJ2Ym5kIjoiQXVkaSIsInZjdHIiOiJERSIsInN1YiI6IjdIRFNQZERTaDZEVEdFVmhzakh0djRYOEVOYVoifQ.",
+      "expires_in": 300,
+      "refresh_token": "demoRefreshToken"
+    },
+    "status": 200
+  }
+}

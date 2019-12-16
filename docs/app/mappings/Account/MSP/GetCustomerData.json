@@ -1,0 +1,17 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msp/private/customer-data/v2/customers/byuserid/W829911437"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "companyCodeId": "AUDI_DE",
+      "oemId": "AUDI",
+      "userId": "W829911437"
+    },
+    "status": 200
+  }
+}

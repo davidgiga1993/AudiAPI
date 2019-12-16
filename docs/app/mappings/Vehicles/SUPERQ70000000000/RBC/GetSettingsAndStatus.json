@@ -1,0 +1,143 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/batterycharge/v1/Audi/DE/vehicles/SUPERQ70000000000/charger"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "charger": {
+        "settings": {
+          "automaticPlugUnlockSettings": {
+            "allowACOnce": false,
+            "allowACPermanent": false,
+            "allowDCOnce": false,
+            "allowDCPermanent": true,
+            "timestamp": "2018-02-12T14:48:00Z"
+          },
+          "maxChargeCurrent": {
+            "content": 5,
+            "timestamp": "2015-10-14T14:57:57Z"
+          },
+          "wirelessChargingSettings": {
+            "wirelessChargingSystemActive": {
+              "modificationReason": {
+                "content": "noReason",
+                "timestamp": "2018-01-10T11:00:00Z"
+              },
+              "modificationState": {
+                "content": "canBeModified",
+                "timestamp": "2018-01-10T11:00:00Z"
+              },
+              "value": {
+                "content": "activated",
+                "timestamp": "2018-01-10T11:00:00Z"
+              }
+            },
+            "wirelessChargingTemporaryDeactivation": {
+              "modificationReason": {
+                "content": "defect",
+                "timestamp": "2018-01-10T11:00:00Z"
+              },
+              "modificationState": {
+                "content": "canBeModified",
+                "timestamp": "2018-01-10T11:00:00Z"
+              },
+              "value": {
+                "content": "wirelessChargingActivated",
+                "timestamp": "2018-01-10T11:00:00Z"
+              }
+            }
+          }
+        },
+        "status": {
+          "batteryStatusData": {
+            "remainingChargingTime": {
+              "content": 183,
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "remainingChargingTimeTargetSOC": {
+              "content": "maxSOC",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "stateOfCharge": {
+              "content": 62,
+              "timestamp": "2015-10-14T14:57:57Z"
+            }
+          },
+          "chargingStatusData": {
+            "chargingMode": {
+              "content": "conditioning",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "chargingReason": {
+              "content": "pushButton",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "chargingState": {
+              "content": "charging",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "chargingStateErrorCode": {
+              "content": 3,
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "energyFlow": {
+              "content": "on",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "externalPowerSupplyState": {
+              "content": "stationConnected",
+              "timestamp": "2015-10-14T14:57:57Z"
+            }
+          },
+          "cruisingRangeStatusData": {
+            "engineTypeFirstEngine": {
+              "content": "petrolDiesel",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "engineTypeSecondEngine": {
+              "content": "typeIsElectric",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "hybridRange": {
+              "content": 830,
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "primaryEngineRange": {
+              "content": 793,
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "secondaryEngineRange": {
+              "content": 37,
+              "timestamp": "2015-10-14T14:57:57Z"
+            }
+          },
+          "ledStatusData": {
+            "ledColor": {
+              "content": "green",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "ledState": {
+              "content": "pulse",
+              "timestamp": "2015-10-14T14:57:57Z"
+            }
+          },
+          "plugStatusData": {
+            "lockState": {
+              "content": "locked",
+              "timestamp": "2015-10-14T14:57:57Z"
+            },
+            "plugState": {
+              "content": "connected",
+              "timestamp": "2015-10-14T14:57:57Z"
+            }
+          }
+        }
+      }
+    },
+    "status": 200
+  }
+}

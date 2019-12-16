@@ -1,0 +1,149 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/destinationfeedservice/mydestinations/v1/Audi/DE/vehicles/SUPERQ70000000000/destinations"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "destinations": {
+        "destination": [
+          {
+            "POIContact": {
+              "lastName": "Quartett mobile GmbH",
+              "messageData": {
+                "URL": "https://www.quartett-mobile.de"
+              }
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "48.179532",
+              "longitude": "11.595447"
+            },
+            "href": null,
+            "id": "4803883",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          },
+          {
+            "POIContact": {
+              "lastName": "Englischer Garten",
+              "messageData": {
+                "URL": "http://www.schloesser.bayern.de/deutsch/garten/objekte/mu_engl.htm",
+                "eMail": "gvenglischergarten@bsv.bayern.de"
+              },
+              "phoneData": [
+                {
+                  "phoneNumber": "+49 89 3866 6390",
+                  "phoneType": "0"
+                }
+              ]
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "48.164226404125",
+              "longitude": "11.605592767855"
+            },
+            "href": null,
+            "id": "3403007",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          },
+          {
+            "POIContact": {
+              "lastName": "Olympia Einkaufszentrum",
+              "messageData": {
+                "URL": "http://www.olympia-einkaufszentrum.de"
+              },
+              "phoneData": [
+                {
+                  "phoneNumber": "+498914332910",
+                  "phoneType": "0"
+                }
+              ]
+            },
+            "address": {
+              "addressType": "0",
+              "city": "Munich",
+              "country": "Germany",
+              "region": "Bavaria",
+              "stateAbbreviation": "DE",
+              "street": "Riesstraße 67",
+              "zipCode": "80993"
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "48.183354",
+              "longitude": "11.533786"
+            },
+            "href": null,
+            "id": "3403001",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          },
+          {
+            "POIContact": {
+              "lastName": "Audi AG",
+              "messageData": null
+            },
+            "address": {
+              "addressType": "0",
+              "city": "Ingolstadt",
+              "country": "Germany",
+              "region": "Bavaria",
+              "stateAbbreviation": "DE",
+              "street": "Augrabenstraße AUDI AG",
+              "zipCode": "85055"
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "48.78845",
+              "longitude": "11.41649"
+            },
+            "href": null,
+            "id": "3402996",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          },
+          {
+            "POIContact": {
+              "lastName": "Bayerisches Armeemuseum - Neues Schloss",
+              "messageData": {
+                "URL": "https://www.armeemuseum.de",
+                "eMail": "info@armeemuseum.de"
+              },
+              "phoneData": [
+                {
+                  "phoneNumber": "+49 841 9377 0",
+                  "phoneType": "0"
+                }
+              ]
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "48.764672",
+              "longitude": "11.431216"
+            },
+            "href": null,
+            "id": "3402991",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

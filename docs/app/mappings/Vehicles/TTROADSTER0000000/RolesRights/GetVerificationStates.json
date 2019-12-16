@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/rolesrights/v1/management/verification/v2/TTROADSTER0000000"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "verificationState": [
+        "HALTERROLLE_INCOMPLETE",
+        "NON_CONNECT"
+      ]
+    },
+    "status": 200
+  }
+}

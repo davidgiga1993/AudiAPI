@@ -1,0 +1,116 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/etronrp/v1/vehicles/CBEV0000000000000/chargingDuration"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "chargingDuration": {
+        "chargeStep": [
+          {
+            "duration": 0,
+            "from": 6,
+            "power": 140,
+            "to": 10,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 10,
+            "power": 140,
+            "to": 20,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 20,
+            "power": 140,
+            "to": 30,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 30,
+            "power": 140,
+            "to": 40,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 40,
+            "power": 140,
+            "to": 50,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 50,
+            "power": 140,
+            "to": 65,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 65,
+            "power": 140,
+            "to": 70,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 70,
+            "power": 140,
+            "to": 71,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 71,
+            "power": 140,
+            "to": 78,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 78,
+            "power": 140,
+            "to": 80,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 80,
+            "power": 100,
+            "to": 96,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 96,
+            "power": 50,
+            "to": 98,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 0,
+            "power": 140,
+            "to": 6,
+            "type": "DC"
+          },
+          {
+            "duration": 0,
+            "from": 98,
+            "power": 0,
+            "to": 100,
+            "type": "DC"
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

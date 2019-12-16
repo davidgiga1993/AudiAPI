@@ -1,0 +1,11 @@
+{
+  "newScenarioState": "V2",
+  "request": {
+    "method": "PUT",
+    "urlPath": "/msg/rolesrights/securitypin/v2/users/7HDSPdDSh6DTGEVhsjHtv4X8ENaZ/spin"
+  },
+  "response": {
+    "status": 204
+  },
+  "scenarioName": "Account.SPINVersion"
+}

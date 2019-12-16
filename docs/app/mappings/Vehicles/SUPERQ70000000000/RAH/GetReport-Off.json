@@ -1,0 +1,46 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/rs/v1/Audi/DE/vehicles/SUPERQ70000000000/status"
+  },
+  "requiredScenarioState": "Started",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "statusResponse": {
+        "climatisationStateReport": {
+          "climateStatusCode": 0,
+          "climatisationDuration": 40,
+          "climatisationState": "off",
+          "remainingClimateTime": 0
+        },
+        "departureTimersReport": {
+          "departureTimers": {
+            "departureTimer": [
+              {
+                "departureTime": "{{now offset='1 days' format='yyyy-MM-dd'}}T13:37:00Z",
+                "timerID": 1,
+                "timerProgrammedStatus": false
+              },
+              {
+                "departureTime": "{{now offset='1 days' format='yyyy-MM-dd'}}T19:11:00Z",
+                "timerID": 2,
+                "timerProgrammedStatus": false
+              }
+            ],
+            "heaterMode": "economy"
+          }
+        },
+        "instrumentClusterTime": "2018-03-09T11:41:00",
+        "vehicleParkingClock": "2018-02-02T11:41:00Z"
+      }
+    },
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  },
+  "scenarioName": "Vehicles.SuperQ7.RAH"
+}

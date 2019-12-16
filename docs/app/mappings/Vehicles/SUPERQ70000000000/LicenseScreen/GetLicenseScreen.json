@@ -1,0 +1,165 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/cms/licenseScreen/v1/vehicles/SUPERQ70000000000/bundles"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "licenseBundle": [
+        {
+          "activationBy": "automatic",
+          "activationDate": "Dec 23, 2016 1:33:00 PM",
+          "connectFunction": [
+            {
+              "serviceId": "Kartenupdate online",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Routenberechnung online",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Verkehrsinformationen online",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Nachrichten online\n",
+              "serviceType": "webApp"
+            },
+            {
+              "serviceId": "Straßenparkplätze",
+              "serviceType": "webApp"
+            },
+            {
+              "serviceId": "Point-of-Interest-Suche (POI) mit Sprachbedienung",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Online Google Sonderzielsuche",
+              "serviceType": "webApp"
+            },
+            {
+              "serviceId": "Verkehrszeichen online",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Online-Erkenner",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Dynamic Online POI Information",
+              "serviceType": "webApp"
+            },
+            {
+              "serviceId": "Gefahreninformation\n",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Satellitenkarte",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "myAudi Navigation",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Erweiterte 3D-City-Darstellung",
+              "serviceType": "external"
+            },
+            {
+              "serviceId": "Amazon Alexa\n",
+              "serviceType": "webApp"
+            },
+            {
+              "serviceId": "Ampelinformation",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Wetter",
+              "serviceType": "webApp"
+            }
+          ],
+          "expirationDate": "Dec 23, 2019 1:33:00 PM",
+          "licenseBundleProfile": "Audi connect Navigation & Infotainment plus",
+          "status": "ACTIVATED",
+          "warn": false
+        },
+        {
+          "activationBy": "automatic",
+          "activationDate": "Dec 23, 2016 1:33:00 PM",
+          "connectFunction": [
+            {
+              "serviceId": "Audi connect Schlüssel\n",
+              "serviceType": "mbb"
+            }
+          ],
+          "expirationDate": "Dec 23, 2019 1:33:00 PM",
+          "licenseBundleProfile": "Audi connect Schlüssel",
+          "status": "ACTIVATED",
+          "warn": false
+        },
+        {
+          "activationBy": "automatic",
+          "activationDate": "Dec 23, 2016 1:33:00 PM",
+          "connectFunction": [
+            {
+              "serviceId": "Audi Servicetermin online\n",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Fernsteuerung Ver-/Entriegeln",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Fernsteuerung Klimatisieren",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Fernsteuerung Laden",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Fahrzeugstatusreport",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Parkposition\n",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Online Pannenruf\n",
+              "serviceType": "mbb"
+            },
+            {
+              "serviceId": "Notruf",
+              "serviceType": "mbb"
+            }
+          ],
+          "expirationDate": "Dec 23, 2026 1:33:00 PM",
+          "licenseBundleProfile": "Audi connect Notruf & Service inkl. Fahrzeugsteuerung",
+          "status": "ACTIVATED",
+          "warn": false
+        },
+        {
+          "activationBy": "automatic",
+          "activationDate": "Dec 23, 2016 1:33:00 PM",
+          "connectFunction": [
+            {
+              "serviceId": "e-tron Routenplaner",
+              "serviceType": "mbb"
+            }
+          ],
+          "expirationDate": "Dec 23, 2019 1:33:00 PM",
+          "licenseBundleProfile": "eMobility Routenplaner\n",
+          "status": "ACTIVATED",
+          "warn": false
+        }
+      ],
+      "vin": "SUPERQ70000000000"
+    },
+    "status": 200
+  }
+}

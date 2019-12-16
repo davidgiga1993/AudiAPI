@@ -1,0 +1,18 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/profileservice/v1/profile/attributes/lastUsedLoginMarket"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "attribute": {
+        "name": "lastUsedLoginMarket",
+        "stringValue": "DE"
+      }
+    },
+    "status": 200
+  }
+}

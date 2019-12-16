@@ -1,0 +1,54 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/speedalert/v1/Audi/DE/vehicles/S4US0000000000000/speedAlerts"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "speedAlerts": {
+        "speedAlert": [
+          {
+            "alertType": "START_EXCEEDING",
+            "definitionId": 9999,
+            "definitionName": "My Speed Alert",
+            "durationOfExceeding": 1337,
+            "id": "47114711",
+            "locationOfAlert": {
+              "altitude": 530,
+              "direction": 359,
+              "latitude": 48778796,
+              "longitude": 11478999,
+              "precision": 3,
+              "trueness": "GOOD"
+            },
+            "maximumSpeed": 180,
+            "occurenceDateTime": "2014-04-20T13:13:00Z",
+            "speedLimit": 67
+          },
+          {
+            "alertType": "END_EXCEEDING",
+            "definitionId": 9999,
+            "definitionName": "My Speed Alert",
+            "durationOfExceeding": 500,
+            "id": "47114712",
+            "locationOfAlert": {
+              "altitude": 530,
+              "direction": 359,
+              "latitude": 48778796,
+              "longitude": 11478999,
+              "precision": 3,
+              "trueness": "GOOD"
+            },
+            "maximumSpeed": 30,
+            "occurenceDateTime": "2018-04-23T12:13:00Z",
+            "speedLimit": 67
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

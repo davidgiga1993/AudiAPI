@@ -1,0 +1,277 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {
+      "locale": {
+        "matches": "de_DE"
+      }
+    },
+    "urlPath": "/msp/public/customer-service/v2/companycodes/AUDI_DE/tariffs"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": [
+      {
+        "currencyCode": "EUR",
+        "description": "Unbesorgtes Laden, wenn Sie es brauchen. Unsere Empfehlung für Stadtpendler und Plug-in Hybridfahrer",
+        "highlightedDescription": "",
+        "id": "AUDI_CITY",
+        "name": "City",
+        "sections": [
+          {
+            "data": [
+              {
+                "label": "Grundgebühr",
+                "value": "4,95 € / Monat"
+              },
+              {
+                "label": "Mindestvertrags-<br>laufzeit ¹",
+                "value": "12 Monate"
+              }
+            ],
+            "type": "BASE_FEES"
+          },
+          {
+            "data": [
+              {
+                "label": "AC",
+                "value": "7,95 € / Ladevorgang"
+              },
+              {
+                "label": "DC",
+                "value": "9,95 € / Ladevorgang"
+              },
+              {
+                "label": "Ionity HPC<br>(Einführungspreis bis auf Weiteres)",
+                "value": "9,50 € / Ladevorgang"
+              },
+              {
+                "label": "Ionity HPC<br>(Standardpreis)",
+                "value": "bald verfügbar"
+              }
+            ],
+            "type": "CHARGING_RATES"
+          },
+          {
+            "countries": [
+              {
+                "label": "Belgien",
+                "marketId": "AUDI_BE",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Dänemark",
+                "marketId": "AUDI_DK",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Finnland",
+                "marketId": "AUDI_FI",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Frankreich",
+                "marketId": "AUDI_FR",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Großbritannien",
+                "marketId": "AUDI_GB",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Irland",
+                "marketId": "AUDI_IE",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Italien",
+                "marketId": "AUDI_IT",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Luxemburg",
+                "marketId": "AUDI_LU",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Niederlande",
+                "marketId": "AUDI_NL",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Norwegen",
+                "marketId": "AUDI_NO",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Österreich",
+                "marketId": "AUDI_AT",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Portugal",
+                "marketId": "AUDI_PT",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Spanien",
+                "marketId": "AUDI_ES",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Schweden",
+                "marketId": "AUDI_SE",
+                "tariffId": "AUDI_CITY_IR"
+              },
+              {
+                "label": "Schweiz",
+                "marketId": "AUDI_CH",
+                "tariffId": "AUDI_CITY_IR"
+              }
+            ],
+            "data": [],
+            "label": "Roaming",
+            "optional": true,
+            "type": "ROAMING"
+          }
+        ],
+        "shortName": "City"
+      },
+      {
+        "currencyCode": "EUR",
+        "description": "Ihr Tarif für Hochleistungsladen und regelmäßige Langstreckenfahrten. Unsere Empfehlung für Fahrer rein elektrischer Fahrzeuge ",
+        "highlightedDescription": "",
+        "id": "AUDI_TRANSIT",
+        "name": "Transit",
+        "promotion": {
+          "line1": "1 Jahr keine Grundgebühr ³",
+          "line2": "mit Ihrem neuen Audi <span class='text-nowrap'>e-tron</span>"
+        },
+        "sections": [
+          {
+            "data": [
+              {
+                "label": "Grundgebühr",
+                "value": "17,95 € / Monat"
+              },
+              {
+                "label": "Mindestvertrags-<br>laufzeit ¹",
+                "value": "12 Monate"
+              }
+            ],
+            "type": "BASE_FEES"
+          },
+          {
+            "data": [
+              {
+                "label": "AC",
+                "value": "7,95 € / Ladevorgang"
+              },
+              {
+                "label": "DC",
+                "value": "9,95 € / Ladevorgang"
+              },
+              {
+                "label": "Ionity HPC<br>(Einführungspreis bis auf Weiteres)",
+                "value": "8,00 € / Ladevorgang"
+              },
+              {
+                "label": "Ionity HPC<br>(Standardpreis)",
+                "value": "16,95 € / Ladevorgang"
+              }
+            ],
+            "type": "CHARGING_RATES"
+          },
+          {
+            "countries": [
+              {
+                "label": "Belgien",
+                "marketId": "AUDI_BE",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Dänemark",
+                "marketId": "AUDI_DK",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Finnland",
+                "marketId": "AUDI_FI",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Frankreich",
+                "marketId": "AUDI_FR",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Großbritannien",
+                "marketId": "AUDI_GB",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Irland",
+                "marketId": "AUDI_IE",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Italien",
+                "marketId": "AUDI_IT",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Luxemburg",
+                "marketId": "AUDI_LU",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Niederlande",
+                "marketId": "AUDI_NL",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Norwegen",
+                "marketId": "AUDI_NO",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Österreich",
+                "marketId": "AUDI_AT",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Portugal",
+                "marketId": "AUDI_PT",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Spanien",
+                "marketId": "AUDI_ES",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Schweden",
+                "marketId": "AUDI_SE",
+                "tariffId": "AUDI_TRANSIT_IR"
+              },
+              {
+                "label": "Schweiz",
+                "marketId": "AUDI_CH",
+                "tariffId": "AUDI_TRANSIT_IR"
+              }
+            ],
+            "data": [],
+            "label": "Roaming",
+            "optional": true,
+            "type": "ROAMING"
+          }
+        ],
+        "shortName": "Transit"
+      }
+    ],
+    "status": 200
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/vehicle-management/v1/vehicles"
+  },
+  "requiredScenarioState": "Empty",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "v_sync": {
+        "sync_triggered": false
+      },
+      "vehicles": []
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.VehicleList"
+}

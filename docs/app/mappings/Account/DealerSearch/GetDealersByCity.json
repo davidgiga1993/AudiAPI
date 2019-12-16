@@ -1,0 +1,208 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/dealersearch/api/json/v2/audi-cbs/city"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "partners": [
+        {
+          "address": {
+            "areaNumber": "216",
+            "city": "Köln",
+            "display": [
+              "Bonner Straße 328",
+              "50968 Köln"
+            ],
+            "distance": {
+              "kilometers": 3.565,
+              "miles": 2.215
+            },
+            "distributionCenter": "133",
+            "latitude": 50.90456,
+            "longitude": 6.96398,
+            "marketingAreaNumber": "227",
+            "region": "Nordrhein-Westfalen",
+            "regionNumber": "182",
+            "street": "Bonner Straße 328",
+            "zipCode": "50968"
+          },
+          "brand": "A",
+          "chainName": "DEU-0091 Fleischhauer",
+          "contactDetails": {
+            "email": "Dietmar.Schaefers@fleischhauer.com",
+            "fax": {
+              "display": "0221 37683144",
+              "international": "+49 221 37683144",
+              "national": "0221 37683144",
+              "raw": "+49 221 37683144",
+              "url": "tel:+49-221-37683144"
+            },
+            "phone": {
+              "display": "0221 37683100",
+              "international": "+49 221 37683100",
+              "national": "0221 37683100",
+              "raw": "+49 221 37683100",
+              "url": "tel:+49-221-37683100"
+            }
+          },
+          "contractStatusGvo": "HS",
+          "countryCode": "DEU",
+          "distance": 3.565,
+          "kvpsSyncId": "",
+          "kvpsid": "24864",
+          "name": "Audi Zentrum Köln Autohaus Jacob Fleischhauer GmbH & Co. KG",
+          "notes": {
+            "openingHoursHTML": "<p><strong>Verkauf</strong><br />Montag-Freitag: 08:30 - 18:30 Uhr<br />Samstag: 09:00 - 14:00 Uhr<br /><br /><strong>Kundendienst</strong><br />Montag-Freitag: 07:15 - 18:00 Uhr<br />Samstag: 09:00 - 14:00 Uhr</p><p><strong>Teiledienst</strong><br />Montag-Donnerstag: 07:30 - 17:30 Uhr<br />Freitag: 07:30 -17:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr</p><p>Sonntag: geschlossen</p><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>"
+          },
+          "serviceAppointment": "SLI",
+          "services": [
+            "after-sales",
+            "otv",
+            "sales",
+            "sales",
+            "sales-r8",
+            "sales-r8",
+            "service",
+            "service",
+            "service-r8",
+            "service-r8",
+            "usedcars"
+          ],
+          "url": "http://www.audi-partner.de/audi-zentrum-koeln",
+          "vcardURL": "/vcard/download?app=audi-deu&kvpsid=24864"
+        },
+        {
+          "address": {
+            "areaNumber": "216",
+            "city": "Köln",
+            "display": [
+              "Weinsbergstraße 160",
+              "50823 Köln"
+            ],
+            "distance": {
+              "kilometers": 3.77,
+              "miles": 2.342
+            },
+            "distributionCenter": "133",
+            "latitude": 50.9434951,
+            "longitude": 6.9165161,
+            "marketingAreaNumber": "227",
+            "region": "Nordrhein-Westfalen",
+            "regionNumber": "182",
+            "street": "Weinsbergstraße 160",
+            "zipCode": "50823"
+          },
+          "brand": "A",
+          "chainName": "DEU-0091 Fleischhauer",
+          "contactDetails": {
+            "email": "otto.steins@fleischhauer.com",
+            "fax": {
+              "display": "0221 5774353",
+              "international": "+49 221 5774353",
+              "national": "0221 5774353",
+              "raw": "+49 221 5774353",
+              "url": "tel:+49-221-5774353"
+            },
+            "phone": {
+              "display": "0221 5774400",
+              "international": "+49 221 5774400",
+              "national": "0221 5774400",
+              "raw": "+49 221 5774400",
+              "url": "tel:+49-221-5774400"
+            }
+          },
+          "contractStatusGvo": "HS",
+          "countryCode": "DEU",
+          "distance": 3.77,
+          "kvpsSyncId": "",
+          "kvpsid": "22342",
+          "name": "Audi Zentrum Köln-Mitte Autohaus Jacob Fleischhauer GmbH & Co. KG",
+          "notes": {
+            "openingHoursHTML": "<p><strong>Öffnungszeiten</strong><br /><br /><strong>Verkauf</strong><br />Montag-Freitag: 08.30 - 18.30 Uhr<br />Samstag:          09.00 - 14.00 Uhr</p><p><strong>Kundendienst</strong><br />Montag-Freitag: 07.15 - 17.30 Uhr<br />Samstag:          09.00 - 13.00 Uhr<br /><br /><strong>Teiledienst</strong><br />Montag-Freitag: 08.00 - 17.30 Uhr<br />Samstag:          09.00 - 13.00 Uhr<br /><br /><strong>Sonntag: geschlossen</strong><br /><br />Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>"
+          },
+          "serviceAppointment": "SLI",
+          "services": [
+            "after-sales",
+            "otv",
+            "sales",
+            "sales",
+            "sales-r8",
+            "sales-r8",
+            "service",
+            "service",
+            "service-r8",
+            "service-r8",
+            "usedcars"
+          ],
+          "url": "http://www.audi-partner.de/audizentrum-koeln-mitte",
+          "vcardURL": "/vcard/download?app=audi-deu&kvpsid=22342"
+        },
+        {
+          "address": {
+            "areaNumber": "216",
+            "city": "Hürth",
+            "display": [
+              "Luxemburger Straße 378 - 394",
+              "50354 Hürth"
+            ],
+            "distance": {
+              "kilometers": 3.995,
+              "miles": 2.482
+            },
+            "distributionCenter": "133",
+            "latitude": 50.877734,
+            "longitude": 6.8875541,
+            "marketingAreaNumber": "227",
+            "region": "Nordrhein-Westfalen",
+            "regionNumber": "182",
+            "street": "Luxemburger Straße 378 - 394",
+            "zipCode": "50354"
+          },
+          "brand": "A",
+          "contactDetails": {
+            "email": "info@bautz-klinkhammer.de",
+            "fax": {
+              "display": "02233 9740028",
+              "international": "+49 2233 9740028",
+              "national": "02233 9740028",
+              "raw": "+49 2233 9740028",
+              "url": "tel:+49-2233-9740028"
+            },
+            "phone": {
+              "display": "02233 974000",
+              "international": "+49 2233 974000",
+              "national": "02233 974000",
+              "raw": "+49 2233 974000",
+              "url": "tel:+49-2233-974000"
+            }
+          },
+          "contractStatusGvo": "WS",
+          "countryCode": "DEU",
+          "distance": 3.995,
+          "kvpsSyncId": "",
+          "kvpsid": "46671",
+          "name": "Bautz & Klinkhammer GmbH & Co.KG",
+          "notes": {
+            "openingHoursHTML": "<p><strong>Bitte beachten Sie die unterschiedlichen Öffnungszeiten und Standorte von unserem SERVICE-Center in Hürth-Efferen und dem VERKAUF in Hürth-Hermülheim. </strong></p><p>Natürlich bieten wir auch einen Notdienst rund um die Uhr <br />unter unserer Service-Nummer 02233 - 97400-8.<br /><br /><strong>SERVICE-Center:</strong>                        <strong>VERKAUF:       </strong><br /><strong>Rondorfer Str. 72-74</strong>                   <strong>Luxemburger Str. 378-394</strong><br /><strong>50354 Hürth-EFFEREN</strong>                 <strong>50354 Hürth-HERMÜLHEIM</strong><br /><br /><strong>SERVICE-Center:</strong>                         <strong>AUDI-Verkauf:<br /></strong>Mo. bis Do. 7.00 bis 17.30            Mo. bis Di. 8.00 bis 18.30 <br />Freitag 7.00 bis 16.30                  Mi. 9.00 bis 18.30<br />Samstag 8.00 bis 12.00               Do. bis Fr. 8.00 bis 18.30 <br />                                                 Sa. 9.30 bis 14.00<br /><br />                                                 <strong>GEBRAUCHTWAGEN-Verkauf: <br /></strong>                                                 Mo. bis Fr. 8.00 bis 18.30 <br />                                                 Samstag 9.00 bis 14.00<br /><br />Tel. 02233 - 97400-8                   Tel. 02233 - 97400-0 <br />Fax 02233 - 97400-500                Fax 02233 - 97400-28<br /></p><p>E-Mail: <br /><a href=\"mailto:service@bautz-klinkhammer.de\" rel=\"nohistory\" class=\"track_click {track_options:{config:'~IS_RESOLVED~,,Omniture=3',eventTargetUrl:'mailto:service@bautz-klinkhammer.de',eventType:'LinkExternal'}}\">service@bautz-klinkhammer.de</a>     <a href=\"mailto:info@bautz-klinkhammer.de\" rel=\"nohistory\" class=\"track_click {track_options:{config:'~IS_RESOLVED~,,Omniture=3',eventTargetUrl:'mailto:info@bautz-klinkhammer.de',eventType:'LinkExternal'}}\">info@bautz-klinkhammer.de</a> </p><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>"
+          },
+          "serviceAppointment": "SLI",
+          "services": [
+            "after-sales",
+            "otv",
+            "service",
+            "service",
+            "service-noagent",
+            "service-noagent"
+          ],
+          "url": "http://www.audi-partner.de/bautz-klinkhammer",
+          "vcardURL": "/vcard/download?app=audi-deu&kvpsid=46671"
+        }
+      ]
+    },
+    "status": 200
+  }
+}

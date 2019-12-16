@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/mediaservice/SECONDARYUSERQ700/MYAAN6NB"
+  },
+  "response": {
+    "bodyFileName": "SECONDARYUSERQ700/MYAAN6NB.png",
+    "headers": {
+      "Content-Type": "image/png"
+    },
+    "status": 200
+  }
+}

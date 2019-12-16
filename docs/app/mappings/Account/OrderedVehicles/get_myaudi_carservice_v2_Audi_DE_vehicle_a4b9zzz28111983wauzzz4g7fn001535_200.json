@@ -1,0 +1,611 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/carservice/v2/Audi/DE/vehicle/a4b9zzz28111983wauzzz4g7fn001535"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "getVehicleDataResponse": {
+        "Vehicle": {
+          "LifeData": {
+            "MediaData": [
+              {
+                "MediaType": "MS_MYP3",
+                "URL": "http://mediaservice.audi.com/media/live/50000/myp3/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/myp3.png"
+              },
+              {
+                "MediaType": "MS_MYP4",
+                "URL": "http://mediaservice.audi.com/media/live/50000/myp4/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/myp4.png"
+              },
+              {
+                "MediaType": "MS_MY2_LEGACY",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my2legacy/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my2.png"
+              },
+              {
+                "MediaType": "MS_MYP5",
+                "URL": "http://mediaservice.audi.com/media/live/50000/myp5/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/myp5.png"
+              },
+              {
+                "MediaType": "MS_MY5",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my5/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my5.png"
+              },
+              {
+                "MediaType": "MS_MYP6",
+                "URL": "http://mediaservice.audi.com/media/live/50000/myp6/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/myp6.png"
+              },
+              {
+                "MediaType": "VehicleRenderPictureRear",
+                "URL": "http://mediaservice.audi.com/media/live/50000/xk/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/vehiclerenderpicturerear.png"
+              },
+              {
+                "MediaType": "MS_MY1_LEGACY",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my1legacy/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my1.png"
+              },
+              {
+                "MediaType": "MS_NEF",
+                "URL": "http://mediaservice.audi.com/media/live/50000/nef/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/nef.png"
+              },
+              {
+                "MediaType": "MS_MYP1",
+                "URL": "http://mediaservice.audi.com/media/live/50000/myp1/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/myp1.png"
+              },
+              {
+                "MediaType": "MS_MYP2",
+                "URL": "http://mediaservice.audi.com/media/live/50000/myp2/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/myp2.png"
+              },
+              {
+                "MediaType": "MS_NHEF",
+                "URL": "http://mediaservice.audi.com/media/live/50000/nhef/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/nhef.png"
+              },
+              {
+                "MediaType": "MS_MY4",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my4/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my4.png"
+              },
+              {
+                "MediaType": "MS_MY3",
+                "URL": "https://my.audi.com/hfs/my3.png"
+              },
+              {
+                "MediaType": "MS_MY5_LEGACY",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my5legacy/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my5.png"
+              },
+              {
+                "MediaType": "MS_MY3_LEGACY",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my3legacy/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my3.png"
+              },
+              {
+                "MediaType": "MS_MY4_LEGACY",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my4legacy/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my4.png"
+              },
+              {
+                "MediaType": "MS_MY2",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my2/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my2.png"
+              },
+              {
+                "MediaType": "VehicleRenderPictureInsight",
+                "URL": "http://mediaservice.audi.com/media/live/50100/yc/8w2aha-0/2016/14+a2a2/56+ym/aaue0a/aib4ue/algqe0/aud9wc/bbo6fa/cha2h9/chrqj0/dei3fa/dfo6f4/eih5ma/eph7x2/fsbuh1/ges0g7/gra8t8/him6nj/his3nt/hka9aq/hudks1/irs4l2/kark8b/kasqk1/kms4d0/kov5zf/lcpqq0/lor7p0/lra1xw/lse8rm/lum7ha/mas6e1/mfa9s7/nav7ug/raoi8h/rau9ja/sag7f9/sibn5w/sie3l3/sih4a4/sna7l8/spu7y0/ssh4kc/ssr3y0/sws8n8/tkv4i7/vosq1d/zfm0td.jpg?alt=https://my.audi.com/hfs/vehiclerenderpictureinsight.png"
+              },
+              {
+                "MediaType": "VehicleRenderPicture",
+                "URL": "http://mediaservice.audi.com/media/live/50000/ba/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/vehiclerenderpicture.png"
+              },
+              {
+                "MediaType": "MS_MY1",
+                "URL": "http://mediaservice.audi.com/media/live/50000/my1/8w5cha-0/2016/14+s9s9/bav1le/bbo6fa/dar3s1/dei3fa/eph7x0/gra8t9/hsw8it/kark8d/ksuka0/leal0l/lia8g4/lwr8q3/rad40w/sbr8sp/sfs2k7/spu7y0/ssh4kc/swr8x1/szu0nb/zie4zb/zks6ep.png?alt=https://my.audi.com/hfs/my1.png"
+              }
+            ]
+          }
+        },
+        "VehicleSpecification": {
+          "ColourInterior": {
+            "ColourSalesFamilies": {
+              "ColourSalesFamilies": {
+                "Finish": {
+                  "ColourCode": {
+                    "@name": "Scubablau Metallic",
+                    "value": "A2"
+                  }
+                }
+              }
+            }
+          },
+          "EquipmentSalesFamilies": {
+            "EquipmentFamilies": [
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "A9F"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "CH5"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "DJ3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "G1G"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "HS1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "KA0"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "K8B"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "QZ7"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "TS8"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "UH1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "0F3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "1BA"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "1G8"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "1LE"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "1X1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "2H9"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "2K1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "3B3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "3L3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "3NT"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "3Q1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "3S0"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4E2"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4GF"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4H3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4I7"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4KC"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4L2"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4UE"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4X3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4ZE"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "5RU"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "5SL"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "6E1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "6FA"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "6I0"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "6NJ"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "6XC"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7AA"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7K1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7L8"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7MM"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7M1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7W0"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8IH"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8K4"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8N8"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8Q2"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8RM"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8SA"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8Y1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "9JA"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "F0Y"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "IW3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "I8H"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "KS1"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "N5W"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "QV3"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "Q1D"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "1D4"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "1XW"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "4A4"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "6K8"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7UG"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "7X2"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "8T8"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "9AQ"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "9M9"
+                  }
+                }
+              },
+              {
+                "EquipmentChoice": {
+                  "BASYS": {
+                    "Code": "9S7"
+                  }
+                }
+              }
+            ]
+          },
+          "ModelCoding": {
+            "@name": "Audi A4 Avant design 3.0 TDI quattro 200(272) kW(PS) S tronic",
+            "value": "8W5CHA"
+          }
+        }
+      }
+    },
+    "status": 200
+  }
+}

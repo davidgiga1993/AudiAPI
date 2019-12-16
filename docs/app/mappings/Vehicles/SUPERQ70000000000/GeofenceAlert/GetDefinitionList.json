@@ -1,0 +1,54 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/geofencing/v1/Audi/DE/vehicles/SUPERQ70000000000/geofencingDefinitionList"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "geofencingDefinitionList": {
+        "geofencingDefinitions": {
+          "geofencingDefinition": [
+            {
+              "area": {
+                "ellipse": {
+                  "firstRadius": 3800,
+                  "latitude": 38953370,
+                  "longitude": -77395170,
+                  "rotationAngle": 0,
+                  "secondRadius": 3800
+                },
+                "zoneType": "green"
+              },
+              "definitionName": "Audi of America",
+              "id": 2119,
+              "isActive": false
+            },
+            {
+              "area": {
+                "ellipse": {
+                  "firstRadius": 6500,
+                  "latitude": 38890476,
+                  "longitude": -77030448,
+                  "rotationAngle": 0,
+                  "secondRadius": 6500
+                },
+                "zoneType": "red"
+              },
+              "definitionName": "Restricted Area",
+              "id": 2120,
+              "isActive": true
+            }
+          ]
+        },
+        "id": 854,
+        "lastUpdated": "2015-05-22T15:56:43Z",
+        "status": "ACKNOWLEDGED",
+        "type": "UPDATE"
+      }
+    },
+    "status": 200
+  }
+}

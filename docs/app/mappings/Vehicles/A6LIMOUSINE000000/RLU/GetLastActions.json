@@ -1,0 +1,27 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/rlu/v1/Audi/DE/vehicles/A6LIMOUSINE000000/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "actionsResponse": {
+        "actions": {
+          "action": [
+            {
+              "channel": "app",
+              "operation": "unlock",
+              "rluResult": "2",
+              "timestamp": "2019-04-29T13:03:34Z"
+            }
+          ]
+        },
+        "vin": "A6LIMOUSINE000000"
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/myaudi/vehicle-management/v1/vehicles"
+  },
+  "requiredScenarioState": "USScreenshots",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "v_sync": {
+        "sync_triggered": false
+      },
+      "vehicles": [
+        {
+          "bef": "vehicles",
+          "brand": "A",
+          "connect": "true",
+          "csid": "8d64cfec10f84757824973b761a8b3f6",
+          "favorite": false,
+          "imageUrls": {
+            "MS_MY1": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY1_LEGACY": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY2": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY2_LEGACY": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY3": "https://my.audi.com/hfs/my3.png",
+            "MS_MY3_LEGACY": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY4": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY4_LEGACY": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY5": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MY5_LEGACY": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MYP1": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MYP2": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MYP3": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MYP4": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MYP5": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_MYP6": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_NEF": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "MS_NHEF": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "VehicleRenderPicture": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png",
+            "VehicleRenderPictureInsight": "//mediaservice.audi.com/media/live/50100/yc/8w2aha-0/2016/14+a2a2/56+ym/aaue0a/aib4ue/algqe0/aud9wc/bbo6fa/cha2h9/chrqj0/dei3fa/dfo6f4/eih5ma/eph7x2/fsbuh1/ges0g7/gra8t8/him6nj/his3nt/hka9aq/hudks1/irs4l2/kark8b/kasqk1/kms4d0/kov5zf/lcpqq0/lor7p0/lra1xw/lse8rm/lum7ha/mas6e1/mfa9s7/nav7ug/raoi8h/rau9ja/sag7f9/sibn5w/sie3l3/sih4a4/sna7l8/spu7y0/ssh4kc/ssr3y0/sws8n8/tkv4i7/vosq1d/zfm0td.jpg?alt=https://my.audi.com/hfs/vehiclerenderpictureinsight.png",
+            "VehicleRenderPictureRear": "//static.quartett-mobile.de/audi/onetouch/front_gray_cropped.png"
+          },
+          "isDelivered": true,
+          "isPaired": true,
+          "model": "Audi S4 Sedan",
+          "model_family": "Audi S4 Sedan",
+          "model_full": "Audi S4 Sedan",
+          "model_year": "2018",
+          "nickname": "Audi S4 Sedan",
+          "pairingNumber": "61276700",
+          "status": "existent",
+          "title": "Audi S4 Sedan",
+          "type": "E",
+          "vin": "S4US0000000000000"
+        }
+      ]
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.VehicleList"
+}

@@ -1,0 +1,18 @@
+{
+  "newScenarioState": "Started",
+  "request": {
+    "method": "GET",
+    "urlPath": "/icf/ilfsta/powerplan/0000427_5/39"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "error": "noPowerPlanFound",
+      "message": "powerPlan for deviceId 0000427_5 not found",
+      "timestamp": 1543312148537
+    },
+    "status": 404
+  }
+}

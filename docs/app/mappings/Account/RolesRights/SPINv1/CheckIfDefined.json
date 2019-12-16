@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/rolesrights/securitypin/v1/Audi/DE/checked-if-defined"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "securityPinDefined": true
+    },
+    "status": 200
+  }
+}

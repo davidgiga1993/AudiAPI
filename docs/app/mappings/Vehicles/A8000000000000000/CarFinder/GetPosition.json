@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/cf/v1/Audi/DE/vehicles/A8000000000000000/position"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/vnd.vwg.mbb.CarFinderService_v2_0_1+json; charset=utf-8"
+    },
+    "jsonBody": {
+      "storedPositionResponse": {
+        "parkingTimeUTC": "2017-09-20T15:47:33Z",
+        "position": {
+          "carCoordinate": {
+            "latitude": 48782793,
+            "longitude": 11413969
+          },
+          "heading": {
+            "direction": 0
+          }
+        }
+      }
+    },
+    "status": 200
+  }
+}

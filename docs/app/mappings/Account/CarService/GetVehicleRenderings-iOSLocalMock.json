@@ -1,0 +1,178 @@
+{
+  "request": {
+    "headers": {
+      "QM-Mock-Agent": {
+        "contains": "HTTPClientMock"
+      }
+    },
+    "method": "GET",
+    "queryParameters": {
+      "fields": {
+        "matches": ".*"
+      }
+    },
+    "urlPath": "/msg/myaudi/carservice/v3/vehicles"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": [
+      {
+        "csid": "151b5e19bb4b46598d0386aa147020e9",
+        "mediaData": {
+          "MYAAN1NB": "http://localhost/mediaservice/A3ETRON0000000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/A3ETRON0000000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/A3ETRON0000000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/A3ETRON0000000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/A3ETRON0000000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/A3ETRON0000000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/A3ETRON0000000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "a4b9zzz28111983wauzzz4g7fn001535",
+        "mediaData": {
+          "MYAAN1NB": "http://localhost/mediaservice/A4AVANT0000000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/A4AVANT0000000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/A4AVANT0000000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/A4AVANT0000000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/A4AVANT0000000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/A4AVANT0000000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/A4AVANT0000000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "b3b9f97a89f14d2c8636f2861d2cbbc1",
+        "mediaData": {
+          "MYAAI1NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAI1NB",
+          "MYAAI2NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAI2NB",
+          "MYAAI4NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAI4NB",
+          "MYAAN1NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/A6LIMOUSINE000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "a8d528111983wauzzz4g7fn001535777",
+        "mediaData": {
+          "MYAAI1NB": "http://localhost/mediaservice/A8000000000000000/MYAAI1NB",
+          "MYAAI2NB": "http://localhost/mediaservice/A8000000000000000/MYAAI2NB",
+          "MYAAI4NB": "http://localhost/mediaservice/A8000000000000000/MYAAI4NB",
+          "MYAAN1NB": "http://localhost/mediaservice/A8000000000000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/A8000000000000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/A8000000000000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/A8000000000000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/A8000000000000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/A8000000000000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/A8000000000000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "151b5e19bb4b46598d0386aa14712345",
+        "mediaData": {
+          "MYAAI1NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAI1NB",
+          "MYAAI2NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAI2NB",
+          "MYAAI4NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAI4NB",
+          "MYAAN1NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/CBEV0000000000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "dcd35edb98c64838b6ecbc17620c9b74",
+        "mediaData": {
+          "MYAAI1NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAI1NB",
+          "MYAAI2NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAI2NB",
+          "MYAAI4NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAI4NB",
+          "MYAAN1NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/Q2GTRON0000000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "1c2222e166244146a43f644b5129edac",
+        "mediaData": {
+          "MYAAI1NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAI1NB",
+          "MYAAI2NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAI2NB",
+          "MYAAI4NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAI4NB",
+          "MYAAN1NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/SECONDARYUSERQ700/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "1c7266e166244146a43f644b5129edac",
+        "mediaData": {
+          "MYAAI1NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAI1NB",
+          "MYAAI2NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAI2NB",
+          "MYAAI4NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAI4NB",
+          "MYAAN1NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/SUPERQ70000000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "6fcea0b7281d412780a8b29bd86e9306",
+        "mediaData": {
+          "MYAAN1NB": "http://localhost/mediaservice/TTROADSTER0000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/TTROADSTER0000000/MYAAN2NB",
+          "MYAAN6NB": "http://localhost/mediaservice/TTROADSTER0000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/TTROADSTER0000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/TTROADSTER0000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "bcdbe10d9f9a489bafdb5cfea8951864",
+        "mediaData": {
+          "MYAAN1NB": "http://localhost/mediaservice/R8ORDERED00000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/R8ORDERED00000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/R8ORDERED00000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/R8ORDERED00000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/R8ORDERED00000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/R8ORDERED00000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/R8ORDERED00000000/MYAAN9NB"
+        }
+      },
+      {
+        "csid": "8d64cfec10f84757824973b761a8b3f6",
+        "mediaData": {
+          "MYAAI1NB": "http://localhost/mediaservice/S4US0000000000000/MYAAI1NB",
+          "MYAAI2NB": "http://localhost/mediaservice/S4US0000000000000/MYAAI2NB",
+          "MYAAI4NB": "http://localhost/mediaservice/S4US0000000000000/MYAAI4NB",
+          "MYAAN1NB": "http://localhost/mediaservice/S4US0000000000000/MYAAN1NB",
+          "MYAAN2NB": "http://localhost/mediaservice/S4US0000000000000/MYAAN2NB",
+          "MYAAN3NB": "http://localhost/mediaservice/S4US0000000000000/MYAAN3NB",
+          "MYAAN5NB": "http://localhost/mediaservice/S4US0000000000000/MYAAN5NB",
+          "MYAAN6NB": "http://localhost/mediaservice/S4US0000000000000/MYAAN6NB",
+          "MYAAN8NB": "http://localhost/mediaservice/S4US0000000000000/MYAAN8NB",
+          "MYAAN9NB": "http://localhost/mediaservice/S4US0000000000000/MYAAN9NB"
+        }
+      }
+    ],
+    "status": 200,
+    "transformers": [
+      "response-template"
+    ]
+  }
+}

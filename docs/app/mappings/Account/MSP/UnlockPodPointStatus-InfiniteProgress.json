@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/msp/private/poi-remote-control/v3/contracts/.+/charging-authentications/SESSION-ca00d3ba-1fd0-434d-8c52-478d6f537bd0/status"
+  },
+  "requiredScenarioState": "InfiniteProgress",
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "status": {
+        "code": "IN_PROGRESS"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Account.MSP.UnlockStationAuthentication"
+}

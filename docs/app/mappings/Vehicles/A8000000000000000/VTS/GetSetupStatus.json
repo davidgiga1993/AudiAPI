@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/vts/fal/v1/Audi/DE/vehicles/A8000000000000000/configuration"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "comment": "content ignored",
+      "original_response": "<?xml version='1.0' encoding='UTF-8'?><xenc:EncryptedData xmlns:xenc=\"http://www.w3.org/2001/04/xmlenc#\" Id=\"Gc6337a86-7d34-4be4-921a-c82f014b803d\" Type=\"http://www.w3.org/2001/04/xmlenc#Element\"><xenc:EncryptionMethod Algorithm=\"http://www.w3.org/2009/xmlenc11#aes256-gcm\"/><dsig:KeyInfo xmlns:dsig=\"http://www.w3.org/2000/09/xmldsig#\"><xenc:EncryptedKey Id=\"EKbd2e5e1d-cdde-4eaa-9051-c0d0cbe781e9\"><xenc:EncryptionMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p\"/><xenc:CipherData><xenc:CipherValue>HTHW/JfaacuXAaU6NHnDha2nxwlzI1+ofQ39Qrgaj5F82ddaNB4J3ui5PgbtPkYEXzRl6y6OQB+RSNgHoCePAcezQi8c2szcS9Kdt2JsWNgvdaFKvRatefdB9yxx33WDZ/7x0TVuV1FHviklweMKb5w3LmtCnPuU9WxNoHyng0eKdYSEXVol+LlJSMLiUihju9fvl1JUXEME7fnVt96Tj6C9B8BmEnkIMV4+NIxseG+gGT1LHVw4hYAowxUm9VjSMxpQeoOoUtyaCplVSTrwMe48nkzQn8lKmjH89GfHkr+pYy1EYIKwQ+CaRln4i6D/A81m/Qznv4VuIt0aCRG8GQ==</xenc:CipherValue></xenc:CipherData></xenc:EncryptedKey></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>lBVYJenZ5t6eHPa4n7y99brHxDFk3AP2vpUL408aAgegnQYA3dd+J3BzCp6Lb5fqTLb1JWXHXaWd&#xd;Cc4CLe3KLnd36d6PLsCzYPyoefdL6UwiUqQPgABCCjreXYLDbfU8iuiVRkIGgDSrDpC7vzS71beb&#xd;7KjQjcsI0Wr9bP6qRadP8uWYlhDO5+XOrDAIvPydruLgoqP/zaQOnj5XhCJH0+ePWhoqhobKrvz5&#xd;DYGZhv00qujypH6ddl55cFm798oM3293RtSqvUHQE4/mrV3ff4eazLylzN4b11FU//tP4lBQJfbC&#xd;9yRWL1N/fN7ajjs0Ut0UU5h+cN4BEnRZbY0znlcVlSABUjicoOwsAEX067SVDEkVH8zBSpwsoLH5&#xd;W41tnqtR/kA/RXw26CjbslYx/DQc8DRS3zCOIPn5Kbx2t6IKTfCOGZVcaz/5JP+8EPC3H3C7Jw85&#xd;ms09h1hV6vP+0rJnh6eyM6bV2rUETh86Zl76b25HsmyigGooJjXv27Uhn6mkTVxs/K/BsFPWBSho&#xd;FpBt7YP7TInmoZZlvZMLnXnakMEV3dXZLbch+jTj2ByScVfT9CBMXL1lR2r48LCTlyCjqDsrAJjD&#xd;qP4/HTYBxbTz2qjH44iHErNXUaMePBOQ1ChbJH64swEZ5KaPySWWDe86u9j+v6jfBSdqMcrrJLco&#xd;98Wj22UQwN3eS6g+qLY3Jv6pd237XH1vvoRPWa9UYWStwOuNIEwVFRNK92oSwkrU2qsTSXbuN7Br&#xd;6ffJUvVUKfgyCXK8mYDYXkYdF6jqQ5cuG+jrcdtza47gvyIi4gv9cTOb+pDTGTy4NpYQe5O/vh1u&#xd;zKeQAKYbS8l4dKAs2qCtQa2Kh+td/8PFMxkWA8S7o6hGnFeeOuc6ngE9gPFO3f1Hh4iloWiB3GrP&#xd;lvSLju90HGD44TyjO9eFMl13kb/fifnlnrO+RHGrs9QBLi2W1e9LfQ/KEaKAGzasfLuF72aSeUi4&#xd;V1x81yAMnyM4nrAs/sQyvCzeNEAzYffSuSkylj27S/R4J17rHjau1lg0OoplReK1aKm0nQMF+Vbi&#xd;5STj6ecAw0Asq8XBpbzUqLxuX/bWN4E5aCvCw9B4dUKBChtWUDmOl3VgwNvL4laAlXjvcFyZSt8M&#xd;6rTMNbwbWBQ7tH4T1Y+CT/mqqYb3ruJHu/c08myBX7M+2sEvauEiI5DAHpQAG0iUVv8hEIcBTpOQ&#xd;CE159TTWDLPCrqnH14Attiw9VMwiE+d72g+M6mA/L70mnZ1hN1G3jNmstLSL1c9NdqocqRxyiMr1&#xd;dU4BmDGECX/FFmwb6n6O&#xd;</xenc:CipherValue></xenc:CipherData></xenc:EncryptedData>"
+    },
+    "status": 200
+  }
+}

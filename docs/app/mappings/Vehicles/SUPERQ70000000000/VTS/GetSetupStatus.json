@@ -1,0 +1,16 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/vts/fal/v1/Audi/DE/vehicles/SUPERQ70000000000/configuration"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "comment": "content ignored",
+      "original_response": "<?xml version='1.0' encoding='UTF-8'?><xenc:EncryptedData xmlns:xenc=\"http://www.w3.org/2001/04/xmlenc#\" Id=\"Ga91fc23f-f93f-476a-be08-5c111040a8d0\" Type=\"http://www.w3.org/2001/04/xmlenc#Element\"><xenc:EncryptionMethod Algorithm=\"http://www.w3.org/2009/xmlenc11#aes256-gcm\"/><dsig:KeyInfo xmlns:dsig=\"http://www.w3.org/2000/09/xmldsig#\"><xenc:EncryptedKey Id=\"EK41b17122-c60c-4742-99fa-ba389cdc3c08\"><xenc:EncryptionMethod Algorithm=\"http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p\"/><xenc:CipherData><xenc:CipherValue>2Jwe1waSh+zmIYN8iipcRoGqVUczdv/6fIN5/R/ZrpYCK+6mzQd4wv5bMuiPzXgZybgQYGIYvCReC/P27b2ByWNfCm5R2NztQz3BB3+axLAor58xlnpvB+ENOX4C5Grwg+gQlGQck5zQe/NCIJjYDhwxv/B7yeLJ2ADoW8+UM27yipApreRb80NZ+N/68wSl1FFa+37ZVP94SCfaVv99n+EbvO43ttugj8yRH23kKtKssolAhGXPMhrpHeug7gS2Ze5O07+aIpV65g8V4qC/XjByVX5mwtTew+LP6EbKQD5LWBLzIuR7mN3/DPDd9dZKjj8N2foyiE7gnXB1m/8oXg==</xenc:CipherValue></xenc:CipherData></xenc:EncryptedKey></dsig:KeyInfo><xenc:CipherData><xenc:CipherValue>jadCZDr5SbkAKvdrGJ2mHM6c7qiOm4xlSm1NFODrnDcNW1N2WovjkYNOcCO8h0XusN5tfIFJpPGw&#xd;+oaE7pUx8f9+weQP1n6p9yJt7Q+OR4hTdye5T49DpKAwjYD1MUyNyDLrjeNC9SZ4DdlPVp8XbMFj&#xd;kz8nPrcEAIMVggaqw6CHPfReQz9LfAq6pjulgtu0EbPatJHaBIASdFV1HHs5zPV1c1b776obG8b2&#xd;51csOBXFlZldkqeNM3ikZWrt7+/Wkkoz2c5+j5JrO9UfxIpFWs//eboU9HeLGMd9urPYKw2eZoHe&#xd;52HOp7mtGCA6Jiq3WqdbYyRZBLB1rBaWPLMyC4G6JToqnHSwTj5/lHcV1I88h7vvI91Q0UepY7sf&#xd;TdQn3Jl/b+GLv9PLCBC2406yBgI8dnANDCq1s5uqxxGCVhvF3p/y6bMUJIP3BNZm0h9V9ePw+RQ4&#xd;D8xI7H/banS+q4+TKh1MFKtHfrOngE/ahA80fDAYev6FI7prMREemoGA2lk5sea+Gf61OgnJcd2X&#xd;fpK2Mb5V7hkF6xi+c3IuWemvkCqJfh090Q+foOkQ8cUXT6c+Lm1kSXTiE5V3KfiDx4oOQHSbvr8h&#xd;HR+npusqrbqWNJZ90EqSvL3+D6A0tggz7KhryczdgDIn+BRhr7bIQYvhTMILJ6aXU5h0lATbx2ef&#xd;M0QUO+LGSYm1zzHXJzPohBuCy/RPfrBeWzdw5XSVHzc9YRRZp8iZp7vnZ/SMDe34CdRav6fEfotZ&#xd;fEvrZYLCSriSjjpRU8lKWhvcs6Yp1MgWFROutJqC5msKgefWKZufv8Nb7y6Tq5lcD4x+Qi7MPHNt&#xd;idc8eDV6deAQWuqHRQDS/ODDHbtpQyJ1QxEFsyt18wGx+A0Zes6rLzdIPaE8qPSZGqrKepBqlTY/&#xd;I0HJ2xqIsrIf1sABC3JXZ2lxhTDSH8voa8b/XdDsgGEEJbZmt502MshwAY8q3mNEh0z2m9KmAA+1&#xd;kNW76G/4DRYb3ijK1ObdTCuNHvgN9DmNgsSKTU8B+EqvRD8KoaJkorTheEeufg06xMGVdlKP6zrQ&#xd;cZA0NaJCCGv+A7MXHkPep9SIoprP5Y4cTYqgcQAGSAfTVs80iKUEbnwkv1B05Ty/Co59J2deE7Ug&#xd;PSVk2H4xzAoxXpOPWmjLFACT/ugrxjvjRe5br22FcF2872ASqqmKrsTWxvBNJVETuHZtkbRAklnY&#xd;2Iq7J6vlD3ythiecixLYGnLSr6t6oMQTRpqMLmt0yIJh20AkIn1dQDJbQboglMqveCeml/YvHV/v&#xd;8oEFLBKV+Ju5K7hzZMS0wst90ChZQLk060Ya2oiN2nm49clTfibnkSAzx0B4SOZpJ2Rpf7Ps2LWz&#xd;0JEBv3OhuOHinysTUioYuMfDsC0qOyQjrbvmG4Kj9B/1El9Mylzn0GeNork=&#xd;</xenc:CipherValue></xenc:CipherData></xenc:EncryptedData>"
+    },
+    "status": 200
+  }
+}

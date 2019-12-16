@@ -1,0 +1,22 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/msg/rolesrights/authorization/v2/vehicles/[^/]+/services/[^/]+/operations/[^/]+/security-pin-auth-requested"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "securityPinAuthInfo": {
+        "remainingTries": 2,
+        "securityPinTransmission": {
+          "challenge": "04EDBCA8840163608BEFD74FB8067C095195CF3F15F7DF9A3808913EE349E793",
+          "hashProcedureVersion": 2
+        },
+        "securityToken": "PJgTH1bTfSvY31JDY/aXRdraUyQTzVj8h1aqh0l3ifa4jT4CgZvfbMtoGgW3qxi/OivSR/oNhyjWEH0Ubbh8/+vx2fIcsnfwd/notIw844aRNe6BZmukfmx+RygyUh6rsLtyMSb69ryDDR6ODUzZT0b4aIiIqqd7ZyB2QJQNRQk+fP3SiYA7HCvrsI3CAaYUTtk4tDl6yed/7xFCT8bQvtHkodIG57eVoNpErD9aGEVPP3Osxe/y4/o/PGvh8yXgvX/D2Te4VObboZ0P1IDYz2MxBikBgp5GAjU4LrKgappMIlsJ3X1bnknWsNP4aBPKe3Pfm5P0bebNhWPiPu7in7+iEpWf5/TM71igiHCHPEtMlPuSXJojgRzYNr2zrOL45vmSnfBAKPsC97qjYvZ0mGxEdT26M0H+w0Cr4IGgp9vACcyh2lkPfTSaHSmJb6VJublSy2047sy3hBHRnyFApvt1NFT3f+z5jloluU/1MbbmtHMUtMk75g3yxkzIwtwetT0bF9CsilNf3gMc551m1RBoNd3mttLYDR32X6wqzH/Iofce2Yqr84UHqq1uCRJ6pbouG4aV1Z6S75Tyw8HdWHC6oRaaRSSlbzJesluRiprXIQBzsGPwQDs2MUUJoJ+BwjjQGuYq/M7ibE9Yc0WDBxwXutO/PaTjvBsiuHzTAnbaqGkzVfnNjXeXk++CfbAPTFuVLTZHpbyHZZkmFjkH7fuzQVrDZfrNGdME+I2Z8gA="
+      }
+    },
+    "status": 200
+  }
+}

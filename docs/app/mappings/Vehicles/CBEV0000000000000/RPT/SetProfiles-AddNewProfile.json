@@ -1,0 +1,47 @@
+{
+  "request": {
+    "bodyPatterns": [
+      {
+        "contains": "profileOptions"
+      }
+    ],
+    "method": "POST",
+    "urlPath": "/msg/bs/profiletimer/v1/vehicles/CBEV0000000000000/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 1,
+        "actionState": "queued",
+        "profileList": {
+          "profile": [
+            {
+              "chargingOptions": {
+                "minSOC": 50,
+                "preferredChargingEnabled": true,
+                "preferredChargingTimeEnd": "05:30",
+                "preferredChargingTimeStart": "22:00",
+                "targetSOC": 80
+              },
+              "position": {
+                "latitude": 2342354,
+                "longitude": 2362342
+              },
+              "profileId": 255,
+              "profileName": "Profil Arbeit",
+              "profileOptions": {
+                "usePrivateCurrentEnabled": true
+              }
+            }
+          ]
+        },
+        "type": "setProfiles"
+      }
+    },
+    "status": 202
+  },
+  "scenarioName": "Vehicles.CBEV.RPT"
+}

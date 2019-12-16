@@ -1,0 +1,43 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/destinationfeedservice/mydestinations/v1/Audi/DE/vehicles/A3ETRON0000000000/destinations"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "destinations": {
+        "destination": [
+          {
+            "POIContact": {
+              "lastName": "Europa-Park",
+              "messageData": {
+                "URL": "https://www.europapark.de/"
+              },
+              "phoneData": [
+                {
+                  "phoneNumber": "+49 7822 776688",
+                  "phoneType": "0"
+                }
+              ]
+            },
+            "destinationName": "null",
+            "destinationSource": "MobileApp",
+            "fetchStatus": "FetchPending",
+            "geoCoordinate": {
+              "latitude": "48.266055",
+              "longitude": "7.722018"
+            },
+            "href": null,
+            "id": "4803884",
+            "immediateDestination": false,
+            "sendToVehicle": true
+          }
+        ]
+      }
+    },
+    "status": 200
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "request": {
+    "bodyPatterns": [
+      {
+        "contains": ""
+      },
+      {
+        "doesNotMatch": ".*?255.*?"
+      },
+      {
+        "doesNotMatch": ".*?timerList.*?"
+      }
+    ],
+    "method": "POST",
+    "urlPath": "/msg/bs/profiletimer/v1/vehicles/CBEV0000000000000/actions"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 2,
+        "actionState": "queued",
+        "profileList": {
+          "profile": [
+            {
+              "profileId": 2,
+              "profileName": ""
+            }
+          ]
+        },
+        "type": "setProfiles"
+      }
+    },
+    "status": 202
+  },
+  "scenarioName": "Vehicles.CBEV.RPT"
+}

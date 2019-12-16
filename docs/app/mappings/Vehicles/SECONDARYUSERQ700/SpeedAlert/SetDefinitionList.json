@@ -1,0 +1,19 @@
+{
+  "request": {
+    "method": "POST",
+    "urlPath": "/msg/bs/speedalert/v1/Audi/DE/vehicles/SECONDARYUSERQ700/speedAlertDefinitionList"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {
+      "speedAlertDefinitionList": {
+        "id": "66666",
+        "status": "PENDING",
+        "type": "ACTIVATE"
+      }
+    },
+    "status": 202
+  }
+}

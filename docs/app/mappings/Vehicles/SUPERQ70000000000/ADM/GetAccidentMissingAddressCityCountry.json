@@ -1,0 +1,194 @@
+{
+  "request": {
+    "method": "GET",
+    "queryParameters": {},
+    "urlPath": "/adm/api/accidents/65ba45ad-2f80-45e9-b684-181e14fc3043"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8",
+      "ETag": "15712101214376320"
+    },
+    "jsonBody": {
+      "attachments": [
+        {
+          "classification": "INVOICE",
+          "id": "c0dca3a3-cc3c-4f28-a944-8cae795d016c",
+          "originalFileName": "Bildschirmfoto 2019-09-30 um 09.22.15.png"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "8ea9ec8f-293e-4b7c-afa9-852b35d55e3a",
+          "originalFileName": "Sonnenblume_4c_auf_transparent_schwarz.jpg"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "e21de172-625c-46ab-8615-44e942475105",
+          "originalFileName": "SIM Antrag CFreitag.pdf"
+        },
+        {
+          "classification": "REPORT",
+          "id": "6c6ed310-4e5c-4f2d-9929-7d79c3186120",
+          "originalFileName": "AUDI_mAA01-2019_Angebot_myAudi_App_WP3_Q1-2019_20190107.pdf"
+        },
+        {
+          "classification": "REPORT",
+          "id": "308f77eb-55db-4b3b-a6f9-ab253b2a09d4",
+          "originalFileName": "ADM Test doc.pdf"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "d2a788eb-b07a-43be-8820-042a939ee7c9",
+          "originalFileName": "funny-car-accident-03.jpg"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "e7655cb3-401d-423e-9576-6ee89fffae4a",
+          "originalFileName": "Download.png"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "0bb26394-c794-4beb-a7c5-f80a7c24af6d",
+          "originalFileName": "Download.png"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "7741777a-2ba6-4372-9032-be733dc513e4",
+          "originalFileName": "_.png"
+        },
+        {
+          "classification": "PICTURE",
+          "id": "df26c61b-8071-469c-9e8d-77a8e5b723c8",
+          "originalFileName": "_.png"
+        }
+      ],
+      "caller": {
+        "contactMethodComment": "Test",
+        "id": "de_10721975164026935009",
+        "owner": false,
+        "preferredContactChannel": "MOBILE",
+        "preferredContactTimes": [
+          {
+            "dayOfWeek": "THURSDAY",
+            "time": "05:00:00"
+          },
+          {
+            "dayOfWeek": "TUESDAY"
+          },
+          {
+            "dayOfWeek": "SATURDAY"
+          }
+        ],
+        "registeredVehicleUserRole": "UNKNOWN",
+        "webSsoId": "W984790657"
+      },
+      "caseRelatedConsents": {
+        "repairShop": {
+          "consented": true,
+          "displayedLanguage": "de-DE"
+        }
+      },
+      "claimId": "2019092400018",
+      "contractType": "adm",
+      "creationDate": "2019-09-24T11:59:29.838Z",
+      "damageCalculation": {
+        "damageRefinementQuestions": []
+      },
+      "id": "65ba45ad-2f80-45e9-b684-181e14fc3043",
+      "incidentReport": {
+        "damageClassification": "SELF_INDUCED",
+        "dateOfNotice": "2019-09-24",
+        "locationOfAccident": {
+          "latitude": 48.1197675,
+          "longitude": 11.6027143,
+          "viewport": {
+            "northEast": {
+              "latitude": 48.1210526302915,
+              "longitude": 11.6042064802915
+            },
+            "southWest": {
+              "latitude": 48.1183546697085,
+              "longitude": 11.6015085197084
+            }
+          }
+        },
+        "reportedDateOfAccident": "2019-09-24",
+        "roadworthy": true
+      },
+      "lastChangeDate": "2019-10-16T07:15:21.423Z",
+      "leadTransmissionStatus": "SUBMITTED",
+      "selectedPartner": {
+        "brand": "AUDI",
+        "city": "Lübeck",
+        "distanceToVehicle": {
+          "distance": 642,
+          "mileageUnit": "KM"
+        },
+        "email": "info.audi-luebeck@auto-senger.de",
+        "fax": "+49 451 890976859",
+        "isPreferredDealer": false,
+        "kvpsId": "22281",
+        "latitude": 53.85702,
+        "longitude": 10.63528,
+        "name": "Audi Zentrum Lübeck Senger Automobile GmbH",
+        "openingHoursHTML": "<p><strong>Showroom</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: 11:00 - 16:00 Uhr<br /><br /><strong>Werkstatt</strong><br />Montag - Freitag: 07:30 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet<br /><br /><strong>Verkauf</strong><br />Montag - Freitag: 08:00 - 18:00 Uhr<br />Samstag: 09:00 - 13:00 Uhr<br />Sonntag: nicht geöffnet</p><p>Bitte beachten Sie, dass außerhalb der gesetzlichen Öffnungszeiten keine Beratung, kein Verkauf und keine Probefahrt erfolgen kann.</p>",
+        "primaryCode": "DEU22281A",
+        "street": "Padelügger Weg 41",
+        "telephone": "+49 451 890976800",
+        "tenant": "GERMANY",
+        "website": "https://www.audi-zentrum-luebeck.audi",
+        "zipCode": "23556"
+      },
+      "serviceLeadInboxRequestSubmitted": "2019-09-24T12:01:37.508Z",
+      "sourceOfCreation": "CALL_CENTER",
+      "sourceOfOperation": "CALL_CENTER",
+      "vehicle": {
+        "brand": "AUDI",
+        "country": "GERMANY",
+        "impactZones": {
+          "frontBumper": "NOT_AFFECTED",
+          "frontLeftDoor": "SCRATCH",
+          "frontLeftFender": "NOT_AFFECTED",
+          "frontLeftLight": "NOT_AFFECTED",
+          "frontLeftTire": "NOT_AFFECTED",
+          "frontRightDoor": "NOT_AFFECTED",
+          "frontRightFender": "NOT_AFFECTED",
+          "frontRightLight": "NOT_AFFECTED",
+          "frontRightTire": "NOT_AFFECTED",
+          "hood": "NOT_AFFECTED",
+          "leftAbcPillar": "SCRATCH",
+          "leftMirror": "NOT_AFFECTED",
+          "leftSideSills": "DENT",
+          "leftWindow": "SCRATCH",
+          "radiatorGrill": "NOT_AFFECTED",
+          "rearBumper": "NOT_AFFECTED",
+          "rearLeftDoor": "SCRATCH",
+          "rearLeftFender": "NOT_AFFECTED",
+          "rearLeftLight": "NOT_AFFECTED",
+          "rearLeftTire": "NOT_AFFECTED",
+          "rearRightDoor": "NOT_AFFECTED",
+          "rearRightFender": "NOT_AFFECTED",
+          "rearRightLight": "NOT_AFFECTED",
+          "rearRightTire": "NOT_AFFECTED",
+          "rightAbcPillar": "NOT_AFFECTED",
+          "rightMirror": "NOT_AFFECTED",
+          "rightSideSills": "DENT",
+          "rightWindow": "NOT_AFFECTED",
+          "roof": "NOT_AFFECTED",
+          "trunk": "NOT_AFFECTED",
+          "windscreen": "NOT_AFFECTED"
+        },
+        "mileageUnit": "KM",
+        "remainingRangeUnit": "KM",
+        "seatBelts": {
+          "seatBeltFirstRowDriver": "FASTENED",
+          "seatBeltFirstRowPassenger": "NOT_DEFINED",
+          "seatBeltSecondRowDriver": "NOT_DEFINED",
+          "seatBeltSecondRowMiddle": "NOT_DEFINED",
+          "seatBeltSecondRowPassenger": "NOT_DEFINED"
+        }
+      }
+    },
+    "status": 200
+  }
+}

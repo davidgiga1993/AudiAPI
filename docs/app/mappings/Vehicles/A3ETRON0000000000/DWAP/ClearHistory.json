@@ -1,0 +1,13 @@
+{
+  "request": {
+    "method": "DELETE",
+    "urlPath": "/msg/bs/dwap/v1/Audi/DE/vehicles/A3ETRON0000000000/history"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json; charset=utf-8"
+    },
+    "jsonBody": {},
+    "status": 204
+  }
+}

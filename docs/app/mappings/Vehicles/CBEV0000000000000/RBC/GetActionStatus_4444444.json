@@ -1,0 +1,25 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPath": "/msg/bs/batterycharge/v1/Audi/DE/vehicles/CBEV0000000000000/charger/actions/4444444"
+  },
+  "response": {
+    "headers": {
+      "Content-Type": "application/json;charset=UTF-8"
+    },
+    "jsonBody": {
+      "action": {
+        "actionId": 4444444,
+        "actionState": "succeeded",
+        "settings": {
+          "chargeModeSelection": {
+            "value": "immediateCharging"
+          }
+        },
+        "type": "selectChargingMode"
+      }
+    },
+    "status": 200
+  },
+  "scenarioName": "Vehicles.CBEV.RBC"
+}
