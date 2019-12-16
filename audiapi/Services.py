@@ -215,13 +215,18 @@ class LogonService(Service):
         :rtype: Token
         """
         data = {'grant_type': 'password',
+                'scope': 'openid profile email mbb offline_access mbbuserid myaudi selfservice:read selfservice:write',
+                'response_type': 'token id_token',
+                'client_id': 'mmiconnect_android',
                 'username': user,
                 'password': password}
-        reply = self._api.post(self.url('/token'), data, use_json=False)
+        reply = self._api.post('https://id.audi.com/v1/token', data, use_json=False, headers={
+            'Authorization': 'AudiAuth '
+        })
         return Token.parse(reply)
 
     def _get_path(self):
-        return 'core/auth/v1'
+        return 'v1/token'
 
 
 class MobileKeyService(Service):
