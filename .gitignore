@@ -3,3 +3,6 @@
 **/__pycache__
 token.json
 credentials.json
+/build
+/audiapi.egg-info
+/dist

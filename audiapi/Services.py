@@ -7,6 +7,7 @@ from audiapi.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
 from audiapi.model.RequestStatus import RequestStatus
 from audiapi.model.Vehicle import VehiclesResponse, Vehicle
 from audiapi.model.VehicleDataResponse import VehicleDataResponse
+from audiapi.model.BatteryChargeResponse import BatteryChargeResponse
 
 
 class Service(metaclass=ABCMeta):
@@ -105,7 +106,7 @@ class CarFinderService(VehicleService):
         """
         Returns the position of the car
         """
-        self._api.get(self.url('/vehicles/{vin}/position'))
+        return self._api.get(self.url('/vehicles/{vin}/position'))
 
     def _get_path(self):
         return 'bs/cf/v1'
@@ -318,10 +319,23 @@ class PushNotificationService(Service):
         return 'fns/subscription/v1'
 
 
-class RemoteBatteryChargeService(Service):
+class RemoteBatteryChargeService(VehicleService):
     """
-    For EV only - timer for choosing when the battery should be charged
+    For EV only - battery status and charge management
     """
+
+    def get_status(self):
+        """
+        Returns battery charge status
+
+        :return: BatteryChargeResponse
+        :rtype: BatteryChargeResponse
+        """
+
+        data = self._api.get(self.url('/vehicles/{vin}/charger'))
+        response = BatteryChargeResponse()
+        response.parse(data)
+        return response
 
     def _get_path(self):
         return 'bs/batterycharge/v1'

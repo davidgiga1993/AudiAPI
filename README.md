@@ -10,9 +10,23 @@ to be accessible.
 
 Note: Not all services are fully implemented due to missing permissions as mentioned above. 
 
+# Installing
+```bash
+pip install audiapi
+```
+
 # Examples
-## Login
-Login using cached token and use plain credentials as fallback
+## Login credentials
+`credentials.json`
+```json
+{
+  "user": "yourUser@mail.com",
+  "pass": "yourPassword"
+}
+```
+ 
+## List all vehicles under your account
+The auth tokens will be cached in the working directory
 ```python
 api = API()
 logon_service = LogonService(api)
@@ -20,14 +34,10 @@ if not logon_service.restore_token():
 	with open('credentials.json') as data_file:
 		data = json.load(data_file)
 	logon_service.login(data['user'], data['pass'])
-```
-
-## List all vehicles under your account
-```python
-api = API()
 car_service = CarService(api)
 car_service.get_vehicles()
 ```
+Response
 ```json
 {
 	"csid": "-----",
@@ -41,6 +51,7 @@ car_service.get_vehicles()
 mgmt_service = VehicleManagementService(api, vehicle)
 mgmt_service.get_information()
 ```
+Response
 ```json
 {
   "vehicleData": {
