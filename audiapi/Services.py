@@ -1,17 +1,18 @@
 from abc import abstractmethod, ABCMeta
 
+import requests
+
 from audiapi.API import Token, API
 from audiapi.model.ClimaRequest import ClimaRequestFactory
 from audiapi.model.CurrentVehicleDataResponse import CurrentVehicleDataResponse
 from audiapi.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
 from audiapi.model.RequestStatus import RequestStatus
-from audiapi.model.Vehicle import VehiclesResponse, Vehicle
+from audiapi.model.Vehicle import Vehicle
 from audiapi.model.VehicleDataResponse import VehicleDataResponse
 from audiapi.model.BatteryChargeResponse import BatteryChargeResponse
 
 
 class Service(metaclass=ABCMeta):
-    BASE_URL = 'https://msg.audi.de/fs-car'
     COMPANY = 'Audi'
     COUNTRY = 'DE'
 
@@ -32,14 +33,8 @@ class Service(metaclass=ABCMeta):
         :return: URL
         :rtype: str
         """
-        url = self.BASE_URL + '/' + self._get_path()
-        if self._use_company():
-            url += '/' + self.COMPANY + '/' + self.COUNTRY
-        url += part
+        url = self._get_path() + '/' + part
         return url.format(**format_data)
-
-    def _use_company(self):
-        return True
 
     @abstractmethod
     def _get_path(self):
@@ -122,9 +117,7 @@ class CarService(Service):
         """
 
         data = self._api.get(self.url('/vehicles'))
-        response = VehiclesResponse()
-        response.parse(data)
-        return response
+        return data
 
     def get_vehicle_data(self, vehicle: Vehicle):
         """
@@ -173,61 +166,6 @@ class LockUnlockService(VehicleService):
 
     def _get_path(self):
         return 'bs/rlu/v1'
-
-
-class LogonService(Service):
-    """
-    General API logon service
-    """
-
-    def login(self, user: str, password: str, persist_token: bool = True):
-        """
-        Creates a new session using the given credentials
-
-        :param user: User
-        :param password: Password
-        :param persist_token: True if the token should be persisted in the file system after login
-        """
-        token = self.__login_request(user, password)
-        self._api.use_token(token)
-        if persist_token:
-            token.persist()
-
-    def restore_token(self):
-        """
-        Tries to restore the latest persisted auth token
-
-        :return: True if token could be restored
-        :rtype: bool
-        """
-        token = Token.load()
-        if token is None or not token.valid():
-            return False
-        self._api.use_token(token)
-        return True
-
-    def __login_request(self, user: str, password: str):
-        """
-        Requests a login token for the given user
-
-        :param user: User
-        :param password: Password
-        :return: Token
-        :rtype: Token
-        """
-        data = {'grant_type': 'password',
-                'scope': 'openid profile email mbb offline_access mbbuserid myaudi selfservice:read selfservice:write',
-                'response_type': 'token id_token',
-                'client_id': 'mmiconnect_android',
-                'username': user,
-                'password': password}
-        reply = self._api.post('https://id.audi.com/v1/token', data, use_json=False, headers={
-            'Authorization': 'AudiAuth '
-        })
-        return Token.parse(reply)
-
-    def _get_path(self):
-        return 'v1/token'
 
 
 class MobileKeyService(Service):

@@ -10,6 +10,8 @@ class Token:
     def __init__(self):
         self.access_token = ''
         self.token_type = ''
+        self.refresh_token = ''
+        self.id_token = ''
         self.expires_in = 0
 
     def valid(self):
@@ -30,6 +32,8 @@ class Token:
         token = Token()
         token.access_token = data.get('access_token')
         token.token_type = data.get('token_type')
+        token.refresh_token = data.get('refresh_token')
+        token.id_token = data.get('id_token')
         raw_timestamp = data.get('expires_in')
         if relative_timestamp:
             raw_timestamp += int(time.time())
