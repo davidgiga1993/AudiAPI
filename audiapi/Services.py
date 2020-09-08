@@ -129,7 +129,7 @@ class CarService(Service):
         return self._api.get(self.url('/vehicle/{csid}'.format(csid=vehicle.csid)))
 
     def _get_path(self):
-        return 'myaudi/carservice/v2'
+        return 'myaudi/carservice/v3'
 
 
 class ClimateService(Service):

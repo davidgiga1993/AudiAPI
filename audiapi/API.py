@@ -11,13 +11,10 @@ class API:
     """
     Wrapper for the audi API
     """
-    BASE_URL = 'https://msg.audi.de/fs-car'
-    BASE_CAR_URL = 'https://msg.audi.de/fs-car/bs/cf/v1/Audi/DE/vehicles'
-
     BASE_HEADERS = {'Accept': 'application/json',
                     'X-App-ID': 'de.audi.mmiapp',
-                    'X-App-Name': 'MMIconnect',
-                    'X-App-Version': '2.8.3',
+                    'X-App-Name': 'myAudi',
+                    'X-App-Version': '3.20.0',
                     'X-Brand': 'audi',
                     'X-Country-Id': 'DE',
                     'X-Language-Id': 'de',

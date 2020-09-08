@@ -32,4 +32,4 @@ class VehicleManagementService(MsgService):
         return vehicles
 
     def _get_path(self):
-        return super()._get_path() + '/myaudi/vehicle-management/v1'
+        return super()._get_path() + '/myaudi/vehicle-management/v2'
