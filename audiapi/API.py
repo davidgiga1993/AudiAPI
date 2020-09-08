@@ -1,5 +1,6 @@
 import json
 from json import JSONDecodeError
+from typing import Dict, Optional
 
 import requests
 
@@ -38,8 +39,14 @@ class API:
         else:
             self.__proxy = None
 
-        self._lang = None
-        self._country = None
+        self._lang = None  # type: Optional[str]
+        self._country = None  # type: str
+
+        self._session = requests.Session()
+        """
+        Holds teh current web session. This is required for keeping the cookies
+        during the login process
+        """
 
     def set_market(self, country: str, language: str):
         """
@@ -58,20 +65,24 @@ class API:
         """
         self.__token = token
 
-    def get(self, url):
-        r = requests.get(url, headers=self._get_headers(), proxies=self.__proxy)
+    def get(self, url, query_params: Dict[str, str] = None, raw_reply: bool = False, **kwargs):
+        r = self._session.get(url, headers=self._get_headers(), params=query_params, proxies=self.__proxy, **kwargs)
+        if raw_reply:
+            return r
         return self._handle_response(r)
 
-    def put(self, url, data=None, headers=None):
+    def put(self, url, data=None, headers=None, **kwargs):
         full_headers = self._get_headers()
         full_headers.update(headers)
-        r = requests.put(url, data, headers=full_headers, proxies=self.__proxy)
+        r = self._session.put(url, data, headers=full_headers, proxies=self.__proxy, **kwargs)
         return self._handle_response(r)
 
-    def post(self, url, data=None, use_json: bool = True):
+    def post(self, url, data=None, headers=None, use_json: bool = True, raw_reply: bool = False, **kwargs):
         if use_json and data is not None:
             data = json.dumps(data)
-        r = requests.post(url, data=data, headers=self._get_headers(), proxies=self.__proxy)
+        r = self._session.post(url, data=data, headers=self._get_headers(headers), proxies=self.__proxy, **kwargs)
+        if raw_reply:
+            return r
         return self._handle_response(r)
 
     @staticmethod
@@ -86,12 +97,18 @@ class API:
 
         error = data.get('error')
         if error is not None:
-            error_msg = error.get('description', '')
+            if isinstance(error, str):
+                error_msg = error
+            else:
+                error_msg = error.get('description', '')
             raise Exception('API error: ' + str(error) + '\n' + error_msg)
         return data
 
-    def _get_headers(self):
-        full_headers = dict()
+    def _get_headers(self, headers=None):
+        if headers is not None:
+            full_headers = headers
+        else:
+            full_headers = dict()
         token_value = 'AudiAuth'
         if self.__token is not None:
             token_value = 'Bearer ' + self.__token.access_token

@@ -1,7 +1,7 @@
 import json
 
 from audiapi.API import API
-from audiapi.Services import  VehicleStatusReportService
+from audiapi.Services import VehicleStatusReportService
 from audiapi.model.RequestStatus import RequestStatus
 from services.CarService import CarService, VehicleManagementService
 from services.LogonService import LogonService
@@ -20,14 +20,10 @@ def main():
     user_info = logon_service.get_user_info()
     print('Current user: ' + user_info.email)
 
-    #v_service = VehicleService(api)
-    #cars = v_service.get_vehicles()
-
     car_service = VehicleManagementService(api)
     vehicles = car_service.get_vehicles()
     for vehicle in vehicles:
         vehicle = CarService(api).get_vehicle(vehicle.vin)
-
 
         report_service = VehicleStatusReportService(api, vehicle)
         response = report_service.request_current_vehicle_data()

@@ -1,4 +1,3 @@
-from dev.CodeGenerator import CodeGenerator
 from model.Vehicle import Vehicle
 from services.Service import MsgService
 

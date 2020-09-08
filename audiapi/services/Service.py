@@ -34,7 +34,6 @@ class Service(metaclass=ABCMeta):
         :param reply: JSON decoded reply as dict
         :param dto_obj: DTO object
         :return: Same object
-        :rtype: object
         """
         dto_obj.__dict__.update(reply)
         return dto_obj
