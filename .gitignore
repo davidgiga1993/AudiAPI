@@ -6,3 +6,4 @@ credentials.json
 /build
 /audiapi.egg-info
 /dist
+/tokens.json

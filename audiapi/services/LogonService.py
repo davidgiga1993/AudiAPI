@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 from requests import RequestException
 
-from Token import Token
+from Token import Token, TokenProvider
 from model.UserInfo import UserInfo
 from model.login.OpenIdConfig import OpenIdConfig
 from services.Service import Service
@@ -54,17 +54,18 @@ class LogonService(Service):
         :param password: Password
         :param persist_token: True if the token should be persisted in the file system after login
         """
-        token = self._login_request(user, password)
-        self._api.use_token(token)
+        provider = self._login_request(user, password)
+        self._api.set_token_provider(provider)
         if persist_token:
-            token.persist()
+            provider.persist()
 
     def get_user_info(self) -> UserInfo:
         """
-        Returns information about the current user
+        Returns information about the current user.
+
         :return: User information
         """
-        reply = self._api.get(self.url('/v1/userinfo'))
+        reply = self._api.get('https://identity-userinfo.vwgroup.io/oidc/userinfo', scope=None)
         return self._to_dto(reply, UserInfo())
 
     def restore_token(self) -> bool:
@@ -73,10 +74,10 @@ class LogonService(Service):
 
         :return: True if token could be restored
         """
-        token = Token.load()
-        if token is None or not token.valid():
+        provider = TokenProvider.load()
+        if provider is None or not provider.valid():
             return False
-        self._api.use_token(token)
+        self._api.set_token_provider(provider)
         return True
 
     def _get_open_id_config(self) -> OpenIdConfig:
@@ -86,14 +87,13 @@ class LogonService(Service):
         return self._to_dto(self._api.get('https://app-api.live-my.audi.com/myaudiappidk/v1/openid-configuration'),
                             OpenIdConfig())
 
-    def _login_request(self, user: str, password: str) -> Token:
+    def _login_request(self, user: str, password: str) -> TokenProvider:
         """
         Requests a login token for the given user
 
         :param user: User
         :param password: Password
-        :return: Token
-        :rtype: Token
+        :return: Token provider
         """
         open_id = self._get_open_id_config()
         login_code = self._browser_login(user, password, open_id)
@@ -106,28 +106,48 @@ class LogonService(Service):
             'redirect_uri': 'myaudi:///',
         }
         reply = self._api.post('https://app-api.my.audi.com/myaudiappidk/v1/token', data=data, use_json=False)
-        audi_token = Token.parse(reply)
-        return audi_token
+        app_idk_token = Token.parse(reply)
 
-        # Get VW API token
-        # vw_token = self._get_vw_api_token(audi_token)
-
-    def _get_vw_api_token(self, audi_token: Token):
-        headers = {
-            'X-App-Version': '3.14.0',
-            'X-App-Name': 'myAudi',
-            'X-Client-Id': '77869e21-e30a-4a92-b016-48ab7d3db1d8'
+        # Get the azs token, this token is used for car related requests
+        data = {
+            'config': 'myaudi',
+            'grant_type': 'id_token',
+            'stage': 'live',
+            'token': app_idk_token.access_token
         }
+        reply = self._api.post('https://app-api.live-my.audi.com/azs/v1/token', data=data)
+        azs_token = Token.parse(reply)
+
+        # MBB coauth token, first register the app
+        data = {
+            'appId': 'de.myaudi.mobile.assistant',
+            'appName': 'myAudi',
+            'appVersion': '3.20.0',
+            'client_brand': 'Audi',
+            'client_name': 'HTC U11',
+            'platform': 'google'
+        }
+        reply = self._api.post('https://mbboauth-1d.prd.ece.vwg-connect.com/mbbcoauth/mobile/register/v1', data=data)
+        client_id = reply['client_id']
+
         data = {
             'grant_type': 'id_token',
-            'token': audi_token.id_token,
-            'scope': 'sc2:fal'
+            'scope': 'sc2:fal',
+            'token': app_idk_token.id_token
         }
-
+        headers = {
+            'X-Client-ID': client_id
+        }
         reply = self._api.post('https://mbboauth-1d.prd.ece.vwg-connect.com/mbbcoauth/mobile/oauth2/v1/token',
-                               data=data,
-                               use_json=False, headers=headers)
-        return Token.parse(reply)
+                               data=data, headers=headers, use_json=False)
+        mmb_token = Token.parse(reply)
+        mmb_token.client_id = client_id
+
+        provider = TokenProvider()
+        provider.add_token(app_idk_token)
+        provider.add_token(azs_token)
+        provider.add_token(mmb_token)
+        return provider
 
     def _browser_login(self, user: str, password: str, open_id: OpenIdConfig) -> str:
         """
@@ -204,9 +224,15 @@ class LogonService(Service):
     def _get_path(self):
         return 'https://id.audi.com'
 
+    def _get_scope(self):
+        return None
+
 
 class MarketsService(Service):
     def _get_path(self):
+        return None
+
+    def _get_scope(self):
         return None
 
     def get_markets(self):

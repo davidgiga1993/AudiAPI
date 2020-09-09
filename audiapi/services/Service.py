@@ -4,8 +4,6 @@ from API import API
 
 
 class Service(metaclass=ABCMeta):
-    COMPANY = 'Audi'
-    COUNTRY = 'DE'
 
     def __init__(self, api: API):
         self._api = api
@@ -14,6 +12,16 @@ class Service(metaclass=ABCMeta):
 
         :type _api: API
         """
+
+    def get(self, path: str, scope: str = None, **format_data):
+        if scope is None:
+            scope = self._get_scope()
+        return self._api.get(self.url(path, **format_data), scope=scope)
+
+    def post(self, path: str, scope: str = None, data=None, **format_data):
+        if scope is None:
+            scope = self._get_scope()
+        return self._api.post(self.url(path, **format_data), scope=scope, data=data)
 
     def url(self, part, **format_data):
         """
@@ -48,7 +56,35 @@ class Service(metaclass=ABCMeta):
         """
         pass
 
+    @abstractmethod
+    def _get_scope(self) -> str:
+        """
+        Returns the default token scope required by this service to execute a request
+        :return: Token scope
+        """
 
-class MsgService(Service):
+
+class MsgService(Service, metaclass=ABCMeta):
     def _get_path(self):
         return 'https://msg.audi.de'
+
+
+class MbbService(MsgService):
+    def __init__(self, api: API, brand: str, country: str):
+        super().__init__(api)
+        self._brand = brand
+        self._country = country
+
+    def url(self, part, **format_data):
+        return super().url(part, **format_data, brand=self._brand, country=self._country)
+
+    def _get_scope(self) -> str:
+        return 'vehicle'
+
+
+class MbbMalService(Service):
+    def _get_path(self):
+        return 'https://mal-1a.prd.ece.vwg-connect.com/api'
+
+    def _get_scope(self) -> str:
+        return 'fal'

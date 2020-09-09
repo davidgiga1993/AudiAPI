@@ -4,16 +4,18 @@ from services.Service import MsgService
 
 class CarService(MsgService):
 
-    def get_vehicle(self, vin: str):
+    def get_vehicle(self, vin: str) -> Vehicle:
         """
-        Returns a list of all vehicles
-        :return:
+        Returns details about the given VIN
         """
-        reply = self._api.get(self.url('/vehicles/{vin}', vin=vin))
-        print(str(reply))
+        reply = self.get('/vehicles/{vin}', vin=vin)
+        return self._to_dto(reply, Vehicle())
 
     def _get_path(self):
-        return super()._get_path() + '/msg/myaudi/carservice/v3'
+        return super()._get_path() + '/myaudi/carservice/v3'
+
+    def _get_scope(self):
+        return 'vehicle'
 
 
 class VehicleManagementService(MsgService):
@@ -25,7 +27,7 @@ class VehicleManagementService(MsgService):
         :return: List of vehicles
         :rtype: List[Vehicle]
         """
-        reply = self._api.get(self.url('/vehicles'))
+        reply = self.get('/vehicles', scope='vehicle')
         vehicles = []
         for data in reply['vehicles']:
             vehicles.append(self._to_dto(data, Vehicle()))
@@ -33,3 +35,6 @@ class VehicleManagementService(MsgService):
 
     def _get_path(self):
         return super()._get_path() + '/myaudi/vehicle-management/v2'
+
+    def _get_scope(self):
+        return 'vehicle'

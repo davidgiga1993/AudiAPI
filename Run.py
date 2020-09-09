@@ -1,7 +1,7 @@
 import json
 
 from audiapi.API import API
-from audiapi.Services import VehicleStatusReportService
+from audiapi.Services import VehicleStatusReportService, OperationListService
 from audiapi.model.RequestStatus import RequestStatus
 from services.CarService import CarService, VehicleManagementService
 from services.LogonService import LogonService
@@ -23,9 +23,16 @@ def main():
     car_service = VehicleManagementService(api)
     vehicles = car_service.get_vehicles()
     for vehicle in vehicles:
+        # Get more details about the vehicle
+        print('Found vehicle ' + vehicle.vin)
         vehicle = CarService(api).get_vehicle(vehicle.vin)
 
-        report_service = VehicleStatusReportService(api, vehicle)
+        operations = OperationListService(api).get_operations(vehicle)
+        print(str(operations))
+
+        # TODO: Fix calls below..
+        report_service = VehicleStatusReportService(api, 'Audi', 'DE', vehicle)
+        response = report_service.get_stored_vehicle_data()
         response = report_service.request_current_vehicle_data()
 
         request_status = report_service.get_request_status(response.request_id)

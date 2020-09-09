@@ -1,55 +1,19 @@
-from abc import abstractmethod, ABCMeta
+from abc import ABCMeta
 
-import requests
-
-from audiapi.API import Token, API
+from audiapi.API import API
+from audiapi.model.BatteryChargeResponse import BatteryChargeResponse
 from audiapi.model.ClimaRequest import ClimaRequestFactory
 from audiapi.model.CurrentVehicleDataResponse import CurrentVehicleDataResponse
 from audiapi.model.HonkFlash import HonkFlashAction, RemoteHonkFlashActionStatus
 from audiapi.model.RequestStatus import RequestStatus
 from audiapi.model.Vehicle import Vehicle
 from audiapi.model.VehicleDataResponse import VehicleDataResponse
-from audiapi.model.BatteryChargeResponse import BatteryChargeResponse
+from services.Service import Service, MbbService, MbbMalService
 
 
-class Service(metaclass=ABCMeta):
-    COMPANY = 'Audi'
-    COUNTRY = 'DE'
-
-    def __init__(self, api: API):
-        self._api = api
-        """
-        API for communicating
-
-        :type _api: API
-        """
-
-    def url(self, part, **format_data):
-        """
-        Builds a full URL using the given parts
-
-        :param part URL part which should be added at the end
-        :param format_data: Format arguments
-        :return: URL
-        :rtype: str
-        """
-        url = self._get_path() + '/' + part
-        return url.format(**format_data)
-
-    @abstractmethod
-    def _get_path(self):
-        """
-        Returns the url path for this service
-
-        :return: URL path
-        :rtype: str
-        """
-        pass
-
-
-class VehicleService(Service, metaclass=ABCMeta):
-    def __init__(self, api: API, vehicle: Vehicle):
-        super().__init__(api)
+class VehicleService(MbbService, metaclass=ABCMeta):
+    def __init__(self, api: API, brand: str, country: str, vehicle: Vehicle):
+        super().__init__(api, brand, country)
         self._vehicle = vehicle
         """
         Current vehicle
@@ -60,36 +24,8 @@ class VehicleService(Service, metaclass=ABCMeta):
     def url(self, part, **format_data):
         return super().url(part, **format_data, vin=self._vehicle.vin)
 
-
-class AuthorizationService(Service):
-    """
-    Auth flow (?):
-    --service, operation-->
-    <--PinAuthInfoResponse--
-    --  PinChallenge    --> (?)
-    ....
-
-    Complete:
-    PinChallenge+data -- CompleteAuthenticationRequest -->
-    """
-
-    def request_auth(self, vehicle: Vehicle, service: str, operation: str):
-        headers = {'Content-Length': '0', 'Content-Type': 'application/json; charset=UTF-8'}
-        url = self.url('/vehicles/{vin}/services/{service}/operations/{operation}/request',
-                       vin=vehicle.vin, service=service, operation=operation)
-
-        data = {}  # Yes send empty data - no idea why
-        return self._api.put(url, data=data, headers=headers)
-
-    def complete_auth(self):
-        """
-        Completes the auth request
-        """
-        data = {}
-        return self._api.post(self.url('/complete'), data)
-
-    def _get_path(self):
-        return 'rolesrights/authorization/v1'
+    def _get_scope(self) -> str:
+        return 'vehicle'
 
 
 class CarFinderService(VehicleService):
@@ -107,39 +43,20 @@ class CarFinderService(VehicleService):
         return 'bs/cf/v1'
 
 
-class CarService(Service):
-    def get_vehicles(self):
-        """
-        Returns all cars registered for the current account
-
-        :return: VehiclesResponse
-        :rtype: VehiclesResponse
-        """
-
-        data = self._api.get(self.url('/vehicles'))
-        return data
-
-    def get_vehicle_data(self, vehicle: Vehicle):
-        """
-        Returns the vehicle data for the given vehicle
-
-        :param vehicle: Vehicle with CSID
-        :return: Vehicle data
-        """
-        return self._api.get(self.url('/vehicle/{csid}'.format(csid=vehicle.csid)))
-
-    def _get_path(self):
-        return 'myaudi/carservice/v3'
-
-
 class ClimateService(Service):
     def _get_path(self):
         return 'bs/rs/v1'
+
+    def _get_scope(self):
+        return 'vehicle'
 
 
 class DiebstahlwarnanlageService(Service):
     def _get_path(self):
         return 'bs/dwap/v1'
+
+    def _get_scope(self):
+        return 'vehicle'
 
 
 class GeofenceService(Service):
@@ -149,6 +66,9 @@ class GeofenceService(Service):
 
     def _get_path(self):
         return 'bs/geofencing/v1'
+
+    def _get_scope(self):
+        return 'vehicle'
 
 
 class LockUnlockService(VehicleService):
@@ -176,22 +96,31 @@ class MobileKeyService(Service):
     def _get_path(self):
         return '// Not implemented in MMI app'
 
+    def _get_scope(self):
+        return 'vehicle'
 
-class OperationListService(VehicleService):
+
+class OperationListService(MbbMalService):
     """
     Provides access to all permissions one can set for telemetrics and MMI (connect).
     This will also tell you how long your licences are valid,
     and when the service reaches it's final EOL date
     """
 
-    def get_operations(self):
+    def get_operations(self, vehicle: Vehicle):
         """
         Returns all services available and their license status
         """
-        return self._api.get(self.url('/vehicles/{vin}/operations'))
+        return self.get('/vehicles/{vin}/operations', vin=vehicle.vin)
+
+    def get_api_list(self):
+        """
+        Returns all API operations
+        """
+        return self.get('')
 
     def _get_path(self):
-        return 'rolesrights/operationlist/v2'
+        return super()._get_path() + '/rolesrights/operationlist/v3'
 
 
 class PictureNavigationService(VehicleService):
@@ -202,10 +131,16 @@ class PictureNavigationService(VehicleService):
     def _get_path(self):
         return 'audi/b2c/picturenav/v1'
 
+    def _get_scope(self):
+        return 'vehicle'
+
 
 class PoiNavigationService(Service):
     def _get_path(self):
         return 'audi/b2c/poinav/v1'
+
+    def _get_scope(self):
+        return 'vehicle'
 
 
 class OnlineDestinationsService(VehicleService):
@@ -256,6 +191,9 @@ class PushNotificationService(Service):
     def _get_path(self):
         return 'fns/subscription/v1'
 
+    def _get_scope(self):
+        return 'vehicle'
+
 
 class RemoteBatteryChargeService(VehicleService):
     """
@@ -278,6 +216,9 @@ class RemoteBatteryChargeService(VehicleService):
     def _get_path(self):
         return 'bs/batterycharge/v1'
 
+    def _get_scope(self):
+        return 'vehicle'
+
 
 class RemoteDepartureTimeService(Service):
     """
@@ -286,6 +227,9 @@ class RemoteDepartureTimeService(Service):
 
     def _get_path(self):
         return 'bs/departuretimer/v1'
+
+    def _get_scope(self):
+        return 'vehicle'
 
 
 class RemoteHonkFlashService(VehicleService):
@@ -360,18 +304,6 @@ class SpeedAlertService(VehicleService):
         return 'bs/speedalert/v1'
 
 
-class UserInfoService(Service):
-    """
-    General user information
-    """
-
-    def get_info(self):
-        return self._api.get(self.url('/userInfo'))
-
-    def _get_path(self):
-        return 'core/auth/v1'
-
-
 class UserManagementService(VehicleService):
     """
     Manages car pairing stuff
@@ -404,6 +336,9 @@ class ValetAlertService(Service):
 
     def _get_path(self):
         return 'bs/valetalert/v1'
+
+    def _get_scope(self):
+        return 'vehicle'
 
 
 class VehicleManagementService(VehicleService):
@@ -456,7 +391,7 @@ class VehicleStatusReportService(VehicleService):
         :return: CurrentVehicleDataResponse
         :rtype: CurrentVehicleDataResponse
         """
-        data = self._api.post(self.url('/vehicles/{vin}/requests'))
+        data = self.post('/vehicles/{vin}/requests')
         return CurrentVehicleDataResponse(data)
 
     def get_stored_vehicle_data(self):
@@ -470,4 +405,4 @@ class VehicleStatusReportService(VehicleService):
         return VehicleDataResponse(data)
 
     def _get_path(self):
-        return 'bs/vsr/v1'
+        return super()._get_path() + '/bs/vsr/v1/{brand}/{country}'
